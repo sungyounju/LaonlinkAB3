@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Industrial Parts Store - Automation Components</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="contact-info">
+                    <span><i class="fas fa-phone"></i> +1 234 567 8900</span>
+                    <span><i class="fas fa-envelope"></i> sales@industrialparts.com</span>
+                </div>
+                <div class="language-selector">
+                    <select id="languageSelect">
+                        <option value="en">English</option>
+                        <option value="kr">한국어</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        
+        <div class="header-main">
+            <div class="container">
+                <div class="logo">
+                    <h1>Industrial Parts Store</h1>
+                    <span>Automation & Control Components</span>
+                </div>
+                
+                <div class="search-bar">
+                    <input type="text" id="searchInput" placeholder="Search products, brands, or part numbers...">
+                    <button id="searchBtn"><i class="fas fa-search"></i></button>
+                </div>
+                
+                <div class="header-actions">
+                    <div class="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </div>
+                    <div class="user-account">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Navigation -->
+        <nav class="main-nav">
+            <div class="container">
+                <ul class="nav-menu" id="mainCategories">
+                    <!-- Categories will be loaded here dynamically -->
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Category Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="category-tree">
+                <h3>Categories</h3>
+                <div id="categoryTree">
+                    <!-- Category tree will be loaded here -->
+                </div>
+            </div>
+            
+            <div class="filters">
+                <h3>Filters</h3>
+                
+                <div class="filter-group">
+                    <h4>Price Range (EUR)</h4>
+                    <input type="number" id="minPrice" placeholder="Min" min="0">
+                    <input type="number" id="maxPrice" placeholder="Max" min="0">
+                </div>
+                
+                <div class="filter-group">
+                    <h4>Manufacturer</h4>
+                    <div id="manufacturerFilter">
+                        <!-- Manufacturers will be loaded here -->
+                    </div>
+                </div>
+                
+                <div class="filter-group">
+                    <h4>Condition</h4>
+                    <label><input type="checkbox" value="new"> New</label>
+                    <label><input type="checkbox" value="used" checked> Used</label>
+                    <label><input type="checkbox" value="refurbished"> Refurbished</label>
+                </div>
+                
+                <button id="applyFilters" class="btn-primary">Apply Filters</button>
+            </div>
+        </aside>
+
+        <!-- Product Grid -->
+        <section class="main-content">
+            <!-- Breadcrumb -->
+            <div class="breadcrumb" id="breadcrumb">
+                <a href="/">Home</a>
+                <span id="breadcrumbTrail"></span>
+            </div>
+
+            <!-- Sorting and View Options -->
+            <div class="toolbar">
+                <div class="results-count">
+                    <span id="resultsCount">0</span> products found
+                </div>
+                
+                <div class="toolbar-options">
+                    <div class="sort-by">
+                        <label>Sort by:</label>
+                        <select id="sortSelect">
+                            <option value="relevance">Relevance</option>
+                            <option value="name-asc">Name (A-Z)</option>
+                            <option value="name-desc">Name (Z-A)</option>
+                            <option value="price-asc">Price (Low to High)</option>
+                            <option value="price-desc">Price (High to Low)</option>
+                            <option value="newest">Newest First</option>
+                        </select>
+                    </div>
+                    
+                    <div class="view-mode">
+                        <button class="view-grid active" data-view="grid"><i class="fas fa-th"></i></button>
+                        <button class="view-list" data-view="list"><i class="fas fa-list"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Products Grid -->
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be loaded here -->
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination" id="pagination">
+                <!-- Pagination will be generated here -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Product Modal -->
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalContent">
+                <!-- Product details will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About Us</h4>
+                    <p>Your trusted source for industrial automation components and spare parts.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="/shipping">Shipping Info</a></li>
+                        <li><a href="/returns">Returns</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul id="footerCategories">
+                        <!-- Main categories will be listed here -->
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>Email: sales@industrialparts.com</p>
+                    <p>Phone: +1 234 567 8900</p>
+                    <p>Address: Industrial District, City, Country</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Industrial Parts Store. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/products-data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
