@@ -660,7 +660,6 @@ function createProductCard(product) {
             <div class="product-info">
                 <div class="product-category">${product.category_sub_en || product.category_main_en || ''}</div>
                 <div class="product-name" title="${name}">${name}</div>
-                <div class="product-model">${product.model_number || 'No Model'}</div>
                 <div class="product-price">
                     ${product.price_eur_markup > 0 ? `€${product.price_eur_markup.toFixed(2)}` : 'Contact for Price'}
                 </div>
@@ -763,14 +762,6 @@ function showProductModal(productId) {
                     <div class="meta-row">
                         <span class="meta-label">Product ID:</span>
                         <span class="meta-value">${product.id}</span>
-                    </div>
-                    <div class="meta-row">
-                        <span class="meta-label">Model:</span>
-                        <span class="meta-value">${product.model_number || 'N/A'}</span>
-                    </div>
-                    <div class="meta-row">
-                        <span class="meta-label">Manufacturer:</span>
-                        <span class="meta-value">${product.manufacturer || 'N/A'}</span>
                     </div>
                     <div class="meta-row">
                         <span class="meta-label">Category:</span>
