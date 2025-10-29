@@ -1,7 +1,61 @@
 // LaonLinkAB Main JavaScript - SHMarket Style
 // Category-based navigation without showing all products
 
+// ============================================================================
+// Google Analytics Tracking Functions
+// ============================================================================
+
+function trackEvent(eventName, params) {
+    if (typeof gtag !== 'undefined') {
+        gtag('event', eventName, params);
+    }
+}
+
+function trackProductView(product) {
+    trackEvent('view_item', {
+        currency: 'EUR',
+        value: product.price_eur_markup,
+        items: [{
+            item_id: product.id,
+            item_name: currentLanguage === 'en' ? product.name_en : product.name_kr,
+            item_category: product.category_main_en,
+            item_category2: product.category_sub_en,
+            price: product.price_eur_markup
+        }]
+    });
+}
+
+function trackAddToCart(product, quantity) {
+    trackEvent('add_to_cart', {
+        currency: 'EUR',
+        value: product.price_eur_markup * quantity,
+        items: [{
+            item_id: product.id,
+            item_name: currentLanguage === 'en' ? product.name_en : product.name_kr,
+            item_category: product.category_main_en,
+            price: product.price_eur_markup,
+            quantity: quantity
+        }]
+    });
+}
+
+function trackSearch(searchTerm, resultsCount) {
+    trackEvent('search', {
+        search_term: searchTerm,
+        results_count: resultsCount
+    });
+}
+
+function trackCategoryView(category, level) {
+    trackEvent('view_category', {
+        category_name: category,
+        category_level: level
+    });
+}
+
+// ============================================================================
 // Global variables
+// ============================================================================
 let currentProducts = [];
 let filteredProducts = [];
 let currentPage = 1;
@@ -321,10 +375,22 @@ function setupEventListeners() {
     document.querySelectorAll('.category-link.has-children').forEach(link => {
         link.addEventListener('click', function(e) {
             if (e.target === this) {
+                // Toggle subcategories dropdown
                 const subcategories = this.nextElementSibling;
                 if (subcategories && subcategories.classList.contains('subcategories')) {
                     subcategories.classList.toggle('show');
                     this.classList.toggle('expanded');
+                }
+
+                // ALSO select this category to show products
+                // This was missing - categories with subcategories should still be selectable
+                const category = this.dataset.category;
+                const level = this.dataset.level;
+                const parent = this.dataset.parent;
+                const grandparent = this.dataset.grandparent;
+
+                if (category) {
+                    selectCategory(category, level, parent, grandparent);
                 }
             }
         });
@@ -359,7 +425,10 @@ function selectCategory(category, level, parent = null, grandparent = null) {
         }
         return false;
     });
-    
+
+    // Track category view in Google Analytics
+    trackCategoryView(category, level);
+
     // Update UI
     updateBreadcrumb();
     highlightActiveCategory(category);
@@ -436,13 +505,16 @@ function performSearch() {
             product.category_main_en,
             product.category_sub_en
         ].join(' ').toLowerCase();
-        
+
         return searchableText.includes(searchTerm);
     });
-    
+
+    // Track search in Google Analytics
+    trackSearch(searchTerm, filteredProducts.length);
+
     // Update breadcrumb for search
     document.getElementById('breadcrumbTrail').innerHTML = `Search results for "${searchTerm}"`;
-    
+
     hideWelcomeMessage();
     currentPage = 1;
     displayProducts();
@@ -620,7 +692,10 @@ function setupProductCardEvents() {
 function showProductModal(productId) {
     const product = currentProducts.find(p => p.id === productId);
     if (!product) return;
-    
+
+    // Track product view in Google Analytics
+    trackProductView(product);
+
     // Add to recently viewed
     addToRecentlyViewed(product);
     
@@ -754,7 +829,10 @@ function addToCart(productId) {
             quantity: 1
         });
     }
-    
+
+    // Track add to cart in Google Analytics
+    trackAddToCart(product, 1);
+
     saveCart();
     updateCartUI();
     showNotification(`${product.name_en} added to cart!`);

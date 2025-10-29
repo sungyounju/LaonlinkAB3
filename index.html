@@ -6,6 +6,23 @@
     <title>LaonLinkAB - Semiconductors Components</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Google Analytics 4 -->
+    <!-- TODO: Replace YOUR_MEASUREMENT_ID with your actual GA4 Measurement ID (format: G-XXXXXXXXXX) -->
+    <!-- Get your ID from: https://analytics.google.com -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_MEASUREMENT_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      // Configure with privacy settings
+      gtag('config', 'YOUR_MEASUREMENT_ID', {
+        'anonymize_ip': true,  // Anonymize IP addresses for privacy
+        'allow_google_signals': false,  // Disable personalized advertising features
+        'allow_ad_personalization_signals': false  // Disable ad personalization
+      });
+    </script>
 </head>
 <body>
     <!-- Top Bar -->

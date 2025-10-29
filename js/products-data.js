@@ -1,6 +1,6 @@
 // Product Data - Generated from CSV
 // Total Products: 3912
-// Generated: 2025-10-29 19:03:18.750813
+// Generated: 2025-10-29 22:15:52.311124
 
 const productsData = [
   {
@@ -86,7 +86,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Drive unit\", \"사용전압\": \"220V\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Drive unit\", \"Voltage\": \"220V\", \"Condition\": \"A\"}",
     "images": [
       "1009_1.jpg",
       "1009_3.jpg",
@@ -132,7 +132,7 @@ const productsData = [
     "category_sub_en": "BALL SCREW",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"볼스크류\", \"A:총길이(mm)\": \"800\", \"B:스크류길이(mm)\": \"600\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"Ball Screw\", \"A: Total Length (mm)\": \"800\", \"B: Screw Length (mm)\": \"600\"}",
     "images": [
       "1029_1.jpg",
       "1029_3.jpg",
@@ -310,7 +310,7 @@ const productsData = [
     "category_sub_en": "LS prenatal",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"LS\", \"Classification\": \"PLC\", \"Condition\": \"A\", \"설명\": \"기본베이스 입출력 모듈 6Pcs  장착 가능\"}",
+    "specifications": "{\"MAKER\": \"LS\", \"Classification\": \"PLC\", \"Condition\": \"A\", \"Description\": \"Basic base I/O module, 6pcs mountable\"}",
     "images": [
       "1065_1.jpg",
       "1065_3.jpg",
@@ -379,7 +379,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "HITACHI",
     "category_subsub_en": "HITACHI",
-    "specifications": "{\"MAKER\": \"HITACHI\", \"Classification\": \"Servomotor Driver\", \"kW\": \"0.1\", \"사용전원\": \"AC200-230V\"}",
+    "specifications": "{\"MAKER\": \"HITACHI\", \"Classification\": \"Servomotor Driver\", \"kW\": \"0.1\", \"Power Supply\": \"AC200-230V\"}",
     "images": [
       "1073_1.jpg",
       "1073_2.jpg",
@@ -402,7 +402,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "HITACHI",
     "category_subsub_en": "HITACHI",
-    "specifications": "{\"MAKER\": \"HITACHI\", \"Classification\": \"Servomotor Driver\", \"kW\": \"0.2\", \"사용전원\": \"AC200-230V\"}",
+    "specifications": "{\"MAKER\": \"HITACHI\", \"Classification\": \"Servomotor Driver\", \"kW\": \"0.2\", \"Power Supply\": \"AC200-230V\"}",
     "images": [
       "1074_1.jpg",
       "1074_3.jpg",
@@ -425,7 +425,7 @@ const productsData = [
     "category_sub_en": "STEPPING DRIVER",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING DRIVER\", \"사용전압\": \"110V\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING DRIVER\", \"Voltage\": \"110V\", \"-\": \"-\"}",
     "images": [
       "1075_1.jpg",
       "1075_3.jpg",
@@ -448,7 +448,7 @@ const productsData = [
     "category_sub_en": "STEPPING DRIVER",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING DRIVER\", \"상(Phase)\": \"5상 스텝\", \"사용전압\": \"220V\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING DRIVER\", \"Phase\": \"5상 스텝\", \"Voltage\": \"220V\"}",
     "images": [
       "1076_1.jpg",
       "1076_2.jpg",
@@ -472,7 +472,7 @@ const productsData = [
     "category_sub_en": "STEPPING DRIVER",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING DRIVER\", \"상(Phase)\": \"5상 스텝\", \"사용전압\": \"110V\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING DRIVER\", \"Phase\": \"5상 스텝\", \"Voltage\": \"110V\"}",
     "images": [
       "1077_1.jpg",
       "1077_2.jpg",
@@ -979,7 +979,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"년식\": \"05'\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"Year\": \"05'\", \"Condition\": \"A\"}",
     "images": [
       "1115_1.jpg",
       "1115_3.jpg",
@@ -1002,7 +1002,7 @@ const productsData = [
     "category_sub_en": "CABLE & CONNECTOR",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"Eecoder Cable\", \"길이\": \"1.5M\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"Eecoder Cable\", \"Length\": \"1.5M\", \"-\": \"-\"}",
     "images": [
       "1135_1.jpg",
       "1135_2.jpg",
@@ -1025,7 +1025,7 @@ const productsData = [
     "category_sub_en": "CABLE & CONNECTOR",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"Eecoder Cable\", \"길이\": \"2M\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"Eecoder Cable\", \"Length\": \"2M\", \"-\": \"-\"}",
     "images": [
       "1136_1.jpg",
       "1136_4.jpg",
@@ -1047,7 +1047,7 @@ const productsData = [
     "category_sub_en": "CABLE & CONNECTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"Motion control\", \"길이\": \"3M\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"Motion control\", \"Length\": \"3M\", \"-\": \"-\"}",
     "images": [
       "1147_1.jpg",
       "1147_3.jpg",
@@ -1070,7 +1070,7 @@ const productsData = [
     "category_sub_en": "CABLE & CONNECTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"(RS232) PLC to Machine\", \"길이\": \"2M\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"(RS232) PLC to Machine\", \"Length\": \"2M\", \"-\": \"-\"}",
     "images": [
       "1148_1.jpg",
       "1148_3.jpg",
@@ -1093,7 +1093,7 @@ const productsData = [
     "category_sub_en": "CABLE & CONNECTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"Motor Power Cable (J3)\", \"길이\": \"5M\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"Motor Power Cable (J3)\", \"Length\": \"5M\", \"-\": \"-\"}",
     "images": [
       "1214_1.jpg",
       "1214_3.jpg",
@@ -1116,7 +1116,7 @@ const productsData = [
     "category_sub_en": "CABLE & CONNECTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"Encoder Cable (J3)\", \"길이\": \"7M\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"Encoder Cable (J3)\", \"Length\": \"7M\", \"-\": \"-\"}",
     "images": [
       "1215_1.jpg",
       "1215_3.jpg",
@@ -1139,7 +1139,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NEMIC-LAMBDA\", \"Classification\": \"노이즈 필터\", \"사양\": \"15A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"NEMIC-LAMBDA\", \"Classification\": \"Noise Filter\", \"Specification\": \"15A\", \"-\": \"-\"}",
     "images": [
       "1372_1.jpg",
       "1372_3.jpg",
@@ -1162,7 +1162,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NEMIC-LAMBDA\", \"Classification\": \"노이즈 필터\", \"사양\": \"5A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"NEMIC-LAMBDA\", \"Classification\": \"Noise Filter\", \"Specification\": \"5A\", \"-\": \"-\"}",
     "images": [
       "1374_1.jpg",
       "1374_3.jpg",
@@ -1185,7 +1185,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NEMIC-LAMBDA\", \"Classification\": \"노이즈 필터\", \"사양\": \"20A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"NEMIC-LAMBDA\", \"Classification\": \"Noise Filter\", \"Specification\": \"20A\", \"-\": \"-\"}",
     "images": [
       "1375_1.jpg",
       "1375_3.jpg",
@@ -1208,7 +1208,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"FINE SUNTRONIX\", \"Classification\": \"노이즈 필터\", \"사양\": \"6A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"FINE SUNTRONIX\", \"Classification\": \"Noise Filter\", \"Specification\": \"6A\", \"-\": \"-\"}",
     "images": [
       "1378_1.jpg",
       "1378_3.jpg",
@@ -1231,7 +1231,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"FINE SUNTRONIX\", \"Classification\": \"노이즈 필터\", \"사양\": \"20A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"FINE SUNTRONIX\", \"Classification\": \"Noise Filter\", \"Specification\": \"20A\", \"-\": \"-\"}",
     "images": [
       "1379_1.jpg",
       "1379_3.jpg",
@@ -1277,7 +1277,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"노이즈 필터\", \"사양\": \"20A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"Noise Filter\", \"Specification\": \"20A\", \"-\": \"-\"}",
     "images": [
       "1380_1.jpg",
       "1380_3.jpg",
@@ -1300,7 +1300,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"노이즈 필터\", \"사양\": \"15A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"Noise Filter\", \"Specification\": \"15A\", \"-\": \"-\"}",
     "images": [
       "1381_1.jpg",
       "1381_3.jpg",
@@ -1323,7 +1323,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"노이즈 필터\", \"사양\": \"5A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"Noise Filter\", \"Specification\": \"5A\", \"-\": \"-\"}",
     "images": [
       "1382_1.jpg",
       "1382_3.jpg",
@@ -1346,7 +1346,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"노이즈 필터\", \"사양\": \"20A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"Noise Filter\", \"Specification\": \"20A\", \"-\": \"-\"}",
     "images": [
       "1383_1.jpg",
       "1383_3.jpg",
@@ -1369,7 +1369,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Wyes 와이스\", \"Classification\": \"노이즈 필터\", \"사양\": \"20A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Wyes 와이스\", \"Classification\": \"Noise Filter\", \"Specification\": \"20A\", \"-\": \"-\"}",
     "images": [
       "1388_1.jpg",
       "1388_3.jpg",
@@ -1392,7 +1392,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Wyes 와이스\", \"Classification\": \"노이즈 필터\", \"사양\": \"40A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Wyes 와이스\", \"Classification\": \"Noise Filter\", \"Specification\": \"40A\", \"-\": \"-\"}",
     "images": [
       "1389_1.jpg",
       "1389_3.jpg",
@@ -1415,7 +1415,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"CORCOM\", \"Classification\": \"노이즈 필터\", \"사양\": \"20A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"CORCOM\", \"Classification\": \"Noise Filter\", \"Specification\": \"20A\", \"-\": \"-\"}",
     "images": [
       "1390_1.jpg",
       "1390_3.jpg",
@@ -1437,7 +1437,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"WORLD TECH\", \"Classification\": \"노이즈 필터\", \"사양\": \"40A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"WORLD TECH\", \"Classification\": \"Noise Filter\", \"Specification\": \"40A\", \"-\": \"-\"}",
     "images": [
       "1391_1.jpg",
       "1391_3.jpg",
@@ -1460,7 +1460,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"노이즈 필터\", \"사양\": \"15A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"Noise Filter\", \"Specification\": \"15A\", \"-\": \"-\"}",
     "images": [
       "1392_1.jpg",
       "1392_3.jpg",
@@ -1483,7 +1483,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"노이즈 필터\", \"사양\": \"30A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"Noise Filter\", \"Specification\": \"30A\", \"-\": \"-\"}",
     "images": [
       "1393_1.jpg",
       "1393_3.jpg",
@@ -1505,7 +1505,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NEMIC-LAMBDA\", \"Classification\": \"노이즈 필터\", \"사양\": \"10A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"NEMIC-LAMBDA\", \"Classification\": \"Noise Filter\", \"Specification\": \"10A\", \"-\": \"-\"}",
     "images": [
       "1395_1.jpg",
       "1395_3.jpg",
@@ -1528,7 +1528,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"노이즈 필터\", \"사양\": \"30A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"Noise Filter\", \"Specification\": \"30A\", \"-\": \"-\"}",
     "images": [
       "1396_1.jpg",
       "1396_3.jpg",
@@ -1551,7 +1551,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"노이즈 필터\", \"사양\": \"20A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"Noise Filter\", \"Specification\": \"20A\", \"-\": \"-\"}",
     "images": [
       "1397_1.jpg",
       "1397_3.jpg",
@@ -1574,7 +1574,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NEMIC-LAMBDA\", \"Classification\": \"노이즈 필터\", \"사양\": \"30A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"NEMIC-LAMBDA\", \"Classification\": \"Noise Filter\", \"Specification\": \"30A\", \"-\": \"-\"}",
     "images": [
       "1398_1.jpg",
       "1398_3.jpg",
@@ -1597,7 +1597,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"FINE SUNTRONIX\", \"Classification\": \"노이즈 필터\", \"사양\": \"30A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"FINE SUNTRONIX\", \"Classification\": \"Noise Filter\", \"Specification\": \"30A\", \"-\": \"-\"}",
     "images": [
       "1399_1.jpg",
       "1399_3.jpg",
@@ -1643,7 +1643,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"노이즈 필터\", \"사양\": \"40A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"Noise Filter\", \"Specification\": \"40A\", \"-\": \"-\"}",
     "images": [
       "1400_1.jpg",
       "1400_3.jpg",
@@ -1666,7 +1666,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SAM IL\", \"Classification\": \"노이즈 필터\", \"사양\": \"80A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SAM IL\", \"Classification\": \"Noise Filter\", \"Specification\": \"80A\", \"-\": \"-\"}",
     "images": [
       "1402_1.jpg",
       "1402_3.jpg",
@@ -1688,7 +1688,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SAM IL\", \"Classification\": \"노이즈 필터\", \"사양\": \"250A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SAM IL\", \"Classification\": \"Noise Filter\", \"Specification\": \"250A\", \"-\": \"-\"}",
     "images": [
       "1404_1.jpg",
       "1404_3.jpg",
@@ -1711,7 +1711,7 @@ const productsData = [
     "category_sub_en": "STEPPING MOTOR",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"5상\": \"-\", \"DEG/STEP\": \"0.36\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"5 Phase\": \"-\", \"DEG/STEP\": \"0.36\"}",
     "images": [
       "1407_1.jpg",
       "1407_3.jpg",
@@ -1734,7 +1734,7 @@ const productsData = [
     "category_sub_en": "STEPPING MOTOR",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"5상\": \"-\", \"DEG/STEP\": \"0.36\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"5 Phase\": \"-\", \"DEG/STEP\": \"0.36\"}",
     "images": [
       "1410_1.jpg",
       "1410_3.jpg",
@@ -1757,7 +1757,7 @@ const productsData = [
     "category_sub_en": "STEPPING MOTOR",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"2상\": \"-\", \"DEG/STEP\": \"1.8\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"2 Phase\": \"-\", \"DEG/STEP\": \"1.8\"}",
     "images": [
       "1412_1.jpg",
       "1412_3.jpg",
@@ -1780,7 +1780,7 @@ const productsData = [
     "category_sub_en": "STEPPING MOTOR",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"2상\": \"-\", \"DEG/STEP\": \"1.8\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"2 Phase\": \"-\", \"DEG/STEP\": \"1.8\"}",
     "images": [
       "1413_1.jpg",
       "1413_3.jpg",
@@ -1803,7 +1803,7 @@ const productsData = [
     "category_sub_en": "STEPPING MOTOR",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"5상\": \"-\", \"DEG/STEP\": \"0.72\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"5 Phase\": \"-\", \"DEG/STEP\": \"0.72\"}",
     "images": [
       "1415_1.jpg",
       "1415_3.jpg",
@@ -1849,7 +1849,7 @@ const productsData = [
     "category_sub_en": "LS prenatal",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"LS\", \"Classification\": \"PLC\", \"Condition\": \"A\", \"설명\": \"릴레이 출력 16점 (AC 220V,DC12/24V 2A)\"}",
+    "specifications": "{\"MAKER\": \"LS\", \"Classification\": \"PLC\", \"Condition\": \"A\", \"Description\": \"Relay 출력 16점 (AC 220V,DC12/24V 2A)\"}",
     "images": [
       "1422_1.jpg",
       "1422_2.jpg",
@@ -1873,7 +1873,7 @@ const productsData = [
     "category_sub_en": "Output DC 15V",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NEMIC-LAMBDA\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"15V 67A    (2050 Watts)\", \"입력 전원\": \"85~250V\"}",
+    "specifications": "{\"MAKER\": \"NEMIC-LAMBDA\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"15V 67A    (2050 Watts)\", \"Input Power\": \"85~250V\"}",
     "images": [
       "1480_1.jpg",
       "1480_3.jpg",
@@ -1896,7 +1896,7 @@ const productsData = [
     "category_sub_en": "LS prenatal",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"LS\", \"Classification\": \"PLC\", \"Condition\": \"A\", \"설명\": \"기본베이스 입출력 모듈 4Pcs  장착 가능\"}",
+    "specifications": "{\"MAKER\": \"LS\", \"Classification\": \"PLC\", \"Condition\": \"A\", \"Description\": \"기본베이스 입출력 모듈 4Pcs  장착 가능\"}",
     "images": [
       "1531_1.jpg",
       "1531_3.jpg",
@@ -1942,7 +1942,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"년식\": \"미상\", \"출력\": \"200W\"}",
+    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Year\": \"Unknown\", \"Output\": \"200W\"}",
     "images": [
       "1543_1.jpg",
       "1543_3.jpg",
@@ -1965,7 +1965,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"년식\": \"미상\", \"출력\": \"400W\"}",
+    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Year\": \"Unknown\", \"Output\": \"400W\"}",
     "images": [
       "1545_1.jpg",
       "1545_3.jpg",
@@ -1988,7 +1988,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"년식\": \"미상\", \"출력\": \"1KW\"}",
+    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Year\": \"Unknown\", \"Output\": \"1KW\"}",
     "images": [
       "1547_1.jpg",
       "1547_3.jpg",
@@ -2011,7 +2011,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"년식\": \"미상\", \"출력\": \"1.5KW\"}",
+    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Year\": \"Unknown\", \"Output\": \"1.5KW\"}",
     "images": [
       "1548_1.jpg",
       "1548_3.jpg",
@@ -2034,7 +2034,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"50W\", \"브레이크\": \"내장\"}",
+    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"50W\", \"Brake\": \"내장\"}",
     "images": [
       "1595_1.jpg",
       "1595_3.jpg",
@@ -2057,7 +2057,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"100W\", \"브레이크\": \"내장\"}",
+    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"100W\", \"Brake\": \"내장\"}",
     "images": [
       "1596_1.jpg",
       "1596_3.jpg",
@@ -2080,7 +2080,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"100W\", \"브레이크\": \"내장\"}",
+    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"100W\", \"Brake\": \"내장\"}",
     "images": [
       "1597_1.jpg",
       "1597_3.jpg",
@@ -2126,7 +2126,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"750W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"750W\", \"-\": \"-\"}",
     "images": [
       "1600_1.jpg",
       "1600_2.jpg",
@@ -2195,7 +2195,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"400W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"400W\", \"-\": \"-\"}",
     "images": [
       "1614_1.jpg",
       "1614_3.jpg",
@@ -2218,7 +2218,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"200W\", \"감속기\": \"부착\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"200W\", \"Reducer\": \"부착\"}",
     "images": [
       "1617_1.jpg",
       "1617_3.jpg",
@@ -2241,7 +2241,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"100W\", \"감속기\": \"부착\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"100W\", \"Reducer\": \"부착\"}",
     "images": [
       "1618_1.jpg",
       "1618_3.jpg",
@@ -2264,7 +2264,7 @@ const productsData = [
     "category_sub_en": "STEPPING DRIVER",
     "category_subsub_kr": "PARKER",
     "category_subsub_en": "PARKER",
-    "specifications": "{\"MAKER\": \"Parker\", \"Classification\": \"STEPPING DRIVER\", \"사용전압\": \"95-132V\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Parker\", \"Classification\": \"STEPPING DRIVER\", \"Voltage\": \"95-132V\", \"-\": \"-\"}",
     "images": [
       "1623_1.jpg",
       "1623_3.jpg",
@@ -2287,7 +2287,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "NSK",
     "category_subsub_en": "NSK",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"SERVO DRIVER\", \"년식\": \"미상\", \"사용전압\": \"200-220V\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"SERVO DRIVER\", \"Year\": \"Unknown\", \"Voltage\": \"200-220V\"}",
     "images": [
       "1625_1.jpg",
       "1625_3.jpg",
@@ -2310,7 +2310,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "NSK",
     "category_subsub_en": "NSK",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"SERVO DRIVER\", \"년식\": \"미상\", \"사용전압\": \"200-220V\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"SERVO DRIVER\", \"Year\": \"Unknown\", \"Voltage\": \"200-220V\"}",
     "images": [
       "1626_1.jpg",
       "1626_3.jpg",
@@ -2333,7 +2333,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "NSK",
     "category_subsub_en": "NSK",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"SERVO DRIVER\", \"년식\": \"미상\", \"사용전압\": \"200-220V\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"SERVO DRIVER\", \"Year\": \"Unknown\", \"Voltage\": \"200-220V\"}",
     "images": [
       "1627_1.jpg",
       "1627_3.jpg",
@@ -2356,7 +2356,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "NSK",
     "category_subsub_en": "NSK",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"SERVO DRIVER\", \"년식\": \"미상\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"SERVO DRIVER\", \"Year\": \"Unknown\", \"-\": \"-\"}",
     "images": [
       "1629_1.jpg",
       "1629_3.jpg",
@@ -2402,7 +2402,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "NSK",
     "category_subsub_en": "NSK",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"SERVO DRIVER\", \"년식\": \"미상\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"SERVO DRIVER\", \"Year\": \"Unknown\", \"-\": \"-\"}",
     "images": [
       "1632_1.jpg",
       "1632_3.jpg",
@@ -2425,7 +2425,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "NSK",
     "category_subsub_en": "NSK",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"SERVO DRIVER\", \"년식\": \"미상\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"SERVO DRIVER\", \"Year\": \"Unknown\", \"-\": \"-\"}",
     "images": [
       "1633_1.jpg",
       "1633_3.jpg",
@@ -2448,7 +2448,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "NSK",
     "category_subsub_en": "NSK",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"SERVO DRIVER\", \"년식\": \"미상\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"SERVO DRIVER\", \"Year\": \"Unknown\", \"-\": \"-\"}",
     "images": [
       "1634_1.jpg",
       "1634_3.jpg",
@@ -2471,7 +2471,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "THK",
     "category_subsub_en": "THK",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM SYSTREM\", \"년식\": \"미상\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM SYSTREM\", \"Year\": \"Unknown\", \"-\": \"-\"}",
     "images": [
       "1635_1.jpg",
       "1635_3.jpg",
@@ -2563,7 +2563,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "KOLLMORGEN",
     "category_subsub_en": "KOLLMORGEN",
-    "specifications": "{\"MAKER\": \"KOLLMORGEN\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"0.5KW\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"KOLLMORGEN\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"0.5KW\", \"-\": \"-\"}",
     "images": [
       "1645_1.jpg",
       "1645_2.jpg",
@@ -2586,7 +2586,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "OLYMPUS",
     "category_subsub_en": "OLYMPUS",
-    "specifications": "{\"MAKER\": \"OLYMPUS\", \"Classification\": \"SERVO DRIVE\", \"년식\": \"미상\", \"Condition\": \"B\"}",
+    "specifications": "{\"MAKER\": \"OLYMPUS\", \"Classification\": \"SERVO DRIVE\", \"Year\": \"Unknown\", \"Condition\": \"B\"}",
     "images": [
       "1646_1.jpg",
       "1646_3.jpg",
@@ -2609,7 +2609,7 @@ const productsData = [
     "category_sub_en": "CONTROLLER Other",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NSD\", \"Classification\": \"-\", \"년식\": \"미상\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"NSD\", \"Classification\": \"-\", \"Year\": \"Unknown\", \"-\": \"-\"}",
     "images": [
       "1647_1.jpg",
       "1647_3.jpg",
@@ -2632,7 +2632,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"Servomotor Driver\", \"년식\": \"미상\", \"Condition\": \"AS IS\"}",
+    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"Servomotor Driver\", \"Year\": \"Unknown\", \"Condition\": \"AS IS\"}",
     "images": [
       "165_1.jpg",
       "165_3.jpg",
@@ -2654,7 +2654,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"Servomotor Driver\", \"년식\": \"미상\", \"Condition\": \"AS IS\"}",
+    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"Servomotor Driver\", \"Year\": \"Unknown\", \"Condition\": \"AS IS\"}",
     "images": [
       "167_1.jpg",
       "167_3.jpg",
@@ -2723,7 +2723,7 @@ const productsData = [
     "category_sub_en": "Output DC 5V",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"COSEL\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"5V 30A\", \"입력 전원\": \"110-240V\"}",
+    "specifications": "{\"MAKER\": \"COSEL\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"5V 30A\", \"Input Power\": \"110-240V\"}",
     "images": [
       "1689_1.jpg",
       "1689_3.jpg",
@@ -2746,7 +2746,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"출력\": \"80W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"Output\": \"80W\", \"Condition\": \"A\"}",
     "images": [
       "1690_1.jpg",
       "1690_3.jpg",
@@ -2769,7 +2769,7 @@ const productsData = [
     "category_sub_en": "BLDC",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"BRUSHLESS DC \\nMOTOR DRIVER\", \"사용전압\": \"200-230V\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"BRUSHLESS DC \\nMOTOR DRIVER\", \"Voltage\": \"200-230V\", \"-\": \"-\"}",
     "images": [
       "1693_1.jpg",
       "1693_3.jpg",
@@ -2861,7 +2861,7 @@ const productsData = [
     "category_sub_en": "reducer",
     "category_subsub_kr": "NISSEI",
     "category_subsub_en": "NISSEI",
-    "specifications": "{\"MAKER\": \"NISSEI\", \"Classification\": \"REDUCER\", \"Ratio\": \"15:1\", \"Condition\": \"미사용 새제품\"}",
+    "specifications": "{\"MAKER\": \"NISSEI\", \"Classification\": \"REDUCER\", \"Ratio\": \"15:1\", \"Condition\": \"Unused (New Product)\"}",
     "images": [
       "1715_1.jpg",
       "1715_3.jpg",
@@ -2884,7 +2884,7 @@ const productsData = [
     "category_sub_en": "NISSEI",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NISSEI\", \"Classification\": \"기어드모터\", \"출력\": \"0.4KW\", \"감속비\": \"7.5 :1\"}",
+    "specifications": "{\"MAKER\": \"NISSEI\", \"Classification\": \"기어드Motor\", \"Output\": \"0.4KW\", \"Reduction Ratio\": \"7.5 :1\"}",
     "images": [
       "1718_1.jpg",
       "1718_3.jpg",
@@ -2907,7 +2907,7 @@ const productsData = [
     "category_sub_en": "NISSEI",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NISSEI\", \"Classification\": \"기어드모터\", \"출력\": \"0.25KW\", \"감속비\": \"30 :1\"}",
+    "specifications": "{\"MAKER\": \"NISSEI\", \"Classification\": \"기어드Motor\", \"Output\": \"0.25KW\", \"Reduction Ratio\": \"30 :1\"}",
     "images": [
       "1719_1.jpg",
       "1719_3.jpg",
@@ -2930,7 +2930,7 @@ const productsData = [
     "category_sub_en": "NISSEI",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NISSEI\", \"Classification\": \"기어드모터\", \"출력\": \"0.4KW\", \"감속비\": \"15 :1\"}",
+    "specifications": "{\"MAKER\": \"NISSEI\", \"Classification\": \"기어드Motor\", \"Output\": \"0.4KW\", \"Reduction Ratio\": \"15 :1\"}",
     "images": [
       "1720_1.jpg",
       "1720_3.jpg",
@@ -2953,7 +2953,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"1KW\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"1KW\", \"-\": \"-\"}",
     "images": [
       "1727_1.jpg",
       "1727_3.jpg",
@@ -2976,7 +2976,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SAMSUNG\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"400W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SAMSUNG\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"400W\", \"-\": \"-\"}",
     "images": [
       "1747_1.jpg",
       "1747_3.jpg",
@@ -2999,7 +2999,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"100W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"100W\", \"-\": \"-\"}",
     "images": [
       "1752_1.jpg",
       "1752_3.jpg",
@@ -3022,7 +3022,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"0.6KW\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"0.6KW\", \"-\": \"-\"}",
     "images": [
       "1754_1.jpg",
       "1754_3.jpg",
@@ -3045,7 +3045,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"년식\": \"미상\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"Year\": \"Unknown\", \"Condition\": \"A\"}",
     "images": [
       "1763_1.jpg",
       "1763_3.jpg",
@@ -3068,7 +3068,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"출력\": \"0.03KW\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"Output\": \"0.03KW\", \"Condition\": \"A\"}",
     "images": [
       "1764_1.jpg",
       "1764_3.jpg",
@@ -3091,7 +3091,7 @@ const productsData = [
     "category_sub_en": "LUST",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"LUST\", \"Classification\": \"인버터\", \"INPUT\": \"단상 AC220\", \"출력(KW)\": \"1.5\"}",
+    "specifications": "{\"MAKER\": \"LUST\", \"Classification\": \"Inverter\", \"INPUT\": \"단상 AC220\", \"Output (KW)\": \"1.5\"}",
     "images": [
       "1768_1.jpg",
       "1768_3.jpg",
@@ -3253,7 +3253,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"SERVO DRIVER\", \"년식\": \"미상\", \"출력\": \"200W\"}",
+    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"SERVO DRIVER\", \"Year\": \"Unknown\", \"Output\": \"200W\"}",
     "images": [
       "1796_1.jpg",
       "1796_2.jpg",
@@ -3277,7 +3277,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"SERVO DRIVER\", \"출력(KW)\": \"1\", \"사용전압\": \"220V\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"SERVO DRIVER\", \"Output (KW)\": \"1\", \"Voltage\": \"220V\"}",
     "images": [
       "1797_1.jpg",
       "1797_3.jpg",
@@ -3300,7 +3300,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"YASKAWA\", \"Classification\": \"SERVO DRIVER\", \"출력\": \"1.5KW\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"YASKAWA\", \"Classification\": \"SERVO DRIVER\", \"Output\": \"1.5KW\", \"Condition\": \"A\"}",
     "images": [
       "1798_1.jpg",
       "1798_3.jpg",
@@ -3323,7 +3323,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"YASKAWA\", \"Classification\": \"SERVO DRIVER\", \"출력\": \"0.5KW\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"YASKAWA\", \"Classification\": \"SERVO DRIVER\", \"Output\": \"0.5KW\", \"Condition\": \"A\"}",
     "images": [
       "1799_1.jpg",
       "1799_3.jpg",
@@ -3623,7 +3623,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"200W\", \"브레이크\": \"O\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"200W\", \"Brake\": \"O\"}",
     "images": [
       "1857_1.jpg",
       "1857_3.jpg",
@@ -3646,7 +3646,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"200W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"200W\", \"-\": \"-\"}",
     "images": [
       "1859_1.jpg",
       "1859_3.jpg",
@@ -3669,7 +3669,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"50W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"50W\", \"-\": \"-\"}",
     "images": [
       "1862_1.jpg",
       "1862_3.jpg",
@@ -3692,7 +3692,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"200W\", \"감속비\": \"15:1\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"200W\", \"Reduction Ratio\": \"15:1\"}",
     "images": [
       "1863_1.jpg",
       "1863_3.jpg",
@@ -3737,7 +3737,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"400W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"400W\", \"-\": \"-\"}",
     "images": [
       "1867_1.jpg",
       "1867_3.jpg",
@@ -3760,7 +3760,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"100W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"100W\", \"-\": \"-\"}",
     "images": [
       "1874_1.jpg",
       "1874_3.jpg",
@@ -3783,7 +3783,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"50W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"50W\", \"-\": \"-\"}",
     "images": [
       "1875_1.jpg",
       "1875_3.jpg",
@@ -3806,7 +3806,7 @@ const productsData = [
     "category_sub_en": "STEPPING MOTOR",
     "category_subsub_kr": "PARKER",
     "category_subsub_en": "PARKER",
-    "specifications": "{\"MAKER\": \"Parker\", \"Classification\": \"STEPPING MOTOR\", \"감속비\": \"10:1\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Parker\", \"Classification\": \"STEPPING MOTOR\", \"Reduction Ratio\": \"10:1\", \"-\": \"-\"}",
     "images": [
       "1878_1.jpg",
       "1878_3.jpg",
@@ -3942,7 +3942,7 @@ const productsData = [
     "category_sub_en": "PROFACE",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Proface\", \"Classification\": \"Touch screen\", \"년식\": \"09년\", \"케이블\": \"3M\"}",
+    "specifications": "{\"MAKER\": \"Proface\", \"Classification\": \"Touch screen\", \"Year\": \"09년\", \"Cable\": \"3M\"}",
     "images": [
       "1903_1.jpg",
       "1903_3.jpg",
@@ -3988,7 +3988,7 @@ const productsData = [
     "category_sub_en": "STEPPING DRIVER",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING DRIVER\", \"사용전압\": \"110V\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING DRIVER\", \"Voltage\": \"110V\", \"-\": \"-\"}",
     "images": [
       "1913_1.jpg",
       "1913_3.jpg",
@@ -4011,7 +4011,7 @@ const productsData = [
     "category_sub_en": "STEPPING DRIVER",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING DRIVER\", \"사용전압\": \"110V\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING DRIVER\", \"Voltage\": \"110V\", \"-\": \"-\"}",
     "images": [
       "1914_1.jpg",
       "1914_3.jpg",
@@ -4034,7 +4034,7 @@ const productsData = [
     "category_sub_en": "STEPPING DRIVER",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING DRIVER\", \"상(Phase)\": \"5상 스텝\", \"사용전압\": \"100-115V\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING DRIVER\", \"Phase\": \"5상 스텝\", \"Voltage\": \"100-115V\"}",
     "images": [
       "1918_1.jpg",
       "1918_3.jpg",
@@ -4149,7 +4149,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"출력\": \"0.1KW\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"Output\": \"0.1KW\", \"Condition\": \"A\"}",
     "images": [
       "1932_1.jpg",
       "1932_3.jpg",
@@ -4172,7 +4172,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"출력\": \"0.2KW\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"Output\": \"0.2KW\", \"Condition\": \"A\"}",
     "images": [
       "1933_1.jpg",
       "1933_3.jpg",
@@ -4195,7 +4195,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"출력\": \"0.2KW\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"Output\": \"0.2KW\", \"Condition\": \"A\"}",
     "images": [
       "1934_1.jpg",
       "1934_3.jpg",
@@ -4241,7 +4241,7 @@ const productsData = [
     "category_sub_en": "MOTOR+DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"YASKAWA\", \"Classification\": \"Direct Drive\", \"Condition\": \"A-Level\", \"사용전압\": \"220V\"}",
+    "specifications": "{\"MAKER\": \"YASKAWA\", \"Classification\": \"Direct Drive\", \"Condition\": \"A-Level\", \"Voltage\": \"220V\"}",
     "images": [
       "1936_1.jpg",
       "1936_2.jpg",
@@ -4335,7 +4335,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "OMRON",
     "category_subsub_en": "OMRON",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"POWER SUPPLY\", \"년식\": \"미상\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"POWER SUPPLY\", \"Year\": \"Unknown\", \"Condition\": \"A\"}",
     "images": [
       "1948_1.jpg",
       "1948_3.jpg",
@@ -4358,7 +4358,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"년식\": \"미상\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"Year\": \"Unknown\", \"Condition\": \"A\"}",
     "images": [
       "1954_1.jpg",
       "1954_3.jpg",
@@ -4381,7 +4381,7 @@ const productsData = [
     "category_sub_en": "STEPPING MOTOR",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"2상\": \"-\", \"DEG/STEP\": \"1.8\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"2 Phase\": \"-\", \"DEG/STEP\": \"1.8\"}",
     "images": [
       "1957_1.jpg",
       "1957_2.jpg",
@@ -4564,7 +4564,7 @@ const productsData = [
     "category_sub_en": "STEPPING DRIVER",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING DRIVER\", \"상(Phase)\": \"5상 스텝\", \"사용전압\": \"110V\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING DRIVER\", \"Phase\": \"5상 스텝\", \"Voltage\": \"110V\"}",
     "images": [
       "200_1.jpg",
       "200_3.jpg",
@@ -4587,7 +4587,7 @@ const productsData = [
     "category_sub_en": "THK RSR Miniature",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"RSR 미니츄어\", \"레일길이(mm)\": \"270\", \"블럭수(EA)\": \"1\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"RSR 미니츄어\", \"Rail Length (mm)\": \"270\", \"Block Count (EA)\": \"1\"}",
     "images": [
       "2033_1.jpg",
       "2033_3.jpg",
@@ -4610,7 +4610,7 @@ const productsData = [
     "category_sub_en": "THK RSR Miniature",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"RSR 미니츄어\", \"레일길이(mm)\": \"190\", \"블럭수(EA)\": \"1\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"RSR 미니츄어\", \"Rail Length (mm)\": \"190\", \"Block Count (EA)\": \"1\"}",
     "images": [
       "2038_1.jpg",
       "2038_3.jpg",
@@ -4633,7 +4633,7 @@ const productsData = [
     "category_sub_en": "THK RSR Miniature",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"RSR 미니츄어\", \"레일길이(mm)\": \"390\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"RSR 미니츄어\", \"Rail Length (mm)\": \"390\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "2039_1.jpg",
       "2039_3.jpg",
@@ -4655,7 +4655,7 @@ const productsData = [
     "category_sub_en": "BLDC",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"BRUSHLESS DC \\nMOTOR DRIVER\", \"사용전압\": \"220V\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"BRUSHLESS DC \\nMOTOR DRIVER\", \"Voltage\": \"220V\", \"-\": \"-\"}",
     "images": [
       "205_1.jpg",
       "205_3.jpg",
@@ -4678,7 +4678,7 @@ const productsData = [
     "category_sub_en": "THK HSR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HSR35-R형\", \"외형 치수\": \"레일길이\", \"LM블럭 치수\": \"높이(M)\", \"705\": \"55\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HSR35-R형\", \"External Dimensions\": \"레일길이\", \"LM Block Dimensions\": \"높이(M)\", \"705\": \"55\"}",
     "images": [
       "2051_1.jpg",
       "2051_2.png",
@@ -4701,7 +4701,7 @@ const productsData = [
     "category_sub_en": "STEPPING DRIVER",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING DRIVER\", \"상(Phase)\": \"5상 스텝\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING DRIVER\", \"Phase\": \"5상 스텝\", \"-\": \"-\"}",
     "images": [
       "2055_1.jpg",
       "2055_3.jpg",
@@ -4747,7 +4747,7 @@ const productsData = [
     "category_sub_en": "BLDC",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"BRUSHLESS DC \\nMOTOR DRIVER\", \"사용전압\": \"110V\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"BRUSHLESS DC \\nMOTOR DRIVER\", \"Voltage\": \"110V\", \"-\": \"-\"}",
     "images": [
       "206_1.jpg",
       "206_3.jpg",
@@ -4770,7 +4770,7 @@ const productsData = [
     "category_sub_en": "STEPPING MOTOR",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"2상\": \"-\", \"DEG/STEP\": \"0.9\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"2 Phase\": \"-\", \"DEG/STEP\": \"0.9\"}",
     "images": [
       "2060_1.jpg",
       "2060_3.jpg",
@@ -4793,7 +4793,7 @@ const productsData = [
     "category_sub_en": "STEPPING MOTOR",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"2상\": \"-\", \"DEG/STEP\": \"0.9\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"2 Phase\": \"-\", \"DEG/STEP\": \"0.9\"}",
     "images": [
       "2061_1.jpg",
       "2061_3.jpg",
@@ -4816,7 +4816,7 @@ const productsData = [
     "category_sub_en": "STEPPING MOTOR",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"2상\": \"-\", \"DEG/STEP\": \"0.9\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"2 Phase\": \"-\", \"DEG/STEP\": \"0.9\"}",
     "images": [
       "2063_1.jpg",
       "2063_3.jpg",
@@ -4839,7 +4839,7 @@ const productsData = [
     "category_sub_en": "STEPPING MOTOR",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"2상\": \"-\", \"DEG/STEP\": \"1.8\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"2 Phase\": \"-\", \"DEG/STEP\": \"1.8\"}",
     "images": [
       "2066_1.jpg",
       "2066_3.jpg",
@@ -4862,7 +4862,7 @@ const productsData = [
     "category_sub_en": "STEPPING MOTOR",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"2상\": \"-\", \"DEG/STEP\": \"0.9\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"2 Phase\": \"-\", \"DEG/STEP\": \"0.9\"}",
     "images": [
       "2067_1.jpg",
       "2067_3.jpg",
@@ -4885,7 +4885,7 @@ const productsData = [
     "category_sub_en": "STEPPING MOTOR",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"2상\": \"-\", \"DEG/STEP\": \"0.9\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"2 Phase\": \"-\", \"DEG/STEP\": \"0.9\"}",
     "images": [
       "2069_1.jpg",
       "2069_3.jpg",
@@ -4907,7 +4907,7 @@ const productsData = [
     "category_sub_en": "STEPPING MOTOR",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"5상\": \"-\", \"DEG/STEP\": \"0.36\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"5 Phase\": \"-\", \"DEG/STEP\": \"0.36\"}",
     "images": [
       "2070_1.jpg",
       "2070_3.jpg",
@@ -4930,7 +4930,7 @@ const productsData = [
     "category_sub_en": "STEPPING MOTOR",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"2상\": \"-\", \"DEG/STEP\": \"0.9\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"2 Phase\": \"-\", \"DEG/STEP\": \"0.9\"}",
     "images": [
       "2073_1.jpg",
       "2073_3.jpg",
@@ -4953,7 +4953,7 @@ const productsData = [
     "category_sub_en": "STEPPING MOTOR",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"5상\": \"-\", \"DEG/STEP\": \"0.72\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"5 Phase\": \"-\", \"DEG/STEP\": \"0.72\"}",
     "images": [
       "2074_1.jpg",
       "2074_3.jpg",
@@ -4976,7 +4976,7 @@ const productsData = [
     "category_sub_en": "Output DC 15V",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NEMIC-LAMBDA\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"15V 7A\", \"입력 전원\": \"110-240V\"}",
+    "specifications": "{\"MAKER\": \"NEMIC-LAMBDA\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"15V 7A\", \"Input Power\": \"110-240V\"}",
     "images": [
       "2086_1.jpg"
     ],
@@ -4996,7 +4996,7 @@ const productsData = [
     "category_sub_en": "0~5A",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"24V 2.1A\", \"입력 전원\": \"110-240V\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"24V 2.1A\", \"Input Power\": \"110-240V\"}",
     "images": [
       "2091_1.jpg",
       "2091_2.jpg",
@@ -5020,7 +5020,7 @@ const productsData = [
     "category_sub_en": "6~20A",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"COSEL\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"24V 14A\", \"입력 전원\": \"110-240V\"}",
+    "specifications": "{\"MAKER\": \"COSEL\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"24V 14A\", \"Input Power\": \"110-240V\"}",
     "images": [
       "2099_1.jpg",
       "2099_3.jpg",
@@ -5066,7 +5066,7 @@ const productsData = [
     "category_sub_en": "SPEED CONTROLLER",
     "category_subsub_kr": "ORIENTAL",
     "category_subsub_en": "ORIENTAL",
-    "specifications": "{\"MAKER\": \"ORIENTAL\", \"Classification\": \"SPEED CONTROLLER\", \"사용전압\": \"110V\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"ORIENTAL\", \"Classification\": \"SPEED CONTROLLER\", \"Voltage\": \"110V\", \"-\": \"-\"}",
     "images": [
       "211_1.jpg",
       "211_3.jpg"
@@ -5087,7 +5087,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Orientalmotor\", \"Classification\": \"AC모터\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Orientalmotor\", \"Classification\": \"AC Motor\", \"-\": \"-\"}",
     "images": [
       "2127_1.jpg",
       "2127_3.jpg",
@@ -5110,7 +5110,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Orientalmotor\", \"Classification\": \"감속기\", \"감속비\": \"7.5:1\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Orientalmotor\", \"Classification\": \"감속기\", \"Reduction Ratio\": \"7.5:1\", \"-\": \"-\"}",
     "images": [
       "2128_1.jpg",
       "2128_3.jpg",
@@ -5133,7 +5133,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Orientalmotor\", \"Classification\": \"감속기\", \"감속비\": \"5:1\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Orientalmotor\", \"Classification\": \"감속기\", \"Reduction Ratio\": \"5:1\", \"-\": \"-\"}",
     "images": [
       "2130_1.jpg",
       "2130_3.jpg",
@@ -5156,7 +5156,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Orientalmotor\", \"Classification\": \"AC모터\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Orientalmotor\", \"Classification\": \"AC Motor\", \"-\": \"-\"}",
     "images": [
       "2132_1.jpg",
       "2132_3.jpg",
@@ -5179,7 +5179,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Orientalmotor\", \"Classification\": \"AC모터+컨트롤러\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Orientalmotor\", \"Classification\": \"AC Motor+Controller\", \"-\": \"-\"}",
     "images": [
       "2133_1.jpg",
       "2133_3.jpg",
@@ -5483,7 +5483,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"200W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"200W\", \"-\": \"-\"}",
     "images": [
       "220_1.jpg",
       "220_3.jpg",
@@ -5506,7 +5506,7 @@ const productsData = [
     "category_sub_en": "6~20A",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MURR\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"24V 5A\", \"입력 전원\": \"100-240V\"}",
+    "specifications": "{\"MAKER\": \"MURR\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"24V 5A\", \"Input Power\": \"100-240V\"}",
     "images": [
       "2202_1.jpg",
       "2202_3.jpg",
@@ -5529,7 +5529,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"YASKAWA\", \"Classification\": \"SERVO DRIVER\", \"출력\": \"100W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"YASKAWA\", \"Classification\": \"SERVO DRIVER\", \"Output\": \"100W\", \"Condition\": \"A\"}",
     "images": [
       "2210_1.jpg",
       "2210_3.jpg",
@@ -5552,7 +5552,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"YASKAWA\", \"Classification\": \"SERVO DRIVER\", \"출력\": \"200W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"YASKAWA\", \"Classification\": \"SERVO DRIVER\", \"Output\": \"200W\", \"Condition\": \"A\"}",
     "images": [
       "2211_1.jpg",
       "2211_3.jpg",
@@ -5575,7 +5575,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"YASKAWA\", \"Classification\": \"SERVO DRIVER\", \"출력\": \"400W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"YASKAWA\", \"Classification\": \"SERVO DRIVER\", \"Output\": \"400W\", \"Condition\": \"A\"}",
     "images": [
       "2212_1.jpg",
       "2212_3.jpg",
@@ -5598,7 +5598,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"50W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"50W\", \"-\": \"-\"}",
     "images": [
       "2214_1.jpg",
       "2214_3.jpg",
@@ -5621,7 +5621,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"200W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"200W\", \"-\": \"-\"}",
     "images": [
       "2216_1.jpg",
       "2216_3.jpg",
@@ -5644,7 +5644,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"400W\", \"감속기\": \"HD CP-25C-10-J602A-SP\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"400W\", \"Reducer\": \"HD CP-25C-10-J602A-SP\"}",
     "images": [
       "222_1.jpg",
       "222_3.jpg",
@@ -5829,7 +5829,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"200W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"200W\", \"-\": \"-\"}",
     "images": [
       "2252_1.jpg",
       "2252_3.jpg",
@@ -5852,7 +5852,7 @@ const productsData = [
     "category_sub_en": "STEPPING MOTOR",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"5상\": \"-\", \"DEG/STEP\": \"0.36\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"5 Phase\": \"-\", \"DEG/STEP\": \"0.36\"}",
     "images": [
       "2254_1.jpg",
       "2254_3.jpg",
@@ -5875,7 +5875,7 @@ const productsData = [
     "category_sub_en": "Output DC 15V",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"COSEL\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"15V 3.5A\", \"입력 전원\": \"110-240V\"}",
+    "specifications": "{\"MAKER\": \"COSEL\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"15V 3.5A\", \"Input Power\": \"110-240V\"}",
     "images": [
       "2257_1.jpg",
       "2257_3.jpg",
@@ -5898,7 +5898,7 @@ const productsData = [
     "category_sub_en": "20A 이상",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"24V 31.3A\", \"입력 전원\": \"110-240V\"}",
+    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"24V 31.3A\", \"Input Power\": \"110-240V\"}",
     "images": [
       "2260_1.jpg",
       "2260_3.jpg",
@@ -5921,7 +5921,7 @@ const productsData = [
     "category_sub_en": "wafer transfer robot",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"R&D\", \"Classification\": \"2축 ROBOT\", \"전원\": \"단상 220V\", \"0 Axis(Deg)\": \"-80 ~ +150\"}",
+    "specifications": "{\"MAKER\": \"R&D\", \"Classification\": \"2축 ROBOT\", \"Power\": \"단상 220V\", \"0 Axis(Deg)\": \"-80 ~ +150\"}",
     "images": [
       "2263_1.jpg",
       "2263_3.jpg",
@@ -5967,7 +5967,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"SERVO DRIVE\", \"출력\": \"0.2KW\", \"사용전압\": \"220V\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"SERVO DRIVE\", \"Output\": \"0.2KW\", \"Voltage\": \"220V\"}",
     "images": [
       "2277_1.jpg",
       "2277_3.jpg",
@@ -5990,7 +5990,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"SERVO DRIVE\", \"출력\": \"0.1KW\", \"사용전압\": \"220V\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"SERVO DRIVE\", \"Output\": \"0.1KW\", \"Voltage\": \"220V\"}",
     "images": [
       "2279_1.jpg",
       "2279_3.jpg",
@@ -6060,7 +6060,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"50W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"50W\", \"-\": \"-\"}",
     "images": [
       "2301_1.jpg",
       "2301_3.jpg",
@@ -6105,7 +6105,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"100W\", \"감속기\": \"APEX DYNAMICSAB042-S2-P2\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"100W\", \"Reducer\": \"APEX DYNAMICSAB042-S2-P2\"}",
     "images": [
       "2316_1.jpg",
       "2316_3.jpg",
@@ -6313,7 +6313,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"CKD\", \"Classification\": \"Solenoid Valve 솔레노이드밸브\", \"N3S010P\": \"5ea\", \"N4S010P\": \"1ea\"}",
+    "specifications": "{\"MAKER\": \"CKD\", \"Classification\": \"Solenoid Valve Solenoid Valve\", \"N3S010P\": \"5ea\", \"N4S010P\": \"1ea\"}",
     "images": [
       "2335_1.jpg",
       "2335_3.jpg",
@@ -6336,7 +6336,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"CKD\", \"Classification\": \"Solenoid Valve 솔레노이드밸브\", \"N3S010P\": \"7ea\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"CKD\", \"Classification\": \"Solenoid Valve Solenoid Valve\", \"N3S010P\": \"7ea\", \"-\": \"-\"}",
     "images": [
       "2336_1.jpg",
       "2336_3.jpg",
@@ -6359,7 +6359,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"CKD\", \"Classification\": \"Solenoid Valve 솔레노이드밸브\", \"N3S010P\": \"4ea\", \"N4S030P\": \"3ea\"}",
+    "specifications": "{\"MAKER\": \"CKD\", \"Classification\": \"Solenoid Valve Solenoid Valve\", \"N3S010P\": \"4ea\", \"N4S030P\": \"3ea\"}",
     "images": [
       "2338_1.jpg",
       "2338_3.jpg",
@@ -6382,7 +6382,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"CKD\", \"Classification\": \"Solenoid Valve 솔레노이드밸브\", \"N4S010P\": \"1ea\", \"N3S010P\": \"7ea\"}",
+    "specifications": "{\"MAKER\": \"CKD\", \"Classification\": \"Solenoid Valve Solenoid Valve\", \"N4S010P\": \"1ea\", \"N3S010P\": \"7ea\"}",
     "images": [
       "2339_1.jpg",
       "2339_3.jpg",
@@ -6405,7 +6405,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"CKD\", \"Classification\": \"Solenoid Valve 솔레노이드밸브\", \"N4S020P\": \"6ea\", \"N4S030P\": \"2ea\"}",
+    "specifications": "{\"MAKER\": \"CKD\", \"Classification\": \"Solenoid Valve Solenoid Valve\", \"N4S020P\": \"6ea\", \"N4S030P\": \"2ea\"}",
     "images": [
       "2341_1.jpg",
       "2341_3.jpg",
@@ -6428,7 +6428,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"CKD\", \"Classification\": \"Solenoid Valve 솔레노이드밸브\", \"N4S020P\": \"2ea\", \"N3S010P\": \"10ea\"}",
+    "specifications": "{\"MAKER\": \"CKD\", \"Classification\": \"Solenoid Valve Solenoid Valve\", \"N4S020P\": \"2ea\", \"N3S010P\": \"10ea\"}",
     "images": [
       "2342_1.jpg",
       "2342_3.jpg",
@@ -6451,7 +6451,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"CKD\", \"Classification\": \"Solenoid Valve 솔레노이드밸브\", \"N3S010\": \"10ea\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"CKD\", \"Classification\": \"Solenoid Valve Solenoid Valve\", \"N3S010\": \"10ea\", \"-\": \"-\"}",
     "images": [
       "2344_1.jpg",
       "2344_2.jpg",
@@ -6475,7 +6475,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"CKD\", \"Classification\": \"Solenoid Valve 솔레노이드밸브\", \"N3S010P\": \"3ea\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"CKD\", \"Classification\": \"Solenoid Valve Solenoid Valve\", \"N3S010P\": \"3ea\", \"-\": \"-\"}",
     "images": [
       "2345_1.jpg",
       "2345_3.jpg",
@@ -6498,7 +6498,7 @@ const productsData = [
     "category_sub_en": "STEPPING DRIVER",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING DRIVER\", \"상(Phase)\": \"2상\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING DRIVER\", \"Phase\": \"2상\", \"-\": \"-\"}",
     "images": [
       "2346_1.jpg",
       "2346_3.jpg",
@@ -6611,7 +6611,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"750W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"750W\", \"-\": \"-\"}",
     "images": [
       "237_1.jpg",
       "237_5.jpg"
@@ -7023,7 +7023,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"감속기\", \"Condition\": \"미사용 BOX\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"감속기\", \"Condition\": \"Unused BOX\", \"-\": \"-\"}",
     "images": [
       "2407_1.jpg",
       "2407_3.jpg",
@@ -7046,7 +7046,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"Servomotor Driver\", \"년식\": \"미상\", \"Condition\": \"B\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"Servomotor Driver\", \"Year\": \"Unknown\", \"Condition\": \"B\"}",
     "images": [
       "241_1.jpg",
       "241_2.jpg",
@@ -7070,7 +7070,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Autonics\", \"Classification\": \"온도컨트롤러\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Autonics\", \"Classification\": \"온도Controller\", \"-\": \"-\"}",
     "images": [
       "2412_1.jpg",
       "2412_3.jpg",
@@ -7116,7 +7116,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Solenoid Valve 솔레노이드밸브\", \"VQ21M1-5G-C6\": \"8ea\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Solenoid Valve Solenoid Valve\", \"VQ21M1-5G-C6\": \"8ea\", \"-\": \"-\"}",
     "images": [
       "2418_1.jpg",
       "2418_3.jpg",
@@ -7231,7 +7231,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "LM가이드부착형실린더",
     "category_subsub_en": "LM guide attached cylinder",
-    "specifications": "{\"MAKER\": \"PROTEC\", \"Classification\": \"AIR 실린더(가이드형)\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"PROTEC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"-\": \"-\"}",
     "images": [
       "2483_1.jpg",
       "2483_2.jpg",
@@ -7255,7 +7255,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "LM가이드부착형실린더",
     "category_subsub_en": "LM guide attached cylinder",
-    "specifications": "{\"MAKER\": \"PROTEC\", \"Classification\": \"AIR 실린더(가이드형)\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"PROTEC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"-\": \"-\"}",
     "images": [
       "2485_1.jpg",
       "2485_2.jpg",
@@ -7278,7 +7278,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "로터리 실린더",
     "category_subsub_en": "rotary cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(회전ROTARY)\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Rotary)\", \"-\": \"-\"}",
     "images": [
       "2501_1.jpg",
       "2501_3.jpg",
@@ -7325,7 +7325,7 @@ const productsData = [
     "category_sub_en": "THK SR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SR15-W형\", \"레일길이(mm)\": \"160\", \"블럭수(EA)\": \"1\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SR15-W형\", \"Rail Length (mm)\": \"160\", \"Block Count (EA)\": \"1\"}",
     "images": [
       "2542_1.jpg",
       "2542_3.jpg",
@@ -7348,7 +7348,7 @@ const productsData = [
     "category_sub_en": "THK SR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SR15-W형\", \"레일길이(mm)\": \"150\", \"블럭수(EA)\": \"1\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SR15-W형\", \"Rail Length (mm)\": \"150\", \"Block Count (EA)\": \"1\"}",
     "images": [
       "2543_1.jpg",
       "2543_3.jpg",
@@ -7370,7 +7370,7 @@ const productsData = [
     "category_sub_en": "THK SR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SR15-V형\", \"레일길이(mm)\": \"135\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SR15-V형\", \"Rail Length (mm)\": \"135\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "2544_1.jpg",
       "2544_3.jpg",
@@ -7393,7 +7393,7 @@ const productsData = [
     "category_sub_en": "THK SR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SR15-V형\", \"레일길이(mm)\": \"220\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SR15-V형\", \"Rail Length (mm)\": \"220\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "2545_1.jpg",
       "2545_3.jpg"
@@ -7414,7 +7414,7 @@ const productsData = [
     "category_sub_en": "THK SR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SR25-W형\", \"레일길이(mm)\": \"640\", \"블럭수(EA)\": \"1\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SR25-W형\", \"Rail Length (mm)\": \"640\", \"Block Count (EA)\": \"1\"}",
     "images": [
       "2546_1.jpg",
       "2546_3.jpg",
@@ -7436,7 +7436,7 @@ const productsData = [
     "category_sub_en": "THK SSR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SSR15-XTB형\", \"레일길이(mm)\": \"100\", \"블럭수(EA)\": \"1\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SSR15-XTB형\", \"Rail Length (mm)\": \"100\", \"Block Count (EA)\": \"1\"}",
     "images": [
       "2547_1.jpg",
       "2547_3.jpg",
@@ -7459,7 +7459,7 @@ const productsData = [
     "category_sub_en": "THK SHS",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SHS20-V형\", \"레일길이(mm)\": \"460\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SHS20-V형\", \"Rail Length (mm)\": \"460\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "2556_1.jpg",
       "2556_3.jpg",
@@ -7482,7 +7482,7 @@ const productsData = [
     "category_sub_en": "THK RSR Miniature",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"RSR 미니츄어\", \"레일길이(mm)\": \"180\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"RSR 미니츄어\", \"Rail Length (mm)\": \"180\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "2560_1.jpg",
       "2560_3.jpg",
@@ -7505,7 +7505,7 @@ const productsData = [
     "category_sub_en": "THK RSR Miniature",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"RSH\", \"레일길이(mm)\": \"195\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"RSH\", \"Rail Length (mm)\": \"195\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "2561_1.jpg",
       "2561_3.jpg",
@@ -7527,7 +7527,7 @@ const productsData = [
     "category_sub_en": "THK RSR Miniature",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"RSR 미니츄어\", \"레일길이(mm)\": \"65\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"RSR 미니츄어\", \"Rail Length (mm)\": \"65\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "2562_1.jpg",
       "2562_3.jpg"
@@ -7548,7 +7548,7 @@ const productsData = [
     "category_sub_en": "THK RSR Miniature",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"RSR 미니츄어\", \"레일길이(mm)\": \"655\", \"블럭수(EA)\": \"1\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"RSR 미니츄어\", \"Rail Length (mm)\": \"655\", \"Block Count (EA)\": \"1\"}",
     "images": [
       "2566_1.jpg",
       "2566_3.jpg",
@@ -7571,7 +7571,7 @@ const productsData = [
     "category_sub_en": "THK RSR Miniature",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"RSR 미니츄어\", \"레일길이(mm)\": \"475\", \"블럭수(EA)\": \"1\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"RSR 미니츄어\", \"Rail Length (mm)\": \"475\", \"Block Count (EA)\": \"1\"}",
     "images": [
       "2568_1.jpg",
       "2568_3.jpg",
@@ -7593,7 +7593,7 @@ const productsData = [
     "category_sub_en": "THK RSR Miniature",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"RSR 미니츄어\", \"레일길이(mm)\": \"80\", \"블럭수(EA)\": \"1\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"RSR 미니츄어\", \"Rail Length (mm)\": \"80\", \"Block Count (EA)\": \"1\"}",
     "images": [
       "2569_1.jpg",
       "2569_3.jpg",
@@ -7615,7 +7615,7 @@ const productsData = [
     "category_sub_en": "NSK",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"총장(mm)\": \"760\", \"블럭수 (EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"Total Length (mm)\": \"760\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "2577_1.jpg",
       "2577_3.jpg",
@@ -7638,7 +7638,7 @@ const productsData = [
     "category_sub_en": "NSK",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"총장(mm)\": \"440\", \"블럭수 (EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"Total Length (mm)\": \"440\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "2578_1.jpg",
       "2578_3.jpg",
@@ -7661,7 +7661,7 @@ const productsData = [
     "category_sub_en": "NSK",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"총장(mm)\": \"640\", \"블럭수 (EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"Total Length (mm)\": \"640\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "2581_1.jpg",
       "2581_3.jpg",
@@ -7684,7 +7684,7 @@ const productsData = [
     "category_sub_en": "NSK",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"총장(mm)\": \"430\", \"블럭수 (EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"Total Length (mm)\": \"430\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "2583_1.jpg",
       "2583_3.jpg",
@@ -7707,7 +7707,7 @@ const productsData = [
     "category_sub_en": "NSK",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"총장(mm)\": \"430\", \"블럭수 (EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"Total Length (mm)\": \"430\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "2585_1.jpg",
       "2585_3.jpg",
@@ -7753,7 +7753,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"AC SERVO DRIVER\", \"사용전압\": \"100-115V\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"AC SERVO DRIVER\", \"Voltage\": \"100-115V\", \"-\": \"-\"}",
     "images": [
       "2594_1.jpg",
       "2594_3.jpg",
@@ -7822,7 +7822,7 @@ const productsData = [
     "category_sub_en": "CABLE & CONNECTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"Encoder Cable\", \"길이\": \"4M\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"Encoder Cable\", \"Length\": \"4M\", \"-\": \"-\"}",
     "images": [
       "2610_1.jpg",
       "2610_3.jpg",
@@ -7844,7 +7844,7 @@ const productsData = [
     "category_sub_en": "EasyView",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"EasyView\", \"Classification\": \"Touch screen\", \"외관 Condition\": \"A-Level\", \"동작 여부\": \"정상\"}",
+    "specifications": "{\"MAKER\": \"EasyView\", \"Classification\": \"Touch screen\", \"Appearance Condition\": \"A-Level\", \"Operation Status\": \"정상\"}",
     "images": [
       "2615_1.jpg",
       "2615_3.jpg",
@@ -7867,7 +7867,7 @@ const productsData = [
     "category_sub_en": "CABLE & CONNECTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"광케이블\", \"길이\": \"0.15M\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"광Cable\", \"Length\": \"0.15M\", \"-\": \"-\"}",
     "images": [
       "2621_1.jpg",
       "2621_3.jpg",
@@ -7959,7 +7959,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Autonics\", \"Classification\": \"센서 (근접)\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Autonics\", \"Classification\": \"Sensor (근접)\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "2634_1.jpg",
       "2634_3.jpg",
@@ -7982,7 +7982,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Autonics\", \"Classification\": \"센서 (근접)\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Autonics\", \"Classification\": \"Sensor (근접)\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "2637_1.jpg",
       "2637_3.jpg",
@@ -8005,7 +8005,7 @@ const productsData = [
     "category_sub_en": "STEPPING MOTOR",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"DEG/STEP\": \"1.8 DEG/1\", \"2상\": \"-\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"DEG/STEP\": \"1.8 DEG/1\", \"2 Phase\": \"-\"}",
     "images": [
       "264_1.jpg",
       "264_3.jpg",
@@ -8027,7 +8027,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Autonics\", \"Classification\": \"센서\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Autonics\", \"Classification\": \"Sensor\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "2646_1.jpg",
       "2646_3.jpg",
@@ -8049,7 +8049,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Autonics\", \"Classification\": \"센서\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Autonics\", \"Classification\": \"Sensor\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "2647_1.jpg",
       "2647_3.jpg",
@@ -8072,7 +8072,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Autonics\", \"Classification\": \"센서\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Autonics\", \"Classification\": \"Sensor\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "2648_1.jpg",
       "2648_3.jpg",
@@ -8095,7 +8095,7 @@ const productsData = [
     "category_sub_en": "043-532-3174",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"HIWIN\", \"Classification\": \"LM\", \"총장(mm)\": \"110\", \"블럭수 (EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"HIWIN\", \"Classification\": \"LM\", \"Total Length (mm)\": \"110\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "2651_1.jpg",
       "2651_3.jpg",
@@ -8118,7 +8118,7 @@ const productsData = [
     "category_sub_en": "043-532-3174",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"CPC\", \"Classification\": \"LM\", \"총장(mm)\": \"110\", \"블럭수 (EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"CPC\", \"Classification\": \"LM\", \"Total Length (mm)\": \"110\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "2652_1.jpg",
       "2652_2.jpg",
@@ -8141,7 +8141,7 @@ const productsData = [
     "category_sub_en": "STEPPING MOTOR",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"5상\": \"-\", \"DEG/STEP\": \"0.72\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"5 Phase\": \"-\", \"DEG/STEP\": \"0.72\"}",
     "images": [
       "2659_1.jpg",
       "2659_3.jpg",
@@ -8164,7 +8164,7 @@ const productsData = [
     "category_sub_en": "BLDC",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"BRUSHLESS DC \\n MOTOR DRIVER\", \"사용전압\": \"200-230V\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"BRUSHLESS DC \\n MOTOR DRIVER\", \"Voltage\": \"200-230V\", \"-\": \"-\"}",
     "images": [
       "2662_1.jpg",
       "2662_3.jpg",
@@ -8233,7 +8233,7 @@ const productsData = [
     "category_sub_en": "Breaker/Switch",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"LS산전\", \"Classification\": \"전자식모터보호계전기\", \"사양\": \"-\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"LS산전\", \"Classification\": \"전자식Motor보호계전기\", \"Specification\": \"-\", \"-\": \"-\"}",
     "images": [
       "2669_1.jpg",
       "2669_3.jpg",
@@ -8256,7 +8256,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "표준형실린더",
     "category_subsub_en": "Standard cylinder",
-    "specifications": "{\"MAKER\": \"TPC\", \"Classification\": \"AIR 실린더\", \"Condition\": \"미사용 박스\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TPC\", \"Classification\": \"Air Cylinder\", \"Condition\": \"Unused (Boxed)\", \"-\": \"-\"}",
     "images": [
       "2676_1.jpg",
       "2676_3.jpg",
@@ -8279,7 +8279,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "LM가이드부착형실린더",
     "category_subsub_en": "LM guide attached cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(가이드형)\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"-\": \"-\"}",
     "images": [
       "2677_1.jpg",
       "2677_3.jpg",
@@ -8302,7 +8302,7 @@ const productsData = [
     "category_sub_en": "STEPPING MOTOR",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"DEG/STEP\": \"1.8 DEG/STEP\", \"2상\": \"-\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"DEG/STEP\": \"1.8 DEG/STEP\", \"2 Phase\": \"-\"}",
     "images": [
       "268_1.jpg",
       "268_3.jpg",
@@ -8325,7 +8325,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(가이드형)\", \"MAX PRESSURE\": \"1.0 MPa\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"MAX PRESSURE\": \"1.0 MPa\", \"-\": \"-\"}",
     "images": [
       "2681_1.jpg",
       "2681_3.jpg",
@@ -8348,7 +8348,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(가이드형)\", \"MAX PRESSURE\": \"1.0 MPa\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"MAX PRESSURE\": \"1.0 MPa\", \"-\": \"-\"}",
     "images": [
       "2682_1.jpg",
       "2682_3.jpg",
@@ -8371,7 +8371,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(가이드형)\", \"MAX PRESSURE\": \"1.0 MPa\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"MAX PRESSURE\": \"1.0 MPa\", \"-\": \"-\"}",
     "images": [
       "2683_1.jpg",
       "2683_3.jpg",
@@ -8574,7 +8574,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Solenoid Valve 솔레노이드밸브\", \"VQ21M1-5G-C6\": \"2ea\", \"VQ21M1-5G-C8\": \"2ea\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Solenoid Valve Solenoid Valve\", \"VQ21M1-5G-C6\": \"2ea\", \"VQ21M1-5G-C8\": \"2ea\"}",
     "images": [
       "2711_1.jpg",
       "2711_2.jpg",
@@ -8667,7 +8667,7 @@ const productsData = [
     "category_sub_en": "043-532-3174",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"IKO\", \"Classification\": \"LWHS20\", \"레일길이(mm)\": \"660\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"IKO\", \"Classification\": \"LWHS20\", \"Rail Length (mm)\": \"660\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "2724_1.jpg",
       "2724_3.jpg",
@@ -8690,7 +8690,7 @@ const productsData = [
     "category_sub_en": "THK HSR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HSR25-LR형\", \"외형 치수\": \"레일길이\", \"LM블럭 치수\": \"높이(M)\", \"500\": \"40\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HSR25-LR형\", \"External Dimensions\": \"레일길이\", \"LM Block Dimensions\": \"높이(M)\", \"500\": \"40\"}",
     "images": [
       "2727_1.jpg",
       "2727_4.jpg",
@@ -8712,7 +8712,7 @@ const productsData = [
     "category_sub_en": "THK HSR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HSR25-R형\", \"외형 치수\": \"레일길이\", \"LM블럭 치수\": \"높이(M)\", \"640\": \"40\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HSR25-R형\", \"External Dimensions\": \"레일길이\", \"LM Block Dimensions\": \"높이(M)\", \"640\": \"40\"}",
     "images": [
       "2729_1.jpg",
       "2729_4.jpg",
@@ -8734,7 +8734,7 @@ const productsData = [
     "category_sub_en": "THK SHS",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SHS25-C형\", \"레일길이(mm)\": \"1635\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SHS25-C형\", \"Rail Length (mm)\": \"1635\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "2743_1.jpg",
       "2743_3.jpg",
@@ -8757,7 +8757,7 @@ const productsData = [
     "category_sub_en": "THK SHS",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SNR35\", \"레일길이(mm)\": \"1870\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SNR35\", \"Rail Length (mm)\": \"1870\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "2746_1.jpg",
       "2746_3.jpg",
@@ -8780,7 +8780,7 @@ const productsData = [
     "category_sub_en": "043-532-3174",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"IKO\", \"Classification\": \"LM\", \"총장(mm)\": \"2000mm * 6Pcs \", \"블럭수 (EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"IKO\", \"Classification\": \"LM\", \"Total Length (mm)\": \"2000mm * 6Pcs \", \"Block Count (EA)\": \"2\"}",
     "images": [
       "2748_1.jpg",
       "2748_3.jpg",
@@ -8874,7 +8874,7 @@ const productsData = [
     "category_sub_en": "MITSUBISHI",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"인버터\", \"INPUT\": \"3PH AC200-240V   \\n(50/60Hz)\", \"OUTPUT\": \"3PH AC200-240Vmax0.2-400Hz\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"Inverter\", \"INPUT\": \"3PH AC200-240V   \\n(50/60Hz)\", \"OUTPUT\": \"3PH AC200-240Vmax0.2-400Hz\"}",
     "images": [
       "2757_1.jpg",
       "2757_3.jpg",
@@ -8897,7 +8897,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"200W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"200W\", \"-\": \"-\"}",
     "images": [
       "2758_1.jpg",
       "2758_3.jpg",
@@ -8920,7 +8920,7 @@ const productsData = [
     "category_sub_en": "CABLE & CONNECTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"Motor Power Cable \\n(J3)\", \"길이\": \"6M\", \"Condition\": \"미사용 새제품\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"Motor Power Cable \\n(J3)\", \"Length\": \"6M\", \"Condition\": \"Unused (New Product)\"}",
     "images": [
       "2762_1.jpg",
       "2762_3.jpg",
@@ -8942,7 +8942,7 @@ const productsData = [
     "category_sub_en": "CABLE & CONNECTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"Encoder Cable \\n(J3)\", \"길이\": \"5M\", \"Condition\": \"미사용 새제품\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"Encoder Cable \\n(J3)\", \"Length\": \"5M\", \"Condition\": \"Unused (New Product)\"}",
     "images": [
       "2763_1.jpg",
       "2763_5.jpg"
@@ -8963,7 +8963,7 @@ const productsData = [
     "category_sub_en": "CABLE & CONNECTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"Encoder Cable \\n(J3)\", \"길이\": \"6M\", \"Condition\": \"미사용 새제품\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"Encoder Cable \\n(J3)\", \"Length\": \"6M\", \"Condition\": \"Unused (New Product)\"}",
     "images": [
       "2764_1.jpg",
       "2764_4.jpg",
@@ -9075,7 +9075,7 @@ const productsData = [
     "category_sub_en": "1 axis",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"ALPHA\", \"Classification\": \"1축 로봇\", \"크기(mm)\": \"800*280*120\", \"행정거리(mm)\": \"400\"}",
+    "specifications": "{\"MAKER\": \"ALPHA\", \"Classification\": \"1축 Robot\", \"Size (mm)\": \"800*280*120\", \"Stroke Distance (mm)\": \"400\"}",
     "images": [
       "2786_1.jpg",
       "2786_3.jpg",
@@ -9098,7 +9098,7 @@ const productsData = [
     "category_sub_en": "1 axis",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"ALPHA\", \"Classification\": \"1축 로봇\", \"크기(mm)\": \"930*200*130\", \"행정거리(mm)\": \"400\"}",
+    "specifications": "{\"MAKER\": \"ALPHA\", \"Classification\": \"1축 Robot\", \"Size (mm)\": \"930*200*130\", \"Stroke Distance (mm)\": \"400\"}",
     "images": [
       "2788_1.jpg",
       "2788_3.jpg",
@@ -9121,7 +9121,7 @@ const productsData = [
     "category_sub_en": "1 axis",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"BAHR\", \"Classification\": \"1축 로봇\", \"크기(mm)\": \"2510*60*75\", \"행정거리(mm)\": \"1600\"}",
+    "specifications": "{\"MAKER\": \"BAHR\", \"Classification\": \"1축 Robot\", \"Size (mm)\": \"2510*60*75\", \"Stroke Distance (mm)\": \"1600\"}",
     "images": [
       "2792_1.jpg",
       "2792_3.jpg",
@@ -9144,7 +9144,7 @@ const productsData = [
     "category_sub_en": "1 axis",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"로보스타\", \"Classification\": \"1축 로봇\", \"크기(mm)\": \"1900*125*145\", \"행정거리(mm)\": \"1000\"}",
+    "specifications": "{\"MAKER\": \"로보스타\", \"Classification\": \"1축 Robot\", \"Size (mm)\": \"1900*125*145\", \"Stroke Distance (mm)\": \"1000\"}",
     "images": [
       "2793_1.jpg",
       "2793_2.jpg",
@@ -9168,7 +9168,7 @@ const productsData = [
     "category_sub_en": "1 axis",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"C&L\", \"Classification\": \"1축 로봇\", \"크기(mm)\": \"2115*100*130\", \"행정거리(mm)\": \"1600\"}",
+    "specifications": "{\"MAKER\": \"C&L\", \"Classification\": \"1축 Robot\", \"Size (mm)\": \"2115*100*130\", \"Stroke Distance (mm)\": \"1600\"}",
     "images": [
       "2794_1.jpg",
       "2794_3.jpg",
@@ -9214,7 +9214,7 @@ const productsData = [
     "category_sub_en": "MOTOR+DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"FUJI\", \"Classification\": \"AC 서보\", \"출력\": \"2KW\", \"엔코더케이블\": \"포함\"}",
+    "specifications": "{\"MAKER\": \"FUJI\", \"Classification\": \"AC 서보\", \"Output\": \"2KW\", \"Encoder Cable\": \"포함\"}",
     "images": [
       "2799_1.jpg",
       "2799_2.jpg",
@@ -9238,7 +9238,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"출력\": \"100W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"Output\": \"100W\", \"Condition\": \"A\"}",
     "images": [
       "2800_1.jpg",
       "2800_3.jpg",
@@ -9261,7 +9261,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SUNJE Hi-Tek\", \"Classification\": \"이오나이져 파워\", \"Condition\": \"미사용 박스\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SUNJE Hi-Tek\", \"Classification\": \"이오나이져 파워\", \"Condition\": \"Unused (Boxed)\", \"-\": \"-\"}",
     "images": [
       "2804_1.jpg",
       "2804_2.jpg",
@@ -9284,7 +9284,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SUNJE Hi-Tek\", \"Classification\": \"이오나이져 인디케이터\", \"Condition\": \"미사용\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SUNJE Hi-Tek\", \"Classification\": \"이오나이져 인디케이터\", \"Condition\": \"Unused\", \"-\": \"-\"}",
     "images": [
       "2805_1.jpg",
       "2805_2.jpg",
@@ -9307,7 +9307,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Orientalmotor\", \"Classification\": \"AC모터컨트롤러\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Orientalmotor\", \"Classification\": \"AC MotorController\", \"-\": \"-\"}",
     "images": [
       "2813_1.jpg",
       "2813_3.jpg",
@@ -9330,7 +9330,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"FETO\", \"Classification\": \"AIR 실린더(가이드형)\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"FETO\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"-\": \"-\"}",
     "images": [
       "2817_1.jpg",
       "2817_3.jpg",
@@ -9353,7 +9353,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "LM가이드부착형실린더",
     "category_subsub_en": "LM guide attached cylinder",
-    "specifications": "{\"MAKER\": \"TPC\", \"Classification\": \"AIR 실린더(가이드형)\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TPC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"-\": \"-\"}",
     "images": [
       "2818_1.jpg",
       "2818_3.jpg",
@@ -9376,7 +9376,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "LM가이드부착형실린더",
     "category_subsub_en": "LM guide attached cylinder",
-    "specifications": "{\"MAKER\": \"TPC\", \"Classification\": \"AIR 실린더(가이드형)\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TPC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"-\": \"-\"}",
     "images": [
       "2819_1.jpg",
       "2819_3.jpg",
@@ -9466,7 +9466,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"750W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"750W\", \"-\": \"-\"}",
     "images": [
       "2835_1.jpg",
       "2835_3.jpg",
@@ -9489,7 +9489,7 @@ const productsData = [
     "category_sub_en": "PROFACE",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Pro-face\", \"Classification\": \"Touch screen\", \"Condition\": \"A\", \"동작Condition\": \"정상동작\"}",
+    "specifications": "{\"MAKER\": \"Pro-face\", \"Classification\": \"Touch screen\", \"Condition\": \"A\", \"Operation Condition\": \"정상동작\"}",
     "images": [
       "2839_1.jpg",
       "2839_3.jpg",
@@ -9535,7 +9535,7 @@ const productsData = [
     "category_sub_en": "BLDC",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"BRUSHLESS DC \\nMOTOR DRIVER\", \"사용전압\": \"200-230V\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"BRUSHLESS DC \\nMOTOR DRIVER\", \"Voltage\": \"200-230V\", \"-\": \"-\"}",
     "images": [
       "2845_1.jpg",
       "2845_3.jpg",
@@ -9696,7 +9696,7 @@ const productsData = [
     "category_sub_en": "coupling",
     "category_subsub_kr": "디스크&MICRO 커플링",
     "category_subsub_en": "Disk&MICRO Coupling",
-    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"커플링\", \"외경 (mm)\": \"67\", \"내경1 (mm)\": \"20\"}",
+    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"커플링\", \"Outer Diameter (mm)\": \"67\", \"Inner Diameter 1 (mm)\": \"20\"}",
     "images": [
       "2853_1.jpg",
       "2853_3.jpg",
@@ -9719,7 +9719,7 @@ const productsData = [
     "category_sub_en": "coupling",
     "category_subsub_kr": "디스크&MICRO 커플링",
     "category_subsub_en": "Disk&MICRO Coupling",
-    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"커플링\", \"외경 (mm)\": \"67\", \"내경1 (mm)\": \"22\"}",
+    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"커플링\", \"Outer Diameter (mm)\": \"67\", \"Inner Diameter 1 (mm)\": \"22\"}",
     "images": [
       "2856_1.jpg",
       "2856_3.jpg",
@@ -9741,7 +9741,7 @@ const productsData = [
     "category_sub_en": "coupling",
     "category_subsub_kr": "디스크&MICRO 커플링",
     "category_subsub_en": "Disk&MICRO Coupling",
-    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"커플링\", \"외경 (mm)\": \"67\", \"내경1 (mm)\": \"25\"}",
+    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"커플링\", \"Outer Diameter (mm)\": \"67\", \"Inner Diameter 1 (mm)\": \"25\"}",
     "images": [
       "2860_1.jpg",
       "2860_3.jpg",
@@ -9764,7 +9764,7 @@ const productsData = [
     "category_sub_en": "coupling",
     "category_subsub_kr": "디스크&MICRO 커플링",
     "category_subsub_en": "Disk&MICRO Coupling",
-    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"커플링\", \"외경 (mm)\": \"67\", \"내경1 (mm)\": \"24\"}",
+    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"커플링\", \"Outer Diameter (mm)\": \"67\", \"Inner Diameter 1 (mm)\": \"24\"}",
     "images": [
       "2861_1.jpg",
       "2861_3.jpg",
@@ -9787,7 +9787,7 @@ const productsData = [
     "category_sub_en": "coupling",
     "category_subsub_kr": "디스크&MICRO 커플링",
     "category_subsub_en": "Disk&MICRO Coupling",
-    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"커플링\", \"외경 (mm)\": \"57\", \"내경1 (mm)\": \"20\"}",
+    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"커플링\", \"Outer Diameter (mm)\": \"57\", \"Inner Diameter 1 (mm)\": \"20\"}",
     "images": [
       "2863_1.jpg",
       "2863_3.jpg",
@@ -9810,7 +9810,7 @@ const productsData = [
     "category_sub_en": "coupling",
     "category_subsub_kr": "디스크&MICRO 커플링",
     "category_subsub_en": "Disk&MICRO Coupling",
-    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"커플링\", \"외경 (mm)\": \"57\", \"내경1 (mm)\": \"20\"}",
+    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"커플링\", \"Outer Diameter (mm)\": \"57\", \"Inner Diameter 1 (mm)\": \"20\"}",
     "images": [
       "2864_1.jpg",
       "2864_3.jpg",
@@ -9832,7 +9832,7 @@ const productsData = [
     "category_sub_en": "coupling",
     "category_subsub_kr": "디스크&MICRO 커플링",
     "category_subsub_en": "Disk&MICRO Coupling",
-    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"커플링\", \"외경 (mm)\": \"104\", \"내경1 (mm)\": \"55\"}",
+    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"커플링\", \"Outer Diameter (mm)\": \"104\", \"Inner Diameter 1 (mm)\": \"55\"}",
     "images": [
       "2868_1.jpg",
       "2868_3.jpg",
@@ -9854,7 +9854,7 @@ const productsData = [
     "category_sub_en": "coupling",
     "category_subsub_kr": "디스크&MICRO 커플링",
     "category_subsub_en": "Disk&MICRO Coupling",
-    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"커플링\", \"외경 (mm)\": \"88\", \"내경1 (mm)\": \"32\"}",
+    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"커플링\", \"Outer Diameter (mm)\": \"88\", \"Inner Diameter 1 (mm)\": \"32\"}",
     "images": [
       "2870_1.jpg",
       "2870_3.jpg"
@@ -9875,7 +9875,7 @@ const productsData = [
     "category_sub_en": "coupling",
     "category_subsub_kr": "디스크&MICRO 커플링",
     "category_subsub_en": "Disk&MICRO Coupling",
-    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"커플링\", \"외경 (mm)\": \"126\", \"내경1 (mm)\": \"42\"}",
+    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"커플링\", \"Outer Diameter (mm)\": \"126\", \"Inner Diameter 1 (mm)\": \"42\"}",
     "images": [
       "2871_1.jpg",
       "2871_3.jpg"
@@ -9896,7 +9896,7 @@ const productsData = [
     "category_sub_en": "CABLE & CONNECTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"Encoder Cable (J3)\", \"길이\": \"5M\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"Encoder Cable (J3)\", \"Length\": \"5M\", \"-\": \"-\"}",
     "images": [
       "2875_1.jpg",
       "2875_3.jpg"
@@ -9917,7 +9917,7 @@ const productsData = [
     "category_sub_en": "Ball screw support unit",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"대성정밀\", \"Classification\": \"볼스크류 서포트유니트\", \"Condition\": \"미사용 박스\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"대성정밀\", \"Classification\": \"Ball Screw 서포트유니트\", \"Condition\": \"Unused (Boxed)\", \"-\": \"-\"}",
     "images": [
       "2894_1.jpg",
       "2894_3.jpg",
@@ -9963,7 +9963,7 @@ const productsData = [
     "category_sub_en": "Breaker/Switch",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Earth Leakage Breaker\", \"사양\": \"75A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Earth Leakage Breaker\", \"Specification\": \"75A\", \"-\": \"-\"}",
     "images": [
       "2909_1.jpg",
       "2909_3.jpg",
@@ -9986,7 +9986,7 @@ const productsData = [
     "category_sub_en": "Breaker/Switch",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Earth Leakage Breaker\", \"사양\": \"100A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Earth Leakage Breaker\", \"Specification\": \"100A\", \"-\": \"-\"}",
     "images": [
       "2910_1.jpg",
       "2910_3.jpg",
@@ -10009,7 +10009,7 @@ const productsData = [
     "category_sub_en": "Breaker/Switch",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Earth Leakage Breaker\", \"사양\": \"40A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Earth Leakage Breaker\", \"Specification\": \"40A\", \"-\": \"-\"}",
     "images": [
       "2911_1.jpg",
       "2911_3.jpg",
@@ -10031,7 +10031,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"센서\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"Sensor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "2920_1.jpg",
       "2920_3.jpg",
@@ -10054,7 +10054,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "NSK",
     "category_subsub_en": "NSK",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"DD MOTOR DRIVER\", \"Condition\": \"BOX포장미사용\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"DD MOTOR DRIVER\", \"Condition\": \"BOX포장Unused\", \"-\": \"-\"}",
     "images": [
       "2921_1.jpg",
       "2921_3.jpg",
@@ -10077,7 +10077,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"0.05KW\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"0.05KW\", \"-\": \"-\"}",
     "images": [
       "293_1.jpg",
       "293_3.jpg",
@@ -10099,7 +10099,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"ORIENTALMOTOR\", \"Classification\": \"SPEED CONTROL\", \"Condition\": \"미사용BOX\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"ORIENTALMOTOR\", \"Classification\": \"SPEED CONTROL\", \"Condition\": \"UnusedBOX\", \"-\": \"-\"}",
     "images": [
       "2932_1.jpg",
       "2932_3.jpg",
@@ -10122,7 +10122,7 @@ const productsData = [
     "category_sub_en": "CABLE & CONNECTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"ORIENTAL MOTOR\", \"Classification\": \"MOTOR CABLE\", \"Condition\": \"미사용\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"ORIENTAL MOTOR\", \"Classification\": \"MOTOR CABLE\", \"Condition\": \"Unused\", \"-\": \"-\"}",
     "images": [
       "2935_1.jpg",
       "2935_3.jpg",
@@ -10145,7 +10145,7 @@ const productsData = [
     "category_sub_en": "그리스",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"GREASE\", \"Condition\": \"-미사용 BOX\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"GREASE\", \"Condition\": \"-Unused BOX\", \"-\": \"-\"}",
     "images": [
       "2936_1.jpg",
       "2936_3.jpg",
@@ -10168,7 +10168,7 @@ const productsData = [
     "category_sub_en": "그리스",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"GREASE\", \"Condition\": \"미사용 BOX\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"GREASE\", \"Condition\": \"Unused BOX\", \"-\": \"-\"}",
     "images": [
       "2937_1.jpg",
       "2937_3.jpg",
@@ -10191,7 +10191,7 @@ const productsData = [
     "category_sub_en": "Cooling FAN,Cooler",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"POSEIDON\", \"Classification\": \"Liquid Cooler\", \"Condition\": \"미사용 BOX\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"POSEIDON\", \"Classification\": \"Liquid Cooler\", \"Condition\": \"Unused BOX\", \"-\": \"-\"}",
     "images": [
       "2938_1.jpg"
     ],
@@ -10211,7 +10211,7 @@ const productsData = [
     "category_sub_en": "PS2, VGA, VIDEO, KVM expansion parts",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"Extesion Calble\", \"Condition\": \"미사용\", \"길이\": \"5미터\"}",
+    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"Extesion Calble\", \"Condition\": \"Unused\", \"Length\": \"5미터\"}",
     "images": [
       "2941_1.jpg",
       "2941_3.jpg",
@@ -10234,7 +10234,7 @@ const productsData = [
     "category_sub_en": "PS2, VGA, VIDEO, KVM expansion parts",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"Extesion Calble\", \"Condition\": \"미사용\", \"길이\": \"10미터\"}",
+    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"Extesion Calble\", \"Condition\": \"Unused\", \"Length\": \"10미터\"}",
     "images": [
       "2942_1.jpg",
       "2942_3.jpg",
@@ -10257,7 +10257,7 @@ const productsData = [
     "category_sub_en": "PS2, VGA, VIDEO, KVM expansion parts",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"Extesion Calble\", \"Condition\": \"미사용\", \"길이\": \"120미터\"}",
+    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"Extesion Calble\", \"Condition\": \"Unused\", \"Length\": \"120미터\"}",
     "images": [
       "2943_1.jpg",
       "2943_3.jpg",
@@ -10349,7 +10349,7 @@ const productsData = [
     "category_sub_en": "lighting",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"LAMP\", \"Condition\": \"미사용\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"LAMP\", \"Condition\": \"Unused\", \"-\": \"-\"}",
     "images": [
       "2952_1.jpg",
       "2952_2.jpg",
@@ -10372,7 +10372,7 @@ const productsData = [
     "category_sub_en": "lighting",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"USHIO\", \"Classification\": \"Projection Lamp\", \"Condition\": \"미사용\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"USHIO\", \"Classification\": \"Projection Lamp\", \"Condition\": \"Unused\", \"-\": \"-\"}",
     "images": [
       "2953_1.jpg",
       "2953_2.jpg",
@@ -10394,7 +10394,7 @@ const productsData = [
     "category_sub_en": "lens",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"CAMERA LENS\", \"Condition\": \"미사용\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"CAMERA LENS\", \"Condition\": \"Unused\", \"-\": \"-\"}",
     "images": [
       "2954_1.jpg",
       "2954_2.jpg",
@@ -10440,7 +10440,7 @@ const productsData = [
     "category_sub_en": "MITSUBISHI",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"인버터\", \"INPUT\": \"3PH AC200-240V   \\n (50/60Hz)\", \"OUTPUT\": \"3PH AC200-240Vmax0.2-400Hz\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"Inverter\", \"INPUT\": \"3PH AC200-240V   \\n (50/60Hz)\", \"OUTPUT\": \"3PH AC200-240Vmax0.2-400Hz\"}",
     "images": [
       "2965_1.jpg",
       "2965_3.jpg",
@@ -10509,7 +10509,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"750W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"750W\", \"-\": \"-\"}",
     "images": [
       "2973_1.jpg",
       "2973_3.jpg",
@@ -10532,7 +10532,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "KOLLMORGEN",
     "category_subsub_en": "KOLLMORGEN",
-    "specifications": "{\"MAKER\": \"KOLLMORGEN\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"0.7KW\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"KOLLMORGEN\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"0.7KW\", \"-\": \"-\"}",
     "images": [
       "2975_1.jpg",
       "2975_3.jpg",
@@ -10555,7 +10555,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "KOMOTEK",
     "category_subsub_en": "KOMOTEK",
-    "specifications": "{\"MAKER\": \"KOMOTEK\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"400W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"KOMOTEK\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"400W\", \"-\": \"-\"}",
     "images": [
       "2976_1.jpg",
       "2976_3.jpg",
@@ -10578,7 +10578,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "KOMOTEK",
     "category_subsub_en": "KOMOTEK",
-    "specifications": "{\"MAKER\": \"KOMOTEK\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"1KW\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"KOMOTEK\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"1KW\", \"-\": \"-\"}",
     "images": [
       "2977_1.jpg",
       "2977_3.jpg",
@@ -10601,7 +10601,7 @@ const productsData = [
     "category_sub_en": "reducer",
     "category_subsub_kr": "Parker",
     "category_subsub_en": "Parker",
-    "specifications": "{\"MAKER\": \"PARKER\", \"Classification\": \"REDUCER\", \"감속비(Ratio)\": \"1:3\", \"Condition\": \"A-Level\"}",
+    "specifications": "{\"MAKER\": \"PARKER\", \"Classification\": \"REDUCER\", \"Reduction Ratio\": \"1:3\", \"Condition\": \"A-Level\"}",
     "images": [
       "2979_1.jpg",
       "2979_4.jpg",
@@ -10623,7 +10623,7 @@ const productsData = [
     "category_sub_en": "reducer",
     "category_subsub_kr": "FDS",
     "category_subsub_en": "FDS",
-    "specifications": "{\"MAKER\": \"FDS\", \"Classification\": \"REDUCER\", \"감속비(Ratio)\": \"3:1\", \"Condition\": \"A-Level\"}",
+    "specifications": "{\"MAKER\": \"FDS\", \"Classification\": \"REDUCER\", \"Reduction Ratio\": \"3:1\", \"Condition\": \"A-Level\"}",
     "images": [
       "2983_1.jpg",
       "2983_4.jpg",
@@ -10645,7 +10645,7 @@ const productsData = [
     "category_sub_en": "STEPPING MOTOR",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"5상\": \"-\", \"DEG/STEP\": \"0.72\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"5 Phase\": \"-\", \"DEG/STEP\": \"0.72\"}",
     "images": [
       "2986_1.jpg",
       "2986_3.jpg",
@@ -10736,7 +10736,7 @@ const productsData = [
     "category_sub_en": "1 axis",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"야스카와\", \"Classification\": \"리니어서보 엑츄에이터\", \"스트로크(mm)\": \"650\", \"드라이버/시리얼컨버터\": \"미포함\"}",
+    "specifications": "{\"MAKER\": \"야스카와 (Yaskawa)\", \"Classification\": \"리니어서보 엑츄에이터\", \"Stroke (mm)\": \"650\", \"Driver/Serial Converter\": \"미포함\"}",
     "images": [
       "2998_1.jpg",
       "2998_3.jpg",
@@ -10759,7 +10759,7 @@ const productsData = [
     "category_sub_en": "1 axis",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"야스카와\", \"Classification\": \"리니어서보 엑츄에이터\", \"스트로크(mm)\": \"690\", \"드라이버/시리얼컨버터\": \"미포함\"}",
+    "specifications": "{\"MAKER\": \"야스카와 (Yaskawa)\", \"Classification\": \"리니어서보 엑츄에이터\", \"Stroke (mm)\": \"690\", \"Driver/Serial Converter\": \"미포함\"}",
     "images": [],
     "url": "https://m.shmarket.co.kr/goods/goods_view.php?goodsNo=2999",
     "scraped_at": "2025-10-26T22:12:10.977368"
@@ -10777,7 +10777,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "KOMOTEK",
     "category_subsub_en": "KOMOTEK",
-    "specifications": "{\"MAKER\": \"KOMOTEK\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"100W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"KOMOTEK\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"100W\", \"-\": \"-\"}",
     "images": [
       "3002_1.jpg",
       "3002_3.jpg",
@@ -10800,7 +10800,7 @@ const productsData = [
     "category_sub_en": "lens",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"CAMERA LENS\", \"Condition\": \"중고\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"CAMERA LENS\", \"Condition\": \"Used\", \"-\": \"-\"}",
     "images": [
       "3006_1.jpg",
       "3006_3.jpg",
@@ -10823,7 +10823,7 @@ const productsData = [
     "category_sub_en": "lens",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"CAMERA LENS\", \"조명\": \"포함\", \"렌즈 아답터\": \"포함\"}",
+    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"CAMERA LENS\", \"Lighting\": \"포함\", \"Lens Adapter\": \"포함\"}",
     "images": [
       "3010_1.jpg",
       "3010_3.jpg",
@@ -10915,7 +10915,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SAMSUNG\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"200W\", \"브레이크\": \"O\"}",
+    "specifications": "{\"MAKER\": \"SAMSUNG\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"200W\", \"Brake\": \"O\"}",
     "images": [
       "3015_1.jpg",
       "3015_3.jpg",
@@ -10938,7 +10938,7 @@ const productsData = [
     "category_sub_en": "1 axis",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"ALPHA\", \"Classification\": \"LM ACTUATOR\", \"스트로크\": \"800mm\", \"리드\": \"10mm\"}",
+    "specifications": "{\"MAKER\": \"ALPHA\", \"Classification\": \"LM ACTUATOR\", \"Stroke\": \"800mm\", \"Lead\": \"10mm\"}",
     "images": [
       "3023_1.jpg",
       "3023_2.jpg",
@@ -11104,7 +11104,7 @@ const productsData = [
     "category_sub_en": "LS prenatal",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"LS\", \"Classification\": \"PLC\", \"Condition\": \"미사용\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"LS\", \"Classification\": \"PLC\", \"Condition\": \"Unused\", \"-\": \"-\"}",
     "images": [
       "3045_1.jpg",
       "3045_3.jpg"
@@ -11217,7 +11217,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"ORIENTAL  MOTOR\", \"Classification\": \"AC 모터\", \"Condition\": \"미사용BOX\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"ORIENTAL  MOTOR\", \"Classification\": \"AC Motor\", \"Condition\": \"UnusedBOX\", \"-\": \"-\"}",
     "images": [
       "3058_1.jpg",
       "3058_3.jpg",
@@ -11264,7 +11264,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"PISCO\", \"Classification\": \"솔레노이드밸브\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"PISCO\", \"Classification\": \"Solenoid Valve\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3063_1.jpg",
       "3063_2.jpg",
@@ -11403,7 +11403,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"COSEL\", \"Classification\": \"노이즈 필터\", \"사양\": \"6A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"COSEL\", \"Classification\": \"Noise Filter\", \"Specification\": \"6A\", \"-\": \"-\"}",
     "images": [
       "3084_1.jpg",
       "3084_2.jpg",
@@ -11426,7 +11426,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"0.75KW\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"0.75KW\", \"-\": \"-\"}",
     "images": [
       "309_1.jpg",
       "309_3.jpg",
@@ -11448,7 +11448,7 @@ const productsData = [
     "category_sub_en": "CABLE & CONNECTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"케이블\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Cable\", \"-\": \"-\"}",
     "images": [
       "3095_1.jpg",
       "3095_3.jpg"
@@ -11469,7 +11469,7 @@ const productsData = [
     "category_sub_en": "CABLE & CONNECTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"케이블\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Cable\", \"-\": \"-\"}",
     "images": [
       "3096_1.jpg",
       "3096_3.jpg"
@@ -11490,7 +11490,7 @@ const productsData = [
     "category_sub_en": "CABLE & CONNECTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"케이블\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Cable\", \"-\": \"-\"}",
     "images": [
       "3097_1.jpg",
       "3097_3.jpg",
@@ -11512,7 +11512,7 @@ const productsData = [
     "category_sub_en": "Ball screw support unit",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"성일\", \"Classification\": \"볼스크류 서포트유니트\", \"Condition\": \"미사용 박스\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"성일\", \"Classification\": \"Ball Screw 서포트유니트\", \"Condition\": \"Unused (Boxed)\", \"-\": \"-\"}",
     "images": [
       "3101_1.jpg",
       "3101_3.jpg"
@@ -11533,7 +11533,7 @@ const productsData = [
     "category_sub_en": "Ball screw support unit",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"성일\", \"Classification\": \"볼스크류 서포트유니트\", \"Condition\": \"미사용 박스\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"성일\", \"Classification\": \"Ball Screw 서포트유니트\", \"Condition\": \"Unused (Boxed)\", \"-\": \"-\"}",
     "images": [
       "3102_1.jpg",
       "3102_3.jpg"
@@ -11554,7 +11554,7 @@ const productsData = [
     "category_sub_en": "Ball screw support unit",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"성일\", \"Classification\": \"볼스크류 서포트유니트\", \"Condition\": \"미사용 박스\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"성일\", \"Classification\": \"Ball Screw 서포트유니트\", \"Condition\": \"Unused (Boxed)\", \"-\": \"-\"}",
     "images": [
       "3103_1.jpg",
       "3103_3.jpg",
@@ -11576,7 +11576,7 @@ const productsData = [
     "category_sub_en": "Ball screw support unit",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"성일\", \"Classification\": \"볼스크류 서포트유니트\", \"Condition\": \"미사용 박스\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"성일\", \"Classification\": \"Ball Screw 서포트유니트\", \"Condition\": \"Unused (Boxed)\", \"-\": \"-\"}",
     "images": [
       "3104_1.jpg",
       "3104_3.jpg",
@@ -11598,7 +11598,7 @@ const productsData = [
     "category_sub_en": "Ball screw support unit",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"성일\", \"Classification\": \"볼스크류 서포트유니트\", \"Condition\": \"미사용 박스\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"성일\", \"Classification\": \"Ball Screw 서포트유니트\", \"Condition\": \"Unused (Boxed)\", \"-\": \"-\"}",
     "images": [
       "3105_1.jpg",
       "3105_3.jpg",
@@ -11620,7 +11620,7 @@ const productsData = [
     "category_sub_en": "Ball screw support unit",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"성일\", \"Classification\": \"볼스크류 서포트유니트\", \"Condition\": \"미사용 박스\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"성일\", \"Classification\": \"Ball Screw 서포트유니트\", \"Condition\": \"Unused (Boxed)\", \"-\": \"-\"}",
     "images": [
       "3106_1.jpg",
       "3106_3.jpg",
@@ -11642,7 +11642,7 @@ const productsData = [
     "category_sub_en": "Ball screw support unit",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"성일\", \"Classification\": \"볼스크류 서포트유니트\", \"Condition\": \"미사용 박스\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"성일\", \"Classification\": \"Ball Screw 서포트유니트\", \"Condition\": \"Unused (Boxed)\", \"-\": \"-\"}",
     "images": [
       "3107_1.jpg",
       "3107_3.jpg"
@@ -11663,7 +11663,7 @@ const productsData = [
     "category_sub_en": "Ball screw support unit",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MENTOR\", \"Classification\": \"볼스크류 서포트유니트\", \"Condition\": \"미사용 박스\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MENTOR\", \"Classification\": \"Ball Screw 서포트유니트\", \"Condition\": \"Unused (Boxed)\", \"-\": \"-\"}",
     "images": [
       "3110_1.jpg",
       "3110_3.jpg",
@@ -11685,7 +11685,7 @@ const productsData = [
     "category_sub_en": "Ball screw support unit",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MENTOR\", \"Classification\": \"볼스크류 서포트유니트\", \"Condition\": \"미사용 박스\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MENTOR\", \"Classification\": \"Ball Screw 서포트유니트\", \"Condition\": \"Unused (Boxed)\", \"-\": \"-\"}",
     "images": [
       "3111_1.jpg",
       "3111_3.jpg",
@@ -11728,7 +11728,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "3115_1.jpg",
       "3115_2.jpg",
@@ -11774,7 +11774,7 @@ const productsData = [
     "category_sub_en": "6~20A",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"24V 20A\", \"입력 전원\": \"AC 100-240V\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"24V 20A\", \"Input Power\": \"AC 100-240V\"}",
     "images": [
       "3123_1.jpg",
       "3123_2.jpg",
@@ -11798,7 +11798,7 @@ const productsData = [
     "category_sub_en": "6~20A",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"24V 7.5A\", \"입력 전원\": \"AC 100-240V\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"24V 7.5A\", \"Input Power\": \"AC 100-240V\"}",
     "images": [
       "3124_1.jpg",
       "3124_2.jpg",
@@ -11822,7 +11822,7 @@ const productsData = [
     "category_sub_en": "6~20A",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MEAN WELL\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"24V 20A\", \"입력 전원\": \"AC 100-240V\"}",
+    "specifications": "{\"MAKER\": \"MEAN WELL\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"24V 20A\", \"Input Power\": \"AC 100-240V\"}",
     "images": [
       "3127_1.jpg",
       "3127_2.jpg",
@@ -11894,7 +11894,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"출력\": \"100W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"Output\": \"100W\", \"Condition\": \"A\"}",
     "images": [
       "3136_1.jpg",
       "3136_2.jpg",
@@ -11917,7 +11917,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"출력\": \"200W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"Output\": \"200W\", \"Condition\": \"A\"}",
     "images": [
       "3137_1.jpg",
       "3137_2.jpg",
@@ -11940,7 +11940,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"출력\": \"750W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"Output\": \"750W\", \"Condition\": \"A\"}",
     "images": [
       "3139_1.jpg",
       "3139_2.jpg",
@@ -11964,7 +11964,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"한영\", \"Classification\": \"컨트롤러\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"한영\", \"Classification\": \"Controller\", \"-\": \"-\"}",
     "images": [
       "3142_1.jpg",
       "3142_3.jpg",
@@ -11987,7 +11987,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"한영\", \"Classification\": \"컨트롤러\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"한영\", \"Classification\": \"Controller\", \"-\": \"-\"}",
     "images": [
       "3143_1.jpg",
       "3143_3.jpg",
@@ -12102,7 +12102,7 @@ const productsData = [
     "category_sub_en": "6~20A",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MEAN WELL\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"24V 10A\", \"입력 전원\": \"AC 100-240V\"}",
+    "specifications": "{\"MAKER\": \"MEAN WELL\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"24V 10A\", \"Input Power\": \"AC 100-240V\"}",
     "images": [
       "3157_1.jpg",
       "3157_3.jpg",
@@ -12194,7 +12194,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"COSEL\", \"Classification\": \"노이즈 필터\", \"사양\": \"10A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"COSEL\", \"Classification\": \"Noise Filter\", \"Specification\": \"10A\", \"-\": \"-\"}",
     "images": [
       "3178_1.jpg",
       "3178_3.jpg",
@@ -12216,7 +12216,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(가이드형)\", \"MAX PRESSURE\": \"1.0 MPa\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"MAX PRESSURE\": \"1.0 MPa\", \"-\": \"-\"}",
     "images": [
       "3179_1.jpg",
       "3179_3.jpg",
@@ -12239,7 +12239,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"COSEL\", \"Classification\": \"노이즈 필터\", \"사양\": \"4A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"COSEL\", \"Classification\": \"Noise Filter\", \"Specification\": \"4A\", \"-\": \"-\"}",
     "images": [
       "3180_1.jpg",
       "3180_3.jpg",
@@ -12262,7 +12262,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"COSEL\", \"Classification\": \"노이즈 필터\", \"사양\": \"6A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"COSEL\", \"Classification\": \"Noise Filter\", \"Specification\": \"6A\", \"-\": \"-\"}",
     "images": [
       "3181_1.jpg",
       "3181_3.jpg",
@@ -12284,7 +12284,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"COSEL\", \"Classification\": \"노이즈 필터\", \"사양\": \"20A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"COSEL\", \"Classification\": \"Noise Filter\", \"Specification\": \"20A\", \"-\": \"-\"}",
     "images": [
       "3182_1.jpg",
       "3182_3.jpg",
@@ -12307,7 +12307,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"COSEL\", \"Classification\": \"노이즈 필터\", \"사양\": \"30A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"COSEL\", \"Classification\": \"Noise Filter\", \"Specification\": \"30A\", \"-\": \"-\"}",
     "images": [
       "3183_1.jpg",
       "3183_3.jpg",
@@ -12330,7 +12330,7 @@ const productsData = [
     "category_sub_en": "NSK",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"총장(mm)\": \"160\", \"블럭수 (EA)\": \"1\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"Total Length (mm)\": \"160\", \"Block Count (EA)\": \"1\"}",
     "images": [
       "3184_1.jpg",
       "3184_3.jpg",
@@ -12353,7 +12353,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "LM가이드부착형실린더",
     "category_subsub_en": "LM guide attached cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(가이드형)\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"-\": \"-\"}",
     "images": [
       "3185_1.jpg",
       "3185_2.jpg",
@@ -12376,7 +12376,7 @@ const productsData = [
     "category_sub_en": "reducer",
     "category_subsub_kr": "BRATO",
     "category_subsub_en": "BRATO",
-    "specifications": "{\"MAKER\": \"Brato 브라토\", \"Classification\": \"서보감속기\", \"감속비\": \"20 :1\", \"Condition\": \"미사용 새제품\"}",
+    "specifications": "{\"MAKER\": \"Brato 브라토\", \"Classification\": \"서보감속기\", \"Reduction Ratio\": \"20 :1\", \"Condition\": \"Unused (New Product)\"}",
     "images": [
       "3195_1.jpg",
       "3195_3.jpg",
@@ -12399,7 +12399,7 @@ const productsData = [
     "category_sub_en": "043-532-3174",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"IKO\", \"Classification\": \"LM 가이드\", \"A:레일 총   \\n길이(mm)\": \"149\", \"B:레일 폭(mm)\": \"12\"}",
+    "specifications": "{\"MAKER\": \"IKO\", \"Classification\": \"LM Guide\", \"A: Rail Total Length (mm)\": \"149\", \"B: Rail Width (mm)\": \"12\"}",
     "images": [
       "3202_1.jpg",
       "3202_3.jpg",
@@ -12421,7 +12421,7 @@ const productsData = [
     "category_sub_en": "043-532-3174",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"IKO\", \"Classification\": \"LM 가이드\", \"A:레일 총   \\n길이(mm)\": \"158\", \"B:레일 폭(mm)\": \"12\"}",
+    "specifications": "{\"MAKER\": \"IKO\", \"Classification\": \"LM Guide\", \"A: Rail Total Length (mm)\": \"158\", \"B: Rail Width (mm)\": \"12\"}",
     "images": [
       "3203_4.jpg",
       "3203_5.jpg"
@@ -12442,7 +12442,7 @@ const productsData = [
     "category_sub_en": "043-532-3174",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"IKO\", \"Classification\": \"LM 가이드\", \"A:레일 총   \\n 길이(mm)\": \"195\", \"B:레일 폭(mm)\": \"12\"}",
+    "specifications": "{\"MAKER\": \"IKO\", \"Classification\": \"LM Guide\", \"A: Rail Total Length (mm)\": \"195\", \"B: Rail Width (mm)\": \"12\"}",
     "images": [],
     "url": "https://m.shmarket.co.kr/goods/goods_view.php?goodsNo=3204",
     "scraped_at": "2025-10-26T22:24:37.746913"
@@ -12460,7 +12460,7 @@ const productsData = [
     "category_sub_en": "043-532-3174",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"IKO\", \"Classification\": \"LM 가이드\", \"A:레일 총    \\n 길이(mm)\": \"230\", \"B:레일 폭(mm)\": \"12\"}",
+    "specifications": "{\"MAKER\": \"IKO\", \"Classification\": \"LM Guide\", \"A: Rail Total Length (mm)\": \"230\", \"B: Rail Width (mm)\": \"12\"}",
     "images": [
       "3205_4.jpg"
     ],
@@ -12480,7 +12480,7 @@ const productsData = [
     "category_sub_en": "MITSUBISHI",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"인버터\", \"INPUT\": \"3PH AC380-480V    \\n (50/60Hz)\", \"OUTPUT\": \"3PH AC380-480Vmax  0.2-400Hz\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"Inverter\", \"INPUT\": \"3PH AC380-480V    \\n (50/60Hz)\", \"OUTPUT\": \"3PH AC380-480Vmax  0.2-400Hz\"}",
     "images": [
       "3208_1.jpg",
       "3208_2.jpg",
@@ -12552,7 +12552,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Tamagawa seiki\", \"Classification\": \"Servomotor\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Tamagawa seiki\", \"Classification\": \"Servomotor\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3224_1.jpg",
       "3224_2.jpg",
@@ -12576,7 +12576,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "FUJI",
     "category_subsub_en": "FUJI",
-    "specifications": "{\"MAKER\": \"FUJI\", \"Classification\": \"AC SERVO DRIVER\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"FUJI\", \"Classification\": \"AC SERVO DRIVER\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3226_1.jpg",
       "3226_2.jpg"
@@ -12597,7 +12597,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "FUJI",
     "category_subsub_en": "FUJI",
-    "specifications": "{\"MAKER\": \"FUJI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"200W\", \"Condition\": \"미사용\"}",
+    "specifications": "{\"MAKER\": \"FUJI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"200W\", \"Condition\": \"Unused\"}",
     "images": [
       "3230_1.jpg",
       "3230_2.jpg",
@@ -12619,7 +12619,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "RS Automation",
     "category_subsub_en": "RS Automation",
-    "specifications": "{\"MAKER\": \"RS Automation\", \"Classification\": \"Servomotor Driver\", \"출력\": \"800W\", \"Condition\": \"A-Level\"}",
+    "specifications": "{\"MAKER\": \"RS Automation\", \"Classification\": \"Servomotor Driver\", \"Output\": \"800W\", \"Condition\": \"A-Level\"}",
     "images": [
       "3232_1.jpg",
       "3232_2.jpg",
@@ -12643,7 +12643,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "RS Automation",
     "category_subsub_en": "RS Automation",
-    "specifications": "{\"MAKER\": \"RS Automation\", \"Classification\": \"Servomotor Driver\", \"출력\": \"400W\", \"Condition\": \"A-Level\"}",
+    "specifications": "{\"MAKER\": \"RS Automation\", \"Classification\": \"Servomotor Driver\", \"Output\": \"400W\", \"Condition\": \"A-Level\"}",
     "images": [
       "3234_1.jpg",
       "3234_2.jpg",
@@ -12665,7 +12665,7 @@ const productsData = [
     "category_sub_en": "STEPPING MOTOR",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"GGM\", \"Classification\": \"DC MOTOR\", \"Condition\": \"미사용 새제품\", \"전압\": \"DC 90V\"}",
+    "specifications": "{\"MAKER\": \"GGM\", \"Classification\": \"DC MOTOR\", \"Condition\": \"Unused (New Product)\", \"Voltage\": \"DC 90V\"}",
     "images": [
       "3236_1.jpg",
       "3236_2.jpg",
@@ -12688,7 +12688,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "FUJI",
     "category_subsub_en": "FUJI",
-    "specifications": "{\"MAKER\": \"RS Automation\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"200W\", \"Condition\": \"미사용\"}",
+    "specifications": "{\"MAKER\": \"RS Automation\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"200W\", \"Condition\": \"Unused\"}",
     "images": [
       "3238_1.jpg",
       "3238_2.jpg",
@@ -12710,7 +12710,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "RS Automation",
     "category_subsub_en": "RS Automation",
-    "specifications": "{\"MAKER\": \"RS Automation\", \"Classification\": \"Servomotor Driver\", \"출력\": \"100W\", \"Condition\": \"A-Level\"}",
+    "specifications": "{\"MAKER\": \"RS Automation\", \"Classification\": \"Servomotor Driver\", \"Output\": \"100W\", \"Condition\": \"A-Level\"}",
     "images": [
       "3240_1.jpg",
       "3240_2.jpg",
@@ -12733,7 +12733,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "RS Automation",
     "category_subsub_en": "RS Automation",
-    "specifications": "{\"MAKER\": \"RS Automation\", \"Classification\": \"Servomotor Driver\", \"출력\": \"200W\", \"Condition\": \"A-Level\"}",
+    "specifications": "{\"MAKER\": \"RS Automation\", \"Classification\": \"Servomotor Driver\", \"Output\": \"200W\", \"Condition\": \"A-Level\"}",
     "images": [
       "3241_1.jpg",
       "3241_2.jpg",
@@ -12757,7 +12757,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "RS Automation",
     "category_subsub_en": "RS Automation",
-    "specifications": "{\"MAKER\": \"RS Automation\", \"Classification\": \"Servomotor Driver\", \"출력\": \"3KW/200W\", \"Condition\": \"A-Level\"}",
+    "specifications": "{\"MAKER\": \"RS Automation\", \"Classification\": \"Servomotor Driver\", \"Output\": \"3KW/200W\", \"Condition\": \"A-Level\"}",
     "images": [
       "3242_1.jpg",
       "3242_2.jpg"
@@ -12778,7 +12778,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "RS Automation",
     "category_subsub_en": "RS Automation",
-    "specifications": "{\"MAKER\": \"RS Automation\", \"Classification\": \"Servomotor Driver\", \"출력\": \"3KW/100W\", \"Condition\": \"A-Level\"}",
+    "specifications": "{\"MAKER\": \"RS Automation\", \"Classification\": \"Servomotor Driver\", \"Output\": \"3KW/100W\", \"Condition\": \"A-Level\"}",
     "images": [
       "3243_1.jpg",
       "3243_2.jpg"
@@ -12820,7 +12820,7 @@ const productsData = [
     "category_sub_en": "ROCKWELL",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"ROCKWELL AUTOMATION\", \"Classification\": \"인버터\", \"INPUT\": \"AC 342-528V 3PH\", \"OUTPUT\": \"6.0A\"}",
+    "specifications": "{\"MAKER\": \"ROCKWELL AUTOMATION\", \"Classification\": \"Inverter\", \"INPUT\": \"AC 342-528V 3PH\", \"OUTPUT\": \"6.0A\"}",
     "images": [
       "3246_1.jpg",
       "3246_2.jpg",
@@ -12842,7 +12842,7 @@ const productsData = [
     "category_sub_en": "ROCKWELL",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"ROCKWELL AUTOMATION\", \"Classification\": \"인버터\", \"INPUT\": \"AC 342-528V 3PH\", \"OUTPUT\": \"24A\"}",
+    "specifications": "{\"MAKER\": \"ROCKWELL AUTOMATION\", \"Classification\": \"Inverter\", \"INPUT\": \"AC 342-528V 3PH\", \"OUTPUT\": \"24A\"}",
     "images": [
       "3248_1.jpg",
       "3248_2.jpg",
@@ -12864,7 +12864,7 @@ const productsData = [
     "category_sub_en": "wafer transfer robot",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TAZMO\", \"Classification\": \"ATM ROBOT\", \"X-Axis(주행축)\": \"For 2 Load Port\", \"전원 및 사양\": \"명판참조\"}",
+    "specifications": "{\"MAKER\": \"TAZMO\", \"Classification\": \"ATM ROBOT\", \"X-Axis (Travel Axis)\": \"For 2 Load Port\", \"Power and Specifications\": \"명판참조\"}",
     "images": [
       "3263_1.jpg",
       "3263_2.jpg",
@@ -12888,7 +12888,7 @@ const productsData = [
     "category_sub_en": "wafer transfer robot",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TAZMO\", \"Classification\": \"ATM ROBOT\", \"X-Axis(주행축)\": \"For 3 Load Port\", \"전원 및 사양\": \"명판참조\"}",
+    "specifications": "{\"MAKER\": \"TAZMO\", \"Classification\": \"ATM ROBOT\", \"X-Axis (Travel Axis)\": \"For 3 Load Port\", \"Power and Specifications\": \"명판참조\"}",
     "images": [
       "3264_1.jpg",
       "3264_2.jpg",
@@ -12912,7 +12912,7 @@ const productsData = [
     "category_sub_en": "ALIGNER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TAZMO\", \"Classification\": \"Aligner\", \"적용 Wafer\": \"300mm\", \"전원및 상양\": \"명판참조\"}",
+    "specifications": "{\"MAKER\": \"TAZMO\", \"Classification\": \"Aligner\", \"Applied Wafer\": \"300mm\", \"Power and Specifications\": \"명판참조\"}",
     "images": [
       "3269_1.jpg",
       "3269_2.jpg",
@@ -12984,7 +12984,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"100W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"100W\", \"-\": \"-\"}",
     "images": [
       "3301_1.jpg",
       "3301_2.jpg",
@@ -13008,7 +13008,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"SERIAL \\n CONVERTER\", \"적용모터\": \"SGLFW-35A120A\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"SERIAL \\n CONVERTER\", \"Applied Motor\": \"SGLFW-35A120A\", \"Condition\": \"A\"}",
     "images": [
       "3305_1.jpg",
       "3305_3.jpg",
@@ -13031,7 +13031,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"SERIAL  \\nCONVERTER\", \"적용모터\": \"SGLFW-35A230A\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"SERIAL  \\nCONVERTER\", \"Applied Motor\": \"SGLFW-35A230A\", \"Condition\": \"A\"}",
     "images": [
       "3306_1.jpg",
       "3306_3.jpg",
@@ -13053,7 +13053,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"SERIAL   \\nCONVERTER\", \"적용모터\": \"SGLFW-50A380AP\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"SERIAL   \\nCONVERTER\", \"Applied Motor\": \"SGLFW-50A380AP\", \"Condition\": \"A\"}",
     "images": [
       "3307_1.jpg",
       "3307_3.jpg",
@@ -13098,7 +13098,7 @@ const productsData = [
     "category_sub_en": "YASKAWA",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"YASKAWA\", \"Classification\": \"인버터\", \"INPUT\": \"AC200-230V   \\n(50/60Hz)\", \"OUTPUT\": \"AC 0-230V0-400Hz\"}",
+    "specifications": "{\"MAKER\": \"YASKAWA\", \"Classification\": \"Inverter\", \"INPUT\": \"AC200-230V   \\n(50/60Hz)\", \"OUTPUT\": \"AC 0-230V0-400Hz\"}",
     "images": [
       "3318_1.jpg",
       "3318_2.jpg",
@@ -13122,7 +13122,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(가이드형)\", \"MAX PRESSURE\": \"1.0 MPa\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"MAX PRESSURE\": \"1.0 MPa\", \"Condition\": \"A\"}",
     "images": [
       "3324_1.jpg",
       "3324_2.jpg",
@@ -13146,7 +13146,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"TPC\", \"Classification\": \"AIR 실린더(가이드형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TPC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3326_1.jpg",
       "3326_2.jpg",
@@ -13218,7 +13218,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"200W\", \"감속비\": \"20:1\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"200W\", \"Reduction Ratio\": \"20:1\"}",
     "images": [
       "3331_1.jpg",
       "3331_2.jpg",
@@ -13265,7 +13265,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Miki Pulley\", \"Classification\": \"인버터\", \"OUTPUT CURRENT\": \"15A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Miki Pulley\", \"Classification\": \"Inverter\", \"OUTPUT CURRENT\": \"15A\", \"-\": \"-\"}",
     "images": [
       "3348_1.jpg",
       "3348_2.jpg",
@@ -13288,7 +13288,7 @@ const productsData = [
     "category_sub_en": "NSK",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"총장(mm)\": \"140\", \"블럭수 (EA)\": \"1\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"Total Length (mm)\": \"140\", \"Block Count (EA)\": \"1\"}",
     "images": [
       "3352_1.jpg",
       "3352_2.jpg",
@@ -13312,7 +13312,7 @@ const productsData = [
     "category_sub_en": "NSK",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"설명\": \"블럭만 판매\", \"Condition\": \"미사용\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"Description\": \"블럭만 판매\", \"Condition\": \"Unused\"}",
     "images": [
       "3353_1.jpg",
       "3353_2.jpg",
@@ -13334,7 +13334,7 @@ const productsData = [
     "category_sub_en": "THK SR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM\", \"레일길이(mm)\": \"195\", \"블럭수(EA)\": \"1\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM\", \"Rail Length (mm)\": \"195\", \"Block Count (EA)\": \"1\"}",
     "images": [
       "3354_1.jpg",
       "3354_2.jpg",
@@ -13358,7 +13358,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"SERIAL   \\n CONVERTER\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"SERIAL   \\n CONVERTER\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3355_1.jpg",
       "3355_3.jpg",
@@ -13381,7 +13381,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"SERIAL    \\nCONVERTER\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"SERIAL    \\nCONVERTER\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3356_1.jpg",
       "3356_3.jpg",
@@ -13404,7 +13404,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"SERIAL    \\n CONVERTER\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"SERIAL    \\n CONVERTER\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3357_1.jpg",
       "3357_3.jpg",
@@ -13427,7 +13427,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"SERVOPACK INDEXER OPTION \\n UNIT\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"SERVOPACK INDEXER OPTION \\n UNIT\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3358_1.jpg",
       "3358_2.jpg",
@@ -13450,7 +13450,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"SERVOPACK\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"SERVOPACK\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3359_1.jpg",
       "3359_3.jpg",
@@ -13472,7 +13472,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"SERVOPACK\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"SERVOPACK\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3361_1.jpg",
       "3361_2.jpg",
@@ -13496,7 +13496,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"SERVOPACK\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"SERVOPACK\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3363_1.jpg",
       "3363_2.jpg",
@@ -13519,7 +13519,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"SERVOPACK\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"SERVOPACK\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3364_2.jpg",
       "3364_3.jpg"
@@ -13540,7 +13540,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"SERVOPACK\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"SERVOPACK\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3365_1.jpg",
       "3365_2.jpg",
@@ -13563,7 +13563,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"SERVOPACK\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"SERVOPACK\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3367_1.jpg",
       "3367_3.jpg",
@@ -13586,7 +13586,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"SERVOPACK\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"SERVOPACK\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3368_1.jpg",
       "3368_2.jpg"
@@ -13607,7 +13607,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"SERVOPACK\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"SERVOPACK\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3369_1.jpg",
       "3369_2.jpg",
@@ -13630,7 +13630,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"LINEAR SERVO\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"LINEAR SERVO\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3371_1.jpg",
       "3371_3.jpg",
@@ -13653,7 +13653,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"LINEAR SERVO\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"LINEAR SERVO\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3374_1.jpg",
       "3374_3.jpg"
@@ -13674,7 +13674,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"LINEAR SERVO\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"LINEAR SERVO\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3376_1.jpg",
       "3376_3.jpg"
@@ -13695,7 +13695,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3379_1.jpg",
       "3379_3.jpg",
@@ -13718,7 +13718,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3380_1.jpg",
       "3380_3.jpg",
@@ -13741,7 +13741,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3381_1.jpg",
       "3381_2.jpg",
@@ -13765,7 +13765,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3384_1.jpg",
       "3384_3.jpg",
@@ -13834,7 +13834,7 @@ const productsData = [
     "category_sub_en": "STEPPING MOTOR",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"ORIENTAL MOTOR\", \"Classification\": \"STEPPING MOTOR\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"ORIENTAL MOTOR\", \"Classification\": \"STEPPING MOTOR\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3395_1.jpg",
       "3395_2.jpg",
@@ -13856,7 +13856,7 @@ const productsData = [
     "category_sub_en": "reducer",
     "category_subsub_kr": "BRATO",
     "category_subsub_en": "BRATO",
-    "specifications": "{\"MAKER\": \"APEX\", \"Classification\": \"서보감속기\", \"감속비\": \"6 :1\", \"Condition\": \"미사용 새제품\"}",
+    "specifications": "{\"MAKER\": \"APEX\", \"Classification\": \"서보감속기\", \"Reduction Ratio\": \"6 :1\", \"Condition\": \"Unused (New Product)\"}",
     "images": [
       "3396_1.jpg",
       "3396_3.jpg",
@@ -13878,7 +13878,7 @@ const productsData = [
     "category_sub_en": "reducer",
     "category_subsub_kr": "BRATO",
     "category_subsub_en": "BRATO",
-    "specifications": "{\"MAKER\": \"APEX\", \"Classification\": \"서보감속기\", \"감속비\": \"5 :1\", \"Condition\": \"미사용 새제품\"}",
+    "specifications": "{\"MAKER\": \"APEX\", \"Classification\": \"서보감속기\", \"Reduction Ratio\": \"5 :1\", \"Condition\": \"Unused (New Product)\"}",
     "images": [
       "3397_1.jpg",
       "3397_3.jpg"
@@ -13899,7 +13899,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "HITACHI",
     "category_subsub_en": "HITACHI",
-    "specifications": "{\"MAKER\": \"HITACHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"2.2KW\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"HITACHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"2.2KW\", \"-\": \"-\"}",
     "images": [
       "3398_1.jpg",
       "3398_2.jpg"
@@ -13920,7 +13920,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"100W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"100W\", \"-\": \"-\"}",
     "images": [
       "3399_1.jpg",
       "3399_2.jpg",
@@ -13944,7 +13944,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"400W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"400W\", \"Condition\": \"A\"}",
     "images": [
       "3400_1.jpg",
       "3400_2.jpg",
@@ -14064,7 +14064,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"200W\", \"Condition\": \"A-Level\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"200W\", \"Condition\": \"A-Level\"}",
     "images": [
       "3415_1.jpg",
       "3415_2.jpg",
@@ -14087,7 +14087,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"YASKAWA\", \"Classification\": \"SERVO DRIVER\", \"출력\": \"500W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"YASKAWA\", \"Classification\": \"SERVO DRIVER\", \"Output\": \"500W\", \"Condition\": \"A\"}",
     "images": [
       "3419_1.jpg",
       "3419_2.jpg",
@@ -14109,7 +14109,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"YASKAWA\", \"Classification\": \"SERVO DRIVER\", \"출력\": \"200W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"YASKAWA\", \"Classification\": \"SERVO DRIVER\", \"Output\": \"200W\", \"Condition\": \"A\"}",
     "images": [
       "3420_1.jpg",
       "3420_2.jpg"
@@ -14130,7 +14130,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"출력\": \"200W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"Output\": \"200W\", \"Condition\": \"A\"}",
     "images": [
       "3422_1.jpg",
       "3422_2.jpg",
@@ -14153,7 +14153,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"출력\": \"100W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"Output\": \"100W\", \"Condition\": \"A\"}",
     "images": [
       "3423_1.jpg",
       "3423_2.jpg",
@@ -14175,7 +14175,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"출력\": \"20W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"Output\": \"20W\", \"Condition\": \"A\"}",
     "images": [
       "3425_1.jpg",
       "3425_2.jpg",
@@ -14289,7 +14289,7 @@ const productsData = [
     "category_sub_en": "MOTOR+DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SANYO DENKIRORZE\", \"Classification\": \"STEPPING\", \"Condition\": \"A\", \"드라이버\": \"RORZERD0026MSA\"}",
+    "specifications": "{\"MAKER\": \"SANYO DENKIRORZE\", \"Classification\": \"STEPPING\", \"Condition\": \"A\", \"Driver\": \"RORZERD0026MSA\"}",
     "images": [
       "3432_1.jpg",
       "3432_2.jpg",
@@ -14360,7 +14360,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"SERVO DRIVE\", \"출력\": \"750W\", \"사용전압\": \"220V\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"SERVO DRIVE\", \"Output\": \"750W\", \"Voltage\": \"220V\"}",
     "images": [
       "3441_1.jpg",
       "3441_2.jpg",
@@ -14408,7 +14408,7 @@ const productsData = [
     "category_sub_en": "6~20A",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"24V 6.5A\", \"입력 전원\": \"100-240V\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"24V 6.5A\", \"Input Power\": \"100-240V\"}",
     "images": [
       "3443_1.jpg",
       "3443_3.jpg",
@@ -14455,7 +14455,7 @@ const productsData = [
     "category_sub_en": "Output DC 15V",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NEMIC-LAMBDA\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"15V 3.5A\", \"입력 전원\": \"110-240V\"}",
+    "specifications": "{\"MAKER\": \"NEMIC-LAMBDA\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"15V 3.5A\", \"Input Power\": \"110-240V\"}",
     "images": [
       "3447_1.jpg",
       "3447_3.jpg",
@@ -14524,7 +14524,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"80W\", \"Condition\": \"미사용 새제품\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"80W\", \"Condition\": \"Unused (New Product)\"}",
     "images": [
       "3455_1.jpg",
       "3455_2.jpg",
@@ -14614,7 +14614,7 @@ const productsData = [
     "category_sub_en": "wafer transfer robot",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"IPS\", \"Classification\": \"TM\", \"Teaching Pendant\": \"포함\", \"특징\": \"Dual TM\"}",
+    "specifications": "{\"MAKER\": \"IPS\", \"Classification\": \"TM\", \"Teaching Pendant\": \"포함\", \"Features\": \"Dual TM\"}",
     "images": [
       "3464_1.jpg",
       "3464_3.jpg",
@@ -14637,7 +14637,7 @@ const productsData = [
     "category_sub_en": "wafer transfer robot",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"삼성FARA\", \"Classification\": \"ATM ROBOT\", \"X-Axis(주행축)\": \"For 3 Load Port\", \"전원 및 사양\": \"명판참조\"}",
+    "specifications": "{\"MAKER\": \"삼성FARA\", \"Classification\": \"ATM ROBOT\", \"X-Axis (Travel Axis)\": \"For 3 Load Port\", \"Power and Specifications\": \"명판참조\"}",
     "images": [
       "3465_1.jpg",
       "3465_2.jpg",
@@ -14682,7 +14682,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "하이젠HIGEN",
     "category_subsub_en": "HIGEN",
-    "specifications": "{\"MAKER\": \"하이젠\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"800W\", \"Condition\": \"미사용 새제품\"}",
+    "specifications": "{\"MAKER\": \"하이젠\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"800W\", \"Condition\": \"Unused (New Product)\"}",
     "images": [
       "3468_1.jpg",
       "3468_2.jpg",
@@ -14706,7 +14706,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "하이젠HIGEN",
     "category_subsub_en": "HIGEN",
-    "specifications": "{\"MAKER\": \"하이젠\", \"Classification\": \"AC SERVO MOTOR\", \"Condition\": \"미사용 새제품\", \"출력\": \"50W\"}",
+    "specifications": "{\"MAKER\": \"하이젠\", \"Classification\": \"AC SERVO MOTOR\", \"Condition\": \"Unused (New Product)\", \"Output\": \"50W\"}",
     "images": [
       "3469_1.jpg",
       "3469_2.jpg",
@@ -14752,7 +14752,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "하이젠HIGEN",
     "category_subsub_en": "HIGEN",
-    "specifications": "{\"MAKER\": \"하이젠\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"800W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"하이젠\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"800W\", \"Condition\": \"A\"}",
     "images": [
       "3470_1.jpg",
       "3470_2.jpg"
@@ -14773,7 +14773,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "하이젠HIGEN",
     "category_subsub_en": "HIGEN",
-    "specifications": "{\"MAKER\": \"하이젠\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"800W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"하이젠\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"800W\", \"Condition\": \"A\"}",
     "images": [
       "3471_1.jpg",
       "3471_2.jpg"
@@ -14794,7 +14794,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "하이젠HIGEN",
     "category_subsub_en": "HIGEN",
-    "specifications": "{\"MAKER\": \"하이젠\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"100W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"하이젠\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"100W\", \"Condition\": \"A\"}",
     "images": [
       "3473_1.jpg",
       "3473_2.jpg"
@@ -14815,7 +14815,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "AND",
     "category_subsub_en": "AND",
-    "specifications": "{\"MAKER\": \"AND\", \"Classification\": \"AND SPIN MOTOR\", \"출력\": \"400W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"AND\", \"Classification\": \"AND SPIN MOTOR\", \"Output\": \"400W\", \"Condition\": \"A\"}",
     "images": [
       "3474_1.jpg",
       "3474_2.jpg"
@@ -14995,7 +14995,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SAMIL\", \"Classification\": \"노이즈 필터\", \"사양\": \"AC250V, 100A\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"SAMIL\", \"Classification\": \"Noise Filter\", \"Specification\": \"AC250V, 100A\", \"Condition\": \"A\"}",
     "images": [
       "3497_1.jpg",
       "3497_2.jpg",
@@ -15019,7 +15019,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SAMIL\", \"Classification\": \"노이즈 필터\", \"사양\": \"AC450V, 350A\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"SAMIL\", \"Classification\": \"Noise Filter\", \"Specification\": \"AC450V, 350A\", \"Condition\": \"A\"}",
     "images": [
       "3498_1.jpg",
       "3498_2.jpg",
@@ -15041,7 +15041,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"80W\", \"Condition\": \"A-Level\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"80W\", \"Condition\": \"A-Level\"}",
     "images": [
       "3499_1.jpg",
       "3499_2.jpg",
@@ -15087,7 +15087,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"200W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"200W\", \"Condition\": \"A\"}",
     "images": [
       "3509_1.jpg",
       "3509_2.jpg",
@@ -15132,7 +15132,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3510_1.jpg",
       "3510_2.jpg",
@@ -15155,7 +15155,7 @@ const productsData = [
     "category_sub_en": "CABLE & CONNECTOR",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"Eecoder CablePower Cable\", \"길이\": \"3M\", \"Condition\": \"미사용\"}",
+    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"Eecoder CablePower Cable\", \"Length\": \"3M\", \"Condition\": \"Unused\"}",
     "images": [
       "3512_1.jpg",
       "3512_2.jpg",
@@ -15179,7 +15179,7 @@ const productsData = [
     "category_sub_en": "CABLE & CONNECTOR",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"Siganl Cable\", \"길이\": \"2M\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"Siganl Cable\", \"Length\": \"2M\", \"-\": \"-\"}",
     "images": [
       "3513_1.jpg",
       "3513_2.jpg",
@@ -15201,7 +15201,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3515_1.jpg",
       "3515_3.jpg",
@@ -15223,7 +15223,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3517_1.jpg",
       "3517_3.jpg",
@@ -15245,7 +15245,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3518_1.jpg",
       "3518_3.jpg",
@@ -15268,7 +15268,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3519_1.jpg",
       "3519_3.jpg",
@@ -15290,7 +15290,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3521_1.jpg",
       "3521_3.jpg",
@@ -15336,7 +15336,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3526_1.jpg",
       "3526_3.jpg",
@@ -15359,7 +15359,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3528_1.jpg",
       "3528_3.jpg",
@@ -15382,7 +15382,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3529_1.jpg",
       "3529_3.jpg",
@@ -15428,7 +15428,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3530_1.jpg",
       "3530_3.jpg",
@@ -15451,7 +15451,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3531_1.jpg",
       "3531_3.jpg",
@@ -15474,7 +15474,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3533_1.jpg",
       "3533_3.jpg",
@@ -15497,7 +15497,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3534_1.jpg",
       "3534_3.jpg",
@@ -15519,7 +15519,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3535_1.jpg",
       "3535_3.jpg",
@@ -15541,7 +15541,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3537_1.jpg",
       "3537_3.jpg",
@@ -15564,7 +15564,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3538_1.jpg",
       "3538_3.jpg",
@@ -15586,7 +15586,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3539_1.jpg",
       "3539_3.jpg",
@@ -15609,7 +15609,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3541_1.jpg",
       "3541_3.jpg",
@@ -15631,7 +15631,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3542_1.jpg",
       "3542_3.jpg",
@@ -15653,7 +15653,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3543_1.jpg",
       "3543_3.jpg",
@@ -15675,7 +15675,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3544_1.jpg",
       "3544_3.jpg",
@@ -15698,7 +15698,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3545_1.jpg",
       "3545_2.jpg",
@@ -15721,7 +15721,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3549_1.jpg",
       "3549_3.jpg",
@@ -15767,7 +15767,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3550_1.jpg",
       "3550_3.jpg",
@@ -15790,7 +15790,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3551_1.jpg",
       "3551_3.jpg",
@@ -15812,7 +15812,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3553_1.jpg",
       "3553_3.jpg",
@@ -15835,7 +15835,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3554_1.jpg",
       "3554_3.jpg",
@@ -15857,7 +15857,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3555_1.jpg",
       "3555_3.jpg",
@@ -15880,7 +15880,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3556_1.jpg",
       "3556_3.jpg",
@@ -15902,7 +15902,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3558_1.jpg",
       "3558_3.jpg"
@@ -15923,7 +15923,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3559_1.jpg",
       "3559_3.jpg"
@@ -15944,7 +15944,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3560_1.jpg",
       "3560_3.jpg",
@@ -15967,7 +15967,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3563_1.jpg",
       "3563_3.jpg"
@@ -15988,7 +15988,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3567_1.jpg",
       "3567_3.jpg",
@@ -16010,7 +16010,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3568_1.jpg",
       "3568_3.jpg",
@@ -16032,7 +16032,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3569_1.jpg",
       "3569_3.jpg",
@@ -16077,7 +16077,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3571_1.jpg",
       "3571_3.jpg",
@@ -16099,7 +16099,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3572_1.jpg",
       "3572_3.jpg",
@@ -16121,7 +16121,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3577_1.jpg",
       "3577_3.jpg"
@@ -16142,7 +16142,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3578_1.jpg",
       "3578_3.jpg"
@@ -16163,7 +16163,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3579_1.jpg",
       "3579_3.jpg"
@@ -16184,7 +16184,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3580_1.jpg",
       "3580_3.jpg",
@@ -16206,7 +16206,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3583_1.jpg",
       "3583_3.jpg",
@@ -16229,7 +16229,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3584_1.jpg",
       "3584_3.jpg",
@@ -16251,7 +16251,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3585_1.jpg",
       "3585_3.jpg",
@@ -16274,7 +16274,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3586_1.jpg",
       "3586_3.jpg",
@@ -16296,7 +16296,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3591_1.jpg",
       "3591_3.jpg",
@@ -16319,7 +16319,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3597_1.jpg",
       "3597_3.jpg",
@@ -16342,7 +16342,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3601_1.jpg",
       "3601_3.jpg",
@@ -16365,7 +16365,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3602_1.jpg",
       "3602_3.jpg",
@@ -16388,7 +16388,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3607_1.jpg",
       "3607_3.jpg",
@@ -16410,7 +16410,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3609_1.jpg",
       "3609_3.jpg",
@@ -16432,7 +16432,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3610_1.jpg",
       "3610_3.jpg",
@@ -16477,7 +16477,7 @@ const productsData = [
     "category_sub_en": "DC motor/DC servo motor",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"PITTMAN\", \"Classification\": \"DC모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"PITTMAN\", \"Classification\": \"DCMotor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3619_1.jpg",
       "3619_2.jpg",
@@ -16501,7 +16501,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"200W\", \"Condition\": \"AS IS\"}",
+    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"200W\", \"Condition\": \"AS IS\"}",
     "images": [
       "3621_1.jpg",
       "3621_2.jpg",
@@ -16523,7 +16523,7 @@ const productsData = [
     "category_sub_en": "DC motor/DC servo motor",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SANYO DENKIPANASONIC\", \"Classification\": \"DC모터\", \"Condition\": \"AS IS\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SANYO DENKIPANASONIC\", \"Classification\": \"DCMotor\", \"Condition\": \"AS IS\", \"-\": \"-\"}",
     "images": [
       "3622_1.jpg",
       "3622_2.jpg",
@@ -16545,7 +16545,7 @@ const productsData = [
     "category_sub_en": "DC motor/DC servo motor",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SANYO DENKIPANASONIC\", \"Classification\": \"DC모터\", \"Condition\": \"AS IS\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SANYO DENKIPANASONIC\", \"Classification\": \"DCMotor\", \"Condition\": \"AS IS\", \"-\": \"-\"}",
     "images": [
       "3623_1.jpg",
       "3623_2.jpg",
@@ -16590,7 +16590,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"400W\", \"Condition\": \"AS IS\"}",
+    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"400W\", \"Condition\": \"AS IS\"}",
     "images": [
       "3625_1.jpg",
       "3625_2.jpg",
@@ -16612,7 +16612,7 @@ const productsData = [
     "category_sub_en": "DC motor/DC servo motor",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"PITTMAN\", \"Classification\": \"DC모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"PITTMAN\", \"Classification\": \"DCMotor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [],
     "url": "https://m.shmarket.co.kr/goods/goods_view.php?goodsNo=3626",
     "scraped_at": "2025-10-26T23:17:07.637212"
@@ -16630,7 +16630,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3628_1.jpg",
       "3628_3.jpg",
@@ -16653,7 +16653,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3629_1.jpg",
       "3629_2.jpg",
@@ -16697,7 +16697,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"200W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"200W\", \"Condition\": \"A\"}",
     "images": [
       "3637_1.jpg",
       "3637_2.jpg",
@@ -16838,7 +16838,7 @@ const productsData = [
     "category_sub_en": "0~5A",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MURR\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"24V 5A\", \"입력 전원\": \"100-240V\"}",
+    "specifications": "{\"MAKER\": \"MURR\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"24V 5A\", \"Input Power\": \"100-240V\"}",
     "images": [
       "3647_1.jpg",
       "3647_2.jpg",
@@ -16862,7 +16862,7 @@ const productsData = [
     "category_sub_en": "reducer",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"미쓰비시\", \"Classification\": \"REDUCER\", \"Ratio\": \"20 :1\", \"Condition\": \"A-Level\"}",
+    "specifications": "{\"MAKER\": \"미쓰비시 (Mitsubishi)\", \"Classification\": \"REDUCER\", \"Ratio\": \"20 :1\", \"Condition\": \"A-Level\"}",
     "images": [
       "3649_1.jpg",
       "3649_3.jpg"
@@ -16883,7 +16883,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"400W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"400W\", \"Condition\": \"A\"}",
     "images": [
       "3650_1.jpg",
       "3650_2.jpg",
@@ -17111,7 +17111,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Air Cylinder\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3678_1.jpg",
       "3678_2.jpg",
@@ -17134,7 +17134,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(가이드형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3679_1.jpg",
       "3679_2.jpg",
@@ -17156,7 +17156,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"TPC\", \"Classification\": \"AIR 실린더(가이드형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TPC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3682_1.jpg",
       "3682_2.jpg",
@@ -17180,7 +17180,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(가이드형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3684_1.jpg",
       "3684_2.jpg",
@@ -17203,7 +17203,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(가이드형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3686_1.jpg",
       "3686_2.jpg",
@@ -17225,7 +17225,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"TPC\", \"Classification\": \"AIR 실린더(가이드형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TPC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3688_1.jpg",
       "3688_2.jpg",
@@ -17271,7 +17271,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(가이드형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3690_1.jpg",
       "3690_2.jpg",
@@ -17295,7 +17295,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "LM가이드부착형실린더",
     "category_subsub_en": "LM guide attached cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(LM부착형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Air Cylinder(LM부착형)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3692_1.jpg",
       "3692_2.jpg",
@@ -17318,7 +17318,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "LM가이드부착형실린더",
     "category_subsub_en": "LM guide attached cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(LM부착형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Air Cylinder(LM부착형)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3693_1.jpg",
       "3693_2.jpg",
@@ -17340,7 +17340,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "로터리 실린더",
     "category_subsub_en": "rotary cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(회전ROTARY)\", \"Condition\": \"미사용\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Rotary)\", \"Condition\": \"Unused\", \"-\": \"-\"}",
     "images": [
       "3695_1.jpg",
       "3695_2.jpg",
@@ -17364,7 +17364,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "로터리 실린더",
     "category_subsub_en": "rotary cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(회전ROTARY)\", \"Condition\": \"미사용\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Rotary)\", \"Condition\": \"Unused\", \"-\": \"-\"}",
     "images": [
       "3696_1.jpg",
       "3696_2.jpg",
@@ -17388,7 +17388,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "로터리 실린더",
     "category_subsub_en": "rotary cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(회전ROTARY)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Rotary)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3697_1.jpg",
       "3697_2.jpg",
@@ -17411,7 +17411,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "로터리 실린더",
     "category_subsub_en": "rotary cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(회전ROTARY)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Rotary)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3698_1.jpg",
       "3698_2.jpg",
@@ -17457,7 +17457,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"TPC\", \"Classification\": \"AIR 실린더(가이드형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TPC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3702_1.jpg",
       "3702_2.jpg",
@@ -17573,7 +17573,7 @@ const productsData = [
     "category_sub_en": "6~20A",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"24V 10A\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"24V 10A\", \"Condition\": \"A\"}",
     "images": [
       "3713_1.jpg",
       "3713_2.jpg",
@@ -17708,7 +17708,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"1.5KW\", \"Condition\": \"A-Level\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"1.5KW\", \"Condition\": \"A-Level\"}",
     "images": [
       "3728_1.jpg",
       "3728_2.jpg",
@@ -17732,7 +17732,7 @@ const productsData = [
     "category_sub_en": "reducer",
     "category_subsub_kr": "기타",
     "category_subsub_en": "etc",
-    "specifications": "{\"MAKER\": \"ATLANTA\", \"Classification\": \"REDUCER\", \"Condition\": \"A\", \"감속비\": \"29:1\"}",
+    "specifications": "{\"MAKER\": \"ATLANTA\", \"Classification\": \"REDUCER\", \"Condition\": \"A\", \"Reduction Ratio\": \"29:1\"}",
     "images": [
       "3729_1.jpg",
       "3729_2.jpg",
@@ -17801,7 +17801,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KEYENCE\", \"Classification\": \"센서 컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"KEYENCE\", \"Classification\": \"Sensor Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3735_1.jpg",
       "3735_2.jpg",
@@ -17849,7 +17849,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"감속기\", \"Condition\": \"미사용 BOX\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"감속기\", \"Condition\": \"Unused BOX\", \"-\": \"-\"}",
     "images": [
       "3738_1.jpg",
       "3738_2.jpg",
@@ -17872,7 +17872,7 @@ const productsData = [
     "category_sub_en": "BLDC",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"BRUSHLESS DC \\nMOTOR DRIVER\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"BRUSHLESS DC \\nMOTOR DRIVER\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3739_1.jpg",
       "3739_2.jpg",
@@ -17939,7 +17939,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"150W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"150W\", \"-\": \"-\"}",
     "images": [
       "3745_1.jpg",
       "3745_2.jpg",
@@ -18029,7 +18029,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3757_1.jpg",
       "3757_3.jpg"
@@ -18073,7 +18073,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3759_1.jpg",
       "3759_3.jpg",
@@ -18096,7 +18096,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3760_1.jpg",
       "3760_3.jpg"
@@ -18117,7 +18117,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3763_1.jpg",
       "3763_3.jpg",
@@ -18139,7 +18139,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3764_1.jpg",
       "3764_3.jpg",
@@ -18161,7 +18161,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3765_1.jpg",
       "3765_3.jpg"
@@ -18182,7 +18182,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3766_1.jpg",
       "3766_3.jpg",
@@ -18204,7 +18204,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3770_1.jpg",
       "3770_3.jpg"
@@ -18225,7 +18225,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3773_1.jpg",
       "3773_3.jpg"
@@ -18246,7 +18246,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3774_1.jpg",
       "3774_3.jpg",
@@ -18269,7 +18269,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3775_1.jpg",
       "3775_3.jpg",
@@ -18292,7 +18292,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3776_1.jpg",
       "3776_3.jpg",
@@ -18339,7 +18339,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3780_1.jpg",
       "3780_3.jpg"
@@ -18360,7 +18360,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3781_1.jpg",
       "3781_3.jpg",
@@ -18382,7 +18382,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"100W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"100W\", \"Condition\": \"A\"}",
     "images": [
       "3784_1.jpg",
       "3784_3.jpg",
@@ -18404,7 +18404,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"100W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"100W\", \"Condition\": \"A\"}",
     "images": [
       "3786_1.jpg",
       "3786_3.jpg"
@@ -18425,7 +18425,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"100W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"100W\", \"Condition\": \"A\"}",
     "images": [
       "3787_1.jpg",
       "3787_3.jpg",
@@ -18447,7 +18447,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "SANYODENKI",
     "category_subsub_en": "SANYODENKI",
-    "specifications": "{\"MAKER\": \"SANYODENKI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"400W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"SANYODENKI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"400W\", \"Condition\": \"A\"}",
     "images": [
       "3788_1.jpg",
       "3788_3.jpg",
@@ -18470,7 +18470,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3789_1.jpg",
       "3789_3.jpg"
@@ -18491,7 +18491,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3790_1.jpg",
       "3790_3.jpg"
@@ -18512,7 +18512,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3791_1.jpg",
       "3791_3.jpg",
@@ -18534,7 +18534,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3792_1.jpg",
       "3792_3.jpg",
@@ -18556,7 +18556,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3793_1.jpg",
       "3793_3.jpg",
@@ -18578,7 +18578,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3794_1.jpg",
       "3794_3.jpg",
@@ -18601,7 +18601,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3795_1.jpg",
       "3795_3.jpg"
@@ -18622,7 +18622,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3796_1.jpg",
       "3796_3.jpg"
@@ -18643,7 +18643,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3797_1.jpg",
       "3797_3.jpg"
@@ -18664,7 +18664,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3800_1.jpg",
       "3800_3.jpg"
@@ -18685,7 +18685,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"B\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"B\", \"-\": \"-\"}",
     "images": [
       "3801_1.jpg",
       "3801_3.jpg"
@@ -18706,7 +18706,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3802_1.jpg",
       "3802_3.jpg",
@@ -18729,7 +18729,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3808_1.jpg",
       "3808_3.jpg"
@@ -18750,7 +18750,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3809_1.jpg",
       "3809_3.jpg",
@@ -18772,7 +18772,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3810_1.jpg",
       "3810_3.jpg"
@@ -18793,7 +18793,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3811_1.jpg",
       "3811_3.jpg",
@@ -18815,7 +18815,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3812_1.jpg",
       "3812_3.jpg"
@@ -18836,7 +18836,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3814_1.jpg",
       "3814_4.jpg"
@@ -18857,7 +18857,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Air Cylinder\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3820_1.jpg",
       "3820_3.jpg",
@@ -18924,7 +18924,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3826_1.jpg",
       "3826_2.jpg"
@@ -18945,7 +18945,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3827_1.jpg",
       "3827_2.jpg",
@@ -18967,7 +18967,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"미사용 새제품\", \"비고\": \"Pcs 별 박스 없슴\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"Unused (New Product)\", \"Note\": \"Pcs 별 박스 없슴\"}",
     "images": [
       "3829_1.jpg",
       "3829_2.jpg"
@@ -18988,7 +18988,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"미사용 새제품\", \"비고\": \"외부 박스지저분함\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"Unused (New Product)\", \"Note\": \"외부 박스지저분함\"}",
     "images": [
       "3830_1.jpg",
       "3830_2.jpg",
@@ -19010,7 +19010,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3833_1.jpg",
       "3833_2.jpg"
@@ -19031,7 +19031,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3834_1.jpg",
       "3834_2.jpg",
@@ -19053,7 +19053,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3835_1.jpg",
       "3835_2.jpg"
@@ -19074,7 +19074,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3836_1.jpg",
       "3836_2.jpg"
@@ -19095,7 +19095,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3837_1.jpg",
       "3837_2.jpg",
@@ -19118,7 +19118,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3838_1.jpg",
       "3838_2.jpg",
@@ -19141,7 +19141,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3839_1.jpg",
       "3839_2.jpg",
@@ -19163,7 +19163,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3840_1.jpg",
       "3840_2.jpg"
@@ -19184,7 +19184,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3841_1.jpg",
       "3841_2.jpg"
@@ -19205,7 +19205,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3842_1.jpg",
       "3842_2.jpg"
@@ -19226,7 +19226,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3843_1.jpg",
       "3843_2.jpg"
@@ -19247,7 +19247,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"SPEED CONTROLLER\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"SPEED CONTROLLER\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3845_1.jpg",
       "3845_3.jpg",
@@ -19340,7 +19340,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3864_1.jpg",
       "3864_3.jpg",
@@ -19386,7 +19386,7 @@ const productsData = [
     "category_sub_en": "043-532-3174",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SAMSUNG\", \"Classification\": \"인버터\", \"Condition\": \"A-Level\", \"HP\": \"1\"}",
+    "specifications": "{\"MAKER\": \"SAMSUNG\", \"Classification\": \"Inverter\", \"Condition\": \"A-Level\", \"HP\": \"1\"}",
     "images": [
       "3869_1.jpg",
       "3869_2.jpg"
@@ -19452,7 +19452,7 @@ const productsData = [
     "category_sub_en": "LG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"LS\", \"Classification\": \"인버터\", \"INPUT\": \"3PH AC380-480V      \\n(50/60Hz)\", \"Condition\": \"A-Level\"}",
+    "specifications": "{\"MAKER\": \"LS\", \"Classification\": \"Inverter\", \"INPUT\": \"3PH AC380-480V      \\n(50/60Hz)\", \"Condition\": \"A-Level\"}",
     "images": [
       "3874_1.jpg",
       "3874_2.jpg",
@@ -19476,7 +19476,7 @@ const productsData = [
     "category_sub_en": "LG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"LS\", \"Classification\": \"인버터\", \"INPUT\": \"3PH AC380-480V      \\n(50/60Hz)\", \"Condition\": \"A-Level\"}",
+    "specifications": "{\"MAKER\": \"LS\", \"Classification\": \"Inverter\", \"INPUT\": \"3PH AC380-480V      \\n(50/60Hz)\", \"Condition\": \"A-Level\"}",
     "images": [
       "3879_1.jpg",
       "3879_2.jpg",
@@ -19498,7 +19498,7 @@ const productsData = [
     "category_sub_en": "LG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"LS\", \"Classification\": \"인버터\", \"INPUT\": \"3PH AC380-480V      \\n(50/60Hz)\", \"Condition\": \"A-Level\"}",
+    "specifications": "{\"MAKER\": \"LS\", \"Classification\": \"Inverter\", \"INPUT\": \"3PH AC380-480V      \\n(50/60Hz)\", \"Condition\": \"A-Level\"}",
     "images": [
       "3880_1.jpg",
       "3880_2.jpg",
@@ -19520,7 +19520,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"400W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"400W\", \"-\": \"-\"}",
     "images": [
       "3882_1.jpg",
       "3882_2.jpg",
@@ -19543,7 +19543,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Servomotor Driver\", \"출력\": \"400W\", \"Condition\": \"A-Level\"}",
+    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Servomotor Driver\", \"Output\": \"400W\", \"Condition\": \"A-Level\"}",
     "images": [
       "3883_1.jpg",
       "3883_2.jpg",
@@ -19588,7 +19588,7 @@ const productsData = [
     "category_sub_en": "0~5A",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"PHOENIX CONTACT\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"24V 5A\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"PHOENIX CONTACT\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"24V 5A\", \"Condition\": \"A\"}",
     "images": [
       "3890_1.jpg",
       "3890_2.jpg",
@@ -19612,7 +19612,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"Touch screen\", \"Condition\": \"B\", \"비고\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"Touch screen\", \"Condition\": \"B\", \"Note\": \"-\"}",
     "images": [
       "3893_1.jpg",
       "3893_2.jpg",
@@ -19707,7 +19707,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Condition\": \"A\", \"출력\": \"5KW\"}",
+    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Condition\": \"A\", \"Output\": \"5KW\"}",
     "images": [
       "3898_1.jpg",
       "3898_2.jpg",
@@ -19729,7 +19729,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Condition\": \"A\", \"출력\": \"3.5KW\"}",
+    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Condition\": \"A\", \"Output\": \"3.5KW\"}",
     "images": [
       "3899_1.jpg",
       "3899_2.jpg",
@@ -19753,7 +19753,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Condition\": \"A\", \"출력\": \"1.8KW\"}",
+    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Condition\": \"A\", \"Output\": \"1.8KW\"}",
     "images": [
       "3900_1.jpg",
       "3900_2.jpg",
@@ -19776,7 +19776,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Condition\": \"A\", \"출력\": \"200W\"}",
+    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Condition\": \"A\", \"Output\": \"200W\"}",
     "images": [
       "3901_1.jpg",
       "3901_2.jpg",
@@ -19798,7 +19798,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Condition\": \"A\", \"출력\": \"400W\"}",
+    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Condition\": \"A\", \"Output\": \"400W\"}",
     "images": [
       "3902_1.jpg",
       "3902_2.jpg",
@@ -19845,7 +19845,7 @@ const productsData = [
     "category_sub_en": "BLDC",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"ORIENTALMOTOR\", \"Classification\": \"BRUSHLESS DC   \\n MOTOR DRIVER\", \"사용전압\": \"100-115V\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"ORIENTALMOTOR\", \"Classification\": \"BRUSHLESS DC   \\n MOTOR DRIVER\", \"Voltage\": \"100-115V\", \"Condition\": \"A\"}",
     "images": [
       "3906_1.jpg",
       "3906_2.jpg",
@@ -19936,7 +19936,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"AC SERVO DRIVER\", \"사용전압\": \"100-115V\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"AC SERVO DRIVER\", \"Voltage\": \"100-115V\", \"Condition\": \"A\"}",
     "images": [
       "3910_1.jpg",
       "3910_2.jpg",
@@ -20048,7 +20048,7 @@ const productsData = [
     "category_sub_en": "PROFACE",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Pro-face\", \"Classification\": \"Touch screen\", \"Condition\": \"미사용\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Pro-face\", \"Classification\": \"Touch screen\", \"Condition\": \"Unused\", \"-\": \"-\"}",
     "images": [
       "3922_1.jpg",
       "3922_2.jpg",
@@ -20072,7 +20072,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"2.9KW\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"2.9KW\", \"Condition\": \"A\"}",
     "images": [
       "3923_1.jpg",
       "3923_2.jpg",
@@ -20117,7 +20117,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"400W\", \"Condition\": \"AS IS\"}",
+    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"400W\", \"Condition\": \"AS IS\"}",
     "images": [
       "3929_1.jpg",
       "3929_2.jpg",
@@ -20140,7 +20140,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"200W\", \"Condition\": \"AS IS\"}",
+    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"200W\", \"Condition\": \"AS IS\"}",
     "images": [
       "3930_1.jpg",
       "3930_2.jpg",
@@ -20162,7 +20162,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"100W\", \"Condition\": \"AS IS\"}",
+    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"100W\", \"Condition\": \"AS IS\"}",
     "images": [
       "3932_1.jpg",
       "3932_2.jpg"
@@ -20274,7 +20274,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "LM가이드부착형실린더",
     "category_subsub_en": "LM guide attached cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(가이드형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3949_1.jpg",
       "3949_2.jpg",
@@ -20297,7 +20297,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "LM가이드부착형실린더",
     "category_subsub_en": "LM guide attached cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(가이드형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3951_1.jpg",
       "3951_2.jpg",
@@ -20319,7 +20319,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "LM가이드부착형실린더",
     "category_subsub_en": "LM guide attached cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(가이드형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3952_1.jpg",
       "3952_2.jpg",
@@ -20342,7 +20342,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "LM가이드부착형실린더",
     "category_subsub_en": "LM guide attached cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(가이드형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3955_1.jpg",
       "3955_2.jpg",
@@ -20365,7 +20365,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "LM가이드부착형실린더",
     "category_subsub_en": "LM guide attached cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(LM부착형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Air Cylinder(LM부착형)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3957_1.jpg",
       "3957_2.jpg",
@@ -20387,7 +20387,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "LM가이드부착형실린더",
     "category_subsub_en": "LM guide attached cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(LM부착형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Air Cylinder(LM부착형)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3961_1.jpg",
       "3961_2.jpg"
@@ -20408,7 +20408,7 @@ const productsData = [
     "category_sub_en": "6~20A",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"LAMBDA\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"24V 6.5A\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"LAMBDA\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"24V 6.5A\", \"Condition\": \"A\"}",
     "images": [
       "3963_1.jpg",
       "3963_2.jpg",
@@ -20431,7 +20431,7 @@ const productsData = [
     "category_sub_en": "6~20A",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"LAMBDA\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"24V 14A\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"LAMBDA\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"24V 14A\", \"Condition\": \"A\"}",
     "images": [
       "3964_1.jpg",
       "3964_2.jpg",
@@ -20477,7 +20477,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"FESTO\", \"Classification\": \"Solenoid Valve  \\n솔레노이드밸브\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"FESTO\", \"Classification\": \"Solenoid Valve  \\nSolenoid Valve\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "3966_1.jpg",
       "3966_2.jpg",
@@ -20501,7 +20501,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3969_1.jpg",
       "3969_2.jpg",
@@ -20523,7 +20523,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO MOTOR\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO MOTOR\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "3972_1.jpg",
       "3972_2.jpg",
@@ -20546,7 +20546,7 @@ const productsData = [
     "category_sub_en": "MOTOR+DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"PARKETR\", \"Classification\": \"모터/드라이버\", \"Condition\": \"A\", \"감속비\": \"30:1\"}",
+    "specifications": "{\"MAKER\": \"PARKETR\", \"Classification\": \"Motor/Driver\", \"Condition\": \"A\", \"Reduction Ratio\": \"30:1\"}",
     "images": [
       "3974_1.jpg",
       "3974_2.jpg",
@@ -20570,7 +20570,7 @@ const productsData = [
     "category_sub_en": "1 axis",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"로보스타\", \"Classification\": \"1축 엑츄에이터\", \"Condition\": \"A\", \"드라이버\": \"SGDS-04A01A\"}",
+    "specifications": "{\"MAKER\": \"로보스타\", \"Classification\": \"Single-Axis Actuator\", \"Condition\": \"A\", \"Driver\": \"SGDS-04A01A\"}",
     "images": [
       "3980_1.jpg",
       "3980_2.jpg",
@@ -20594,7 +20594,7 @@ const productsData = [
     "category_sub_en": "1 axis",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"기타\", \"Classification\": \"1축 엑츄에이터\", \"Condition\": \"A\", \"드라이버\": \"SGDS-04A01A\"}",
+    "specifications": "{\"MAKER\": \"기타\", \"Classification\": \"Single-Axis Actuator\", \"Condition\": \"A\", \"Driver\": \"SGDS-04A01A\"}",
     "images": [
       "3984_1.jpg",
       "3984_2.jpg",
@@ -20775,7 +20775,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Servomotor Driver\", \"출력\": \"200W\", \"Condition\": \"B급\"}",
+    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Servomotor Driver\", \"Output\": \"200W\", \"Condition\": \"B급\"}",
     "images": [
       "4000_1.jpg",
       "4000_2.jpg",
@@ -20798,7 +20798,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4001_1.jpg",
       "4001_5.jpg"
@@ -20819,7 +20819,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4002_1.jpg",
       "4002_3.jpg"
@@ -20840,7 +20840,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"한영\", \"Classification\": \"온도컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"한영\", \"Classification\": \"온도Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4007_1.jpg",
       "4007_2.jpg",
@@ -20933,7 +20933,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "SANYODENKI",
     "category_subsub_en": "SANYODENKI",
-    "specifications": "{\"MAKER\": \"SANYODENKI\", \"Classification\": \"AC SERVO MOTOR\", \"감속기\": \"Hi-TDrive RSS-20-6012S\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SANYODENKI\", \"Classification\": \"AC SERVO MOTOR\", \"Reducer\": \"Hi-TDrive RSS-20-6012S\", \"-\": \"-\"}",
     "images": [
       "4012_1.jpg",
       "4012_2.jpg",
@@ -20957,7 +20957,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"120W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"120W\", \"-\": \"-\"}",
     "images": [
       "4013_1.jpg",
       "4013_2.jpg",
@@ -20979,7 +20979,7 @@ const productsData = [
     "category_sub_en": "STEPPING MOTOR",
     "category_subsub_kr": "BLDC",
     "category_subsub_en": "BLDC",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"BLDC MOTOR\", \"RPM\": \"3000RPM\", \"감속기\": \"GFB5G100\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"BLDC MOTOR\", \"RPM\": \"3000RPM\", \"Reducer\": \"GFB5G100\"}",
     "images": [
       "4015_1.jpg",
       "4015_2.jpg",
@@ -21023,7 +21023,7 @@ const productsData = [
     "category_sub_en": "THK SR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SR25-W형\", \"레일길이(mm)\": \"740\", \"블럭수(EA)\": \"1\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SR25-W형\", \"Rail Length (mm)\": \"740\", \"Block Count (EA)\": \"1\"}",
     "images": [
       "4025_1.jpg",
       "4025_2.jpg",
@@ -21045,7 +21045,7 @@ const productsData = [
     "category_sub_en": "043-532-3174",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"HIWIN\", \"Classification\": \"LM\", \"총장(mm)\": \"160\", \"블럭수 (EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"HIWIN\", \"Classification\": \"LM\", \"Total Length (mm)\": \"160\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "4026_1.jpg",
       "4026_2.jpg",
@@ -21068,7 +21068,7 @@ const productsData = [
     "category_sub_en": "043-532-3174",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"LM\", \"총장(mm)\": \"220\", \"블럭수 (EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"LM\", \"Total Length (mm)\": \"220\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "4027_1.jpg",
       "4027_2.jpg",
@@ -21090,7 +21090,7 @@ const productsData = [
     "category_sub_en": "LG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"LG\", \"Classification\": \"인버터\", \"INPUT\": \"AC200-230V   (50/60Hz)\", \"OUTPUT\": \"5A 0.2-400Hz\"}",
+    "specifications": "{\"MAKER\": \"LG\", \"Classification\": \"Inverter\", \"INPUT\": \"AC200-230V   (50/60Hz)\", \"OUTPUT\": \"5A 0.2-400Hz\"}",
     "images": [
       "403_1.jpg",
       "403_3.jpg",
@@ -21112,7 +21112,7 @@ const productsData = [
     "category_sub_en": "THK SSR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM\", \"레일길이(mm)\": \"3800\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM\", \"Rail Length (mm)\": \"3800\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "4030_1.jpg",
       "4030_2.jpg",
@@ -21317,7 +21317,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Sumitomo\", \"Classification\": \"인버터\", \"Condition\": \"A\", \"KW\": \"0.2\"}",
+    "specifications": "{\"MAKER\": \"Sumitomo\", \"Classification\": \"Inverter\", \"Condition\": \"A\", \"KW\": \"0.2\"}",
     "images": [
       "4049_1.jpg",
       "4049_2.jpg",
@@ -21340,7 +21340,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Autonics\", \"Classification\": \"온도컨트롤러\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Autonics\", \"Classification\": \"온도Controller\", \"-\": \"-\"}",
     "images": [
       "4050_1.jpg",
       "4050_2.jpg",
@@ -21386,7 +21386,7 @@ const productsData = [
     "category_sub_en": "THK HSR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM가이드\", \"레일길이(mm)\": \"335\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM Guide\", \"Rail Length (mm)\": \"335\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "4055_1.jpg",
       "4055_3.jpg",
@@ -21409,7 +21409,7 @@ const productsData = [
     "category_sub_en": "THK SR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HSR-R형\", \"레일길이(mm)\": \"740\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HSR-R형\", \"Rail Length (mm)\": \"740\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "4064_1.jpg",
       "4064_2.jpg",
@@ -21431,7 +21431,7 @@ const productsData = [
     "category_sub_en": "THK HSR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HSR20-A형\", \"외형 치수\": \"레일길이\", \"LM블럭 치수\": \"높이(M)\", \"880\": \"30\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HSR20-A형\", \"External Dimensions\": \"레일길이\", \"LM Block Dimensions\": \"높이(M)\", \"880\": \"30\"}",
     "images": [
       "4066_1.jpg",
       "4066_3.jpg",
@@ -21453,7 +21453,7 @@ const productsData = [
     "category_sub_en": "THK RSR Miniature",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"RSR 미니츄어\", \"레일길이(mm)\": \"150\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"RSR 미니츄어\", \"Rail Length (mm)\": \"150\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "4072_1.jpg",
       "4072_2.jpg",
@@ -21476,7 +21476,7 @@ const productsData = [
     "category_sub_en": "spline",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"스플라인\", \"길이(mm)\": \"600\", \"베어링(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"스플라인\", \"Length (mm)\": \"600\", \"Bearing (EA)\": \"2\"}",
     "images": [
       "4073_1.jpg",
       "4073_2.jpg",
@@ -21499,7 +21499,7 @@ const productsData = [
     "category_sub_en": "spline",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"스플라인\", \"길이(mm)\": \"830\", \"베어링(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"스플라인\", \"Length (mm)\": \"830\", \"Bearing (EA)\": \"2\"}",
     "images": [
       "4074_1.jpg",
       "4074_2.jpg",
@@ -21521,7 +21521,7 @@ const productsData = [
     "category_sub_en": "spline",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"스플라인\", \"길이(mm)\": \"1400\", \"베어링(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"스플라인\", \"Length (mm)\": \"1400\", \"Bearing (EA)\": \"2\"}",
     "images": [
       "4075_1.jpg",
       "4075_2.jpg"
@@ -21542,7 +21542,7 @@ const productsData = [
     "category_sub_en": "2 axis",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"YOKOGAWA\", \"Classification\": \"LINEAR SERVO ACTUATOR\", \"드라이버\": \"X:TM21001045-2SNY:TM10501045-2SN\", \"ACTUATOR\": \"X:LM21010H00-0BS4Y:LM10510E00-0BS2\"}",
+    "specifications": "{\"MAKER\": \"YOKOGAWA\", \"Classification\": \"LINEAR SERVO ACTUATOR\", \"Driver\": \"X:TM21001045-2SNY:TM10501045-2SN\", \"ACTUATOR\": \"X:LM21010H00-0BS4Y:LM10510E00-0BS2\"}",
     "images": [
       "4076_1.jpg",
       "4076_2.jpg",
@@ -21566,7 +21566,7 @@ const productsData = [
     "category_sub_en": "MOTOR+DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"YOKOGAWA\", \"Classification\": \"DD SERVO ACTUATOR\", \"드라이버\": \"SD1015B02-2SN\", \"모터\": \"DM1015B00-1*1)\"}",
+    "specifications": "{\"MAKER\": \"YOKOGAWA\", \"Classification\": \"DD SERVO ACTUATOR\", \"Driver\": \"SD1015B02-2SN\", \"Motor\": \"DM1015B00-1*1)\"}",
     "images": [
       "4077_1.jpg",
       "4077_2.jpg",
@@ -21635,7 +21635,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"400W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"400W\", \"Condition\": \"A\"}",
     "images": [
       "4088_1.jpg",
       "4088_2.jpg",
@@ -21657,7 +21657,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4096_1.jpg",
       "4096_2.jpg"
@@ -21724,7 +21724,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4105_1.jpg",
       "4105_3.jpg",
@@ -21747,7 +21747,7 @@ const productsData = [
     "category_sub_en": "0~5A",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"24V 4.5A\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"24V 4.5A\", \"Condition\": \"A\"}",
     "images": [
       "4111_1.jpg",
       "4111_2.jpg",
@@ -21771,7 +21771,7 @@ const productsData = [
     "category_sub_en": "6~20A",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"24V 14A\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"24V 14A\", \"Condition\": \"A\"}",
     "images": [
       "4119_1.jpg",
       "4119_2.jpg",
@@ -21794,7 +21794,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Servomotor Driver\", \"출력\": \"400W\", \"Condition\": \"A-Level\"}",
+    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Servomotor Driver\", \"Output\": \"400W\", \"Condition\": \"A-Level\"}",
     "images": [
       "4124_1.jpg",
       "4124_2.jpg",
@@ -21816,7 +21816,7 @@ const productsData = [
     "category_sub_en": "0~5A",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MEAN WELL\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"24V 4.5A\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"MEAN WELL\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"24V 4.5A\", \"Condition\": \"A\"}",
     "images": [
       "4129_1.jpg",
       "4129_3.jpg"
@@ -21837,7 +21837,7 @@ const productsData = [
     "category_sub_en": "Multi-channel DC 3.3V 5V 12V 24V",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NPI\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"CH1 24V 25ACH2  24V12.5ACH3 15V 5ACH4 15V 5A\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"NPI\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"CH1 24V 25ACH2  24V12.5ACH3 15V 5ACH4 15V 5A\", \"Condition\": \"A\"}",
     "images": [
       "4148_1.jpg",
       "4148_3.jpg",
@@ -21860,7 +21860,7 @@ const productsData = [
     "category_sub_en": "Multi-channel DC 3.3V 5V 12V 24V",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NPI\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"CH1 24V 16ACH2 24V 6.25ACH3 24V 6.25ACH4 24V 6.25A\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"NPI\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"CH1 24V 16ACH2 24V 6.25ACH3 24V 6.25ACH4 24V 6.25A\", \"Condition\": \"A\"}",
     "images": [
       "4149_1.jpg",
       "4149_3.jpg",
@@ -21882,7 +21882,7 @@ const productsData = [
     "category_sub_en": "Output DC 15V",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Fine Suntronix\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"15V 4.0A\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Fine Suntronix\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"15V 4.0A\", \"Condition\": \"A\"}",
     "images": [
       "4150_1.jpg",
       "4150_3.jpg",
@@ -21905,7 +21905,7 @@ const productsData = [
     "category_sub_en": "6~20A",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KEPCO\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"24V 12A\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"KEPCO\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"24V 12A\", \"Condition\": \"A\"}",
     "images": [
       "4157_1.jpg",
       "4157_3.jpg"
@@ -21926,7 +21926,7 @@ const productsData = [
     "category_sub_en": "Multi-channel DC 3.3V 5V 12V 24V",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"POWER ARCHITECTS\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"CH1 24V 9.2ACH2 24V 9.2ACH3 24V 9.2ACH4 24V 18.3A\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"POWER ARCHITECTS\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"CH1 24V 9.2ACH2 24V 9.2ACH3 24V 9.2ACH4 24V 18.3A\", \"Condition\": \"A\"}",
     "images": [
       "4163_1.jpg",
       "4163_2.jpg",
@@ -21950,7 +21950,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4190_1.jpg",
       "4190_3.jpg",
@@ -21972,7 +21972,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4191_1.jpg",
       "4191_3.jpg",
@@ -21995,7 +21995,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4192_1.jpg",
       "4192_3.jpg",
@@ -22018,7 +22018,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4193_1.jpg",
       "4193_3.jpg"
@@ -22039,7 +22039,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4194_1.jpg",
       "4194_5.jpg"
@@ -22060,7 +22060,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4195_1.jpg",
       "4195_3.jpg",
@@ -22083,7 +22083,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4196_1.jpg",
       "4196_3.jpg"
@@ -22104,7 +22104,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SAM WON\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SAM WON\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4197_1.jpg",
       "4197_5.jpg"
@@ -22125,7 +22125,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4198_1.jpg",
       "4198_3.jpg",
@@ -22147,7 +22147,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4199_1.jpg",
       "4199_3.jpg",
@@ -22169,7 +22169,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4200_1.jpg",
       "4200_4.jpg"
@@ -22190,7 +22190,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4201_1.jpg",
       "4201_3.jpg",
@@ -22212,7 +22212,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"LAMBDA\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"LAMBDA\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4202_1.jpg",
       "4202_3.jpg",
@@ -22234,7 +22234,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"LAMBDA\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"LAMBDA\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4203_1.jpg",
       "4203_3.jpg",
@@ -22257,7 +22257,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"LAMBDA\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"LAMBDA\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4204_1.jpg",
       "4204_3.jpg",
@@ -22279,7 +22279,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"RADIUS POWER\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"RADIUS POWER\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4205_1.jpg",
       "4205_3.jpg",
@@ -22301,7 +22301,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4206_1.jpg",
       "4206_3.jpg",
@@ -22323,7 +22323,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SCHAFFNER\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SCHAFFNER\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4207_1.jpg",
       "4207_3.jpg",
@@ -22345,7 +22345,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"HNF\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"HNF\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4208_1.jpg",
       "4208_3.jpg"
@@ -22366,7 +22366,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4209_1.jpg",
       "4209_3.jpg",
@@ -22388,7 +22388,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4210_1.jpg",
       "4210_3.jpg"
@@ -22409,7 +22409,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4211_1.jpg",
       "4211_3.jpg",
@@ -22431,7 +22431,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"DAI YANG\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"DAI YANG\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4212_1.jpg",
       "4212_4.jpg"
@@ -22452,7 +22452,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SHA WON\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SHA WON\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4213_1.jpg",
       "4213_3.jpg",
@@ -22474,7 +22474,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4214_1.jpg",
       "4214_3.jpg",
@@ -22496,7 +22496,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4215_1.jpg",
       "4215_3.jpg"
@@ -22517,7 +22517,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SCHAFFNER\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SCHAFFNER\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4216_1.jpg",
       "4216_3.jpg"
@@ -22538,7 +22538,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SCHAFFNER\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SCHAFFNER\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4217_1.jpg",
       "4217_3.jpg",
@@ -22560,7 +22560,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"출력\": \"400W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"Output\": \"400W\", \"Condition\": \"A\"}",
     "images": [
       "4219_1.jpg",
       "4219_2.jpg",
@@ -22582,7 +22582,7 @@ const productsData = [
     "category_sub_en": "LS prenatal",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"LS\", \"Classification\": \"PLC-BASE\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"LS\", \"Classification\": \"PLC-BASE\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "4220_1.jpg",
       "4220_2.jpg",
@@ -22604,7 +22604,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4225_1.jpg"
     ],
@@ -22645,7 +22645,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"LAMBDA\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"LAMBDA\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4229_1.jpg"
     ],
@@ -22665,7 +22665,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"LAMBDA\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"LAMBDA\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4230_1.jpg",
       "4230_4.jpg"
@@ -22686,7 +22686,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4231_1.jpg",
       "4231_3.jpg"
@@ -22707,7 +22707,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"LAMBDA\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"LAMBDA\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4234_1.jpg",
       "4234_3.jpg",
@@ -22729,7 +22729,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"WYES\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"WYES\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4235_1.jpg",
       "4235_4.jpg"
@@ -22750,7 +22750,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SAM IL\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SAM IL\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4239_1.jpg",
       "4239_3.jpg",
@@ -22773,7 +22773,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"S.M TECH\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"S.M TECH\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4240_1.jpg",
       "4240_3.jpg"
@@ -22794,7 +22794,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔트 전자\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔트 전자\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4241_1.jpg"
     ],
@@ -22814,7 +22814,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔트 전자\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔트 전자\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4242_1.jpg",
       "4242_4.jpg"
@@ -22835,7 +22835,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MIKI PULLEY\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MIKI PULLEY\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4243_1.jpg"
     ],
@@ -22855,7 +22855,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"IRTECH\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"IRTECH\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4244_1.jpg"
     ],
@@ -22875,7 +22875,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4245_1.jpg",
       "4245_3.jpg"
@@ -22896,7 +22896,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"LAMBDA\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"LAMBDA\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4246_1.jpg",
       "4246_3.jpg"
@@ -22917,7 +22917,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OKY\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"OKY\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4247_1.jpg"
     ],
@@ -22937,7 +22937,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SAM WON\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SAM WON\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4249_1.jpg",
       "4249_3.jpg",
@@ -22959,7 +22959,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4250_1.jpg",
       "4250_5.jpg"
@@ -22980,7 +22980,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4252_1.jpg",
       "4252_5.jpg"
@@ -23001,7 +23001,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"LAMBDA\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"LAMBDA\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4253_1.jpg"
     ],
@@ -23021,7 +23021,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4254_1.jpg"
     ],
@@ -23177,7 +23177,7 @@ const productsData = [
     "category_sub_en": "checker",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"AXIOTRON\", \"Classification\": \"현미경\", \"배율렌즈\": \"ZEISSX5,10,20,50\", \"렌즈회전\": \"Motorizing\"}",
+    "specifications": "{\"MAKER\": \"AXIOTRON\", \"Classification\": \"현미경\", \"Magnification Lens\": \"ZEISSX5,10,20,50\", \"Lens Rotation\": \"Motorizing\"}",
     "images": [
       "4300_1.jpg",
       "4300_2.jpg",
@@ -23272,7 +23272,7 @@ const productsData = [
     "category_sub_en": "STEPPING DRIVER",
     "category_subsub_kr": "MELEC",
     "category_subsub_en": "MELEC",
-    "specifications": "{\"MAKER\": \"MELEC\", \"Classification\": \"STEPPING DRIVER\", \"상(Phase)\": \"5상 스텝\", \"사용전원\": \"AC100V\"}",
+    "specifications": "{\"MAKER\": \"MELEC\", \"Classification\": \"STEPPING DRIVER\", \"Phase\": \"5상 스텝\", \"Power Supply\": \"AC100V\"}",
     "images": [
       "433_1.jpg",
       "433_3.jpg",
@@ -23388,7 +23388,7 @@ const productsData = [
     "category_sub_en": "STEPPING DRIVER",
     "category_subsub_kr": "MELEC",
     "category_subsub_en": "MELEC",
-    "specifications": "{\"MAKER\": \"MELEC\", \"Classification\": \"STEPPING DRIVER\", \"상(Phase)\": \"5상 스텝\", \"사용전원\": \"AC100V\"}",
+    "specifications": "{\"MAKER\": \"MELEC\", \"Classification\": \"STEPPING DRIVER\", \"Phase\": \"5상 스텝\", \"Power Supply\": \"AC100V\"}",
     "images": [
       "434_1.jpg",
       "434_3.jpg",
@@ -23778,7 +23778,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SEBONG\", \"Classification\": \"AREA SENSOR 센서\", \"Condition\": \"A\", \"센서 길이(약)\": \"400mm\"}",
+    "specifications": "{\"MAKER\": \"SEBONG\", \"Classification\": \"AREA SENSOR Sensor\", \"Condition\": \"A\", \"Sensor Length (approx)\": \"400mm\"}",
     "images": [
       "4408_1.jpg",
       "4408_2.jpg",
@@ -23801,7 +23801,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TAKEX\", \"Classification\": \"AREA SENSOR 센서\", \"Condition\": \"A\", \"센서 길이(약)\": \"400mm\"}",
+    "specifications": "{\"MAKER\": \"TAKEX\", \"Classification\": \"AREA SENSOR Sensor\", \"Condition\": \"A\", \"Sensor Length (approx)\": \"400mm\"}",
     "images": [
       "4409_1.jpg",
       "4409_2.jpg",
@@ -23825,7 +23825,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TAKEX\", \"Classification\": \"AREA SENSOR 센서\", \"Condition\": \"A\", \"센서 길이(약)\": \"300mm\"}",
+    "specifications": "{\"MAKER\": \"TAKEX\", \"Classification\": \"AREA SENSOR Sensor\", \"Condition\": \"A\", \"Sensor Length (approx)\": \"300mm\"}",
     "images": [
       "4412_1.jpg",
       "4412_2.jpg",
@@ -23848,7 +23848,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KEYENCE\", \"Classification\": \"AREA SENSOR 센서\", \"Condition\": \"A\", \"센서 길이(약)\": \"450mm\"}",
+    "specifications": "{\"MAKER\": \"KEYENCE\", \"Classification\": \"AREA SENSOR Sensor\", \"Condition\": \"A\", \"Sensor Length (approx)\": \"450mm\"}",
     "images": [
       "4414_1.jpg",
       "4414_2.jpg",
@@ -23871,7 +23871,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TAKEX\", \"Classification\": \"AREA SENSOR 센서\", \"Condition\": \"A\", \"센서 길이(약)\": \"600mm\"}",
+    "specifications": "{\"MAKER\": \"TAKEX\", \"Classification\": \"AREA SENSOR Sensor\", \"Condition\": \"A\", \"Sensor Length (approx)\": \"600mm\"}",
     "images": [
       "4416_1.jpg",
       "4416_2.jpg"
@@ -23892,7 +23892,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KEYENCE\", \"Classification\": \"AREA SENSOR 센서\", \"Condition\": \"A\", \"센서 길이(약)\": \"600mm\"}",
+    "specifications": "{\"MAKER\": \"KEYENCE\", \"Classification\": \"AREA SENSOR Sensor\", \"Condition\": \"A\", \"Sensor Length (approx)\": \"600mm\"}",
     "images": [
       "4418_1.jpg",
       "4418_2.jpg",
@@ -23916,7 +23916,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SUNKWANG\", \"Classification\": \"AREA SENSOR 센서\", \"Condition\": \"A\", \"센서 길이(약)\": \"800mm\"}",
+    "specifications": "{\"MAKER\": \"SUNKWANG\", \"Classification\": \"AREA SENSOR Sensor\", \"Condition\": \"A\", \"Sensor Length (approx)\": \"800mm\"}",
     "images": [
       "4420_1.jpg",
       "4420_2.jpg",
@@ -23939,7 +23939,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SUNX\", \"Classification\": \"AREA SENSOR 센서\", \"Condition\": \"A\", \"센서 길이(약)\": \"700mm\"}",
+    "specifications": "{\"MAKER\": \"SUNX\", \"Classification\": \"AREA SENSOR Sensor\", \"Condition\": \"A\", \"Sensor Length (approx)\": \"700mm\"}",
     "images": [
       "4421_1.jpg",
       "4421_2.jpg",
@@ -23962,7 +23962,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"AREA SENSOR 센서\", \"Condition\": \"A\", \"센서 길이(약)\": \"250mm\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"AREA SENSOR Sensor\", \"Condition\": \"A\", \"Sensor Length (approx)\": \"250mm\"}",
     "images": [
       "4422_1.jpg",
       "4422_2.jpg",
@@ -23986,7 +23986,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"AREA SENSOR 센서\", \"Condition\": \"A\", \"센서 길이(약)\": \"300mm\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"AREA SENSOR Sensor\", \"Condition\": \"A\", \"Sensor Length (approx)\": \"300mm\"}",
     "images": [
       "4423_1.jpg",
       "4423_2.jpg",
@@ -24146,7 +24146,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Servomotor Driver\", \"출력\": \"400W\", \"Condition\": \"A-Level\"}",
+    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Servomotor Driver\", \"Output\": \"400W\", \"Condition\": \"A-Level\"}",
     "images": [
       "4523_1.jpg",
       "4523_2.jpg",
@@ -24168,7 +24168,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"출력\": \"3KW\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"Output\": \"3KW\", \"Condition\": \"A\"}",
     "images": [
       "4527_1.jpg",
       "4527_2.jpg"
@@ -24189,7 +24189,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"출력\": \"1.5KW\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"Output\": \"1.5KW\", \"Condition\": \"A\"}",
     "images": [
       "4528_1.jpg",
       "4528_2.jpg",
@@ -24212,7 +24212,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"한영\", \"Classification\": \"온도컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"한영\", \"Classification\": \"온도Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4529_1.jpg",
       "4529_2.jpg",
@@ -24234,7 +24234,7 @@ const productsData = [
     "category_sub_en": "MITSUBISHI",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"인버터\", \"INPUT\": \"3PH AC200-240V   \\n (50/60Hz)\", \"OUTPUT\": \"3PH AC200-240Vmax0.2-400Hz\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"Inverter\", \"INPUT\": \"3PH AC200-240V   \\n (50/60Hz)\", \"OUTPUT\": \"3PH AC200-240Vmax0.2-400Hz\"}",
     "images": [
       "4530_1.jpg",
       "4530_2.jpg",
@@ -24256,7 +24256,7 @@ const productsData = [
     "category_sub_en": "MITSUBISHI",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"인버터\", \"INPUT\": \"3PH AC200-240V   \\n (50/60Hz)\", \"OUTPUT\": \"3PH AC200-240Vmax0.2-400Hz\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"Inverter\", \"INPUT\": \"3PH AC200-240V   \\n (50/60Hz)\", \"OUTPUT\": \"3PH AC200-240Vmax0.2-400Hz\"}",
     "images": [
       "4531_1.jpg",
       "4531_2.jpg",
@@ -24791,7 +24791,7 @@ const productsData = [
     "category_sub_en": "Mitsubishi CC-Link",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"PLC\", \"Condition\": \"A(단자대 커버 분실)\", \"시리얼\": \"0610\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"PLC\", \"Condition\": \"A(단자대 커버 분실)\", \"Serial\": \"0610\"}",
     "images": [
       "4564_1.jpg",
       "4564_2.jpg",
@@ -24813,7 +24813,7 @@ const productsData = [
     "category_sub_en": "Mitsubishi MELSEC-Q",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"PLC\", \"Condition\": \"A-Level\", \"시리얼\": \"0912\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"PLC\", \"Condition\": \"A-Level\", \"Serial\": \"0912\"}",
     "images": [
       "4565_1.jpg",
       "4565_2.jpg",
@@ -25318,7 +25318,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"한영\", \"Classification\": \"컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"한영\", \"Classification\": \"Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4599_1.jpg",
       "4599_2.jpg",
@@ -25453,7 +25453,7 @@ const productsData = [
     "category_sub_en": "relay",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"pilz\", \"Classification\": \"릴레이\", \"Condition\": \"A-Level\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"pilz\", \"Classification\": \"Relay\", \"Condition\": \"A-Level\", \"-\": \"-\"}",
     "images": [
       "4607_1.jpg",
       "4607_2.jpg",
@@ -25477,7 +25477,7 @@ const productsData = [
     "category_sub_en": "relay",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"pilz\", \"Classification\": \"릴레이\", \"Condition\": \"A-Level\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"pilz\", \"Classification\": \"Relay\", \"Condition\": \"A-Level\", \"-\": \"-\"}",
     "images": [
       "4608_1.jpg",
       "4608_2.jpg",
@@ -25499,7 +25499,7 @@ const productsData = [
     "category_sub_en": "relay",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"pilz\", \"Classification\": \"릴레이\", \"Condition\": \"A-Level\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"pilz\", \"Classification\": \"Relay\", \"Condition\": \"A-Level\", \"-\": \"-\"}",
     "images": [
       "4609_1.jpg",
       "4609_2.jpg",
@@ -25607,7 +25607,7 @@ const productsData = [
     "category_sub_en": "6~20A",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MEAN WELL\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"(24V 13A)\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"MEAN WELL\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"(24V 13A)\", \"Condition\": \"A\"}",
     "images": [
       "4620_1.jpg",
       "4620_2.jpg",
@@ -25699,7 +25699,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"CHINO\", \"Classification\": \"컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"CHINO\", \"Classification\": \"Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4628_1.jpg",
       "4628_2.jpg",
@@ -25743,7 +25743,7 @@ const productsData = [
     "category_sub_en": "6~20A",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"IDEC\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"(24V 10A)\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"IDEC\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"(24V 10A)\", \"Condition\": \"A\"}",
     "images": [
       "4631_1.jpg",
       "4631_3.jpg",
@@ -25765,7 +25765,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(가이드형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4633_1.jpg",
       "4633_2.jpg",
@@ -25832,7 +25832,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Servomotor Driver\", \"출력\": \"1KW\", \"Condition\": \"미사용 새제품\"}",
+    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Servomotor Driver\", \"Output\": \"1KW\", \"Condition\": \"Unused (New Product)\"}",
     "images": [
       "4636_1.jpg",
       "4636_3.jpg",
@@ -25876,7 +25876,7 @@ const productsData = [
     "category_sub_en": "YASKAWA",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"YASKAWA\", \"Classification\": \"인버터\", \"KW\": \"0.1\", \"Condition\": \"A-Level\"}",
+    "specifications": "{\"MAKER\": \"YASKAWA\", \"Classification\": \"Inverter\", \"KW\": \"0.1\", \"Condition\": \"A-Level\"}",
     "images": [
       "4638_1.jpg",
       "4638_2.jpg",
@@ -25943,7 +25943,7 @@ const productsData = [
     "category_sub_en": "CONTROLLER Other",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KAIS\", \"Classification\": \"컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"KAIS\", \"Classification\": \"Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4645_1.jpg",
       "4645_2.jpg",
@@ -25966,7 +25966,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(가이드형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4646_1.jpg",
       "4646_2.jpg"
@@ -25987,7 +25987,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "LM가이드부착형실린더",
     "category_subsub_en": "LM guide attached cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(가이드형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4647_1.jpg",
       "4647_2.jpg",
@@ -26010,7 +26010,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "LM가이드부착형실린더",
     "category_subsub_en": "LM guide attached cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(LM부착형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Air Cylinder(LM부착형)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4649_1.jpg",
       "4649_2.jpg",
@@ -26032,7 +26032,7 @@ const productsData = [
     "category_sub_en": "MOTOR+DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"HDsystem\", \"Classification\": \"SERVO\", \"드라이버\": \"HA-600-4\", \"모터\": \"FHA-25B-1911-KE150-SP\"}",
+    "specifications": "{\"MAKER\": \"HDsystem\", \"Classification\": \"SERVO\", \"Driver\": \"HA-600-4\", \"Motor\": \"FHA-25B-1911-KE150-SP\"}",
     "images": [
       "4651_1.jpg",
       "4651_2.jpg",
@@ -26055,7 +26055,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"200W\", \"Condition\": \"AS IS\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"200W\", \"Condition\": \"AS IS\"}",
     "images": [
       "4652_1.jpg",
       "4652_2.jpg",
@@ -26077,7 +26077,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"100W\", \"Condition\": \"AS IS\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"100W\", \"Condition\": \"AS IS\"}",
     "images": [
       "4653_1.jpg",
       "4653_2.jpg",
@@ -26100,7 +26100,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"XP\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"(24V 480W)\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"XP\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"(24V 480W)\", \"Condition\": \"A\"}",
     "images": [
       "4654_1.jpg",
       "4654_2.jpg",
@@ -26124,7 +26124,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Servomotor Driver\", \"출력\": \"100W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Servomotor Driver\", \"Output\": \"100W\", \"Condition\": \"A\"}",
     "images": [
       "4658_1.jpg",
       "4658_2.jpg",
@@ -26148,7 +26148,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Servomotor Driver\", \"출력\": \"200W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Servomotor Driver\", \"Output\": \"200W\", \"Condition\": \"A\"}",
     "images": [
       "4659_1.jpg",
       "4659_2.jpg",
@@ -26216,7 +26216,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Yamatake\", \"Classification\": \"컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yamatake\", \"Classification\": \"Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4662_1.jpg",
       "4662_2.jpg",
@@ -26239,7 +26239,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SAYAMA\", \"Classification\": \"컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SAYAMA\", \"Classification\": \"Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4663_1.jpg",
       "4663_2.jpg",
@@ -26262,7 +26262,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SAMWONTECH\", \"Classification\": \"컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SAMWONTECH\", \"Classification\": \"Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4664_1.jpg",
       "4664_2.jpg",
@@ -26286,7 +26286,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MOXA\", \"Classification\": \"컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MOXA\", \"Classification\": \"Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4665_1.jpg",
       "4665_3.jpg"
@@ -26307,7 +26307,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"80W\", \"비고\": \"엔코더케이블컨넥터 확인필\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"80W\", \"Note\": \"엔코더Cable컨넥터 확인필\"}",
     "images": [
       "4666_1.jpg",
       "4666_3.jpg",
@@ -26486,7 +26486,7 @@ const productsData = [
     "category_sub_en": "0~5A",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"(24V 2.2A)\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"(24V 2.2A)\", \"Condition\": \"A\"}",
     "images": [
       "4680_1.jpg",
       "4680_2.jpg",
@@ -26510,7 +26510,7 @@ const productsData = [
     "category_sub_en": "0~5A",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"(24V 4.5A)\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"(24V 4.5A)\", \"Condition\": \"A\"}",
     "images": [
       "4681_1.jpg",
       "4681_2.jpg",
@@ -26534,7 +26534,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "LM가이드부착형실린더",
     "category_subsub_en": "LM guide attached cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(LM부착형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Air Cylinder(LM부착형)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4683_1.jpg",
       "4683_2.jpg",
@@ -26556,7 +26556,7 @@ const productsData = [
     "category_sub_en": "CONTROLLER Other",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"HANYANG SYSTEM\", \"Classification\": \"컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"HANYANG SYSTEM\", \"Classification\": \"Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4685_1.jpg",
       "4685_2.jpg",
@@ -26578,7 +26578,7 @@ const productsData = [
     "category_sub_en": "CONTROLLER Other",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"HANYANG SYSTEM\", \"Classification\": \"컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"HANYANG SYSTEM\", \"Classification\": \"Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4686_1.jpg",
       "4686_2.jpg",
@@ -26780,7 +26780,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Servomotor Driver\", \"출력\": \"100W\", \"Condition\": \"A-Level\"}",
+    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Servomotor Driver\", \"Output\": \"100W\", \"Condition\": \"A-Level\"}",
     "images": [
       "4699_1.jpg",
       "4699_2.jpg",
@@ -26802,7 +26802,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Servomotor Driver\", \"출력\": \"100W\", \"Condition\": \"A-Level\"}",
+    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Servomotor Driver\", \"Output\": \"100W\", \"Condition\": \"A-Level\"}",
     "images": [
       "4700_1.jpg",
       "4700_2.jpg",
@@ -26825,7 +26825,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Servomotor Driver\", \"출력\": \"200W\", \"Condition\": \"A-Level\"}",
+    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Servomotor Driver\", \"Output\": \"200W\", \"Condition\": \"A-Level\"}",
     "images": [
       "4701_1.jpg",
       "4701_2.jpg",
@@ -26871,7 +26871,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"100W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"100W\", \"Condition\": \"A\"}",
     "images": [
       "4709_1.jpg",
       "4709_2.jpg",
@@ -27049,7 +27049,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Air Cylinder\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4718_1.jpg",
       "4718_2.jpg",
@@ -27073,7 +27073,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Autonics\", \"Classification\": \"PROXIMITY 센서\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Autonics\", \"Classification\": \"PROXIMITY Sensor\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "4719_1.jpg",
       "4719_3.jpg"
@@ -27094,7 +27094,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Autonics\", \"Classification\": \"PROXIMITY 센서\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Autonics\", \"Classification\": \"PROXIMITY Sensor\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "4721_1.jpg",
       "4721_3.jpg",
@@ -27116,7 +27116,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Autonics\", \"Classification\": \"PROXIMITY 센서\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Autonics\", \"Classification\": \"PROXIMITY Sensor\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "4724_1.jpg",
       "4724_3.jpg",
@@ -27139,7 +27139,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Autonics\", \"Classification\": \"PROXIMITY 센서\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Autonics\", \"Classification\": \"PROXIMITY Sensor\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "4725_1.jpg",
       "4725_3.jpg",
@@ -27161,7 +27161,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Autonics\", \"Classification\": \"PROXIMITY 센서\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Autonics\", \"Classification\": \"PROXIMITY Sensor\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "4727_1.jpg",
       "4727_3.jpg",
@@ -27291,7 +27291,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "KOMOTEK",
     "category_subsub_en": "KOMOTEK",
-    "specifications": "{\"MAKER\": \"KOMOTEK\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"200W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"KOMOTEK\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"200W\", \"Condition\": \"A\"}",
     "images": [
       "4734_1.jpg",
       "4734_2.jpg",
@@ -27314,7 +27314,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4735_1.jpg",
       "4735_3.jpg"
@@ -27496,7 +27496,7 @@ const productsData = [
     "category_sub_en": "checker",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"ETEL / TMC\", \"Classification\": \"3축 리니어서보 시스템 +방진테이블(석정반)\", \"Condition\": \"AS IS\", \"스트로크 X\": \"310mm\"}",
+    "specifications": "{\"MAKER\": \"ETEL / TMC\", \"Classification\": \"3축 리니어서보 시스템 +방진테이블(석정반)\", \"Condition\": \"AS IS\", \"Stroke X\": \"310mm\"}",
     "images": [
       "4748_1.jpg",
       "4748_2.jpg"
@@ -27517,7 +27517,7 @@ const productsData = [
     "category_sub_en": "wafer transfer robot",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"CYMECHS\", \"Classification\": \"ATM ROBOT\", \"티칭팬던트\": \"포함\", \"전원 및 사양\": \"명판참조\"}",
+    "specifications": "{\"MAKER\": \"CYMECHS\", \"Classification\": \"ATM ROBOT\", \"Teaching Pendant\": \"포함\", \"Power and Specifications\": \"명판참조\"}",
     "images": [
       "4749_1.jpg",
       "4749_2.jpg",
@@ -27541,7 +27541,7 @@ const productsData = [
     "category_sub_en": "1 axis",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"1축 엑츄에이터\", \"Condition\": \"A\", \"스트로크\": \"80mm\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"Single-Axis Actuator\", \"Condition\": \"A\", \"Stroke\": \"80mm\"}",
     "images": [
       "4751_1.jpg",
       "4751_3.jpg",
@@ -27564,7 +27564,7 @@ const productsData = [
     "category_sub_en": "6~20A",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"(24V 6.5A)\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"(24V 6.5A)\", \"Condition\": \"A\"}",
     "images": [
       "4752_1.jpg",
       "4752_3.jpg"
@@ -27585,7 +27585,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4754_1.jpg",
       "4754_3.jpg",
@@ -27629,7 +27629,7 @@ const productsData = [
     "category_sub_en": "REGULATOR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"FESTO\", \"Classification\": \"레귤레이터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"FESTO\", \"Classification\": \"Regulator\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4759_1.jpg",
       "4759_2.jpg",
@@ -27677,7 +27677,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Servomotor Driver\", \"출력\": \"200W\", \"Condition\": \"A-Level\"}",
+    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Servomotor Driver\", \"Output\": \"200W\", \"Condition\": \"A-Level\"}",
     "images": [
       "4762_1.jpg",
       "4762_2.jpg",
@@ -27699,7 +27699,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"출력\": \"400W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"Output\": \"400W\", \"Condition\": \"A\"}",
     "images": [
       "4763_1.jpg",
       "4763_2.jpg"
@@ -27766,7 +27766,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"750W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"750W\", \"-\": \"-\"}",
     "images": [
       "4769_1.jpg",
       "4769_2.jpg",
@@ -27902,7 +27902,7 @@ const productsData = [
     "category_sub_en": "STEPPING MOTOR",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"알파스텝지원\": \"-\", \"5상\": \"-\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"Alpha Step Support\": \"-\", \"5 Phase\": \"-\"}",
     "images": [
       "478_1.jpg",
       "478_3.jpg",
@@ -28040,7 +28040,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Condition\": \"미사용 새제품박스 없음\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Condition\": \"Unused (New Product)박스 None\", \"-\": \"-\"}",
     "images": [
       "4787_1.jpg",
       "4787_2.jpg"
@@ -28061,7 +28061,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Condition\": \"미사용 새제품박스 없음\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Condition\": \"Unused (New Product)박스 None\", \"-\": \"-\"}",
     "images": [
       "4789_2.jpg",
       "4789_3.jpg"
@@ -28082,7 +28082,7 @@ const productsData = [
     "category_sub_en": "STEPPING MOTOR",
     "category_subsub_kr": "PACIFIC SCIENTIFIC",
     "category_subsub_en": "PACIFIC SCIENTIFIC",
-    "specifications": "{\"MAKER\": \"PACIFIC SCIENTIFIC\", \"Classification\": \"STEPPING MOTOR\", \"STEP\": \"1.8 도\", \"47각\": \"-\"}",
+    "specifications": "{\"MAKER\": \"PACIFIC SCIENTIFIC\", \"Classification\": \"STEPPING MOTOR\", \"STEP\": \"1.8 도\", \"47 Angle\": \"-\"}",
     "images": [
       "479_1.jpg",
       "479_3.jpg"
@@ -28103,7 +28103,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Condition\": \"미사용 새제품박스 없음\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Condition\": \"Unused (New Product)박스 None\", \"-\": \"-\"}",
     "images": [
       "4790_1.jpg",
       "4790_2.jpg"
@@ -28124,7 +28124,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Condition\": \"미사용 새제품박스 없음\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO DRIVER\", \"Condition\": \"Unused (New Product)박스 None\", \"-\": \"-\"}",
     "images": [
       "4792_1.jpg",
       "4792_2.jpg",
@@ -28169,7 +28169,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "LM가이드부착형실린더",
     "category_subsub_en": "LM guide attached cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(가이드형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4794_1.jpg",
       "4794_2.jpg",
@@ -28301,7 +28301,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"200W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"200W\", \"Condition\": \"A\"}",
     "images": [
       "4803_1.jpg",
       "4803_2.jpg",
@@ -28323,7 +28323,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"400W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"400W\", \"Condition\": \"A\"}",
     "images": [
       "4804_1.jpg",
       "4804_2.jpg"
@@ -28344,7 +28344,7 @@ const productsData = [
     "category_sub_en": "MITSUBISHI",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"인버터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"Inverter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4806_1.jpg",
       "4806_2.jpg",
@@ -28435,7 +28435,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"출력\": \"50W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"Output\": \"50W\", \"Condition\": \"A\"}",
     "images": [
       "4812_1.jpg",
       "4812_2.jpg",
@@ -28480,7 +28480,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"출력\": \"50W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"Output\": \"50W\", \"Condition\": \"A\"}",
     "images": [
       "4814_1.jpg",
       "4814_2.jpg",
@@ -28502,7 +28502,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"출력\": \"400W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"Output\": \"400W\", \"Condition\": \"A\"}",
     "images": [
       "4815_1.jpg",
       "4815_2.jpg",
@@ -28524,7 +28524,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"출력\": \"7.5KW\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"Output\": \"7.5KW\", \"Condition\": \"A\"}",
     "images": [
       "4816_1.jpg",
       "4816_2.jpg",
@@ -28547,7 +28547,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Servomotor Driver\", \"출력\": \"100W\", \"Condition\": \"A-Level\"}",
+    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Servomotor Driver\", \"Output\": \"100W\", \"Condition\": \"A-Level\"}",
     "images": [
       "4817_1.jpg",
       "4817_2.jpg"
@@ -28806,7 +28806,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"한영\", \"Classification\": \"컨트롤러\", \"Condition\": \"B\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"한영\", \"Classification\": \"Controller\", \"Condition\": \"B\", \"-\": \"-\"}",
     "images": [
       "4837_1.jpg",
       "4837_2.jpg",
@@ -28919,7 +28919,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"한영\", \"Classification\": \"컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"한영\", \"Classification\": \"Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4844_1.jpg",
       "4844_2.jpg"
@@ -28963,7 +28963,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MOXA\", \"Classification\": \"통신모듈\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MOXA\", \"Classification\": \"Communication Module\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4846_1.jpg",
       "4846_2.jpg"
@@ -29072,7 +29072,7 @@ const productsData = [
     "category_sub_en": "MOTOR+DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"HDsystem\", \"Classification\": \"SERVO\", \"드라이버\": \"PY2E015A3MH1P00\", \"모터\": \"P50B03003PXS01UW\"}",
+    "specifications": "{\"MAKER\": \"HDsystem\", \"Classification\": \"SERVO\", \"Driver\": \"PY2E015A3MH1P00\", \"Motor\": \"P50B03003PXS01UW\"}",
     "images": [
       "4853_1.jpg",
       "4853_2.jpg",
@@ -29095,7 +29095,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"AJINEXTEK\", \"Classification\": \"통신모듈\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"AJINEXTEK\", \"Classification\": \"Communication Module\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4854_1.jpg",
       "4854_2.jpg"
@@ -29116,7 +29116,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SYSTEM GIKEN\", \"Classification\": \"컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SYSTEM GIKEN\", \"Classification\": \"Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4855_1.jpg",
       "4855_2.jpg",
@@ -29138,7 +29138,7 @@ const productsData = [
     "category_sub_en": "6~20A",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KEYENCE\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"12.5A 24V\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"KEYENCE\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"12.5A 24V\", \"Condition\": \"A\"}",
     "images": [
       "4856_1.jpg",
       "4856_2.jpg",
@@ -29161,7 +29161,7 @@ const productsData = [
     "category_sub_en": "0~5A",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KEYENCE\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"4.5A 24V\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"KEYENCE\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"4.5A 24V\", \"Condition\": \"A\"}",
     "images": [
       "4857_1.jpg",
       "4857_2.jpg",
@@ -29184,7 +29184,7 @@ const productsData = [
     "category_sub_en": "0~5A",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KEYENCE\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"2.1A 24V\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"KEYENCE\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"2.1A 24V\", \"Condition\": \"A\"}",
     "images": [
       "4858_1.jpg",
       "4858_2.jpg",
@@ -29632,7 +29632,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4883_1.jpg",
       "4883_3.jpg",
@@ -29655,7 +29655,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4884_1.jpg",
       "4884_3.jpg"
@@ -29833,7 +29833,7 @@ const productsData = [
     "category_sub_en": "Output DC 15V",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MEAN WELL\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"15V 3.4A\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"MEAN WELL\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"15V 3.4A\", \"Condition\": \"A\"}",
     "images": [
       "4892_1.jpg",
       "4892_3.jpg",
@@ -29855,7 +29855,7 @@ const productsData = [
     "category_sub_en": "Output DC 5V",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"(5V 12A)\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"(5V 12A)\", \"Condition\": \"A\"}",
     "images": [
       "4894_1.jpg",
       "4894_3.jpg",
@@ -29878,7 +29878,7 @@ const productsData = [
     "category_sub_en": "6~20A",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MEAN WELL\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"24V 20A\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"MEAN WELL\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"24V 20A\", \"Condition\": \"A\"}",
     "images": [
       "4897_1.jpg",
       "4897_2.jpg"
@@ -29899,7 +29899,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MEAN WELL\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"48V 5A\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"MEAN WELL\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"48V 5A\", \"Condition\": \"A\"}",
     "images": [
       "4900_2.jpg",
       "4900_4.jpg",
@@ -29921,7 +29921,7 @@ const productsData = [
     "category_sub_en": "6~20A",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MEAN WELL\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"24V 6.3A\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"MEAN WELL\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"24V 6.3A\", \"Condition\": \"A\"}",
     "images": [
       "4901_1.jpg",
       "4901_2.jpg",
@@ -29943,7 +29943,7 @@ const productsData = [
     "category_sub_en": "NSK",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"총장(mm)\": \"1180\", \"블럭수 (EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"Total Length (mm)\": \"1180\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "4907_1.jpg",
       "4907_3.jpg",
@@ -29965,7 +29965,7 @@ const productsData = [
     "category_sub_en": "reducer",
     "category_subsub_kr": "NIDEC-SHIMPO",
     "category_subsub_en": "NIDEC-SHIMPO",
-    "specifications": "{\"MAKER\": \"NIDEC-SHIMPO\", \"Classification\": \"REDUCER\", \"Ratio\": \"3:1\", \"기타\": \"중공축 TYPE\"}",
+    "specifications": "{\"MAKER\": \"NIDEC-SHIMPO\", \"Classification\": \"REDUCER\", \"Ratio\": \"3:1\", \"Other\": \"중공축 TYPE\"}",
     "images": [
       "491_1.jpg",
       "491_3.jpg",
@@ -29988,7 +29988,7 @@ const productsData = [
     "category_sub_en": "THK SR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM가이드\", \"레일길이(mm)\": \"230\", \"블럭수(EA)\": \"1\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM Guide\", \"Rail Length (mm)\": \"230\", \"Block Count (EA)\": \"1\"}",
     "images": [
       "4918_1.jpg",
       "4918_3.jpg"
@@ -30009,7 +30009,7 @@ const productsData = [
     "category_sub_en": "NSK",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"총장(mm)\": \"200\", \"블럭수 (EA)\": \"1\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"Total Length (mm)\": \"200\", \"Block Count (EA)\": \"1\"}",
     "images": [
       "4922_1.jpg"
     ],
@@ -30029,7 +30029,7 @@ const productsData = [
     "category_sub_en": "THK HSR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"RSR 형\", \"레일길이(mm)\": \"110\", \"블럭수(EA)\": \"1\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"RSR 형\", \"Rail Length (mm)\": \"110\", \"Block Count (EA)\": \"1\"}",
     "images": [
       "4925_1.jpg",
       "4925_5.jpg"
@@ -30050,7 +30050,7 @@ const productsData = [
     "category_sub_en": "THK HSR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HSR 형\", \"레일길이(mm)\": \"140\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HSR 형\", \"Rail Length (mm)\": \"140\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "4926_1.jpg",
       "4926_4.jpg"
@@ -30071,7 +30071,7 @@ const productsData = [
     "category_sub_en": "THK HSR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HSR 형\", \"레일길이(mm)\": \"180\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HSR 형\", \"Rail Length (mm)\": \"180\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "4927_1.jpg"
     ],
@@ -30114,7 +30114,7 @@ const productsData = [
     "category_sub_en": "THK SR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM가이드\", \"레일길이(mm)\": \"150\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM Guide\", \"Rail Length (mm)\": \"150\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "4931_1.jpg",
       "4931_5.jpg"
@@ -30196,7 +30196,7 @@ const productsData = [
     "category_sub_en": "Mitsubishi CC-Link",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"PLC\", \"Condition\": \"A\", \"시리얼\": \"1808\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"PLC\", \"Condition\": \"A\", \"Serial\": \"1808\"}",
     "images": [
       "4943_1.jpg",
       "4943_3.jpg",
@@ -30218,7 +30218,7 @@ const productsData = [
     "category_sub_en": "Mitsubishi CC-Link",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"PLC\", \"Condition\": \"A\", \"시리얼\": \"1808\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"PLC\", \"Condition\": \"A\", \"Serial\": \"1808\"}",
     "images": [
       "4944_1.jpg",
       "4944_3.jpg"
@@ -30239,7 +30239,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TOKIN\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4945_1.jpg"
     ],
@@ -30259,7 +30259,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SAMIL\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SAMIL\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4946_1.jpg"
     ],
@@ -30279,7 +30279,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SCHAFFNER\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SCHAFFNER\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4947_1.jpg"
     ],
@@ -30299,7 +30299,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SAMIL\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SAMIL\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4948_1.jpg",
       "4948_4.jpg"
@@ -30320,7 +30320,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"WORLD TECH\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"WORLD TECH\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4949_1.jpg"
     ],
@@ -30340,7 +30340,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"WORLD TECH\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"WORLD TECH\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4950_1.jpg"
     ],
@@ -30360,7 +30360,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"동일기연\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"동일기연\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4951_1.jpg"
     ],
@@ -30380,7 +30380,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"WORLD TECH\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"WORLD TECH\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4952_1.jpg"
     ],
@@ -30400,7 +30400,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OKAYA\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"OKAYA\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4953_1.jpg"
     ],
@@ -30420,7 +30420,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"FINE SUNTRONIX\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"FINE SUNTRONIX\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4954_1.jpg",
       "4954_3.jpg"
@@ -30441,7 +30441,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"FINE SUNTRONIX\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"FINE SUNTRONIX\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4955_1.jpg"
     ],
@@ -30461,7 +30461,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4956_1.jpg"
     ],
@@ -30481,7 +30481,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TDK\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4957_1.jpg"
     ],
@@ -30501,7 +30501,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"CORCOM\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"CORCOM\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4958_1.jpg"
     ],
@@ -30521,7 +30521,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"FINE SUNTRONIX\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"FINE SUNTRONIX\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4959_1.jpg"
     ],
@@ -30541,7 +30541,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"FINE SUNTRONIX\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"FINE SUNTRONIX\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4960_1.jpg",
       "4960_5.jpg"
@@ -30562,7 +30562,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"COSEL\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"COSEL\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4961_1.jpg"
     ],
@@ -30672,7 +30672,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "KOMOTEK",
     "category_subsub_en": "KOMOTEK",
-    "specifications": "{\"MAKER\": \"KOMOTEK\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"0.8 KW\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"KOMOTEK\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"0.8 KW\", \"-\": \"-\"}",
     "images": [
       "4968_1.jpg",
       "4968_2.jpg",
@@ -30762,7 +30762,7 @@ const productsData = [
     "category_sub_en": "NSK",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"총장(mm)\": \"170\", \"블럭수 (EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"Total Length (mm)\": \"170\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "4975_1.jpg",
       "4975_5.jpg"
@@ -30783,7 +30783,7 @@ const productsData = [
     "category_sub_en": "NSK",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"총장(mm)\": \"120\", \"블럭수 (EA)\": \"1\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"Total Length (mm)\": \"120\", \"Block Count (EA)\": \"1\"}",
     "images": [
       "4976_1.jpg"
     ],
@@ -30803,7 +30803,7 @@ const productsData = [
     "category_sub_en": "043-532-3174",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"IKO\", \"Classification\": \"LM 가이드\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"IKO\", \"Classification\": \"LM Guide\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4977_1.jpg",
       "4977_3.jpg"
@@ -30824,7 +30824,7 @@ const productsData = [
     "category_sub_en": "043-532-3174",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"IKO\", \"Classification\": \"LM 가이드\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"IKO\", \"Classification\": \"LM Guide\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4979_1.jpg",
       "4979_5.jpg"
@@ -30845,7 +30845,7 @@ const productsData = [
     "category_sub_en": "043-532-3174",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"IKO\", \"Classification\": \"LM 가이드\", \"Condition\": \"A\", \"블럭 수\": \"1\"}",
+    "specifications": "{\"MAKER\": \"IKO\", \"Classification\": \"LM Guide\", \"Condition\": \"A\", \"Block Count\": \"1\"}",
     "images": [
       "4980_1.jpg",
       "4980_5.jpg"
@@ -30866,7 +30866,7 @@ const productsData = [
     "category_sub_en": "043-532-3174",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"IKO\", \"Classification\": \"LM 가이드\", \"Condition\": \"A\", \"블럭 수\": \"1\"}",
+    "specifications": "{\"MAKER\": \"IKO\", \"Classification\": \"LM Guide\", \"Condition\": \"A\", \"Block Count\": \"1\"}",
     "images": [
       "4981_1.jpg",
       "4981_3.jpg"
@@ -30910,7 +30910,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SHIMADEN\", \"Classification\": \"컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SHIMADEN\", \"Classification\": \"Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "4985_1.jpg",
       "4985_3.jpg",
@@ -31126,7 +31126,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SHIMADEN\", \"Classification\": \"컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SHIMADEN\", \"Classification\": \"Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5003_1.jpg",
       "5003_3.jpg",
@@ -31170,7 +31170,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"100W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"100W\", \"Condition\": \"A\"}",
     "images": [
       "5008_1.jpg",
       "5008_3.jpg"
@@ -31191,7 +31191,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"ADAM\", \"Classification\": \"통신모듈\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"ADAM\", \"Classification\": \"Communication Module\", \"-\": \"-\"}",
     "images": [
       "5009_1.jpg"
     ],
@@ -31211,7 +31211,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "로터리 실린더",
     "category_subsub_en": "rotary cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(회전ROTARY)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Rotary)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5013_1.jpg",
       "5013_3.jpg",
@@ -31366,7 +31366,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"WATLOW\", \"Classification\": \"컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"WATLOW\", \"Classification\": \"Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5027_1.jpg",
       "5027_3.jpg",
@@ -31431,7 +31431,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KEYENC\", \"Classification\": \"센서\", \"Condition\": \"AS IS\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"KEYENC\", \"Classification\": \"Sensor\", \"Condition\": \"AS IS\", \"-\": \"-\"}",
     "images": [
       "5036_1.jpg",
       "5036_3.jpg",
@@ -31476,7 +31476,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"온도 컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"온도 Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5038_1.jpg",
       "5038_3.jpg"
@@ -31497,7 +31497,7 @@ const productsData = [
     "category_sub_en": "CONTROLLER Other",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KEYENCE\", \"Classification\": \"컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"KEYENCE\", \"Classification\": \"Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5040_1.jpg",
       "5040_3.jpg",
@@ -31670,7 +31670,7 @@ const productsData = [
     "category_sub_en": "YASKAWA",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"YASKAWA\", \"Classification\": \"인버터\", \"KW\": \"4\", \"Condition\": \"A-Level\"}",
+    "specifications": "{\"MAKER\": \"YASKAWA\", \"Classification\": \"Inverter\", \"KW\": \"4\", \"Condition\": \"A-Level\"}",
     "images": [
       "5056_1.jpg",
       "5056_3.jpg"
@@ -31756,7 +31756,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"50W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"50W\", \"Condition\": \"A\"}",
     "images": [
       "5063_1.jpg",
       "5063_3.jpg"
@@ -31777,7 +31777,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"200W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"200W\", \"Condition\": \"A\"}",
     "images": [
       "5064_1.jpg",
       "5064_3.jpg"
@@ -31798,7 +31798,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SHIMADEN\", \"Classification\": \"온도컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SHIMADEN\", \"Classification\": \"온도Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5066_1.jpg",
       "5066_3.jpg"
@@ -31819,7 +31819,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SHIMADEN\", \"Classification\": \"온도컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SHIMADEN\", \"Classification\": \"온도Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5067_1.jpg",
       "5067_3.jpg",
@@ -31863,7 +31863,7 @@ const productsData = [
     "category_sub_en": "relay",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Telemecanlque\", \"Classification\": \"릴레이\", \"Condition\": \"A-Level\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Telemecanlque\", \"Classification\": \"Relay\", \"Condition\": \"A-Level\", \"-\": \"-\"}",
     "images": [
       "5069_1.jpg",
       "5069_3.jpg",
@@ -32084,7 +32084,7 @@ const productsData = [
     "category_sub_en": "1 axis",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"1축 엑츄에이터\", \"Condition\": \"A\", \"스트로크\": \"40mm\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"Single-Axis Actuator\", \"Condition\": \"A\", \"Stroke\": \"40mm\"}",
     "images": [
       "5087_1.jpg",
       "5087_2.jpg",
@@ -32107,7 +32107,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SUNX\", \"Classification\": \"센서\", \"Condition\": \"AS IS\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SUNX\", \"Classification\": \"Sensor\", \"Condition\": \"AS IS\", \"-\": \"-\"}",
     "images": [
       "5088_1.jpg",
       "5088_3.jpg",
@@ -32243,7 +32243,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5099_1.jpg",
       "5099_3.jpg",
@@ -32266,7 +32266,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KEYENC\", \"Classification\": \"컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"KEYENC\", \"Classification\": \"Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5100_1.jpg"
     ],
@@ -32309,7 +32309,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KEYENC\", \"Classification\": \"센서\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"KEYENC\", \"Classification\": \"Sensor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5103_1.jpg",
       "5103_3.jpg"
@@ -32330,7 +32330,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KEYENC\", \"Classification\": \"센서\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"KEYENC\", \"Classification\": \"Sensor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5104_1.jpg",
       "5104_3.jpg"
@@ -32351,7 +32351,7 @@ const productsData = [
     "category_sub_en": "6~20A",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"EATON\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"24V 20A\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"EATON\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"24V 20A\", \"Condition\": \"A\"}",
     "images": [
       "5105_1.jpg",
       "5105_4.jpg"
@@ -32394,7 +32394,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SICK\", \"Classification\": \"센서\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SICK\", \"Classification\": \"Sensor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5109_1.jpg",
       "5109_5.jpg"
@@ -32415,7 +32415,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"센서\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"Sensor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5112_1.jpg",
       "5112_3.jpg",
@@ -32437,7 +32437,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"레이저 변위센서 Laser\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"레이저 변위Sensor Laser\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5113_1.jpg",
       "5113_3.jpg",
@@ -32460,7 +32460,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KEYENC\", \"Classification\": \"센서\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"KEYENC\", \"Classification\": \"Sensor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5114_1.jpg",
       "5114_3.jpg",
@@ -32482,7 +32482,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"센서\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"Sensor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5115_1.jpg",
       "5115_3.jpg"
@@ -32503,7 +32503,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KEYENCE\", \"Classification\": \"센서\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"KEYENCE\", \"Classification\": \"Sensor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5116_1.jpg",
       "5116_3.jpg"
@@ -32784,7 +32784,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SICK\", \"Classification\": \"센서\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SICK\", \"Classification\": \"Sensor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [],
     "url": "https://m.shmarket.co.kr/goods/goods_view.php?goodsNo=5135",
     "scraped_at": "2025-10-27T01:28:32.622236"
@@ -32802,7 +32802,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"통신모듈\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"Communication Module\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5136_1.jpg"
     ],
@@ -32822,7 +32822,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"통신모듈\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"Communication Module\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5137_1.jpg"
     ],
@@ -32842,7 +32842,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"통신모듈\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"Communication Module\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5138_1.jpg",
       "5138_3.jpg",
@@ -32864,7 +32864,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"통신모듈\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"Communication Module\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5139_1.jpg"
     ],
@@ -32884,7 +32884,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"통신모듈\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"Communication Module\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5140_1.jpg"
     ],
@@ -32904,7 +32904,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"통신모듈\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"Communication Module\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5141_1.jpg",
       "5141_3.jpg"
@@ -32946,7 +32946,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5144_1.jpg"
     ],
@@ -33052,7 +33052,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"50W\", \"Condition\": \"A-Level\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"50W\", \"Condition\": \"A-Level\"}",
     "images": [
       "5150_1.jpg",
       "5150_3.jpg"
@@ -33096,7 +33096,7 @@ const productsData = [
     "category_sub_en": "DC motor/DC servo motor",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"PITTMAN\", \"Classification\": \"DC모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"PITTMAN\", \"Classification\": \"DCMotor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5155_1.jpg",
       "5155_3.jpg"
@@ -33117,7 +33117,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5156_1.jpg",
       "5156_3.jpg"
@@ -33158,7 +33158,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KEYENCE\", \"Classification\": \"센서\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"KEYENCE\", \"Classification\": \"Sensor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5159_1.jpg",
       "5159_3.jpg"
@@ -33202,7 +33202,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"센서\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"Sensor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5161_1.jpg",
       "5161_4.jpg",
@@ -33224,7 +33224,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KEYENCE\", \"Classification\": \"센서\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"KEYENCE\", \"Classification\": \"Sensor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5163_1.jpg",
       "5163_3.jpg"
@@ -33245,7 +33245,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SUNX\", \"Classification\": \"센서\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SUNX\", \"Classification\": \"Sensor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5164_1.jpg",
       "5164_3.jpg",
@@ -33267,7 +33267,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SUNX\", \"Classification\": \"센서\", \"Condition\": \"A\", \"화이버센서\": \"포함\"}",
+    "specifications": "{\"MAKER\": \"SUNX\", \"Classification\": \"Sensor\", \"Condition\": \"A\", \"Fiber Sensor\": \"포함\"}",
     "images": [
       "5165_1.jpg",
       "5165_3.jpg",
@@ -33289,7 +33289,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SUNX\", \"Classification\": \"센서\", \"Condition\": \"미사용\", \"케이블\": \"미포함\"}",
+    "specifications": "{\"MAKER\": \"SUNX\", \"Classification\": \"Sensor\", \"Condition\": \"Unused\", \"Cable\": \"미포함\"}",
     "images": [
       "5166_1.jpg",
       "5166_2.jpg"
@@ -33682,7 +33682,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KEYENC\", \"Classification\": \"컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"KEYENC\", \"Classification\": \"Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5186_1.jpg"
     ],
@@ -33871,7 +33871,7 @@ const productsData = [
     "category_sub_en": "DC motor/DC servo motor",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"PITTMAN\", \"Classification\": \"DC모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"PITTMAN\", \"Classification\": \"DCMotor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5196_1.jpg",
       "5196_3.jpg"
@@ -33892,7 +33892,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"200W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"200W\", \"Condition\": \"A\"}",
     "images": [
       "5198_1.jpg",
       "5198_3.jpg"
@@ -34084,7 +34084,7 @@ const productsData = [
     "category_sub_en": "THK SHS",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM가이드\", \"레일길이(mm)\": \"960\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM Guide\", \"Rail Length (mm)\": \"960\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "5211_1.jpg",
       "5211_3.jpg",
@@ -34107,7 +34107,7 @@ const productsData = [
     "category_sub_en": "THK SHS",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM가이드\", \"레일길이(mm)\": \"1140\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM Guide\", \"Rail Length (mm)\": \"1140\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "5212_1.jpg",
       "5212_4.jpg"
@@ -34128,7 +34128,7 @@ const productsData = [
     "category_sub_en": "THK SHS",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM가이드\", \"레일길이(mm)\": \"320\", \"블럭수(EA)\": \"1\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM Guide\", \"Rail Length (mm)\": \"320\", \"Block Count (EA)\": \"1\"}",
     "images": [
       "5213_1.jpg",
       "5213_4.jpg"
@@ -34214,7 +34214,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"CKD\", \"Classification\": \"AIR 실린더(가이드형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"CKD\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5221_1.jpg",
       "5221_3.jpg"
@@ -34235,7 +34235,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "LM가이드부착형실린더",
     "category_subsub_en": "LM guide attached cylinder",
-    "specifications": "{\"MAKER\": \"(KOGANEI)\", \"Classification\": \"AIR 실린더(가이드형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"(KOGANEI)\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5222_1.jpg",
       "5222_3.jpg"
@@ -34256,7 +34256,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"KOGANEI\", \"Classification\": \"AIR 실린더(가이드형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"KOGANEI\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5224_1.jpg",
       "5224_3.jpg"
@@ -34277,7 +34277,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "로터리 실린더",
     "category_subsub_en": "rotary cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(회전ROTARY)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Rotary)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5226_1.jpg",
       "5226_3.jpg",
@@ -34300,7 +34300,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"Touch screen\", \"Condition\": \"A\", \"비고\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"Touch screen\", \"Condition\": \"A\", \"Note\": \"-\"}",
     "images": [
       "5228_1.jpg",
       "5228_3.jpg",
@@ -34322,7 +34322,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "LM가이드부착형실린더",
     "category_subsub_en": "LM guide attached cylinder",
-    "specifications": "{\"MAKER\": \"(KOGANEI)\", \"Classification\": \"AIR 실린더(가이드형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"(KOGANEI)\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5229_1.jpg",
       "5229_3.jpg"
@@ -34389,7 +34389,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"100W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"100W\", \"Condition\": \"A\"}",
     "images": [
       "5233_1.jpg",
       "5233_3.jpg"
@@ -34432,7 +34432,7 @@ const productsData = [
     "category_sub_en": "부스터펌프",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KASHIYAMA\", \"Classification\": \"BOOSTER PUMP\", \"Condition\": \"AS IS\", \"상세스펙\": \"사진 명판 참조\"}",
+    "specifications": "{\"MAKER\": \"KASHIYAMA\", \"Classification\": \"BOOSTER PUMP\", \"Condition\": \"AS IS\", \"Detailed Specs\": \"사진 명판 참조\"}",
     "images": [
       "5239_1.jpg",
       "5239_2.jpg",
@@ -34520,7 +34520,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"150W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"150W\", \"-\": \"-\"}",
     "images": [
       "5244_1.jpg",
       "5244_5.jpg"
@@ -34564,7 +34564,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "로터리 실린더",
     "category_subsub_en": "rotary cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(회전ROTARY)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Rotary)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5250_1.jpg",
       "5250_3.jpg"
@@ -34782,7 +34782,7 @@ const productsData = [
     "category_sub_en": "THK HRW wide rail",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HRW\", \"레일길이(mm)\": \"120\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HRW\", \"Rail Length (mm)\": \"120\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "5270_1.jpg",
       "5270_3.jpg",
@@ -34805,7 +34805,7 @@ const productsData = [
     "category_sub_en": "THK HRW wide rail",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HRW\", \"레일길이(mm)\": \"140\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HRW\", \"Rail Length (mm)\": \"140\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "5271_1.jpg",
       "5271_3.jpg",
@@ -34828,7 +34828,7 @@ const productsData = [
     "category_sub_en": "1 axis",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"1축 엑츄에이터\", \"Condition\": \"A\", \"스트로크\": \"20mm\"}",
+    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"Single-Axis Actuator\", \"Condition\": \"A\", \"Stroke\": \"20mm\"}",
     "images": [
       "5274_1.jpg",
       "5274_3.jpg",
@@ -34850,7 +34850,7 @@ const productsData = [
     "category_sub_en": "1 axis",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"1축 엑츄에이터\", \"Condition\": \"A\", \"스트로크\": \"30mm\"}",
+    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"Single-Axis Actuator\", \"Condition\": \"A\", \"Stroke\": \"30mm\"}",
     "images": [
       "5275_1.jpg",
       "5275_3.jpg",
@@ -34896,7 +34896,7 @@ const productsData = [
     "category_sub_en": "1 axis",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"1축 엑츄에이터\", \"Condition\": \"A\", \"스트로크\": \"600mm\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"Single-Axis Actuator\", \"Condition\": \"A\", \"Stroke\": \"600mm\"}",
     "images": [
       "5277_1.jpg",
       "5277_2.jpg",
@@ -34961,7 +34961,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"100W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"100W\", \"-\": \"-\"}",
     "images": [
       "5280_1.jpg",
       "5280_3.jpg",
@@ -34983,7 +34983,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"100W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"100W\", \"-\": \"-\"}",
     "images": [
       "5281_1.jpg",
       "5281_3.jpg",
@@ -35006,7 +35006,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KEYENC\", \"Classification\": \"컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"KEYENC\", \"Classification\": \"Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5287_1.jpg",
       "5287_3.jpg"
@@ -35307,7 +35307,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"TPC\", \"Classification\": \"AIR 실린더(가이드형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TPC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5314_1.jpg",
       "5314_3.jpg",
@@ -35329,7 +35329,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(가이드형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5316_1.jpg",
       "5316_3.jpg",
@@ -35352,7 +35352,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"TPC\", \"Classification\": \"AIR 실린더(가이드형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"TPC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5317_1.jpg",
       "5317_3.jpg",
@@ -35439,7 +35439,7 @@ const productsData = [
     "category_sub_en": "1 axis",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TPC\", \"Classification\": \"1축 밸트타입 엑츄에이터\", \"Condition\": \"A\", \"스트로크\": \"1200mm\"}",
+    "specifications": "{\"MAKER\": \"TPC\", \"Classification\": \"1축 밸트타입 엑츄에이터\", \"Condition\": \"A\", \"Stroke\": \"1200mm\"}",
     "images": [
       "5323_1.jpg",
       "5323_2.jpg",
@@ -35462,7 +35462,7 @@ const productsData = [
     "category_sub_en": "1 axis",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TPC\", \"Classification\": \"1축 밸트타입 엑츄에이터\", \"Condition\": \"A\", \"스트로크\": \"700mm\"}",
+    "specifications": "{\"MAKER\": \"TPC\", \"Classification\": \"1축 밸트타입 엑츄에이터\", \"Condition\": \"A\", \"Stroke\": \"700mm\"}",
     "images": [
       "5324_1.jpg",
       "5324_2.jpg",
@@ -35508,7 +35508,7 @@ const productsData = [
     "category_sub_en": "PROFACE",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Pro-face\", \"Classification\": \"Touch screen\", \"Condition\": \"A\", \"동작Condition\": \"정상동작\"}",
+    "specifications": "{\"MAKER\": \"Pro-face\", \"Classification\": \"Touch screen\", \"Condition\": \"A\", \"Operation Condition\": \"정상동작\"}",
     "images": [
       "5326_1.jpg",
       "5326_2.jpg",
@@ -35639,7 +35639,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(가이드형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5336_1.jpg",
       "5336_2.jpg",
@@ -35661,7 +35661,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "표준형실린더",
     "category_subsub_en": "Standard cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Air Cylinder\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5337_1.jpg",
       "5337_3.jpg",
@@ -35706,7 +35706,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"ADAM\", \"Classification\": \"통신모듈\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"ADAM\", \"Classification\": \"Communication Module\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5344_1.jpg",
       "5344_5.jpg"
@@ -35727,7 +35727,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(가이드형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5347_1.jpg",
       "5347_3.jpg",
@@ -35749,7 +35749,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "KOLLMORGEN",
     "category_subsub_en": "KOLLMORGEN",
-    "specifications": "{\"MAKER\": \"KOLLMORGEN\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"0.54KW\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"KOLLMORGEN\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"0.54KW\", \"-\": \"-\"}",
     "images": [
       "5348_1.jpg",
       "5348_3.jpg",
@@ -35772,7 +35772,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "KOLLMORGEN",
     "category_subsub_en": "KOLLMORGEN",
-    "specifications": "{\"MAKER\": \"KOLLMORGEN\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"0.52KW\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"KOLLMORGEN\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"0.52KW\", \"-\": \"-\"}",
     "images": [
       "5349_1.jpg",
       "5349_3.jpg"
@@ -35793,7 +35793,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "로터리 실린더",
     "category_subsub_en": "rotary cylinder",
-    "specifications": "{\"MAKER\": \"(FESTO)\", \"Classification\": \"AIR 실린더(회전ROTARY)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"(FESTO)\", \"Classification\": \"AIR Cylinder (Rotary)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5350_1.jpg",
       "5350_4.jpg"
@@ -35814,7 +35814,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "로터리 실린더",
     "category_subsub_en": "rotary cylinder",
-    "specifications": "{\"MAKER\": \"(FESTO)\", \"Classification\": \"AIR 실린더(회전ROTARY)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"(FESTO)\", \"Classification\": \"AIR Cylinder (Rotary)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5351_1.jpg",
       "5351_5.jpg"
@@ -35835,7 +35835,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"한영\", \"Classification\": \"컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"한영\", \"Classification\": \"Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5353_1.jpg",
       "5353_3.jpg"
@@ -35856,7 +35856,7 @@ const productsData = [
     "category_sub_en": "CONTROLLER Other",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"GALIL\", \"Classification\": \"컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"GALIL\", \"Classification\": \"Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5355_1.jpg",
       "5355_3.jpg",
@@ -35879,7 +35879,7 @@ const productsData = [
     "category_sub_en": "CONTROLLER Other",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"GALIL\", \"Classification\": \"컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"GALIL\", \"Classification\": \"Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5356_1.jpg",
       "5356_3.jpg"
@@ -35943,7 +35943,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "로터리 실린더",
     "category_subsub_en": "rotary cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(회전ROTARY)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Rotary)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5367_1.jpg",
       "5367_3.jpg",
@@ -35965,7 +35965,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(가이드형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5368_1.jpg",
       "5368_3.jpg"
@@ -35986,7 +35986,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(가이드형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5369_1.jpg",
       "5369_3.jpg",
@@ -36032,7 +36032,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "OMRON",
     "category_subsub_en": "OMRON",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"Servomotor Driver\", \"년식\": \"미상\", \"Condition\": \"B\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"Servomotor Driver\", \"Year\": \"Unknown\", \"Condition\": \"B\"}",
     "images": [
       "5374_1.jpg",
       "5374_3.jpg",
@@ -36055,7 +36055,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "OMRON",
     "category_subsub_en": "OMRON",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"Servomotor Driver\", \"년식\": \"미상\", \"Condition\": \"B\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"Servomotor Driver\", \"Year\": \"Unknown\", \"Condition\": \"B\"}",
     "images": [
       "5375_1.jpg",
       "5375_3.jpg",
@@ -36078,7 +36078,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5378_1.jpg"
     ],
@@ -36121,7 +36121,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5380_1.jpg"
     ],
@@ -36141,7 +36141,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5382_1.jpg"
     ],
@@ -36161,7 +36161,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5383_1.jpg",
       "5383_4.jpg"
@@ -36182,7 +36182,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5384_1.jpg"
     ],
@@ -36202,7 +36202,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5385_1.jpg"
     ],
@@ -36222,7 +36222,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5388_1.jpg",
       "5388_5.jpg"
@@ -36243,7 +36243,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Servomotor Driver\", \"출력\": \"100W\", \"Condition\": \"B+\"}",
+    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Servomotor Driver\", \"Output\": \"100W\", \"Condition\": \"B+\"}",
     "images": [
       "540_1.jpg",
       "540_3.jpg",
@@ -36266,7 +36266,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5400_1.jpg"
     ],
@@ -36286,7 +36286,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5401_1.jpg",
       "5401_3.jpg"
@@ -36307,7 +36307,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5402_1.jpg"
     ],
@@ -36327,7 +36327,7 @@ const productsData = [
     "category_sub_en": "1 axis",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"1축 엑츄에이터\", \"Condition\": \"A\", \"스트로크\": \"2,800mm\"}",
+    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"Single-Axis Actuator\", \"Condition\": \"A\", \"Stroke\": \"2,800mm\"}",
     "images": [
       "5404_1.jpg",
       "5404_2.jpg",
@@ -36349,7 +36349,7 @@ const productsData = [
     "category_sub_en": "1 axis",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"1축 엑츄에이터\", \"Condition\": \"A\", \"스트로크\": \"1,800mm\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"Single-Axis Actuator\", \"Condition\": \"A\", \"Stroke\": \"1,800mm\"}",
     "images": [
       "5406_1.jpg",
       "5406_2.jpg",
@@ -36372,7 +36372,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"400W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"400W\", \"-\": \"-\"}",
     "images": [
       "5407_1.jpg",
       "5407_3.jpg",
@@ -36394,7 +36394,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"30W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"30W\", \"Condition\": \"A\"}",
     "images": [
       "5408_1.jpg",
       "5408_3.jpg",
@@ -36437,7 +36437,7 @@ const productsData = [
     "category_sub_en": "NSK",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"총장(mm)\": \"430\", \"블럭수 (EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"Total Length (mm)\": \"430\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "5410_1.jpg",
       "5410_3.jpg",
@@ -36459,7 +36459,7 @@ const productsData = [
     "category_sub_en": "NSK",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"총장(mm)\": \"930\", \"블럭수 (EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"Total Length (mm)\": \"930\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "5411_1.jpg",
       "5411_3.jpg",
@@ -36481,7 +36481,7 @@ const productsData = [
     "category_sub_en": "NSK",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"총장(mm)\": \"1000\", \"블럭수 (EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"Total Length (mm)\": \"1000\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "5413_1.jpg",
       "5413_3.jpg",
@@ -36503,7 +36503,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Black Box\", \"Classification\": \"통신모듈\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Black Box\", \"Classification\": \"Communication Module\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5418_1.jpg",
       "5418_3.jpg"
@@ -36524,7 +36524,7 @@ const productsData = [
     "category_sub_en": "043-532-3174",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NB\", \"Classification\": \"LM\", \"레일길이(mm)\": \"1360\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"NB\", \"Classification\": \"LM\", \"Rail Length (mm)\": \"1360\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "5423_1.jpg",
       "5423_3.jpg",
@@ -36547,7 +36547,7 @@ const productsData = [
     "category_sub_en": "THK SR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SR25-W형\", \"레일길이(mm)\": \"810\", \"블럭수(EA)\": \"1\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SR25-W형\", \"Rail Length (mm)\": \"810\", \"Block Count (EA)\": \"1\"}",
     "images": [
       "5426_1.jpg",
       "5426_3.jpg",
@@ -36569,7 +36569,7 @@ const productsData = [
     "category_sub_en": "THK SSR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SSR15형\", \"레일길이(mm)\": \"1480\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SSR15형\", \"Rail Length (mm)\": \"1480\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "5427_1.jpg",
       "5427_3.jpg",
@@ -36591,7 +36591,7 @@ const productsData = [
     "category_sub_en": "THK SSR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SSR15형\", \"레일길이(mm)\": \"680\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SSR15형\", \"Rail Length (mm)\": \"680\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "5428_1.jpg",
       "5428_3.jpg"
@@ -36612,7 +36612,7 @@ const productsData = [
     "category_sub_en": "THK SR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM가이드\", \"레일길이(mm)\": \"830\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM Guide\", \"Rail Length (mm)\": \"830\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "5433_1.jpg",
       "5433_3.jpg"
@@ -36633,7 +36633,7 @@ const productsData = [
     "category_sub_en": "THK RSR Miniature",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SR15V\", \"레일길이(mm)\": \"320\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SR15V\", \"Rail Length (mm)\": \"320\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "5435_1.jpg",
       "5435_3.jpg"
@@ -36654,7 +36654,7 @@ const productsData = [
     "category_sub_en": "THK RSR Miniature",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM\", \"레일길이(mm)\": \"620\", \"블럭수(EA)\": \"1\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM\", \"Rail Length (mm)\": \"620\", \"Block Count (EA)\": \"1\"}",
     "images": [
       "5439_1.jpg",
       "5439_3.jpg"
@@ -36675,7 +36675,7 @@ const productsData = [
     "category_sub_en": "THK RSR Miniature",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM\", \"레일길이(mm)\": \"355\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM\", \"Rail Length (mm)\": \"355\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "5441_1.jpg",
       "5441_3.jpg",
@@ -36697,7 +36697,7 @@ const productsData = [
     "category_sub_en": "THK SHS",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SHS20-V형\", \"레일길이(mm)\": \"200\", \"블럭수(EA)\": \"1\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SHS20-V형\", \"Rail Length (mm)\": \"200\", \"Block Count (EA)\": \"1\"}",
     "images": [
       "5444_1.jpg",
       "5444_3.jpg",
@@ -36720,7 +36720,7 @@ const productsData = [
     "category_sub_en": "THK SHS",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"RSR20\", \"레일길이(mm)\": \"135\", \"블럭수(EA)\": \"1\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"RSR20\", \"Rail Length (mm)\": \"135\", \"Block Count (EA)\": \"1\"}",
     "images": [
       "5445_1.jpg",
       "5445_5.jpg"
@@ -36741,7 +36741,7 @@ const productsData = [
     "category_sub_en": "043-532-3174",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"IKO\", \"Classification\": \"LM 가이드\", \"Condition\": \"A\", \"블럭 수\": \"2\"}",
+    "specifications": "{\"MAKER\": \"IKO\", \"Classification\": \"LM Guide\", \"Condition\": \"A\", \"Block Count\": \"2\"}",
     "images": [
       "5446_1.jpg",
       "5446_3.jpg"
@@ -36808,7 +36808,7 @@ const productsData = [
     "category_sub_en": "BALL SCREW",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"볼스크류\", \"A:총 길이(mm)\": \"1860\", \"B:스크류길이(mm)\": \"1720\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"Ball Screw\", \"A: Total Length (mm)\": \"1860\", \"B: Screw Length (mm)\": \"1720\"}",
     "images": [
       "545_1.jpg",
       "545_3.jpg",
@@ -36942,7 +36942,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"2.9KW\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"2.9KW\", \"Condition\": \"A\"}",
     "images": [
       "5459_1.jpg",
       "5459_3.jpg",
@@ -36964,7 +36964,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"200W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"200W\", \"-\": \"-\"}",
     "images": [
       "546_1.jpg",
       "546_3.jpg"
@@ -36985,7 +36985,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"1.3KW\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"1.3KW\", \"Condition\": \"A\"}",
     "images": [
       "5460_1.jpg",
       "5460_3.jpg",
@@ -37007,7 +37007,7 @@ const productsData = [
     "category_sub_en": "THK SSR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SR15형\", \"레일길이(mm)\": \"880\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SR15형\", \"Rail Length (mm)\": \"880\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "5461_1.jpg",
       "5461_3.jpg"
@@ -37050,7 +37050,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"100W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"100W\", \"-\": \"-\"}",
     "images": [
       "5464_1.jpg",
       "5464_3.jpg"
@@ -37071,7 +37071,7 @@ const productsData = [
     "category_sub_en": "043-532-3174",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"HIWIN\", \"Classification\": \"LM\", \"총장(mm)\": \"120\", \"블럭수 (EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"HIWIN\", \"Classification\": \"LM\", \"Total Length (mm)\": \"120\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "5465_1.jpg",
       "5465_4.jpg"
@@ -37092,7 +37092,7 @@ const productsData = [
     "category_sub_en": "THK SR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM가이드\", \"레일길이(mm)\": \"300\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM Guide\", \"Rail Length (mm)\": \"300\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "5466_1.jpg"
     ],
@@ -37112,7 +37112,7 @@ const productsData = [
     "category_sub_en": "THK SR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM가이드\", \"레일길이(mm)\": \"150\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM Guide\", \"Rail Length (mm)\": \"150\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "5467_1.jpg",
       "5467_4.jpg"
@@ -37133,7 +37133,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"400W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"400W\", \"Condition\": \"A\"}",
     "images": [
       "5468_1.jpg",
       "5468_3.jpg",
@@ -37155,7 +37155,7 @@ const productsData = [
     "category_sub_en": "NSK",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"총장(mm)\": \"290\", \"블럭수 (EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"Total Length (mm)\": \"290\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "5469_1.jpg",
       "5469_3.jpg"
@@ -37176,7 +37176,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Servomotor Driver\", \"출력\": \"200W\", \"Condition\": \"A-Level\"}",
+    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Servomotor Driver\", \"Output\": \"200W\", \"Condition\": \"A-Level\"}",
     "images": [
       "5472_1.jpg",
       "5472_3.jpg",
@@ -37198,7 +37198,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"200W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"200W\", \"Condition\": \"A\"}",
     "images": [
       "5473_1.jpg",
       "5473_3.jpg",
@@ -37220,7 +37220,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"400W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"400W\", \"-\": \"-\"}",
     "images": [
       "5474_1.jpg",
       "5474_3.jpg",
@@ -37308,7 +37308,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"100W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"100W\", \"Condition\": \"A\"}",
     "images": [
       "5478_1.jpg",
       "5478_3.jpg",
@@ -37330,7 +37330,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Servomotor Driver\", \"출력\": \"100W\", \"Condition\": \"A-Level\"}",
+    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Servomotor Driver\", \"Output\": \"100W\", \"Condition\": \"A-Level\"}",
     "images": [
       "5479_1.jpg",
       "5479_3.jpg",
@@ -37439,7 +37439,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"한영\", \"Classification\": \"컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"한영\", \"Classification\": \"Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5485_1.jpg",
       "5485_3.jpg",
@@ -37594,7 +37594,7 @@ const productsData = [
     "category_sub_en": "THK RSR Miniature",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM\", \"레일길이(mm)\": \"835\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM\", \"Rail Length (mm)\": \"835\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "5492_1.jpg",
       "5492_3.jpg",
@@ -37659,7 +37659,7 @@ const productsData = [
     "category_sub_en": "DC motor/DC servo motor",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"PITTMAN\", \"Classification\": \"DC모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"PITTMAN\", \"Classification\": \"DCMotor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5502_1.jpg",
       "5502_3.jpg"
@@ -37680,7 +37680,7 @@ const productsData = [
     "category_sub_en": "DC motor/DC servo motor",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Globe Motors\", \"Classification\": \"DC모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Globe Motors\", \"Classification\": \"DCMotor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5503_1.jpg",
       "5503_3.jpg"
@@ -37701,7 +37701,7 @@ const productsData = [
     "category_sub_en": "reducer",
     "category_subsub_kr": "HARMONIC DRIVE",
     "category_subsub_en": "HARMONIC DRIVE",
-    "specifications": "{\"MAKER\": \"ATG\", \"Classification\": \"REDUCER\", \"Ratio\": \"10:1\", \"Condition\": \"미사용 새제품\"}",
+    "specifications": "{\"MAKER\": \"ATG\", \"Classification\": \"REDUCER\", \"Ratio\": \"10:1\", \"Condition\": \"Unused (New Product)\"}",
     "images": [
       "5505_1.jpg",
       "5505_3.jpg",
@@ -37724,7 +37724,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "5507_1.jpg",
       "5507_2.jpg",
@@ -37791,7 +37791,7 @@ const productsData = [
     "category_sub_en": "NISSEI",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NISSEI\", \"Classification\": \"기어드모터\", \"출력\": \"0.1KW\", \"감속비\": \"200 :1\"}",
+    "specifications": "{\"MAKER\": \"NISSEI\", \"Classification\": \"기어드Motor\", \"Output\": \"0.1KW\", \"Reduction Ratio\": \"200 :1\"}",
     "images": [
       "551_1.jpg",
       "551_3.jpg",
@@ -37904,7 +37904,7 @@ const productsData = [
     "category_sub_en": "wafer transfer robot",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Brooks\", \"Classification\": \"ATM ROBOT\", \"Condition\": \"AS IS\", \"비고\": \"제어기 없음\"}",
+    "specifications": "{\"MAKER\": \"Brooks\", \"Classification\": \"ATM ROBOT\", \"Condition\": \"AS IS\", \"Note\": \"제어기 None\"}",
     "images": [
       "5516_1.jpg",
       "5516_2.jpg"
@@ -37925,7 +37925,7 @@ const productsData = [
     "category_sub_en": "1 axis",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"기타\", \"Classification\": \"1축 엑츄에이터\", \"Condition\": \"A\", \"스트로크\": \"1,520mm\"}",
+    "specifications": "{\"MAKER\": \"기타\", \"Classification\": \"Single-Axis Actuator\", \"Condition\": \"A\", \"Stroke\": \"1,520mm\"}",
     "images": [
       "5517_1.jpg",
       "5517_2.jpg"
@@ -37946,7 +37946,7 @@ const productsData = [
     "category_sub_en": "1 axis",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"기타\", \"Classification\": \"1축 엑츄에이터\", \"Condition\": \"A\", \"스트로크\": \"1,050mm\"}",
+    "specifications": "{\"MAKER\": \"기타\", \"Classification\": \"Single-Axis Actuator\", \"Condition\": \"A\", \"Stroke\": \"1,050mm\"}",
     "images": [
       "5518_1.jpg",
       "5518_2.jpg",
@@ -37969,7 +37969,7 @@ const productsData = [
     "category_sub_en": "1 axis",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"1축 엑츄에이터\", \"Condition\": \"A\", \"스트로크\": \"1,100mm\"}",
+    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"Single-Axis Actuator\", \"Condition\": \"A\", \"Stroke\": \"1,100mm\"}",
     "images": [
       "5521_1.jpg",
       "5521_2.jpg",
@@ -37991,7 +37991,7 @@ const productsData = [
     "category_sub_en": "1 axis",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"1축 엑츄에이터\", \"Condition\": \"A\", \"스트로크\": \"1,500mm\"}",
+    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"Single-Axis Actuator\", \"Condition\": \"A\", \"Stroke\": \"1,500mm\"}",
     "images": [
       "5522_1.jpg",
       "5522_2.jpg",
@@ -38013,7 +38013,7 @@ const productsData = [
     "category_sub_en": "1 axis",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MAMMOTH\", \"Classification\": \"1축 엑츄에이터\", \"Condition\": \"A\", \"스트로크\": \"2,300mm-\"}",
+    "specifications": "{\"MAKER\": \"MAMMOTH\", \"Classification\": \"Single-Axis Actuator\", \"Condition\": \"A\", \"Stroke\": \"2,300mm-\"}",
     "images": [
       "5524_1.jpg",
       "5524_2.jpg",
@@ -38035,7 +38035,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"200W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"200W\", \"Condition\": \"A\"}",
     "images": [
       "5526_1.jpg",
       "5526_3.jpg"
@@ -38056,7 +38056,7 @@ const productsData = [
     "category_sub_en": "043-532-3174",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"IKO\", \"Classification\": \"LM 가이드\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"IKO\", \"Classification\": \"LM Guide\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5528_1.jpg",
       "5528_3.jpg"
@@ -38077,7 +38077,7 @@ const productsData = [
     "category_sub_en": "043-532-3174",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"IKO\", \"Classification\": \"LM 가이드\", \"Condition\": \"A\", \"블럭 수\": \"4Pcs \"}",
+    "specifications": "{\"MAKER\": \"IKO\", \"Classification\": \"LM Guide\", \"Condition\": \"A\", \"Block Count\": \"4Pcs \"}",
     "images": [
       "5529_1.jpg",
       "5529_3.jpg",
@@ -38099,7 +38099,7 @@ const productsData = [
     "category_sub_en": "NSK",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"총장(mm)\": \"160\", \"블럭수 (EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"Total Length (mm)\": \"160\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "5530_1.jpg",
       "5530_3.jpg"
@@ -38120,7 +38120,7 @@ const productsData = [
     "category_sub_en": "MOTOR+DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING\", \"Condition\": \"A\", \"드라이버\": \"ASD12A-C\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING\", \"Condition\": \"A\", \"Driver\": \"ASD12A-C\"}",
     "images": [
       "5531_1.jpg",
       "5531_3.jpg",
@@ -38143,7 +38143,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "LM가이드부착형실린더",
     "category_subsub_en": "LM guide attached cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(LM부착형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Air Cylinder(LM부착형)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5532_1.jpg",
       "5532_3.jpg"
@@ -38164,7 +38164,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "LM가이드부착형실린더",
     "category_subsub_en": "LM guide attached cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(LM부착형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Air Cylinder(LM부착형)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5533_1.jpg",
       "5533_3.jpg",
@@ -38208,7 +38208,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5535_1.jpg",
       "5535_3.jpg"
@@ -38446,7 +38446,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5549_1.jpg",
       "5549_3.jpg"
@@ -38467,7 +38467,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5550_1.jpg",
       "5550_3.jpg",
@@ -38531,7 +38531,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "로터리 실린더",
     "category_subsub_en": "rotary cylinder",
-    "specifications": "{\"MAKER\": \"Parker KURODA\", \"Classification\": \"AIR 실린더(회전ROTARY)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Parker KURODA\", \"Classification\": \"AIR Cylinder (Rotary)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5556_1.jpg",
       "5556_3.jpg",
@@ -38553,7 +38553,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "로터리 실린더",
     "category_subsub_en": "rotary cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(회전ROTARY)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Rotary)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5557_1.jpg",
       "5557_3.jpg"
@@ -38597,7 +38597,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"200W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"200W\", \"Condition\": \"A\"}",
     "images": [
       "5559_1.jpg",
       "5559_3.jpg",
@@ -38705,7 +38705,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5565_1.jpg",
       "5565_3.jpg"
@@ -38855,7 +38855,7 @@ const productsData = [
     "category_sub_en": "NSK",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"총장(mm)\": \"300\", \"블럭수 (EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"Total Length (mm)\": \"300\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "5574_1.jpg",
       "5574_3.jpg",
@@ -38877,7 +38877,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5575_1.jpg",
       "5575_2.jpg",
@@ -38899,7 +38899,7 @@ const productsData = [
     "category_sub_en": "BALL SCREW",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"볼스크류\", \"A:총길이(mm)\": \"220\", \"B:스크류길이(mm)\": \"135\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"Ball Screw\", \"A: Total Length (mm)\": \"220\", \"B: Screw Length (mm)\": \"135\"}",
     "images": [
       "5579_1.jpg",
       "5579_3.jpg",
@@ -38922,7 +38922,7 @@ const productsData = [
     "category_sub_en": "BALL SCREW",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"ISSOKU\", \"Classification\": \"볼스크류\", \"A:총길이(mm)\": \"185\", \"B:스크류길이(mm)\": \"100\"}",
+    "specifications": "{\"MAKER\": \"ISSOKU\", \"Classification\": \"Ball Screw\", \"A: Total Length (mm)\": \"185\", \"B: Screw Length (mm)\": \"100\"}",
     "images": [
       "5580_1.jpg",
       "5580_3.jpg",
@@ -39078,7 +39078,7 @@ const productsData = [
     "category_sub_en": "1 axis",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"야스카와\", \"Classification\": \"리니어서보 엑츄에이터\", \"스트로크(mm)\": \"900\", \"드라이버/시리얼컨버터\": \"미포함\"}",
+    "specifications": "{\"MAKER\": \"야스카와 (Yaskawa)\", \"Classification\": \"리니어서보 엑츄에이터\", \"Stroke (mm)\": \"900\", \"Driver/Serial Converter\": \"미포함\"}",
     "images": [
       "5592_1.jpg",
       "5592_3.jpg",
@@ -39100,7 +39100,7 @@ const productsData = [
     "category_sub_en": "checker",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Infinity Scientific\", \"Classification\": \"Wafer Probe (검사기)\", \"Condition\": \"B\", \"CCD카메라\": \"Basler\"}",
+    "specifications": "{\"MAKER\": \"Infinity Scientific\", \"Classification\": \"Wafer Probe (검사기)\", \"Condition\": \"B\", \"CCD Camera\": \"Basler\"}",
     "images": [
       "5594_1.jpg",
       "5594_2.jpg"
@@ -39121,7 +39121,7 @@ const productsData = [
     "category_sub_en": "0~5A",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"COSEL\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"24V 4.5A\", \"입력 전원\": \"110-240V\"}",
+    "specifications": "{\"MAKER\": \"COSEL\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"24V 4.5A\", \"Input Power\": \"110-240V\"}",
     "images": [
       "5595_1.jpg",
       "5595_3.jpg",
@@ -39143,7 +39143,7 @@ const productsData = [
     "category_sub_en": "NSK",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"총장(mm)\": \"460\", \"블럭수 (EA)\": \"1\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"Total Length (mm)\": \"460\", \"Block Count (EA)\": \"1\"}",
     "images": [
       "5596_1.jpg",
       "5596_3.jpg"
@@ -39164,7 +39164,7 @@ const productsData = [
     "category_sub_en": "MOTOR+DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO\", \"Condition\": \"A\", \"감속비\": \"21:1\"}",
+    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"SERVO\", \"Condition\": \"A\", \"Reduction Ratio\": \"21:1\"}",
     "images": [
       "5597_1.jpg",
       "5597_2.jpg",
@@ -39231,7 +39231,7 @@ const productsData = [
     "category_sub_en": "1 axis",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"엑츄에이터\", \"스트로크(mm)\": \"50\", \"리드(mm)\": \"5\"}",
+    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"엑츄에이터\", \"Stroke (mm)\": \"50\", \"Lead (mm)\": \"5\"}",
     "images": [
       "5601_1.jpg",
       "5601_2.jpg",
@@ -39341,7 +39341,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"200W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"200W\", \"-\": \"-\"}",
     "images": [
       "5614_1.jpg",
       "5614_3.jpg"
@@ -39492,7 +39492,7 @@ const productsData = [
     "category_sub_en": "MOTOR+DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING\", \"Condition\": \"A\", \"드라이버\": \"ASD16D-C\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING\", \"Condition\": \"A\", \"Driver\": \"ASD16D-C\"}",
     "images": [
       "5623_1.jpg",
       "5623_2.jpg",
@@ -39539,7 +39539,7 @@ const productsData = [
     "category_sub_en": "CONTROLLER Other",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MOXA\", \"Classification\": \"RS232/422/485 디바이스서버\", \"Condition\": \"미사용새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MOXA\", \"Classification\": \"RS232/422/485 디바이스서버\", \"Condition\": \"Unused새제품\", \"-\": \"-\"}",
     "images": [
       "5625_1.jpg",
       "5625_3.jpg",
@@ -39826,7 +39826,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TAKEX\", \"Classification\": \"AREA SENSOR 센서\", \"Condition\": \"A\", \"센서 길이(약)\": \"800mm\"}",
+    "specifications": "{\"MAKER\": \"TAKEX\", \"Classification\": \"AREA SENSOR Sensor\", \"Condition\": \"A\", \"Sensor Length (approx)\": \"800mm\"}",
     "images": [
       "5647_4.jpg",
       "5647_5.jpg"
@@ -39847,7 +39847,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"AREA SENSOR 센서\", \"Condition\": \"A\", \"센서 길이(약)\": \"800mm\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"AREA SENSOR Sensor\", \"Condition\": \"A\", \"Sensor Length (approx)\": \"800mm\"}",
     "images": [
       "5648_1.jpg",
       "5648_3.jpg",
@@ -40003,7 +40003,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"400W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"400W\", \"-\": \"-\"}",
     "images": [
       "5658_1.jpg",
       "5658_3.jpg",
@@ -40025,7 +40025,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"200W\", \"감속기\": \"부착됨\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"200W\", \"Reducer\": \"부착됨\"}",
     "images": [
       "5659_1.jpg",
       "5659_3.jpg"
@@ -40109,7 +40109,7 @@ const productsData = [
     "category_sub_en": "THK HSR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HSR15-A형\", \"외형 치수\": \"레일길이\", \"LM블럭 치수\": \"높이(M)\", \"360\": \"42\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HSR15-A형\", \"External Dimensions\": \"레일길이\", \"LM Block Dimensions\": \"높이(M)\", \"360\": \"42\"}",
     "images": [
       "5664_1.jpg",
       "5664_4.jpg",
@@ -40131,7 +40131,7 @@ const productsData = [
     "category_sub_en": "043-532-3174",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"IKO\", \"Classification\": \"LM 가이드\", \"Condition\": \"A\", \"블럭 수\": \"2Pcs \"}",
+    "specifications": "{\"MAKER\": \"IKO\", \"Classification\": \"LM Guide\", \"Condition\": \"A\", \"Block Count\": \"2Pcs \"}",
     "images": [
       "5665_1.jpg",
       "5665_3.jpg"
@@ -40152,7 +40152,7 @@ const productsData = [
     "category_sub_en": "043-532-3174",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"IKO\", \"Classification\": \"LM 가이드\", \"Condition\": \"A\", \"블럭 수\": \"1Pcs \"}",
+    "specifications": "{\"MAKER\": \"IKO\", \"Classification\": \"LM Guide\", \"Condition\": \"A\", \"Block Count\": \"1Pcs \"}",
     "images": [
       "5666_1.jpg"
     ],
@@ -40172,7 +40172,7 @@ const productsData = [
     "category_sub_en": "NSK",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"총장(mm)\": \"280\", \"블럭수 (EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"Total Length (mm)\": \"280\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "5667_1.jpg",
       "5667_3.jpg"
@@ -40193,7 +40193,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"100W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"100W\", \"-\": \"-\"}",
     "images": [
       "5668_1.jpg",
       "5668_3.jpg",
@@ -40215,7 +40215,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"200W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"200W\", \"Condition\": \"A\"}",
     "images": [
       "5669_1.jpg",
       "5669_3.jpg",
@@ -40237,7 +40237,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SAMSUNG\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"400W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SAMSUNG\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"400W\", \"-\": \"-\"}",
     "images": [
       "5670_1.jpg",
       "5670_3.jpg"
@@ -40258,7 +40258,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SAMSUNG\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"200W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SAMSUNG\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"200W\", \"-\": \"-\"}",
     "images": [
       "5671_1.jpg",
       "5671_3.jpg"
@@ -40279,7 +40279,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SAMSUNG\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"100W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SAMSUNG\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"100W\", \"-\": \"-\"}",
     "images": [
       "5672_1.jpg",
       "5672_3.jpg",
@@ -40651,7 +40651,7 @@ const productsData = [
     "category_sub_en": "MITSUBISHI",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"인버터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"Inverter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5693_1.jpg",
       "5693_3.jpg"
@@ -40672,7 +40672,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"한영\", \"Classification\": \"컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"한영\", \"Classification\": \"Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5694_1.jpg",
       "5694_3.jpg"
@@ -40693,7 +40693,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"한영\", \"Classification\": \"온도 컨트롤러\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"한영\", \"Classification\": \"온도 Controller\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "5695_1.jpg",
       "5695_3.jpg",
@@ -40715,7 +40715,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5697_1.jpg",
       "5697_3.jpg",
@@ -40737,7 +40737,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5698_1.jpg",
       "5698_3.jpg"
@@ -40758,7 +40758,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(가이드형)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5704_1.jpg",
       "5704_3.jpg"
@@ -40879,7 +40879,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"통신모듈\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"Communication Module\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5710_1.jpg",
       "5710_4.jpg"
@@ -40900,7 +40900,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"통신모듈\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"Communication Module\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5711_1.jpg"
     ],
@@ -40920,7 +40920,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"통신모듈\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"Communication Module\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5712_1.jpg",
       "5712_3.jpg"
@@ -40941,7 +40941,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"통신모듈\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"Communication Module\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5713_1.jpg"
     ],
@@ -40961,7 +40961,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"통신모듈\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"Communication Module\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5714_1.jpg",
       "5714_5.jpg"
@@ -41046,7 +41046,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"100W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"100W\", \"-\": \"-\"}",
     "images": [
       "5720_1.jpg",
       "5720_3.jpg"
@@ -41067,7 +41067,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"50W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"50W\", \"Condition\": \"A\"}",
     "images": [
       "5721_1.jpg",
       "5721_3.jpg"
@@ -41109,7 +41109,7 @@ const productsData = [
     "category_sub_en": "Output DC 36V",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"COSEL\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"36V 18A\", \"입력 전원\": \"110-240V\"}",
+    "specifications": "{\"MAKER\": \"COSEL\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"36V 18A\", \"Input Power\": \"110-240V\"}",
     "images": [
       "5724_1.jpg",
       "5724_3.jpg",
@@ -41131,7 +41131,7 @@ const productsData = [
     "category_sub_en": "20A 이상",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"COSEL\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"24V 44A\", \"입력 전원\": \"110-240V\"}",
+    "specifications": "{\"MAKER\": \"COSEL\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"24V 44A\", \"Input Power\": \"110-240V\"}",
     "images": [
       "5725_1.jpg",
       "5725_3.jpg",
@@ -41176,7 +41176,7 @@ const productsData = [
     "category_sub_en": "ALIGNER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"TAZMO\", \"Classification\": \"Aligner\", \"적용 Wafer\": \"300mm\", \"전원및 상양\": \"명판참조\"}",
+    "specifications": "{\"MAKER\": \"TAZMO\", \"Classification\": \"Aligner\", \"Applied Wafer\": \"300mm\", \"Power and Specifications\": \"명판참조\"}",
     "images": [
       "5729_1.jpg",
       "5729_3.jpg",
@@ -41245,7 +41245,7 @@ const productsData = [
     "category_sub_en": "043-532-3174",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM\", \"스트로크\": \"18 mm\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM\", \"Stroke\": \"18 mm\", \"-\": \"-\"}",
     "images": [
       "5734_1.jpg",
       "5734_3.jpg",
@@ -41289,7 +41289,7 @@ const productsData = [
     "category_sub_en": "043-532-3174",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"DEL-TRON\", \"Classification\": \"LM\", \"스트로크\": \"46 mm\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"DEL-TRON\", \"Classification\": \"LM\", \"Stroke\": \"46 mm\", \"-\": \"-\"}",
     "images": [
       "5737_1.jpg",
       "5737_3.jpg"
@@ -41332,7 +41332,7 @@ const productsData = [
     "category_sub_en": "043-532-3174",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"WM BERG\", \"Classification\": \"LM\", \"스트로크\": \"48 mm\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"WM BERG\", \"Classification\": \"LM\", \"Stroke\": \"48 mm\", \"-\": \"-\"}",
     "images": [
       "5740_1.jpg"
     ],
@@ -41518,7 +41518,7 @@ const productsData = [
     "category_sub_en": "REGULATOR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"레귤레이터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Regulator\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5748_1.jpg",
       "5748_2.jpg",
@@ -41542,7 +41542,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "박형실린더",
     "category_subsub_en": "Thin cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"박형실린더\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"박형Cylinder\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5750_1.jpg",
       "5750_2.jpg",
@@ -41565,7 +41565,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "박형실린더",
     "category_subsub_en": "Thin cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"박형실린더\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"박형Cylinder\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5751_1.jpg",
       "5751_3.jpg",
@@ -41588,7 +41588,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "박형실린더",
     "category_subsub_en": "Thin cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"박형실린더\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"박형Cylinder\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5752_1.jpg",
       "5752_2.jpg",
@@ -41611,7 +41611,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "박형실린더",
     "category_subsub_en": "Thin cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"박형실린더\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"박형Cylinder\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5753_1.jpg",
       "5753_3.jpg",
@@ -41633,7 +41633,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "박형실린더",
     "category_subsub_en": "Thin cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"박형실린더\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"박형Cylinder\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5754_1.jpg",
       "5754_2.jpg",
@@ -41726,7 +41726,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "박형실린더",
     "category_subsub_en": "Thin cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"박형실린더\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"박형Cylinder\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5759_1.jpg",
       "5759_3.jpg",
@@ -41749,7 +41749,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "박형실린더",
     "category_subsub_en": "Thin cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"박형실린더\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"박형Cylinder\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5760_1.jpg",
       "5760_3.jpg",
@@ -41793,7 +41793,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SICK\", \"Classification\": \"센서\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SICK\", \"Classification\": \"Sensor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5762_1.jpg",
       "5762_3.jpg"
@@ -41855,7 +41855,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "박형실린더",
     "category_subsub_en": "Thin cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"박형실린더\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"박형Cylinder\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5766_1.jpg",
       "5766_3.jpg",
@@ -41901,7 +41901,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "박형실린더",
     "category_subsub_en": "Thin cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"박형실린더\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"박형Cylinder\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5768_1.jpg",
       "5768_3.jpg",
@@ -42016,7 +42016,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SHINSUNG\", \"Classification\": \"FFU\", \"Condition\": \"A\", \"사이즈(mm)\": \"550*1500*50\"}",
+    "specifications": "{\"MAKER\": \"SHINSUNG\", \"Classification\": \"FFU\", \"Condition\": \"A\", \"Size (mm)\": \"550*1500*50\"}",
     "images": [
       "5774_1.jpg",
       "5774_3.jpg",
@@ -42039,7 +42039,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SHINSUNG\", \"Classification\": \"FFU\", \"Condition\": \"A\", \"사이즈(mm)\": \"550*1400*50\"}",
+    "specifications": "{\"MAKER\": \"SHINSUNG\", \"Classification\": \"FFU\", \"Condition\": \"A\", \"Size (mm)\": \"550*1400*50\"}",
     "images": [
       "5775_1.jpg",
       "5775_3.jpg",
@@ -42155,7 +42155,7 @@ const productsData = [
     "category_sub_en": "6~20A",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"COSEL\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"24V 14A\", \"입력 전원\": \"110-240V\"}",
+    "specifications": "{\"MAKER\": \"COSEL\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"24V 14A\", \"Input Power\": \"110-240V\"}",
     "images": [
       "5781_1.jpg",
       "5781_5.jpg"
@@ -42176,7 +42176,7 @@ const productsData = [
     "category_sub_en": "20A 이상",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"COSEL\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"24V 27A\", \"입력 전원\": \"110-240V\"}",
+    "specifications": "{\"MAKER\": \"COSEL\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"24V 27A\", \"Input Power\": \"110-240V\"}",
     "images": [
       "5782_1.jpg",
       "5782_3.jpg",
@@ -42199,7 +42199,7 @@ const productsData = [
     "category_sub_en": "Output DC 15V",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"COSEL\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"15V 1.7A\", \"입력 전원\": \"110-240V\"}",
+    "specifications": "{\"MAKER\": \"COSEL\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"15V 1.7A\", \"Input Power\": \"110-240V\"}",
     "images": [
       "5783_1.jpg",
       "5783_3.jpg",
@@ -42264,7 +42264,7 @@ const productsData = [
     "category_sub_en": "YASKAWA",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"YASKAWA\", \"Classification\": \"인버터\", \"KW\": \"0.4\", \"Condition\": \"A-Level\"}",
+    "specifications": "{\"MAKER\": \"YASKAWA\", \"Classification\": \"Inverter\", \"KW\": \"0.4\", \"Condition\": \"A-Level\"}",
     "images": [
       "5786_1.jpg",
       "5786_3.jpg"
@@ -42465,7 +42465,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "로드레스실린더",
     "category_subsub_en": "Rodless cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"로드레스실린더\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"로드레스Cylinder\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5800_1.jpg",
       "5800_3.jpg",
@@ -42488,7 +42488,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "로드레스실린더",
     "category_subsub_en": "Rodless cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"로드레스실린더\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"로드레스Cylinder\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5802_1.jpg",
       "5802_3.jpg",
@@ -42511,7 +42511,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "로드레스실린더",
     "category_subsub_en": "Rodless cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"로드레스실린더\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"로드레스Cylinder\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5803_1.jpg",
       "5803_3.jpg",
@@ -42603,7 +42603,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "로드레스실린더",
     "category_subsub_en": "Rodless cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"로드레스실린더\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"로드레스Cylinder\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5808_1.jpg",
       "5808_3.jpg",
@@ -43295,7 +43295,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MOXA\", \"Classification\": \"통신모듈\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MOXA\", \"Classification\": \"Communication Module\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5853_2.jpg",
       "5853_3.jpg"
@@ -43316,7 +43316,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MOXA\", \"Classification\": \"통신모듈\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MOXA\", \"Classification\": \"Communication Module\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5854_1.jpg",
       "5854_3.jpg",
@@ -43997,7 +43997,7 @@ const productsData = [
     "category_sub_en": "THK SHS",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM가이드\", \"레일길이(mm)\": \"160\", \"블럭수(EA)\": \"1\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM Guide\", \"Rail Length (mm)\": \"160\", \"Block Count (EA)\": \"1\"}",
     "images": [
       "5894_1.jpg",
       "5894_3.jpg"
@@ -44018,7 +44018,7 @@ const productsData = [
     "category_sub_en": "THK SHS",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM가이드\", \"레일길이(mm)\": \"1,100\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM Guide\", \"Rail Length (mm)\": \"1,100\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "5896_1.jpg",
       "5896_3.jpg",
@@ -44040,7 +44040,7 @@ const productsData = [
     "category_sub_en": "THK HRW wide rail",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SHW\", \"레일길이(mm)\": \"780\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"SHW\", \"Rail Length (mm)\": \"780\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "5897_1.jpg",
       "5897_3.jpg",
@@ -44063,7 +44063,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"ONTEC\", \"Classification\": \"통신모듈\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"ONTEC\", \"Classification\": \"Communication Module\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5898_1.jpg",
       "5898_3.jpg"
@@ -44084,7 +44084,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"ONTEC\", \"Classification\": \"통신모듈\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"ONTEC\", \"Classification\": \"Communication Module\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5899_1.jpg"
     ],
@@ -44104,7 +44104,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"ONTEC\", \"Classification\": \"통신모듈\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"ONTEC\", \"Classification\": \"Communication Module\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5900_1.jpg",
       "5900_3.jpg"
@@ -44125,7 +44125,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"ONTEC\", \"Classification\": \"통신모듈\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"ONTEC\", \"Classification\": \"Communication Module\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5901_1.jpg",
       "5901_3.jpg"
@@ -44458,7 +44458,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "5924_1.jpg",
       "5924_3.jpg",
@@ -44481,7 +44481,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "5925_1.jpg",
       "5925_3.jpg",
@@ -44504,7 +44504,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "5926_1.jpg",
       "5926_3.jpg",
@@ -44527,7 +44527,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "5927_1.jpg",
       "5927_3.jpg",
@@ -44550,7 +44550,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "5928_1.jpg",
       "5928_3.jpg"
@@ -44571,7 +44571,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "5929_1.jpg",
       "5929_3.jpg",
@@ -44615,7 +44615,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "5930_1.jpg",
       "5930_3.jpg",
@@ -44638,7 +44638,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "5931_1.jpg",
       "5931_3.jpg",
@@ -44661,7 +44661,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "5932_1.jpg",
       "5932_3.jpg",
@@ -44683,7 +44683,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "5933_1.jpg",
       "5933_2.jpg",
@@ -44707,7 +44707,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "5934_1.jpg",
       "5934_2.jpg",
@@ -44730,7 +44730,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "5935_1.jpg",
       "5935_3.jpg",
@@ -44752,7 +44752,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "5936_1.jpg",
       "5936_2.jpg",
@@ -44776,7 +44776,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "5937_1.jpg",
       "5937_3.jpg",
@@ -44799,7 +44799,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "5938_1.jpg",
       "5938_3.jpg",
@@ -44822,7 +44822,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "5939_1.jpg",
       "5939_2.jpg",
@@ -44846,7 +44846,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "5940_1.jpg",
       "5940_2.jpg",
@@ -44870,7 +44870,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "5941_1.jpg",
       "5941_3.jpg",
@@ -44892,7 +44892,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "5942_1.jpg",
       "5942_2.jpg",
@@ -44916,7 +44916,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "5943_1.jpg",
       "5943_2.jpg",
@@ -44940,7 +44940,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"FESTO\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"FESTO\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "5944_1.jpg",
       "5944_2.jpg",
@@ -44964,7 +44964,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"FESTO\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"FESTO\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "5945_1.jpg",
       "5945_2.jpg",
@@ -44987,7 +44987,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"FESTO\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"FESTO\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "5946_1.jpg",
       "5946_3.jpg"
@@ -45008,7 +45008,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"FESTO\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"FESTO\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "5947_1.jpg",
       "5947_3.jpg",
@@ -45031,7 +45031,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"FESTO\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"FESTO\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "5948_1.jpg",
       "5948_2.jpg",
@@ -45055,7 +45055,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"FESTO\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"FESTO\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "5949_1.jpg",
       "5949_2.jpg",
@@ -45102,7 +45102,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"FINE SUNTRONIX\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"FINE SUNTRONIX\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5950_2.jpg"
     ],
@@ -45122,7 +45122,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"컨트롤러\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"Controller\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5952_1.jpg",
       "5952_3.jpg",
@@ -45233,7 +45233,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OKAYA\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"OKAYA\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5961_1.jpg",
       "5961_3.jpg"
@@ -45254,7 +45254,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OKAYA\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"OKAYA\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5962_1.jpg",
       "5962_3.jpg"
@@ -45275,7 +45275,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SUNX\", \"Classification\": \"AREA SENSOR 센서\", \"Condition\": \"A\", \"센서 길이(약)\": \"510mm\"}",
+    "specifications": "{\"MAKER\": \"SUNX\", \"Classification\": \"AREA SENSOR Sensor\", \"Condition\": \"A\", \"Sensor Length (approx)\": \"510mm\"}",
     "images": [
       "5963_1.jpg",
       "5963_3.jpg"
@@ -45296,7 +45296,7 @@ const productsData = [
     "category_sub_en": "THK SR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM가이드\", \"레일길이(mm)\": \"150\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM Guide\", \"Rail Length (mm)\": \"150\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "5964_1.jpg",
       "5964_3.jpg",
@@ -45318,7 +45318,7 @@ const productsData = [
     "category_sub_en": "SYM",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SYM\", \"Classification\": \"AC모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SYM\", \"Classification\": \"AC Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5966_1.jpg",
       "5966_3.jpg",
@@ -45341,7 +45341,7 @@ const productsData = [
     "category_sub_en": "SYM",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SYM\", \"Classification\": \"AC모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SYM\", \"Classification\": \"AC Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5968_1.jpg",
       "5968_4.jpg"
@@ -45362,7 +45362,7 @@ const productsData = [
     "category_sub_en": "SYM",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SYM\", \"Classification\": \"AC모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SYM\", \"Classification\": \"AC Motor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5969_1.jpg"
     ],
@@ -45382,7 +45382,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "5970_1.jpg",
       "5970_3.jpg"
@@ -45403,7 +45403,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5971_1.jpg",
       "5971_2.jpg"
@@ -45424,7 +45424,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "5972_1.jpg",
       "5972_3.jpg",
@@ -45446,7 +45446,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터 감속기\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor Reducer\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "5973_1.jpg"
     ],
@@ -45466,7 +45466,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터 감속기\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor Reducer\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "5974_1.jpg",
       "5974_3.jpg"
@@ -45487,7 +45487,7 @@ const productsData = [
     "category_sub_en": "SPG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC모터 감속기\", \"Condition\": \"미사용 새제품\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SPG\", \"Classification\": \"AC Motor Reducer\", \"Condition\": \"Unused (New Product)\", \"-\": \"-\"}",
     "images": [
       "5975_1.jpg",
       "5975_3.jpg"
@@ -45615,7 +45615,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KEYENC\", \"Classification\": \"센서\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"KEYENC\", \"Classification\": \"Sensor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5983_1.jpg",
       "5983_3.jpg",
@@ -45684,7 +45684,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SANIL\", \"Classification\": \"센서\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SANIL\", \"Classification\": \"Sensor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5987_1.jpg",
       "5987_3.jpg"
@@ -45705,7 +45705,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SUNX\", \"Classification\": \"센서\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SUNX\", \"Classification\": \"Sensor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5988_1.jpg"
     ],
@@ -45725,7 +45725,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"센서\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"Sensor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5989_1.jpg",
       "5989_3.jpg",
@@ -45748,7 +45748,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KEYENCE\", \"Classification\": \"센서\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"KEYENCE\", \"Classification\": \"Sensor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5991_1.jpg"
     ],
@@ -45768,7 +45768,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KEYENCE\", \"Classification\": \"센서\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"KEYENCE\", \"Classification\": \"Sensor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5992_1.jpg"
     ],
@@ -45788,7 +45788,7 @@ const productsData = [
     "category_sub_en": "센서",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KEYENCE\", \"Classification\": \"센서\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"KEYENCE\", \"Classification\": \"Sensor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "5993_1.jpg",
       "5993_3.jpg",
@@ -45856,7 +45856,7 @@ const productsData = [
     "category_sub_en": "BALL SCREW",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KSS\", \"Classification\": \"볼스크류\", \"A:총길이(mm)\": \"80\", \"B:스크류길이(mm)\": \"55\"}",
+    "specifications": "{\"MAKER\": \"KSS\", \"Classification\": \"Ball Screw\", \"A: Total Length (mm)\": \"80\", \"B: Screw Length (mm)\": \"55\"}",
     "images": [
       "5998_1.jpg",
       "5998_3.jpg",
@@ -45879,7 +45879,7 @@ const productsData = [
     "category_sub_en": "BALL SCREW",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KSS\", \"Classification\": \"볼스크류\", \"A:총길이(mm)\": \"93\", \"B:스크류길이(mm)\": \"52\"}",
+    "specifications": "{\"MAKER\": \"KSS\", \"Classification\": \"Ball Screw\", \"A: Total Length (mm)\": \"93\", \"B: Screw Length (mm)\": \"52\"}",
     "images": [
       "5999_1.jpg",
       "5999_3.jpg",
@@ -45902,7 +45902,7 @@ const productsData = [
     "category_sub_en": "BALL SCREW",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KSS\", \"Classification\": \"볼스크류\", \"A:총길이(mm)\": \"101\", \"B:스크류길이(mm)\": \"49\"}",
+    "specifications": "{\"MAKER\": \"KSS\", \"Classification\": \"Ball Screw\", \"A: Total Length (mm)\": \"101\", \"B: Screw Length (mm)\": \"49\"}",
     "images": [
       "6000_1.jpg",
       "6000_3.jpg",
@@ -45925,7 +45925,7 @@ const productsData = [
     "category_sub_en": "BALL SCREW",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KSS\", \"Classification\": \"볼스크류\", \"A:총길이(mm)\": \"106\", \"B:스크류길이(mm)\": \"65\"}",
+    "specifications": "{\"MAKER\": \"KSS\", \"Classification\": \"Ball Screw\", \"A: Total Length (mm)\": \"106\", \"B: Screw Length (mm)\": \"65\"}",
     "images": [
       "6001_1.jpg",
       "6001_3.jpg",
@@ -45948,7 +45948,7 @@ const productsData = [
     "category_sub_en": "BALL SCREW",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KSS\", \"Classification\": \"볼스크류\", \"A:총길이(mm)\": \"126\", \"B:스크류길이(mm)\": \"90\"}",
+    "specifications": "{\"MAKER\": \"KSS\", \"Classification\": \"Ball Screw\", \"A: Total Length (mm)\": \"126\", \"B: Screw Length (mm)\": \"90\"}",
     "images": [
       "6002_1.jpg",
       "6002_3.jpg",
@@ -45971,7 +45971,7 @@ const productsData = [
     "category_sub_en": "BALL SCREW",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KSS\", \"Classification\": \"볼스크류\", \"A:총길이(mm)\": \"135\", \"B:스크류길이(mm)\": \"74\"}",
+    "specifications": "{\"MAKER\": \"KSS\", \"Classification\": \"Ball Screw\", \"A: Total Length (mm)\": \"135\", \"B: Screw Length (mm)\": \"74\"}",
     "images": [
       "6003_1.jpg",
       "6003_3.jpg",
@@ -45993,7 +45993,7 @@ const productsData = [
     "category_sub_en": "BALL SCREW",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KSS\", \"Classification\": \"볼스크류\", \"A:총길이(mm)\": \"98\", \"B:스크류길이(mm)\": \"54\"}",
+    "specifications": "{\"MAKER\": \"KSS\", \"Classification\": \"Ball Screw\", \"A: Total Length (mm)\": \"98\", \"B: Screw Length (mm)\": \"54\"}",
     "images": [
       "6004_1.jpg",
       "6004_4.jpg"
@@ -46014,7 +46014,7 @@ const productsData = [
     "category_sub_en": "BALL SCREW",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KSS\", \"Classification\": \"볼스크류\", \"A:총길이(mm)\": \"103\", \"B:스크류길이(mm)\": \"57\"}",
+    "specifications": "{\"MAKER\": \"KSS\", \"Classification\": \"Ball Screw\", \"A: Total Length (mm)\": \"103\", \"B: Screw Length (mm)\": \"57\"}",
     "images": [
       "6005_1.jpg",
       "6005_3.jpg"
@@ -46035,7 +46035,7 @@ const productsData = [
     "category_sub_en": "BALL SCREW",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KSS\", \"Classification\": \"볼스크류\", \"A:총길이(mm)\": \"87\", \"B:스크류길이(mm)\": \"40\"}",
+    "specifications": "{\"MAKER\": \"KSS\", \"Classification\": \"Ball Screw\", \"A: Total Length (mm)\": \"87\", \"B: Screw Length (mm)\": \"40\"}",
     "images": [
       "6006_1.jpg",
       "6006_3.jpg"
@@ -46056,7 +46056,7 @@ const productsData = [
     "category_sub_en": "BALL SCREW",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KSS\", \"Classification\": \"볼스크류\", \"A:총길이(mm)\": \"90\", \"B:스크류길이(mm)\": \"50\"}",
+    "specifications": "{\"MAKER\": \"KSS\", \"Classification\": \"Ball Screw\", \"A: Total Length (mm)\": \"90\", \"B: Screw Length (mm)\": \"50\"}",
     "images": [
       "6007_1.jpg",
       "6007_4.jpg"
@@ -46077,7 +46077,7 @@ const productsData = [
     "category_sub_en": "BALL SCREW",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KURODA\", \"Classification\": \"볼스크류\", \"A:총길이(mm)\": \"90\", \"B:스크류길이(mm)\": \"48\"}",
+    "specifications": "{\"MAKER\": \"KURODA\", \"Classification\": \"Ball Screw\", \"A: Total Length (mm)\": \"90\", \"B: Screw Length (mm)\": \"48\"}",
     "images": [
       "6008_1.jpg",
       "6008_5.jpg"
@@ -46120,7 +46120,7 @@ const productsData = [
     "category_sub_en": "BALL SCREW",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KSS\", \"Classification\": \"볼스크류\", \"A:총길이(mm)\": \"87\", \"B:스크류길이(mm)\": \"44\"}",
+    "specifications": "{\"MAKER\": \"KSS\", \"Classification\": \"Ball Screw\", \"A: Total Length (mm)\": \"87\", \"B: Screw Length (mm)\": \"44\"}",
     "images": [
       "6010_1.jpg",
       "6010_3.jpg",
@@ -46142,7 +46142,7 @@ const productsData = [
     "category_sub_en": "BALL SCREW",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KSS\", \"Classification\": \"볼스크류\", \"A:총길이(mm)\": \"105\", \"B:스크류길이(mm)\": \"65\"}",
+    "specifications": "{\"MAKER\": \"KSS\", \"Classification\": \"Ball Screw\", \"A: Total Length (mm)\": \"105\", \"B: Screw Length (mm)\": \"65\"}",
     "images": [
       "6011_1.jpg",
       "6011_3.jpg"
@@ -46163,7 +46163,7 @@ const productsData = [
     "category_sub_en": "BALL SCREW",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"KSS\", \"Classification\": \"볼스크류\", \"A:총길이(mm)\": \"158\", \"B:스크류길이(mm)\": \"100\"}",
+    "specifications": "{\"MAKER\": \"KSS\", \"Classification\": \"Ball Screw\", \"A: Total Length (mm)\": \"158\", \"B: Screw Length (mm)\": \"100\"}",
     "images": [
       "6012_1.jpg",
       "6012_3.jpg"
@@ -52287,7 +52287,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Servomotor Driver\", \"출력\": \"100W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Servomotor Driver\", \"Output\": \"100W\", \"Condition\": \"A\"}",
     "images": [
       "637_1.jpg",
       "637_3.jpg",
@@ -53454,7 +53454,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"1KW\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Panasonic\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"1KW\", \"-\": \"-\"}",
     "images": [
       "643_1.jpg",
       "643_3.jpg",
@@ -53752,7 +53752,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"Servomotor Driver\", \"출력\": \"1.5KW\", \"Condition\": \"미사용 제품\"}",
+    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"Servomotor Driver\", \"Output\": \"1.5KW\", \"Condition\": \"Unused 제품\"}",
     "images": [
       "645_1.jpg",
       "645_3.jpg",
@@ -54481,7 +54481,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"Servomotor Driver\", \"년식\": \"미상\", \"Condition\": \"미사용 새제품\"}",
+    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"Servomotor Driver\", \"Year\": \"Unknown\", \"Condition\": \"Unused (New Product)\"}",
     "images": [
       "6495_1.jpg",
       "6495_2.jpg"
@@ -54502,7 +54502,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"Servomotor Driver\", \"년식\": \"미상\", \"Condition\": \"미사용 새제품\"}",
+    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"Servomotor Driver\", \"Year\": \"Unknown\", \"Condition\": \"Unused (New Product)\"}",
     "images": [],
     "url": "https://m.shmarket.co.kr/goods/goods_view.php?goodsNo=6496",
     "scraped_at": "2025-10-27T05:15:27.111732"
@@ -54520,7 +54520,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "OLYMPUS",
     "category_subsub_en": "OLYMPUS",
-    "specifications": "{\"MAKER\": \"OLYMPUS\", \"Classification\": \"Servomotor Driver\", \"년식\": \"미상\", \"Condition\": \"미사용 새제품\"}",
+    "specifications": "{\"MAKER\": \"OLYMPUS\", \"Classification\": \"Servomotor Driver\", \"Year\": \"Unknown\", \"Condition\": \"Unused (New Product)\"}",
     "images": [
       "6497_1.jpg",
       "6497_3.jpg",
@@ -54542,7 +54542,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "OLYMPUS",
     "category_subsub_en": "OLYMPUS",
-    "specifications": "{\"MAKER\": \"OLYMPUS\", \"Classification\": \"Servomotor Driver\", \"년식\": \"미상\", \"Condition\": \"미사용 새제품\"}",
+    "specifications": "{\"MAKER\": \"OLYMPUS\", \"Classification\": \"Servomotor Driver\", \"Year\": \"Unknown\", \"Condition\": \"Unused (New Product)\"}",
     "images": [
       "6499_1.jpg",
       "6499_3.jpg",
@@ -54564,7 +54564,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "OLYMPUS",
     "category_subsub_en": "OLYMPUS",
-    "specifications": "{\"MAKER\": \"OLYMPUS\", \"Classification\": \"Servomotor Driver\", \"년식\": \"미상\", \"Condition\": \"미사용 새제품\"}",
+    "specifications": "{\"MAKER\": \"OLYMPUS\", \"Classification\": \"Servomotor Driver\", \"Year\": \"Unknown\", \"Condition\": \"Unused (New Product)\"}",
     "images": [
       "6500_3.jpg"
     ],
@@ -55423,7 +55423,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"년식\": \"미상\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"Year\": \"Unknown\", \"Condition\": \"A\"}",
     "images": [
       "6545_1.jpg",
       "6545_3.jpg",
@@ -55445,7 +55445,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"출력\": \"80W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"Output\": \"80W\", \"Condition\": \"A\"}",
     "images": [
       "6546_1.jpg",
       "6546_3.jpg"
@@ -55466,7 +55466,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"년식\": \"미상\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"Year\": \"Unknown\", \"Condition\": \"A\"}",
     "images": [
       "6547_1.jpg",
       "6547_3.jpg"
@@ -55487,7 +55487,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "PANASONIC",
     "category_subsub_en": "PANASONIC",
-    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"Servomotor Driver\", \"년식\": \"미상\", \"Condition\": \"AS IS\"}",
+    "specifications": "{\"MAKER\": \"PANASONIC\", \"Classification\": \"Servomotor Driver\", \"Year\": \"Unknown\", \"Condition\": \"AS IS\"}",
     "images": [
       "6548_1.jpg",
       "6548_3.jpg"
@@ -56346,7 +56346,7 @@ const productsData = [
     "category_sub_en": "coupling",
     "category_subsub_kr": "디스크&MICRO 커플링",
     "category_subsub_en": "Disk&MICRO Coupling",
-    "specifications": "{\"MAKER\": \"UNITEC SYSTEM\", \"Classification\": \"커플링\", \"외경 (mm)\": \"81\", \"내경1 (mm)\": \"25\"}",
+    "specifications": "{\"MAKER\": \"UNITEC SYSTEM\", \"Classification\": \"커플링\", \"Outer Diameter (mm)\": \"81\", \"Inner Diameter 1 (mm)\": \"25\"}",
     "images": [
       "6600_1.jpg",
       "6600_3.jpg"
@@ -56367,7 +56367,7 @@ const productsData = [
     "category_sub_en": "coupling",
     "category_subsub_kr": "디스크&MICRO 커플링",
     "category_subsub_en": "Disk&MICRO Coupling",
-    "specifications": "{\"MAKER\": \"UNITEC SYSTEM\", \"Classification\": \"커플링\", \"외경 (mm)\": \"56\", \"내경1 (mm)\": \"20\"}",
+    "specifications": "{\"MAKER\": \"UNITEC SYSTEM\", \"Classification\": \"커플링\", \"Outer Diameter (mm)\": \"56\", \"Inner Diameter 1 (mm)\": \"20\"}",
     "images": [
       "6601_1.jpg",
       "6601_3.jpg",
@@ -56634,7 +56634,7 @@ const productsData = [
     "category_sub_en": "MOTOR+DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"YASKAWA\", \"Classification\": \"Direct Drive\", \"Condition\": \"A-Level\", \"사용전압\": \"220V\"}",
+    "specifications": "{\"MAKER\": \"YASKAWA\", \"Classification\": \"Direct Drive\", \"Condition\": \"A-Level\", \"Voltage\": \"220V\"}",
     "images": [
       "6618_1.jpg",
       "6618_2.jpg",
@@ -56789,7 +56789,7 @@ const productsData = [
     "category_sub_en": "2 axis",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"2축 직교로봇\", \"드라이버(X,Y)\": \"SGDS-02A01A\", \"모터(X,Y)\": \"SGMAV-02ADA21\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"2축 직교Robot\", \"Driver (X,Y)\": \"SGDS-02A01A\", \"Motor (X,Y)\": \"SGMAV-02ADA21\"}",
     "images": [
       "6630_1.jpg",
       "6630_2.jpg",
@@ -57419,7 +57419,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Drive unit\", \"사용전압\": \"220V\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Drive unit\", \"Voltage\": \"220V\", \"Condition\": \"A\"}",
     "images": [
       "667_1.jpg",
       "667_3.jpg",
@@ -57761,7 +57761,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Drive unit\", \"사용전압\": \"220V\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Drive unit\", \"Voltage\": \"220V\", \"Condition\": \"A\"}",
     "images": [
       "669_1.jpg",
       "669_3.jpg",
@@ -58304,7 +58304,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Drive unit\", \"사용전압\": \"220V\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Drive unit\", \"Voltage\": \"220V\", \"Condition\": \"A\"}",
     "images": [
       "672_1.jpg",
       "672_3.jpg",
@@ -58615,7 +58615,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Battery Unit\", \"사용전압\": \"220V\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Mitsubishi\", \"Classification\": \"Battery Unit\", \"Voltage\": \"220V\", \"Condition\": \"A\"}",
     "images": [
       "674_1.jpg",
       "674_3.jpg",
@@ -60122,7 +60122,7 @@ const productsData = [
     "category_sub_en": "LG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"LS산전\", \"Classification\": \"인버터\", \"INPUT\": \"AC200-230V\", \"OUTPUT\": \"2.2KW\"}",
+    "specifications": "{\"MAKER\": \"LS산전\", \"Classification\": \"Inverter\", \"INPUT\": \"AC200-230V\", \"OUTPUT\": \"2.2KW\"}",
     "images": [
       "682_1.jpg",
       "682_3.jpg",
@@ -60342,7 +60342,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"BROWN PESTELL\", \"Classification\": \"인버터\", \"INPUT\": \"AC400V\", \"OUTPUT\": \"0~400MHz 2.2KW\"}",
+    "specifications": "{\"MAKER\": \"BROWN PESTELL\", \"Classification\": \"Inverter\", \"INPUT\": \"AC400V\", \"OUTPUT\": \"0~400MHz 2.2KW\"}",
     "images": [
       "683_1.jpg",
       "683_3.jpg",
@@ -60520,7 +60520,7 @@ const productsData = [
     "category_sub_en": "NSK",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"총장(mm)\": \"520\", \"블럭수 (EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"Total Length (mm)\": \"520\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "6837_1.jpg",
       "6837_3.jpg",
@@ -60542,7 +60542,7 @@ const productsData = [
     "category_sub_en": "NSK",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"총장(mm)\": \"150\", \"블럭수 (EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"Total Length (mm)\": \"150\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "6838_1.jpg",
       "6838_4.jpg"
@@ -61271,7 +61271,7 @@ const productsData = [
     "category_sub_en": "camera",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"AVIIVA\", \"Classification\": \"CAMERA\", \"조명+렌즈\": \"포함\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"AVIIVA\", \"Classification\": \"CAMERA\", \"Lighting + Lens\": \"포함\", \"-\": \"-\"}",
     "images": [
       "6875_1.jpg",
       "6875_2.jpg"
@@ -62465,7 +62465,7 @@ const productsData = [
     "category_sub_en": "noise filter",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"WORLD TECH\", \"Classification\": \"노이즈 필터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"WORLD TECH\", \"Classification\": \"Noise Filter\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "6947_1.jpg"
     ],
@@ -63331,7 +63331,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"SERVO DRIVE\", \"출력\": \"0.1KW\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"SERVO DRIVE\", \"Output\": \"0.1KW\", \"-\": \"-\"}",
     "images": [
       "7000_1.jpg",
       "7000_3.jpg",
@@ -63439,7 +63439,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"출력\": \"200W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"Output\": \"200W\", \"Condition\": \"A\"}",
     "images": [
       "7006_1.jpg",
       "7006_3.jpg"
@@ -63460,7 +63460,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"SERVO DRIVE\", \"출력\": \"400W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"SERVO DRIVE\", \"Output\": \"400W\", \"-\": \"-\"}",
     "images": [
       "7007_1.jpg",
       "7007_3.jpg"
@@ -63481,7 +63481,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"SERVO DRIVE\", \"출력\": \"400W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"SERVO DRIVE\", \"Output\": \"400W\", \"-\": \"-\"}",
     "images": [
       "7008_1.jpg",
       "7008_3.jpg"
@@ -64380,7 +64380,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"출력\": \"1.5KW\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"Output\": \"1.5KW\", \"Condition\": \"A\"}",
     "images": [
       "7051_1.jpg",
       "7051_3.jpg",
@@ -64402,7 +64402,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"출력\": \"750W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"Output\": \"750W\", \"Condition\": \"A\"}",
     "images": [
       "7052_1.jpg",
       "7052_3.jpg",
@@ -64614,7 +64614,7 @@ const productsData = [
     "category_sub_en": "THK SHS",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM가이드\", \"레일길이(mm)\": \"1,340\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM Guide\", \"Rail Length (mm)\": \"1,340\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "7064_1.jpg",
       "7064_3.jpg"
@@ -64680,7 +64680,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "RS Automation",
     "category_subsub_en": "RS Automation",
-    "specifications": "{\"MAKER\": \"RS Automation\", \"Classification\": \"Servomotor Driver\", \"출력\": \"100W\", \"Condition\": \"A-Level\"}",
+    "specifications": "{\"MAKER\": \"RS Automation\", \"Classification\": \"Servomotor Driver\", \"Output\": \"100W\", \"Condition\": \"A-Level\"}",
     "images": [
       "7067_1.jpg",
       "7067_3.jpg"
@@ -65236,7 +65236,7 @@ const productsData = [
     "category_sub_en": "THK HSR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HSR20-R형\", \"외형 치수\": \"레일길이\", \"LM블럭 치수\": \"높이(M)\", \"360\": \"30\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HSR20-R형\", \"External Dimensions\": \"레일길이\", \"LM Block Dimensions\": \"높이(M)\", \"360\": \"30\"}",
     "images": [
       "7098_1.jpg",
       "7098_4.jpg",
@@ -65348,7 +65348,7 @@ const productsData = [
     "category_sub_en": "THK SHS",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM가이드\", \"레일길이(mm)\": \"520\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM Guide\", \"Rail Length (mm)\": \"520\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "7104_1.jpg",
       "7104_3.jpg"
@@ -65414,7 +65414,7 @@ const productsData = [
     "category_sub_en": "THK HRW wide rail",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HRW\", \"레일길이(mm)\": \"140\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HRW\", \"Rail Length (mm)\": \"140\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "7108_1.jpg",
       "7108_3.jpg",
@@ -65436,7 +65436,7 @@ const productsData = [
     "category_sub_en": "THK HRW wide rail",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HRW\", \"레일길이(mm)\": \"180\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HRW\", \"Rail Length (mm)\": \"180\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "7109_1.jpg",
       "7109_3.jpg"
@@ -65653,7 +65653,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "SAMSUNG",
     "category_subsub_en": "SAMSUNG",
-    "specifications": "{\"MAKER\": \"SAMSUNG\", \"Classification\": \"Servomotor Driver\", \"년식\": \"미상\", \"출력\": \"100W\"}",
+    "specifications": "{\"MAKER\": \"SAMSUNG\", \"Classification\": \"Servomotor Driver\", \"Year\": \"Unknown\", \"Output\": \"100W\"}",
     "images": [
       "712_1.jpg",
       "712_3.jpg",
@@ -66021,7 +66021,7 @@ const productsData = [
     "category_sub_en": "THK HRW wide rail",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HRW\", \"레일길이(mm)\": \"2,000\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HRW\", \"Rail Length (mm)\": \"2,000\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "7142_1.jpg",
       "7142_3.jpg",
@@ -66043,7 +66043,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "로터리 실린더",
     "category_subsub_en": "rotary cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(회전ROTARY)\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Rotary)\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "7143_1.jpg",
       "7143_3.jpg"
@@ -66064,7 +66064,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"오리엔탈모터\", \"Classification\": \"AC모터,기어드모터 감속기\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"오리엔탈모터 (Oriental Motor)\", \"Classification\": \"AC Motor, Geared Motor Reducer\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "7145_1.jpg",
       "7145_3.jpg"
@@ -66641,7 +66641,7 @@ const productsData = [
     "category_sub_en": "NSK",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"총장(mm)\": \"520\", \"블럭수 (EA)\": \"1\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"Total Length (mm)\": \"520\", \"Block Count (EA)\": \"1\"}",
     "images": [
       "7178_1.jpg",
       "7178_2.jpg"
@@ -66772,7 +66772,7 @@ const productsData = [
     "category_sub_en": "THK SHS",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM가이드\", \"레일길이(mm)\": \"500\", \"블럭수(EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"LM Guide\", \"Rail Length (mm)\": \"500\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "7185_1.jpg",
       "7185_2.jpg"
@@ -66839,7 +66839,7 @@ const productsData = [
     "category_sub_en": "DC motor/DC servo motor",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Dunkermotoren\", \"Classification\": \"DC모터\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Dunkermotoren\", \"Classification\": \"DCMotor\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "7191_1.jpg",
       "7191_3.jpg",
@@ -66862,7 +66862,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "KOMOTEK",
     "category_subsub_en": "KOMOTEK",
-    "specifications": "{\"MAKER\": \"KOMOTEK\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"200W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"KOMOTEK\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"200W\", \"-\": \"-\"}",
     "images": [
       "7192_1.jpg",
       "7192_3.jpg",
@@ -66884,7 +66884,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "KOMOTEK",
     "category_subsub_en": "KOMOTEK",
-    "specifications": "{\"MAKER\": \"KOMOTEK\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"100W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"KOMOTEK\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"100W\", \"-\": \"-\"}",
     "images": [
       "7193_1.jpg",
       "7193_3.jpg"
@@ -67359,7 +67359,7 @@ const productsData = [
     "category_sub_en": "1 axis",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"순한엔지니어링/파나소닉\", \"Classification\": \"리니어서보 엑츄에이터\", \"스트로크(mm)\": \"1,050\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"순한엔지니어링/파나소닉\", \"Classification\": \"리니어서보 엑츄에이터\", \"Stroke (mm)\": \"1,050\", \"-\": \"-\"}",
     "images": [
       "7215_1.jpg",
       "7215_3.jpg",
@@ -67580,7 +67580,7 @@ const productsData = [
     "category_sub_en": "1 axis",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"RND\", \"Classification\": \"엑츄에이터\", \"스트로크(mm)\": \"1,100\", \"리드(mm)\": \"20\"}",
+    "specifications": "{\"MAKER\": \"RND\", \"Classification\": \"엑츄에이터\", \"Stroke (mm)\": \"1,100\", \"Lead (mm)\": \"20\"}",
     "images": [
       "7227_1.jpg",
       "7227_2.jpg",
@@ -67602,7 +67602,7 @@ const productsData = [
     "category_sub_en": "1 axis",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"엑츄에이터\", \"스트로크(mm)\": \"1,500\", \"리드(mm)\": \"10\"}",
+    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"엑츄에이터\", \"Stroke (mm)\": \"1,500\", \"Lead (mm)\": \"10\"}",
     "images": [
       "7228_1.jpg",
       "7228_2.jpg"
@@ -67623,7 +67623,7 @@ const productsData = [
     "category_sub_en": "1 axis",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"1축 엑츄에이터\", \"Condition\": \"A\", \"스트로크\": \"2,100mm\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"Single-Axis Actuator\", \"Condition\": \"A\", \"Stroke\": \"2,100mm\"}",
     "images": [
       "7229_1.jpg"
     ],
@@ -67730,7 +67730,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"YASKAWA\", \"Classification\": \"SERVO DRIVER\", \"출력\": \"100W\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"YASKAWA\", \"Classification\": \"SERVO DRIVER\", \"Output\": \"100W\", \"Condition\": \"A\"}",
     "images": [
       "7235_1.jpg",
       "7235_3.jpg",
@@ -67752,7 +67752,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Autonics\", \"Classification\": \"온도컨트롤러\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Autonics\", \"Classification\": \"온도Controller\", \"-\": \"-\"}",
     "images": [
       "7236_1.jpg",
       "7236_3.jpg",
@@ -67774,7 +67774,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Autonics\", \"Classification\": \"온도컨트롤러\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Autonics\", \"Classification\": \"온도Controller\", \"-\": \"-\"}",
     "images": [
       "7237_1.jpg",
       "7237_3.jpg"
@@ -67795,7 +67795,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"Autonics\", \"Classification\": \"온도컨트롤러\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"Autonics\", \"Classification\": \"온도Controller\", \"-\": \"-\"}",
     "images": [
       "7238_1.jpg",
       "7238_3.jpg"
@@ -74268,7 +74268,7 @@ const productsData = [
     "category_sub_en": "LS prenatal",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"LS\", \"Classification\": \"PLC\", \"Condition\": \"A\", \"설명\": \"TR 출력 32점 (DC 12/24V 0.1A, 싱크타입)\"}",
+    "specifications": "{\"MAKER\": \"LS\", \"Classification\": \"PLC\", \"Condition\": \"A\", \"Description\": \"TR 출력 32점 (DC 12/24V 0.1A, 싱크타입)\"}",
     "images": [
       "756_1.jpg",
       "756_2.jpg",
@@ -74514,7 +74514,7 @@ const productsData = [
     "category_sub_en": "LS prenatal",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"LS\", \"Classification\": \"PLC\", \"Condition\": \"A\", \"설명\": \"DC 24V 입력 16점, 싱크/소스타입\"}",
+    "specifications": "{\"MAKER\": \"LS\", \"Classification\": \"PLC\", \"Condition\": \"A\", \"Description\": \"DC 24V 입력 16점, 싱크/소스타입\"}",
     "images": [
       "757_1.jpg",
       "757_2.jpg",
@@ -76371,7 +76371,7 @@ const productsData = [
     "category_sub_en": "THK HSR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HSR20-R형\", \"외형 치수\": \"레일길이\", \"LM블럭 치수\": \"높이(M)\", \"500\": \"30\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HSR20-R형\", \"External Dimensions\": \"레일길이\", \"LM Block Dimensions\": \"높이(M)\", \"500\": \"30\"}",
     "images": [
       "7658_1.jpg",
       "7658_4.jpg"
@@ -77210,7 +77210,7 @@ const productsData = [
     "category_sub_en": "NSK",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"총장(mm)\": \"500\", \"블럭수 (EA)\": \"2\"}",
+    "specifications": "{\"MAKER\": \"NSK\", \"Classification\": \"LM\", \"Total Length (mm)\": \"500\", \"Block Count (EA)\": \"2\"}",
     "images": [
       "7693_1.jpg",
       "7693_3.jpg"
@@ -79017,7 +79017,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"AJINEXTEK\", \"Classification\": \"통신모듈\", \"Condition\": \"A\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"AJINEXTEK\", \"Classification\": \"Communication Module\", \"Condition\": \"A\", \"-\": \"-\"}",
     "images": [
       "7773_3.jpg"
     ],
@@ -80253,7 +80253,7 @@ const productsData = [
     "category_sub_en": "THK HSR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HSR20-R형\", \"외형 치수\": \"레일길이\", \"LM블럭 치수\": \"높이(M)\", \"520\": \"30\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HSR20-R형\", \"External Dimensions\": \"레일길이\", \"LM Block Dimensions\": \"높이(M)\", \"520\": \"30\"}",
     "images": [
       "7832_1.jpg"
     ],
@@ -80273,7 +80273,7 @@ const productsData = [
     "category_sub_en": "THK HSR",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HSR20-R형\", \"외형 치수\": \"레일길이\", \"LM블럭 치수\": \"높이(M)\", \"530\": \"30\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"HSR20-R형\", \"External Dimensions\": \"레일길이\", \"LM Block Dimensions\": \"높이(M)\", \"530\": \"30\"}",
     "images": [
       "7833_1.jpg"
     ],
@@ -80513,7 +80513,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "7845_1.jpg",
       "7845_3.jpg",
@@ -80535,7 +80535,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "7846_1.jpg",
       "7846_3.jpg"
@@ -80556,7 +80556,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "7847_1.jpg",
       "7847_3.jpg",
@@ -80578,7 +80578,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "7848_1.jpg",
       "7848_3.jpg",
@@ -80600,7 +80600,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "7849_1.jpg",
       "7849_3.jpg"
@@ -80621,7 +80621,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "7850_1.jpg",
       "7850_3.jpg",
@@ -80643,7 +80643,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "7851_1.jpg",
       "7851_3.jpg",
@@ -80665,7 +80665,7 @@ const productsData = [
     "category_sub_en": "Solenoid valve",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"솔레노이드밸브\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"Solenoid Valve\", \"-\": \"-\"}",
     "images": [
       "7852_1.jpg",
       "7852_3.jpg",
@@ -81073,7 +81073,7 @@ const productsData = [
     "category_sub_en": "LG",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"LS산전\", \"Classification\": \"인버터\", \"INPUT\": \"AC380V\", \"HP\": \"20\"}",
+    "specifications": "{\"MAKER\": \"LS산전\", \"Classification\": \"Inverter\", \"INPUT\": \"AC380V\", \"HP\": \"20\"}",
     "images": [
       "787_1.jpg",
       "787_3.jpg",
@@ -86320,7 +86320,7 @@ const productsData = [
     "category_sub_en": "THK RSR Miniature",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"RSR 미니츄어\", \"레일길이(mm)\": \"70\", \"블럭수(EA)\": \"1\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"RSR 미니츄어\", \"Rail Length (mm)\": \"70\", \"Block Count (EA)\": \"1\"}",
     "images": [
       "845_1.jpg",
       "845_2.jpg"
@@ -86341,7 +86341,7 @@ const productsData = [
     "category_sub_en": "BALL SCREW",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"ISSOKU\", \"Classification\": \"볼스크류\", \"A:총 길이(mm)\": \"166\", \"B:스크류길이(mm)\": \"85\"}",
+    "specifications": "{\"MAKER\": \"ISSOKU\", \"Classification\": \"Ball Screw\", \"A: Total Length (mm)\": \"166\", \"B: Screw Length (mm)\": \"85\"}",
     "images": [
       "848_1.jpg",
       "848_3.jpg",
@@ -86364,7 +86364,7 @@ const productsData = [
     "category_sub_en": "BALL SCREW",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"ISSOKU\", \"Classification\": \"볼스크류\", \"A:총 길이(mm)\": \"210\", \"B:스크류길이(mm)\": \"145\"}",
+    "specifications": "{\"MAKER\": \"ISSOKU\", \"Classification\": \"Ball Screw\", \"A: Total Length (mm)\": \"210\", \"B: Screw Length (mm)\": \"145\"}",
     "images": [
       "851_1.jpg",
       "851_3.jpg",
@@ -86387,7 +86387,7 @@ const productsData = [
     "category_sub_en": "BALL SCREW",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"ISSOKU\", \"Classification\": \"볼스크류\", \"A:총 길이(mm)\": \"310\", \"B:스크류길이(mm)\": \"235\"}",
+    "specifications": "{\"MAKER\": \"ISSOKU\", \"Classification\": \"Ball Screw\", \"A: Total Length (mm)\": \"310\", \"B: Screw Length (mm)\": \"235\"}",
     "images": [
       "853_1.jpg",
       "853_3.jpg",
@@ -86410,7 +86410,7 @@ const productsData = [
     "category_sub_en": "BALL SCREW",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"볼스크류\", \"A;총 길이(mm)\": \"360\", \"B:스크류길이(mm)\": \"255\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"Ball Screw\", \"A: Total Length (mm)\": \"360\", \"B: Screw Length (mm)\": \"255\"}",
     "images": [
       "854_1.jpg",
       "854_3.jpg",
@@ -86433,7 +86433,7 @@ const productsData = [
     "category_sub_en": "BALL SCREW",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"볼스크류\", \"A:총 길이(mm)\": \"360\", \"B:스크류길이(mm)\": \"275\"}",
+    "specifications": "{\"MAKER\": \"THK\", \"Classification\": \"Ball Screw\", \"A: Total Length (mm)\": \"360\", \"B: Screw Length (mm)\": \"275\"}",
     "images": [
       "856_1.jpg",
       "856_3.jpg",
@@ -86456,7 +86456,7 @@ const productsData = [
     "category_sub_en": "BALL SCREW",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"ISSOKU\", \"Classification\": \"볼스크류\", \"A:총길이(mm)\": \"455\", \"B:스크류길이(mm)\": \"390\"}",
+    "specifications": "{\"MAKER\": \"ISSOKU\", \"Classification\": \"Ball Screw\", \"A: Total Length (mm)\": \"455\", \"B: Screw Length (mm)\": \"390\"}",
     "images": [
       "861_1.jpg",
       "861_3.jpg",
@@ -86479,7 +86479,7 @@ const productsData = [
     "category_sub_en": "BALL SCREW",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"볼스크류\", \"A:총길이(mm)\": \"280\", \"B:스크류길이(mm)\": \"215\"}",
+    "specifications": "{\"MAKER\": \"-\", \"Classification\": \"Ball Screw\", \"A: Total Length (mm)\": \"280\", \"B: Screw Length (mm)\": \"215\"}",
     "images": [
       "863_1.jpg",
       "863_3.jpg",
@@ -86502,7 +86502,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "MITSUBISHI",
     "category_subsub_en": "MITSUBISHI",
-    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"출력\": \"200W\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MITSUBISHI\", \"Classification\": \"AC SERVO MOTOR\", \"Output\": \"200W\", \"-\": \"-\"}",
     "images": [
       "870_1.jpg",
       "870_3.jpg",
@@ -86525,7 +86525,7 @@ const productsData = [
     "category_sub_en": "SERVO MOTOR",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"AC SERVO MOTOR\", \"감속기\": \"4GD5K\", \"출력\": \"600W\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"AC SERVO MOTOR\", \"Reducer\": \"4GD5K\", \"Output\": \"600W\"}",
     "images": [
       "876_1.jpg",
       "876_3.jpg",
@@ -86548,7 +86548,7 @@ const productsData = [
     "category_sub_en": "STEPPING MOTOR",
     "category_subsub_kr": "BLDC",
     "category_subsub_en": "BLDC",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"BLDC MOTOR\", \"RPM\": \"3000RPM\", \"감속기\": \"부착\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"BLDC MOTOR\", \"RPM\": \"3000RPM\", \"Reducer\": \"부착\"}",
     "images": [
       "878_1.jpg",
       "878_3.jpg",
@@ -86571,7 +86571,7 @@ const productsData = [
     "category_sub_en": "STEPPING MOTOR",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"2상\": \"-\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"2 Phase\": \"-\", \"-\": \"-\"}",
     "images": [
       "879_1.jpg",
       "879_3.jpg",
@@ -86594,7 +86594,7 @@ const productsData = [
     "category_sub_en": "STEPPING MOTOR",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"2상\": \"-\", \"브레이크타입\": \"-\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"2 Phase\": \"-\", \"Brake Type\": \"-\"}",
     "images": [
       "880_1.jpg",
       "880_3.jpg",
@@ -86639,7 +86639,7 @@ const productsData = [
     "category_sub_en": "BLDC",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"BRUSHLESS DC \\nMOTOR DRIVER\", \"사용전압\": \"200V\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"BRUSHLESS DC \\nMOTOR DRIVER\", \"Voltage\": \"200V\", \"-\": \"-\"}",
     "images": [
       "888_1.jpg",
       "888_3.jpg",
@@ -86662,7 +86662,7 @@ const productsData = [
     "category_sub_en": "BLDC",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"BRUSHLESS DC \\nMOTOR DRIVER\", \"사용전압\": \"100V\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"BRUSHLESS DC \\nMOTOR DRIVER\", \"Voltage\": \"100V\", \"-\": \"-\"}",
     "images": [
       "890_1.jpg",
       "890_3.jpg",
@@ -86685,7 +86685,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"Servomotor Driver\", \"년식\": \"미상\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"Servomotor Driver\", \"Year\": \"Unknown\", \"Condition\": \"A\"}",
     "images": [
       "892_1.jpg",
       "892_3.jpg",
@@ -86708,7 +86708,7 @@ const productsData = [
     "category_sub_en": "STEPPING DRIVER",
     "category_subsub_kr": "MELEC",
     "category_subsub_en": "MELEC",
-    "specifications": "{\"MAKER\": \"MELEC\", \"Classification\": \"STEPPING DRIVER\", \"상(Phase)\": \"2상\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"MELEC\", \"Classification\": \"STEPPING DRIVER\", \"Phase\": \"2상\", \"-\": \"-\"}",
     "images": [
       "893_1.jpg",
       "893_3.jpg",
@@ -86754,7 +86754,7 @@ const productsData = [
     "category_sub_en": "",
     "category_subsub_kr": "",
     "category_subsub_en": "",
-    "specifications": "{\"MAKER\": \"세미파워텍\", \"Classification\": \"POWER SUPPLY\", \"출력\": \"70V\", \"입력\": \"220V\"}",
+    "specifications": "{\"MAKER\": \"세미파워텍\", \"Classification\": \"POWER SUPPLY\", \"Output\": \"70V\", \"Input\": \"220V\"}",
     "images": [
       "914_1.jpg",
       "914_3.jpg",
@@ -86776,7 +86776,7 @@ const productsData = [
     "category_sub_en": "STEPPING MOTOR",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"2상\": \"-\", \"DEG/STEP\": \"1.8\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"2 Phase\": \"-\", \"DEG/STEP\": \"1.8\"}",
     "images": [
       "922_1.jpg",
       "922_3.jpg",
@@ -86798,7 +86798,7 @@ const productsData = [
     "category_sub_en": "STEPPING MOTOR",
     "category_subsub_kr": "VEXTA",
     "category_subsub_en": "VEXTA",
-    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"2상\": \"-\", \"DEG/STEP\": \"0.9\"}",
+    "specifications": "{\"MAKER\": \"VEXTA\", \"Classification\": \"STEPPING MOTOR\", \"2 Phase\": \"-\", \"DEG/STEP\": \"0.9\"}",
     "images": [
       "923_1.jpg",
       "923_3.jpg",
@@ -86821,7 +86821,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"년식\": \"미상\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"Year\": \"Unknown\", \"Condition\": \"A\"}",
     "images": [
       "951_1.jpg",
       "951_3.jpg",
@@ -86844,7 +86844,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"년식\": \"미상\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"Year\": \"Unknown\", \"Condition\": \"A\"}",
     "images": [
       "952_1.jpg",
       "952_3.jpg",
@@ -86867,7 +86867,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"년식\": \"미상\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"Year\": \"Unknown\", \"Condition\": \"A\"}",
     "images": [
       "953_1.jpg",
       "953_3.jpg",
@@ -86890,7 +86890,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "OMRON",
     "category_subsub_en": "OMRON",
-    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"Servomotor Driver\", \"년식\": \"미상\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"OMRON\", \"Classification\": \"Servomotor Driver\", \"Year\": \"Unknown\", \"Condition\": \"A\"}",
     "images": [
       "955_1.jpg",
       "955_3.jpg",
@@ -86913,7 +86913,7 @@ const productsData = [
     "category_sub_en": "SERVO DRIVER",
     "category_subsub_kr": "YASKAWA",
     "category_subsub_en": "YASKAWA",
-    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"년식\": \"미상\", \"Condition\": \"A\"}",
+    "specifications": "{\"MAKER\": \"Yaskawa\", \"Classification\": \"Servomotor Driver\", \"Year\": \"Unknown\", \"Condition\": \"A\"}",
     "images": [
       "957_1.jpg",
       "957_3.jpg",
@@ -87028,7 +87028,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(가이드형)\", \"MAX PRESSURE\": \"1.0 MPa\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"MAX PRESSURE\": \"1.0 MPa\", \"-\": \"-\"}",
     "images": [
       "979_1.jpg",
       "979_3.jpg",
@@ -87051,7 +87051,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(가이드형)\", \"MAX PRESSURE\": \"1.0 MPa\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"MAX PRESSURE\": \"1.0 MPa\", \"-\": \"-\"}",
     "images": [
       "980_2.jpg",
       "980_3.jpg",
@@ -87074,7 +87074,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(가이드형)\", \"MAX PRESSURE\": \"1.0 MPa\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"MAX PRESSURE\": \"1.0 MPa\", \"-\": \"-\"}",
     "images": [
       "981_1.jpg",
       "981_3.jpg",
@@ -87097,7 +87097,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(가이드형)\", \"MAX PRESSURE\": \"1.0 MPa\", \"-\": \"-\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"MAX PRESSURE\": \"1.0 MPa\", \"-\": \"-\"}",
     "images": [
       "982_1.jpg",
       "982_3.jpg",
@@ -87120,7 +87120,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(가이드형)\", \"MAX PRESSURE\": \"1.0 MPa\", \"Condition\": \"A-Level\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"MAX PRESSURE\": \"1.0 MPa\", \"Condition\": \"A-Level\"}",
     "images": [
       "988_1.jpg",
       "988_3.jpg",
@@ -87143,7 +87143,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(가이드형)\", \"MAX PRESSURE\": \"1.0 MPa\", \"Condition\": \"A-Level\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"MAX PRESSURE\": \"1.0 MPa\", \"Condition\": \"A-Level\"}",
     "images": [
       "989_1.jpg",
       "989_3.jpg",
@@ -87166,7 +87166,7 @@ const productsData = [
     "category_sub_en": "CYLINDER",
     "category_subsub_kr": "가이드형실린더",
     "category_subsub_en": "Guide type cylinder",
-    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR 실린더(가이드형)\", \"MAX PRESSURE\": \"1.0 MPa\", \"Condition\": \"A-Level\"}",
+    "specifications": "{\"MAKER\": \"SMC\", \"Classification\": \"AIR Cylinder (Guided Type)\", \"MAX PRESSURE\": \"1.0 MPa\", \"Condition\": \"A-Level\"}",
     "images": [
       "990_1.jpg",
       "990_3.jpg",
