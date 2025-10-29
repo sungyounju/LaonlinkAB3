@@ -321,10 +321,22 @@ function setupEventListeners() {
     document.querySelectorAll('.category-link.has-children').forEach(link => {
         link.addEventListener('click', function(e) {
             if (e.target === this) {
+                // Toggle subcategories dropdown
                 const subcategories = this.nextElementSibling;
                 if (subcategories && subcategories.classList.contains('subcategories')) {
                     subcategories.classList.toggle('show');
                     this.classList.toggle('expanded');
+                }
+
+                // ALSO select this category to show products
+                // This was missing - categories with subcategories should still be selectable
+                const category = this.dataset.category;
+                const level = this.dataset.level;
+                const parent = this.dataset.parent;
+                const grandparent = this.dataset.grandparent;
+
+                if (category) {
+                    selectCategory(category, level, parent, grandparent);
                 }
             }
         });
