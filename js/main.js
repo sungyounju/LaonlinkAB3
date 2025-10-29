@@ -665,7 +665,9 @@ function createProductCard(product) {
     return `
         <div class="product-card" data-product-id="${product.id}">
             <div class="product-image-wrapper">
-                <img src="${imageUrl}" alt="${name}" class="product-image" onerror="this.src='images/no-image.png'">
+                <img src="${imageUrl}" alt="${name}" class="product-image"
+                     onerror="this.src='images/no-image.png'; this.classList.add('loaded');"
+                     onload="this.classList.add('loaded');">
                 ${isNew ? '<span class="product-badge">NEW</span>' : ''}
             </div>
             <div class="product-info">
@@ -722,19 +724,30 @@ function showProductModal(productId) {
         const mainImage = product.images[0];
         imagesHTML = `
             <div class="product-images-section">
-                <img src="images/products/${mainImage}" alt="${name}" 
-                     class="main-product-image" id="mainProductImage" 
-                     onerror="this.src='images/no-image.png'">
+                <img src="images/products/${mainImage}" alt="${name}"
+                     class="main-product-image" id="mainProductImage"
+                     onerror="this.src='images/no-image.png'"
+                     onload="this.style.opacity=1;">
                 ${product.images.length > 1 ? `
                     <div class="image-thumbnails">
                         ${product.images.map((img, idx) => `
-                            <img src="images/products/${img}" alt="${name}" 
+                            <img src="images/products/${img}" alt="${name}"
                                  class="thumbnail ${idx === 0 ? 'active' : ''}"
                                  onclick="changeMainImage('${img}', this)"
-                                 onerror="this.src='images/no-image.png'">
+                                 onerror="this.src='images/no-image.png'"
+                                 onload="this.style.opacity=1;">
                         `).join('')}
                     </div>
                 ` : ''}
+            </div>
+        `;
+    } else {
+        // Show placeholder if no images
+        imagesHTML = `
+            <div class="product-images-section">
+                <img src="images/no-image.png" alt="${name}"
+                     class="main-product-image"
+                     onload="this.style.opacity=1;">
             </div>
         `;
     }
@@ -744,12 +757,21 @@ function showProductModal(productId) {
     if (product.specifications) {
         try {
             const specs = JSON.parse(product.specifications);
-            if (Object.keys(specs).length > 0) {
+
+            // Filter out empty or meaningless specs (where both key and value are just "-")
+            const validSpecs = Object.entries(specs).filter(([key, value]) => {
+                const k = key.trim();
+                const v = String(value).trim();
+                // Skip if key is "-" or empty, or if value is "-", "N/A", or empty
+                return k !== '-' && k !== '' && v !== '-' && v !== '' && v !== 'N/A';
+            });
+
+            if (validSpecs.length > 0) {
                 specsHTML = `
                     <div class="specifications-section">
                         <h4>Specifications</h4>
                         <table class="specs-table">
-                            ${Object.entries(specs).map(([key, value]) => `
+                            ${validSpecs.map(([key, value]) => `
                                 <tr>
                                     <th>${key}</th>
                                     <td>${value}</td>
