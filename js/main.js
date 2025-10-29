@@ -62,7 +62,7 @@ let currentPage = 1;
 let productsPerPage = 12;
 let currentView = 'grid';
 let currentLanguage = 'en';
-let cart = [];
+// let cart = []; // REMOVED: Cart functionality removed - using inquiry-based ordering
 let currentCategory = null;
 let currentSubCategory = null;
 let currentSubSubCategory = null;
@@ -83,7 +83,7 @@ function initializeWebsite() {
     setupEventListeners();
     
     // Load saved data
-    loadCart();
+    // loadCart(); // REMOVED: Cart functionality removed
     loadRecentlyViewed();
     
     // Show welcome message initially (no products)
@@ -664,11 +664,11 @@ function createProductCard(product) {
                     ${product.price_eur_markup > 0 ? `€${product.price_eur_markup.toFixed(2)}` : 'Contact for Price'}
                 </div>
                 <div class="product-actions">
-                    <button class="btn-cart" onclick="addToCart('${product.id}')">
-                        <i class="fas fa-cart-plus"></i> Add
-                    </button>
                     <button class="btn-details" onclick="showProductModal('${product.id}')">
-                        <i class="fas fa-eye"></i> View
+                        <i class="fas fa-eye"></i> View Details
+                    </button>
+                    <button class="btn-cart" onclick="contactForProduct('${product.id}')">
+                        <i class="fas fa-envelope"></i> Inquire
                     </button>
                 </div>
             </div>
@@ -772,11 +772,8 @@ function showProductModal(productId) {
                     ${product.price_eur_markup > 0 ? `€${product.price_eur_markup.toFixed(2)}` : 'Contact for Price'}
                 </div>
                 <div class="modal-actions">
-                    <button class="btn-primary" onclick="addToCart('${product.id}')">
-                        <i class="fas fa-cart-plus"></i> Add to Cart
-                    </button>
-                    <button class="btn-secondary" onclick="contactForProduct('${product.id}')">
-                        <i class="fas fa-envelope"></i> Inquire
+                    <button class="btn-primary" onclick="contactForProduct('${product.id}')">
+                        <i class="fas fa-envelope"></i> Request Quote
                     </button>
                 </div>
                 ${specsHTML}
@@ -805,13 +802,19 @@ function closeModal() {
 }
 
 // Cart functions
+// ============================================================================
+// SHOPPING CART FUNCTIONS - REMOVED
+// Cart functionality has been removed. Site now uses inquiry-based ordering.
+// Users click "Request Quote" which sends an email inquiry.
+// ============================================================================
+/*
 function addToCart(productId) {
     const product = currentProducts.find(p => p.id === productId);
     if (!product) return;
-    
+
     // Check if already in cart
     const existingItem = cart.find(item => item.id === productId);
-    
+
     if (existingItem) {
         existingItem.quantity++;
     } else {
@@ -846,6 +849,7 @@ function updateCartUI() {
     const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
     cartCount.textContent = totalItems;
 }
+*/
 
 // Recently viewed
 function addToRecentlyViewed(product) {
