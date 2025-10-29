@@ -62,7 +62,7 @@ let currentPage = 1;
 let productsPerPage = 12;
 let currentView = 'grid';
 let currentLanguage = 'en';
-let cart = [];
+// let cart = []; // REMOVED: Cart functionality removed - using inquiry-based ordering
 let currentCategory = null;
 let currentSubCategory = null;
 let currentSubSubCategory = null;
@@ -83,7 +83,7 @@ function initializeWebsite() {
     setupEventListeners();
     
     // Load saved data
-    loadCart();
+    // loadCart(); // REMOVED: Cart functionality removed
     loadRecentlyViewed();
     
     // Show welcome message initially (no products)
@@ -660,16 +660,15 @@ function createProductCard(product) {
             <div class="product-info">
                 <div class="product-category">${product.category_sub_en || product.category_main_en || ''}</div>
                 <div class="product-name" title="${name}">${name}</div>
-                <div class="product-model">${product.model_number || 'No Model'}</div>
                 <div class="product-price">
                     ${product.price_eur_markup > 0 ? `€${product.price_eur_markup.toFixed(2)}` : 'Contact for Price'}
                 </div>
                 <div class="product-actions">
-                    <button class="btn-cart" onclick="addToCart('${product.id}')">
-                        <i class="fas fa-cart-plus"></i> Add
-                    </button>
                     <button class="btn-details" onclick="showProductModal('${product.id}')">
-                        <i class="fas fa-eye"></i> View
+                        <i class="fas fa-eye"></i> View Details
+                    </button>
+                    <button class="btn-cart" onclick="contactForProduct('${product.id}')">
+                        <i class="fas fa-envelope"></i> Inquire
                     </button>
                 </div>
             </div>
@@ -765,14 +764,6 @@ function showProductModal(productId) {
                         <span class="meta-value">${product.id}</span>
                     </div>
                     <div class="meta-row">
-                        <span class="meta-label">Model:</span>
-                        <span class="meta-value">${product.model_number || 'N/A'}</span>
-                    </div>
-                    <div class="meta-row">
-                        <span class="meta-label">Manufacturer:</span>
-                        <span class="meta-value">${product.manufacturer || 'N/A'}</span>
-                    </div>
-                    <div class="meta-row">
                         <span class="meta-label">Category:</span>
                         <span class="meta-value">${product.category_main_en || 'N/A'}</span>
                     </div>
@@ -781,11 +772,8 @@ function showProductModal(productId) {
                     ${product.price_eur_markup > 0 ? `€${product.price_eur_markup.toFixed(2)}` : 'Contact for Price'}
                 </div>
                 <div class="modal-actions">
-                    <button class="btn-primary" onclick="addToCart('${product.id}')">
-                        <i class="fas fa-cart-plus"></i> Add to Cart
-                    </button>
-                    <button class="btn-secondary" onclick="contactForProduct('${product.id}')">
-                        <i class="fas fa-envelope"></i> Inquire
+                    <button class="btn-primary" onclick="contactForProduct('${product.id}')">
+                        <i class="fas fa-envelope"></i> Request Quote
                     </button>
                 </div>
                 ${specsHTML}
@@ -814,13 +802,19 @@ function closeModal() {
 }
 
 // Cart functions
+// ============================================================================
+// SHOPPING CART FUNCTIONS - REMOVED
+// Cart functionality has been removed. Site now uses inquiry-based ordering.
+// Users click "Request Quote" which sends an email inquiry.
+// ============================================================================
+/*
 function addToCart(productId) {
     const product = currentProducts.find(p => p.id === productId);
     if (!product) return;
-    
+
     // Check if already in cart
     const existingItem = cart.find(item => item.id === productId);
-    
+
     if (existingItem) {
         existingItem.quantity++;
     } else {
@@ -855,6 +849,7 @@ function updateCartUI() {
     const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
     cartCount.textContent = totalItems;
 }
+*/
 
 // Recently viewed
 function addToRecentlyViewed(product) {
