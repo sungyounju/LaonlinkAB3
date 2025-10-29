@@ -303,13 +303,19 @@ function setupEventListeners() {
     document.addEventListener('click', function(e) {
         if (e.target.dataset.category) {
             e.preventDefault();
+
+            // Skip if this is a category with children - handled by specific listener below
+            if (e.target.classList.contains('has-children')) {
+                return;
+            }
+
             const category = e.target.dataset.category;
             const level = e.target.dataset.level;
             const parent = e.target.dataset.parent;
             const grandparent = e.target.dataset.grandparent;
-            
+
             selectCategory(category, level, parent, grandparent);
-            
+
             // Close dropdown if open
             document.getElementById('categoriesDropdown').classList.remove('show');
         }
@@ -374,6 +380,9 @@ function setupEventListeners() {
     // Category tree expand/collapse
     document.querySelectorAll('.category-link.has-children').forEach(link => {
         link.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation(); // Prevent generic category listener from firing
+
             if (e.target === this) {
                 // Toggle subcategories dropdown
                 const subcategories = this.nextElementSibling;
@@ -383,7 +392,6 @@ function setupEventListeners() {
                 }
 
                 // ALSO select this category to show products
-                // This was missing - categories with subcategories should still be selectable
                 const category = this.dataset.category;
                 const level = this.dataset.level;
                 const parent = this.dataset.parent;
@@ -392,6 +400,9 @@ function setupEventListeners() {
                 if (category) {
                     selectCategory(category, level, parent, grandparent);
                 }
+
+                // Close dropdown if open
+                document.getElementById('categoriesDropdown').classList.remove('show');
             }
         });
     });
