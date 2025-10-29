@@ -960,7 +960,7 @@ body {
 
 .close-modal:hover {
     color: white;
-    background: var(--primary-color);
+    background: var(--primary-blue);
 }
 
 .modal-body {
@@ -1008,6 +1008,8 @@ body {
     border: 2px solid var(--border-color);
     padding: 5px;
     cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
 
 .thumbnail.active {
@@ -1403,12 +1405,12 @@ body {
 }
 
 .auth-tab.active {
-    color: var(--primary-color);
-    border-bottom-color: var(--primary-color);
+    color: var(--primary-blue);
+    border-bottom-color: var(--primary-blue);
 }
 
 .auth-tab:hover {
-    color: var(--primary-color);
+    color: var(--primary-blue);
 }
 
 .auth-form {
@@ -1439,7 +1441,7 @@ body {
 
 .form-group input:focus {
     outline: none;
-    border-color: var(--primary-color);
+    border-color: var(--primary-blue);
 }
 
 .auth-form .btn-primary {
@@ -1455,7 +1457,7 @@ body {
 }
 
 .auth-link a {
-    color: var(--primary-color);
+    color: var(--primary-blue);
     text-decoration: none;
 }
 
@@ -1522,7 +1524,7 @@ body {
 
 .account-menu-header i {
     font-size: 24px;
-    color: var(--primary-color);
+    color: var(--primary-blue);
 }
 
 .account-menu-header span {

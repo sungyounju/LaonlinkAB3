@@ -62,7 +62,6 @@ let currentPage = 1;
 let productsPerPage = 12;
 let currentView = 'grid';
 let currentLanguage = 'en';
-// let cart = []; // REMOVED: Cart functionality removed - using inquiry-based ordering
 let currentCategory = null;
 let currentSubCategory = null;
 let currentSubSubCategory = null;
@@ -81,9 +80,8 @@ function initializeWebsite() {
     setupCategoryNavigation();
     setupFilters();
     setupEventListeners();
-    
+
     // Load saved data
-    // loadCart(); // REMOVED: Cart functionality removed
     loadRecentlyViewed();
     
     // Show welcome message initially (no products)
@@ -363,18 +361,28 @@ function setupEventListeners() {
     
     // Clear filters
     document.getElementById('clearFilters').addEventListener('click', clearFilters);
-    
-    // Language selector
-    document.getElementById('languageSelect').addEventListener('change', function() {
-        currentLanguage = this.value;
-        displayProducts();
-    });
-    
-    // Modal close
-    document.querySelector('.close-modal').addEventListener('click', closeModal);
-    window.addEventListener('click', function(e) {
-        const modal = document.getElementById('productModal');
-        if (e.target === modal) closeModal();
+
+    // Language selector - REMOVED: element doesn't exist in HTML
+    // TODO: Add language selector to HTML if needed
+    // document.getElementById('languageSelect').addEventListener('change', function() {
+    //     currentLanguage = this.value;
+    //     displayProducts();
+    // });
+
+    // Modal close - using event delegation for all modals
+    document.addEventListener('click', function(e) {
+        if (e.target.classList.contains('close-modal')) {
+            if (e.target.closest('#productModal')) {
+                closeModal();
+            } else if (e.target.closest('#authModal')) {
+                closeAuthModal();
+            }
+        }
+
+        // Close modal when clicking on backdrop
+        if (e.target.id === 'productModal') {
+            closeModal();
+        }
     });
     
     // Category tree expand/collapse
@@ -665,7 +673,7 @@ function createProductCard(product) {
     return `
         <div class="product-card" data-product-id="${product.id}">
             <div class="product-image-wrapper">
-                <img src="${imageUrl}" alt="${name}" class="product-image"
+                <img src="${imageUrl}" alt="${name}" class="product-image" loading="lazy"
                      onerror="this.src='images/no-image.png'; this.classList.add('loaded');"
                      onload="this.classList.add('loaded');">
                 ${isNew ? '<span class="product-badge">NEW</span>' : ''}
@@ -731,7 +739,7 @@ function showProductModal(productId) {
                 ${product.images.length > 1 ? `
                     <div class="image-thumbnails">
                         ${product.images.map((img, idx) => `
-                            <img src="images/products/${img}" alt="${name}"
+                            <img src="images/products/${img}" alt="${name}" loading="lazy"
                                  class="thumbnail ${idx === 0 ? 'active' : ''}"
                                  onclick="changeMainImage('${img}', this)"
                                  onerror="this.src='images/no-image.png'"
@@ -834,55 +842,10 @@ function closeModal() {
     document.getElementById('productModal').style.display = 'none';
 }
 
-// Cart functions
 // ============================================================================
-// SHOPPING CART FUNCTIONS - REMOVED
-// Cart functionality has been removed. Site now uses inquiry-based ordering.
-// Users click "Request Quote" which sends an email inquiry.
+// SHOPPING CART - NOT IMPLEMENTED
+// Site uses inquiry-based ordering via "Request Quote" button
 // ============================================================================
-/*
-function addToCart(productId) {
-    const product = currentProducts.find(p => p.id === productId);
-    if (!product) return;
-
-    // Check if already in cart
-    const existingItem = cart.find(item => item.id === productId);
-
-    if (existingItem) {
-        existingItem.quantity++;
-    } else {
-        cart.push({
-            ...product,
-            quantity: 1
-        });
-    }
-
-    // Track add to cart in Google Analytics
-    trackAddToCart(product, 1);
-
-    saveCart();
-    updateCartUI();
-    showNotification(`${product.name_en} added to cart!`);
-}
-
-function saveCart() {
-    localStorage.setItem('laonlink_cart', JSON.stringify(cart));
-}
-
-function loadCart() {
-    const savedCart = localStorage.getItem('laonlink_cart');
-    if (savedCart) {
-        cart = JSON.parse(savedCart);
-        updateCartUI();
-    }
-}
-
-function updateCartUI() {
-    const cartCount = document.querySelector('.cart-count');
-    const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
-    cartCount.textContent = totalItems;
-}
-*/
 
 // Recently viewed
 function addToRecentlyViewed(product) {
@@ -1026,7 +989,6 @@ function setupBackToTop() {
 }
 
 // Make functions globally available
-window.addToCart = addToCart;
 window.showProductModal = showProductModal;
 window.changeMainImage = changeMainImage;
 window.goToPage = goToPage;
