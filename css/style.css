@@ -727,6 +727,10 @@ body {
     padding-top: 75%; /* 4:3 aspect ratio */
     overflow: hidden;
     background: var(--bg-light);
+    background-image: url('../images/no-image.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .product-image {
@@ -737,6 +741,12 @@ body {
     height: 100%;
     object-fit: contain;
     padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.product-image.loaded {
+    opacity: 1;
 }
 
 .product-badge {
@@ -924,6 +934,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 .modal-header h2 {
@@ -936,10 +949,18 @@ body {
     color: var(--text-gray);
     cursor: pointer;
     line-height: 1;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.3s;
 }
 
 .close-modal:hover {
-    color: var(--text-dark);
+    color: white;
+    background: var(--primary-color);
 }
 
 .modal-body {
@@ -963,9 +984,15 @@ body {
     height: 400px;
     object-fit: contain;
     background: var(--bg-light);
+    background-image: url('../images/no-image.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     border: 1px solid var(--border-color);
     padding: 20px;
     margin-bottom: 15px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
 
 .image-thumbnails {
