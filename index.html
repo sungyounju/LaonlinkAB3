@@ -3,232 +3,379 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LaonLinkAB - Semiconductor Components</title>
+    <title>LaonLinkAB - Semiconductors Components</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <div class="header-top">
-            <div class="container">
-                <div class="contact-info">
-                    <span><i class="fas fa-phone"></i> +46 70 814 9998</span>
-                    <span><i class="fas fa-envelope"></i> peter.ju@laonlink.com</span>
-                </div>
-                <div class="language-selector">
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-left">
+                <span class="welcome-text">Welcome to LaonLinkAB - Your Trusted Source for Semiconductors Components</span>
+            </div>
+            <div class="top-bar-right">
+                <a href="tel:+46708149998"><i class="fas fa-phone"></i> +46 70 814 9998</a>
+                <a href="mailto:peter.ju@laonlink.com"><i class="fas fa-envelope"></i> peter.ju@laonlink.com</a>
+                <span class="language-selector">
                     <select id="languageSelect">
                         <option value="en">English</option>
                         <option value="kr">한국어</option>
                     </select>
-                </div>
+                </span>
             </div>
         </div>
-        
-        <div class="header-main">
-            <div class="container">
-                <div class="logo">
-                    <h1>LaonLinkAB</h1>
-                    <span>Semiconductor Components</span>
+    </div>
+
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo and Company Name -->
+                <div class="company-identity">
+                    <h1 class="company-name">LaonLinkAB</h1>
+                    <span class="tagline">Semiconductors Components</span>
                 </div>
                 
-                <div class="search-bar">
-                    <input type="text" id="searchInput" placeholder="Search products, brands, or part numbers...">
-                    <button id="searchBtn"><i class="fas fa-search"></i></button>
+                <!-- Search Bar -->
+                <div class="search-section">
+                    <div class="search-wrapper">
+                        <input type="text" id="searchInput" placeholder="Search by product name, model number, or manufacturer">
+                        <button id="searchBtn" class="search-button">
+                            <i class="fas fa-search"></i> Search
+                        </button>
+                    </div>
+                    <div class="quick-search-tags">
+                        <span>Popular:</span>
+                        <a href="#" class="search-tag" data-search="Mitsubishi">Mitsubishi</a>
+                        <a href="#" class="search-tag" data-search="PLC">PLC</a>
+                        <a href="#" class="search-tag" data-search="Servo">Servo Driver</a>
+                        <a href="#" class="search-tag" data-search="MELSEC">MELSEC</a>
+                    </div>
                 </div>
                 
+                <!-- Header Actions -->
                 <div class="header-actions">
-                    <div class="cart">
+                    <div class="action-item">
                         <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-label">Cart</span>
                         <span class="cart-count">0</span>
                     </div>
-                    <div class="user-account">
+                    <div class="action-item">
                         <i class="fas fa-user"></i>
+                        <span>My Account</span>
                     </div>
                 </div>
             </div>
         </div>
-        
-        <!-- Navigation -->
-        <nav class="main-nav">
-            <div class="container">
-                <ul class="nav-menu" id="mainCategories">
-                    <!-- Categories will be loaded here dynamically -->
-                </ul>
-            </div>
-        </nav>
     </header>
 
-    <!-- Main Content -->
-    <main>
-        <!-- Featured Sections -->
-        <section class="featured-section">
-            <div class="container">
-                <div class="section-header">
-                    <h2>NEW PRODUCT</h2>
-                    <a href="#" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
+    <!-- Category Navigation Bar -->
+    <nav class="category-nav">
+        <div class="container">
+            <div class="category-nav-content">
+                <!-- All Categories Button -->
+                <div class="all-categories-btn" id="allCategoriesBtn">
+                    <i class="fas fa-bars"></i>
+                    <span>All Categories</span>
+                    <i class="fas fa-chevron-down"></i>
                 </div>
-                <div class="products-grid" id="newProductsGrid">
-                    <!-- New products will be loaded here -->
+                
+                <!-- Main Category Links -->
+                <div class="main-nav-links" id="mainNavLinks">
+                    <!-- Will be populated dynamically -->
                 </div>
-            </div>
-        </section>
-
-        <section class="featured-section">
-            <div class="container">
-                <div class="section-header">
-                    <h2>RECOMMEND PRODUCT</h2>
-                    <a href="#" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
-                </div>
-                <div class="products-grid" id="recommendProductsGrid">
-                    <!-- Recommended products will be loaded here -->
+                
+                <!-- Quick Links -->
+                <div class="nav-quick-links">
+                    <a href="#new-arrivals">New Arrivals</a>
+                    <a href="#best-sellers">Best Sellers</a>
+                    <a href="#special-offers">Special Offers</a>
                 </div>
             </div>
-        </section>
-
-        <!-- Category Browse Section -->
-        <section class="category-browse">
+        </div>
+        
+        <!-- Dropdown Categories Menu -->
+        <div class="categories-dropdown" id="categoriesDropdown">
             <div class="container">
-                <h2>Browse by Category</h2>
-                <div class="category-grid" id="categoryGrid">
-                    <!-- Categories will be loaded here -->
+                <div class="categories-grid" id="categoriesGrid">
+                    <!-- Categories will be populated here -->
                 </div>
             </div>
-        </section>
+        </div>
+    </nav>
 
-        <!-- All Products Section -->
-        <section class="all-products">
-            <div class="container">
-                <!-- Category Sidebar -->
-                <aside class="sidebar" id="sidebar">
-                    <div class="category-tree">
-                        <h3>Categories</h3>
-                        <div id="categoryTree">
-                            <!-- Category tree will be loaded here -->
+    <!-- Main Content Area -->
+    <main class="main-content">
+        <div class="container">
+            <div class="content-wrapper">
+                <!-- Left Sidebar -->
+                <aside class="sidebar-left">
+                    <!-- Category Tree -->
+                    <div class="category-panel">
+                        <h3 class="panel-title">
+                            <i class="fas fa-list"></i> Product Categories
+                        </h3>
+                        <div class="category-tree" id="categoryTree">
+                            <!-- Will be populated dynamically -->
                         </div>
                     </div>
                     
-                    <div class="filters">
-                        <h3>Filters</h3>
+                    <!-- Filters Panel -->
+                    <div class="filter-panel">
+                        <h3 class="panel-title">
+                            <i class="fas fa-filter"></i> Filter Products
+                        </h3>
                         
-                        <div class="filter-group">
+                        <!-- Price Range -->
+                        <div class="filter-section">
                             <h4>Price Range (EUR)</h4>
-                            <input type="number" id="minPrice" placeholder="Min" min="0">
-                            <input type="number" id="maxPrice" placeholder="Max" min="0">
+                            <div class="price-inputs">
+                                <input type="number" id="minPrice" placeholder="Min" min="0">
+                                <span>-</span>
+                                <input type="number" id="maxPrice" placeholder="Max" min="0">
+                            </div>
+                            <button class="apply-price-btn" id="applyPriceFilter">Apply</button>
                         </div>
                         
-                        <div class="filter-group">
+                        <!-- Manufacturer Filter -->
+                        <div class="filter-section">
                             <h4>Manufacturer</h4>
-                            <div id="manufacturerFilter">
-                                <!-- Manufacturers will be loaded here -->
+                            <div class="filter-options" id="manufacturerFilter">
+                                <!-- Will be populated dynamically -->
                             </div>
                         </div>
                         
-                        <div class="filter-group">
+                        <!-- Condition Filter -->
+                        <div class="filter-section">
                             <h4>Condition</h4>
-                            <label><input type="checkbox" value="new"> New</label>
-                            <label><input type="checkbox" value="used" checked> Used</label>
-                            <label><input type="checkbox" value="refurbished"> Refurbished</label>
+                            <div class="filter-options">
+                                <label class="filter-option">
+                                    <input type="checkbox" name="condition" value="new">
+                                    <span>New</span>
+                                </label>
+                                <label class="filter-option">
+                                    <input type="checkbox" name="condition" value="used" checked>
+                                    <span>Used</span>
+                                </label>
+                                <label class="filter-option">
+                                    <input type="checkbox" name="condition" value="refurbished">
+                                    <span>Refurbished</span>
+                                </label>
+                            </div>
                         </div>
                         
-                        <button id="applyFilters" class="btn-primary">Apply Filters</button>
+                        <button class="clear-filters-btn" id="clearFilters">
+                            <i class="fas fa-times"></i> Clear All Filters
+                        </button>
+                    </div>
+                    
+                    <!-- Contact Info Panel -->
+                    <div class="info-panel">
+                        <h3 class="panel-title">
+                            <i class="fas fa-info-circle"></i> Contact Us
+                        </h3>
+                        <div class="info-content">
+                            <p><i class="fas fa-phone"></i> +46 70 814 9998</p>
+                            <p><i class="fas fa-envelope"></i> peter.ju@laonlink.com</p>
+                            <p><i class="fas fa-map-marker-alt"></i> Repslagaregatan 7<br>232 35, Arlöv<br>Sweden</p>
+                        </div>
                     </div>
                 </aside>
 
-                <!-- Product Grid -->
-                <div class="main-content">
+                <!-- Main Product Area -->
+                <section class="product-area">
                     <!-- Breadcrumb -->
-                    <div class="breadcrumb" id="breadcrumb">
-                        <a href="/">Home</a>
-                        <span id="breadcrumbTrail"></span>
+                    <div class="breadcrumb-bar">
+                        <div class="breadcrumb">
+                            <a href="/" class="home-link"><i class="fas fa-home"></i> Home</a>
+                            <span class="separator">></span>
+                            <span id="breadcrumbTrail">Select a Category</span>
+                        </div>
+                        <div class="view-options">
+                            <span class="results-count">
+                                <span id="resultsCount">0</span> products
+                            </span>
+                            <div class="view-mode">
+                                <button class="view-btn active" data-view="grid" title="Grid View">
+                                    <i class="fas fa-th"></i>
+                                </button>
+                                <button class="view-btn" data-view="list" title="List View">
+                                    <i class="fas fa-list"></i>
+                                </button>
+                            </div>
+                        </div>
                     </div>
 
-                    <!-- Sorting and View Options -->
-                    <div class="toolbar">
-                        <div class="results-count">
-                            <span id="resultsCount">0</span> products found
+                    <!-- Sorting Bar -->
+                    <div class="sorting-bar">
+                        <label>Sort by:</label>
+                        <select id="sortSelect" class="sort-select">
+                            <option value="default">Default</option>
+                            <option value="name-asc">Name (A → Z)</option>
+                            <option value="name-desc">Name (Z → A)</option>
+                            <option value="price-asc">Price (Low → High)</option>
+                            <option value="price-desc">Price (High → Low)</option>
+                            <option value="newest">Newest First</option>
+                        </select>
+                        
+                        <div class="items-per-page">
+                            <label>Show:</label>
+                            <select id="itemsPerPage">
+                                <option value="12">12</option>
+                                <option value="24">24</option>
+                                <option value="48">48</option>
+                                <option value="96">96</option>
+                            </select>
+                            <span>per page</span>
+                        </div>
+                    </div>
+
+                    <!-- Welcome Message (shown when no category selected) -->
+                    <div class="welcome-message" id="welcomeMessage">
+                        <div class="welcome-content">
+                            <h2>Welcome to LaonLinkAB</h2>
+                            <p>Your trusted supplier of industrial automation components and semiconductors</p>
+                            <div class="welcome-features">
+                                <div class="feature">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Quality Components</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-truck"></i>
+                                    <span>Fast Shipping</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-shield-alt"></i>
+                                    <span>Warranty Protection</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-headset"></i>
+                                    <span>Expert Support</span>
+                                </div>
+                            </div>
+                            <p class="select-category-msg">← Please select a category from the left to browse our products</p>
                         </div>
                         
-                        <div class="toolbar-options">
-                            <div class="sort-by">
-                                <label>Sort by:</label>
-                                <select id="sortSelect">
-                                    <option value="relevance">Relevance</option>
-                                    <option value="name-asc">Name (A-Z)</option>
-                                    <option value="name-desc">Name (Z-A)</option>
-                                    <option value="price-asc">Price (Low to High)</option>
-                                    <option value="price-desc">Price (High to Low)</option>
-                                    <option value="newest">Newest First</option>
-                                </select>
-                            </div>
-                            
-                            <div class="view-mode">
-                                <button class="view-grid active" data-view="grid"><i class="fas fa-th"></i></button>
-                                <button class="view-list" data-view="list"><i class="fas fa-list"></i></button>
+                        <!-- Featured Categories -->
+                        <div class="featured-categories">
+                            <h3>Browse by Category</h3>
+                            <div class="category-cards" id="categoryCards">
+                                <!-- Will be populated dynamically -->
                             </div>
                         </div>
                     </div>
 
                     <!-- Products Grid -->
-                    <div class="products-grid" id="productsGrid">
-                        <!-- Products will be loaded here -->
+                    <div class="products-container" id="productsContainer" style="display: none;">
+                        <div class="products-grid" id="productsGrid">
+                            <!-- Products will be loaded here -->
+                        </div>
                     </div>
 
                     <!-- Pagination -->
-                    <div class="pagination" id="pagination">
+                    <div class="pagination" id="pagination" style="display: none;">
                         <!-- Pagination will be generated here -->
                     </div>
-                </div>
+                </section>
+
+                <!-- Right Sidebar (Optional Info) -->
+                <aside class="sidebar-right">
+                    <!-- Recently Viewed -->
+                    <div class="info-widget">
+                        <h4><i class="fas fa-history"></i> Recently Viewed</h4>
+                        <div id="recentlyViewed" class="recent-items">
+                            <p class="empty-message">No items viewed yet</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Quick Info -->
+                    <div class="info-widget">
+                        <h4><i class="fas fa-info"></i> Why Choose Us?</h4>
+                        <ul class="benefits-list">
+                            <li>✓ Original Components</li>
+                            <li>✓ Competitive Prices</li>
+                            <li>✓ Technical Support</li>
+                            <li>✓ Fast Delivery</li>
+                            <li>✓ Secure Payment</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Business Hours -->
+                    <div class="info-widget">
+                        <h4><i class="fas fa-clock"></i> Business Hours</h4>
+                        <div class="hours-info">
+                            <p>Mon-Fri: 9:00 - 18:00</p>
+                            <p>Sat: 10:00 - 14:00</p>
+                            <p>Sun: Closed</p>
+                        </div>
+                    </div>
+                </aside>
             </div>
-        </section>
+        </div>
     </main>
 
-    <!-- Product Modal -->
+    <!-- Product Detail Modal -->
     <div id="productModal" class="modal">
         <div class="modal-content">
-            <span class="close">&times;</span>
-            <div id="modalContent">
+            <div class="modal-header">
+                <h2 id="modalProductTitle">Product Details</h2>
+                <span class="close-modal">&times;</span>
+            </div>
+            <div class="modal-body" id="modalContent">
                 <!-- Product details will be loaded here -->
             </div>
         </div>
     </div>
 
     <!-- Footer -->
-    <footer>
+    <footer class="main-footer">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h4>About Us</h4>
-                    <p>Your trusted source for semiconductor components and spare parts.</p>
+                    <h4>LaonLinkAB</h4>
+                    <p>Your trusted partner for industrial semiconductors and automation components. We provide quality products with competitive pricing and excellent service.</p>
                 </div>
                 
                 <div class="footer-section">
                     <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#products">Products</a></li>
                         <li><a href="#shipping">Shipping Info</a></li>
-                        <li><a href="#returns">Returns</a></li>
+                        <li><a href="#warranty">Warranty</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-section">
-                    <h4>Categories</h4>
+                    <h4>Product Categories</h4>
                     <ul id="footerCategories">
-                        <!-- Main categories will be listed here -->
+                        <!-- Will be populated dynamically -->
                     </ul>
                 </div>
                 
                 <div class="footer-section">
-                    <h4>Contact Info</h4>
-                    <p><i class="fas fa-envelope"></i> peter.ju@laonlink.com</p>
-                    <p><i class="fas fa-phone"></i> +46 70 814 9998</p>
-                    <p><i class="fas fa-map-marker-alt"></i> Repslagaregatan 7<br>232 35 Arlöv<br>Sweden</p>
+                    <h4>Contact Information</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Repslagaregatan 7, 232 35, Arlöv, Sweden</p>
+                        <p><i class="fas fa-phone"></i> +46 70 814 9998</p>
+                        <p><i class="fas fa-envelope"></i> peter.ju@laonlink.com</p>
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
 
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" title="Back to Top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Notification Toast -->
+    <div id="notification" class="notification"></div>
+
+    <!-- Scripts -->
     <script src="js/products-data.js"></script>
     <script src="js/main.js"></script>
 </body>
