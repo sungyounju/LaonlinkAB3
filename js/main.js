@@ -320,6 +320,15 @@ function setupFilters() {
 
 // Event Listeners
 function setupEventListeners() {
+    // Home link
+    const homeLink = document.querySelector('.home-link');
+    if (homeLink) {
+        homeLink.addEventListener('click', function(e) {
+            e.preventDefault();
+            resetToHome();
+        });
+    }
+
     // All categories button
     const allCategoriesBtn = document.getElementById('allCategoriesBtn');
     if (allCategoriesBtn) {
@@ -583,6 +592,30 @@ function hideWelcomeMessage() {
 
     if (welcomeMessage) welcomeMessage.style.display = 'none';
     if (productsContainer) productsContainer.style.display = 'block';
+}
+
+// Reset to home state
+function resetToHome() {
+    // Reset all category state
+    currentCategory = null;
+    currentSubCategory = null;
+    currentSubSubCategory = null;
+    filteredProducts = [];
+    currentPage = 1;
+
+    // Clear active category highlights
+    document.querySelectorAll('.category-link').forEach(link => {
+        link.classList.remove('active');
+    });
+
+    // Reset breadcrumb
+    updateBreadcrumb();
+
+    // Show welcome message
+    showWelcomeMessage();
+
+    // Scroll to top
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 // Search
