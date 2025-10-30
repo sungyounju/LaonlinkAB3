@@ -3,15 +3,15 @@
 // ============================================================================
 
 // Firebase Configuration
-// IMPORTANT: Replace with your actual Firebase project configuration
-// Get this from: Firebase Console > Project Settings > General > Your apps > Web app
+// Configuration for LaonLinkAB Firebase project
 const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_PROJECT_ID.appspot.com",
-    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    appId: "YOUR_APP_ID"
+    apiKey: "AIzaSyCSLRJbEe_fv2snss1NrDsn6_z2luhkCcM",
+    authDomain: "laon2link.firebaseapp.com",
+    projectId: "laon2link",
+    storageBucket: "laon2link.firebasestorage.app",
+    messagingSenderId: "478733081023",
+    appId: "1:478733081023:web:d3ca6d7dfa49e79ce2a90a",
+    measurementId: "G-2QZBXWWVXY"
 };
 
 // Check if Firebase is configured
