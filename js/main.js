@@ -73,22 +73,58 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function initializeWebsite() {
-    // Load products
-    currentProducts = productsData || [];
-    
-    // Setup components
-    setupCategoryNavigation();
-    setupFilters();
-    setupEventListeners();
+    // Load products with validation
+    if (typeof productsData === 'undefined' || !Array.isArray(productsData)) {
+        console.error('Products data is not loaded or invalid');
+        showErrorMessage('Failed to load product catalog. Please refresh the page.');
+        return;
+    }
+    currentProducts = productsData;
 
-    // Load saved data
-    loadRecentlyViewed();
-    
-    // Show welcome message initially (no products)
-    showWelcomeMessage();
-    
-    // Setup back to top button
-    setupBackToTop();
+    // Validate categories data
+    if (typeof categoriesData === 'undefined' || !categoriesData) {
+        console.error('Categories data is not loaded or invalid');
+        showErrorMessage('Failed to load categories. Please refresh the page.');
+        return;
+    }
+
+    try {
+        // Setup components
+        setupCategoryNavigation();
+        setupFilters();
+        setupEventListeners();
+
+        // Load saved data
+        loadRecentlyViewed();
+
+        // Show welcome message initially (no products)
+        showWelcomeMessage();
+
+        // Setup back to top button
+        setupBackToTop();
+
+        console.log('Website initialized successfully');
+    } catch (error) {
+        console.error('Error initializing website:', error);
+        showErrorMessage('An error occurred while loading the website. Please refresh the page.');
+    }
+}
+
+// Show error message to user
+function showErrorMessage(message) {
+    const mainContent = document.querySelector('.product-area');
+    if (mainContent) {
+        mainContent.innerHTML = `
+            <div style="text-align: center; padding: 40px; background: #fee; border: 1px solid #fcc; border-radius: 8px; margin: 20px;">
+                <i class="fas fa-exclamation-triangle" style="font-size: 48px; color: #c33; margin-bottom: 16px;"></i>
+                <h3 style="color: #c33; margin-bottom: 12px;">Error Loading Page</h3>
+                <p style="color: #666;">${message}</p>
+                <button onclick="location.reload()" style="margin-top: 16px; padding: 10px 20px; background: #0066cc; color: white; border: none; border-radius: 4px; cursor: pointer;">
+                    <i class="fas fa-sync"></i> Refresh Page
+                </button>
+            </div>
+        `;
+    }
 }
 
 // Category Navigation Setup
@@ -285,15 +321,23 @@ function setupFilters() {
 // Event Listeners
 function setupEventListeners() {
     // All categories button
-    document.getElementById('allCategoriesBtn').addEventListener('click', function() {
-        const dropdown = document.getElementById('categoriesDropdown');
-        dropdown.classList.toggle('show');
-    });
-    
+    const allCategoriesBtn = document.getElementById('allCategoriesBtn');
+    if (allCategoriesBtn) {
+        allCategoriesBtn.addEventListener('click', function() {
+            const dropdown = document.getElementById('categoriesDropdown');
+            if (dropdown) {
+                dropdown.classList.toggle('show');
+            }
+        });
+    }
+
     // Close dropdown when clicking outside
     document.addEventListener('click', function(e) {
         if (!e.target.closest('.category-nav')) {
-            document.getElementById('categoriesDropdown').classList.remove('show');
+            const dropdown = document.getElementById('categoriesDropdown');
+            if (dropdown) {
+                dropdown.classList.remove('show');
+            }
         }
     });
     
@@ -320,20 +364,30 @@ function setupEventListeners() {
     });
     
     // Search
-    document.getElementById('searchBtn').addEventListener('click', performSearch);
-    document.getElementById('searchInput').addEventListener('keypress', function(e) {
-        if (e.key === 'Enter') performSearch();
-    });
-    
+    const searchBtn = document.getElementById('searchBtn');
+    const searchInput = document.getElementById('searchInput');
+
+    if (searchBtn) {
+        searchBtn.addEventListener('click', performSearch);
+    }
+
+    if (searchInput) {
+        searchInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') performSearch();
+        });
+    }
+
     // Quick search tags
     document.querySelectorAll('.search-tag').forEach(tag => {
         tag.addEventListener('click', function(e) {
             e.preventDefault();
-            document.getElementById('searchInput').value = this.dataset.search;
-            performSearch();
+            if (searchInput) {
+                searchInput.value = this.dataset.search;
+                performSearch();
+            }
         });
     });
-    
+
     // View mode
     document.querySelectorAll('.view-btn').forEach(btn => {
         btn.addEventListener('click', function() {
@@ -343,24 +397,36 @@ function setupEventListeners() {
             displayProducts();
         });
     });
-    
+
     // Sort
-    document.getElementById('sortSelect').addEventListener('change', function() {
-        sortProducts(this.value);
-    });
-    
+    const sortSelect = document.getElementById('sortSelect');
+    if (sortSelect) {
+        sortSelect.addEventListener('change', function() {
+            sortProducts(this.value);
+        });
+    }
+
     // Items per page
-    document.getElementById('itemsPerPage').addEventListener('change', function() {
-        productsPerPage = parseInt(this.value);
-        currentPage = 1;
-        displayProducts();
-    });
-    
+    const itemsPerPage = document.getElementById('itemsPerPage');
+    if (itemsPerPage) {
+        itemsPerPage.addEventListener('change', function() {
+            productsPerPage = parseInt(this.value);
+            currentPage = 1;
+            displayProducts();
+        });
+    }
+
     // Price filter
-    document.getElementById('applyPriceFilter').addEventListener('click', applyFilters);
-    
+    const applyPriceFilter = document.getElementById('applyPriceFilter');
+    if (applyPriceFilter) {
+        applyPriceFilter.addEventListener('click', applyFilters);
+    }
+
     // Clear filters
-    document.getElementById('clearFilters').addEventListener('click', clearFilters);
+    const clearFiltersBtn = document.getElementById('clearFilters');
+    if (clearFiltersBtn) {
+        clearFiltersBtn.addEventListener('click', clearFilters);
+    }
 
     // Language selector - REMOVED: element doesn't exist in HTML
     // TODO: Add language selector to HTML if needed
@@ -459,15 +525,20 @@ function selectCategory(category, level, parent = null, grandparent = null) {
 // Update breadcrumb
 function updateBreadcrumb() {
     const breadcrumbTrail = document.getElementById('breadcrumbTrail');
+    if (!breadcrumbTrail) {
+        console.warn('Breadcrumb element not found');
+        return;
+    }
+
     let trail = '';
-    
+
     if (currentCategory) {
         trail = `<a href="#" data-category="${currentCategory}" data-level="main">${currentCategory}</a>`;
-        
+
         if (currentSubCategory) {
             trail += ` <span class="separator">></span> `;
             trail += `<a href="#" data-category="${currentSubCategory}" data-level="sub" data-parent="${currentCategory}">${currentSubCategory}</a>`;
-            
+
             if (currentSubSubCategory) {
                 trail += ` <span class="separator">></span> `;
                 trail += `<span>${currentSubSubCategory}</span>`;
@@ -476,7 +547,7 @@ function updateBreadcrumb() {
     } else {
         trail = 'Select a Category';
     }
-    
+
     breadcrumbTrail.innerHTML = trail;
 }
 
@@ -495,34 +566,48 @@ function highlightActiveCategory(category) {
 
 // Show/Hide welcome message
 function showWelcomeMessage() {
-    document.getElementById('welcomeMessage').style.display = 'block';
-    document.getElementById('productsContainer').style.display = 'none';
-    document.getElementById('pagination').style.display = 'none';
-    document.getElementById('resultsCount').textContent = '0';
+    const welcomeMessage = document.getElementById('welcomeMessage');
+    const productsContainer = document.getElementById('productsContainer');
+    const pagination = document.getElementById('pagination');
+    const resultsCount = document.getElementById('resultsCount');
+
+    if (welcomeMessage) welcomeMessage.style.display = 'block';
+    if (productsContainer) productsContainer.style.display = 'none';
+    if (pagination) pagination.style.display = 'none';
+    if (resultsCount) resultsCount.textContent = '0';
 }
 
 function hideWelcomeMessage() {
-    document.getElementById('welcomeMessage').style.display = 'none';
-    document.getElementById('productsContainer').style.display = 'block';
+    const welcomeMessage = document.getElementById('welcomeMessage');
+    const productsContainer = document.getElementById('productsContainer');
+
+    if (welcomeMessage) welcomeMessage.style.display = 'none';
+    if (productsContainer) productsContainer.style.display = 'block';
 }
 
 // Search
 function performSearch() {
-    const searchTerm = document.getElementById('searchInput').value.toLowerCase().trim();
-    
+    const searchInput = document.getElementById('searchInput');
+    if (!searchInput) {
+        console.error('Search input not found');
+        return;
+    }
+
+    const searchTerm = searchInput.value.toLowerCase().trim();
+
     if (!searchTerm) {
         showWelcomeMessage();
         return;
     }
-    
+
     filteredProducts = currentProducts.filter(product => {
         const searchableText = [
-            product.name_en,
-            product.name_kr,
-            product.model_number,
-            product.manufacturer,
-            product.category_main_en,
-            product.category_sub_en
+            product.name_en || '',
+            product.name_kr || '',
+            product.model_number || '',
+            product.manufacturer || '',
+            product.category_main_en || '',
+            product.category_sub_en || ''
         ].join(' ').toLowerCase();
 
         return searchableText.includes(searchTerm);
@@ -532,7 +617,10 @@ function performSearch() {
     trackSearch(searchTerm, filteredProducts.length);
 
     // Update breadcrumb for search
-    document.getElementById('breadcrumbTrail').innerHTML = `Search results for "${searchTerm}"`;
+    const breadcrumbTrail = document.getElementById('breadcrumbTrail');
+    if (breadcrumbTrail) {
+        breadcrumbTrail.innerHTML = `Search results for "${searchTerm}"`;
+    }
 
     hideWelcomeMessage();
     currentPage = 1;
@@ -541,12 +629,32 @@ function performSearch() {
 
 // Apply filters
 function applyFilters() {
-    const minPrice = parseFloat(document.getElementById('minPrice').value) || 0;
-    const maxPrice = parseFloat(document.getElementById('maxPrice').value) || Infinity;
-    
+    const minPriceInput = document.getElementById('minPrice');
+    const maxPriceInput = document.getElementById('maxPrice');
+
+    const minPrice = parseFloat(minPriceInput?.value) || 0;
+    const maxPrice = parseFloat(maxPriceInput?.value) || Infinity;
+
+    // Validate price range
+    if (maxPrice !== Infinity && minPrice > maxPrice) {
+        showNotification('Minimum price cannot be greater than maximum price');
+        if (minPriceInput) minPriceInput.style.borderColor = '#ff0000';
+        if (maxPriceInput) maxPriceInput.style.borderColor = '#ff0000';
+        setTimeout(() => {
+            if (minPriceInput) minPriceInput.style.borderColor = '';
+            if (maxPriceInput) maxPriceInput.style.borderColor = '';
+        }, 2000);
+        return;
+    }
+
+    if (minPrice < 0 || (maxPrice !== Infinity && maxPrice < 0)) {
+        showNotification('Price values cannot be negative');
+        return;
+    }
+
     const checkedManufacturers = Array.from(document.querySelectorAll('input[name="manufacturer"]:checked'))
         .map(cb => cb.value);
-    
+
     const checkedConditions = Array.from(document.querySelectorAll('input[name="condition"]:checked'))
         .map(cb => cb.value);
     
@@ -572,15 +680,21 @@ function applyFilters() {
         if (product.price_eur_markup < minPrice || product.price_eur_markup > maxPrice) {
             return false;
         }
-        
+
         // Manufacturer filter
         if (checkedManufacturers.length > 0 && !checkedManufacturers.includes(product.manufacturer)) {
             return false;
         }
-        
-        // Condition filter (all products are used for now)
-        // Add condition logic if needed
-        
+
+        // Condition filter
+        if (checkedConditions.length > 0) {
+            // Extract condition from product name or specifications
+            const productCondition = getProductCondition(product);
+            if (!checkedConditions.includes(productCondition)) {
+                return false;
+            }
+        }
+
         return true;
     });
     
@@ -588,20 +702,62 @@ function applyFilters() {
     displayProducts();
 }
 
+// Helper function to get product condition
+function getProductCondition(product) {
+    // Check product name for condition keywords
+    const name = (product.name_en || product.name_kr || '').toLowerCase();
+
+    if (name.includes('[used]') || name.includes('[중고]') || name.includes('used')) {
+        return 'used';
+    }
+
+    if (name.includes('[new]') || name.includes('[신품]') || name.includes('new')) {
+        return 'new';
+    }
+
+    if (name.includes('refurbished') || name.includes('재생')) {
+        return 'refurbished';
+    }
+
+    // Check specifications
+    if (product.specifications) {
+        try {
+            const specs = JSON.parse(product.specifications);
+            const condition = (specs.Condition || specs.condition || '').toLowerCase();
+            if (condition.includes('new')) return 'new';
+            if (condition.includes('refurbished')) return 'refurbished';
+        } catch (e) {
+            // Ignore parse errors
+        }
+    }
+
+    // Default to 'used' since most products in catalog are used
+    return 'used';
+}
+
 // Clear filters
 function clearFilters() {
-    document.getElementById('minPrice').value = '';
-    document.getElementById('maxPrice').value = '';
+    const minPrice = document.getElementById('minPrice');
+    const maxPrice = document.getElementById('maxPrice');
+
+    if (minPrice) minPrice.value = '';
+    if (maxPrice) maxPrice.value = '';
+
     document.querySelectorAll('input[type="checkbox"]').forEach(cb => {
         if (cb.name !== 'condition' || cb.value !== 'used') {
             cb.checked = false;
         }
     });
-    
+
     // Re-apply category filter only
     if (currentCategory) {
         selectCategory(currentCategory, 'main');
+    } else {
+        // If no category selected, show welcome message
+        showWelcomeMessage();
     }
+
+    showNotification('Filters cleared');
 }
 
 // Sort products
@@ -631,9 +787,16 @@ function sortProducts(sortBy) {
 function displayProducts() {
     const productsGrid = document.getElementById('productsGrid');
     const resultsCount = document.getElementById('resultsCount');
-    
+
+    if (!productsGrid) {
+        console.error('Products grid element not found');
+        return;
+    }
+
     // Update count
-    resultsCount.textContent = filteredProducts.length;
+    if (resultsCount) {
+        resultsCount.textContent = filteredProducts.length;
+    }
     
     // Calculate pagination
     const startIndex = (currentPage - 1) * productsPerPage;
@@ -656,18 +819,26 @@ function displayProducts() {
     
     // Update pagination
     updatePagination();
-    
+
     // Show/hide pagination
-    document.getElementById('pagination').style.display = filteredProducts.length > productsPerPage ? 'flex' : 'none';
+    const pagination = document.getElementById('pagination');
+    if (pagination) {
+        pagination.style.display = filteredProducts.length > productsPerPage ? 'flex' : 'none';
+    }
 }
 
 // Create product card
 function createProductCard(product) {
-    const name = currentLanguage === 'kr' && product.name_kr ? product.name_kr : product.name_en;
-    const imageUrl = product.images && product.images[0] 
-        ? `images/products/${product.images[0]}` 
+    if (!product) {
+        console.warn('Invalid product data');
+        return '';
+    }
+
+    const name = currentLanguage === 'kr' && product.name_kr ? product.name_kr : (product.name_en || 'Unknown Product');
+    const imageUrl = product.images && product.images[0]
+        ? `images/products/${product.images[0]}`
         : 'images/no-image.png';
-    
+
     const isNew = false; // You can add logic to determine if product is new
     
     return `
@@ -711,18 +882,29 @@ function setupProductCardEvents() {
 // Show product modal
 function showProductModal(productId) {
     const product = currentProducts.find(p => p.id === productId);
-    if (!product) return;
+    if (!product) {
+        console.error('Product not found:', productId);
+        showNotification('Product not found');
+        return;
+    }
 
     // Track product view in Google Analytics
     trackProductView(product);
 
     // Add to recently viewed
     addToRecentlyViewed(product);
-    
+
     const modalTitle = document.getElementById('modalProductTitle');
     const modalContent = document.getElementById('modalContent');
-    
-    const name = currentLanguage === 'kr' && product.name_kr ? product.name_kr : product.name_en;
+    const productModal = document.getElementById('productModal');
+
+    if (!modalTitle || !modalContent || !productModal) {
+        console.error('Modal elements not found');
+        showNotification('Unable to display product details');
+        return;
+    }
+
+    const name = currentLanguage === 'kr' && product.name_kr ? product.name_kr : (product.name_en || 'Unknown Product');
     
     modalTitle.textContent = name;
     
@@ -839,7 +1021,10 @@ function changeMainImage(imageSrc, thumbElement) {
 
 // Close modal
 function closeModal() {
-    document.getElementById('productModal').style.display = 'none';
+    const productModal = document.getElementById('productModal');
+    if (productModal) {
+        productModal.style.display = 'none';
+    }
 }
 
 // ============================================================================
@@ -877,16 +1062,27 @@ function loadRecentlyViewed() {
 
 function updateRecentlyViewedUI() {
     const container = document.getElementById('recentlyViewed');
-    
-    if (recentlyViewed.length === 0) {
+
+    if (!container) {
+        console.warn('Recently viewed container not found');
+        return;
+    }
+
+    if (!recentlyViewed || recentlyViewed.length === 0) {
         container.innerHTML = '<p class="empty-message">No items viewed yet</p>';
     } else {
         let html = '<div style="font-size: 12px;">';
         recentlyViewed.forEach(product => {
+            if (!product) return;
+
+            const productName = (product.name_en || product.name_kr || 'Unknown Product').substring(0, 30);
+            const productPrice = product.price_eur_markup > 0 ? product.price_eur_markup.toFixed(2) : 'N/A';
+            const productId = product.id || '';
+
             html += `
-                <div style="margin-bottom: 10px; cursor: pointer;" onclick="showProductModal('${product.id}')">
-                    <div style="font-weight: bold;">${product.name_en.substring(0, 30)}...</div>
-                    <div style="color: var(--primary-blue);">€${product.price_eur_markup.toFixed(2)}</div>
+                <div style="margin-bottom: 10px; cursor: pointer;" onclick="showProductModal('${productId}')">
+                    <div style="font-weight: bold;">${productName}...</div>
+                    <div style="color: var(--primary-blue);">€${productPrice}</div>
                 </div>
             `;
         });
@@ -898,12 +1094,24 @@ function updateRecentlyViewedUI() {
 // Contact for product
 function contactForProduct(productId) {
     const product = currentProducts.find(p => p.id === productId);
-    if (!product) return;
-    
-    const subject = encodeURIComponent(`Inquiry about ${product.name_en} (ID: ${product.id})`);
-    const body = encodeURIComponent(`Hello,\n\nI am interested in the following product:\n\nProduct: ${product.name_en}\nModel: ${product.model_number}\nProduct ID: ${product.id}\n\nPlease provide more information.\n\nThank you.`);
-    
-    window.location.href = `mailto:peter.ju@laonlink.com?subject=${subject}&body=${body}`;
+    if (!product) {
+        console.error('Product not found for inquiry:', productId);
+        showNotification('Product not found');
+        return;
+    }
+
+    const productName = product.name_en || product.name_kr || 'Unknown Product';
+    const modelNumber = product.model_number || 'N/A';
+
+    const subject = encodeURIComponent(`Inquiry about ${productName} (ID: ${product.id})`);
+    const body = encodeURIComponent(`Hello,\n\nI am interested in the following product:\n\nProduct: ${productName}\nModel: ${modelNumber}\nProduct ID: ${product.id}\n\nPlease provide more information.\n\nThank you.`);
+
+    try {
+        window.location.href = `mailto:peter.ju@laonlink.com?subject=${subject}&body=${body}`;
+    } catch (error) {
+        console.error('Error opening email client:', error);
+        showNotification('Unable to open email client. Please contact peter.ju@laonlink.com directly.');
+    }
 }
 
 // Show notification
@@ -963,18 +1171,26 @@ function updatePagination() {
 function goToPage(page) {
     const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
     if (page < 1 || page > totalPages) return;
-    
+
     currentPage = page;
     displayProducts();
-    
+
     // Scroll to top of products
-    document.querySelector('.product-area').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    const productArea = document.querySelector('.product-area');
+    if (productArea) {
+        productArea.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
 }
 
 // Back to top button
 function setupBackToTop() {
     const backToTopBtn = document.getElementById('backToTop');
-    
+
+    if (!backToTopBtn) {
+        console.warn('Back to top button not found');
+        return;
+    }
+
     window.addEventListener('scroll', function() {
         if (window.pageYOffset > 300) {
             backToTopBtn.classList.add('show');
@@ -982,7 +1198,7 @@ function setupBackToTop() {
             backToTopBtn.classList.remove('show');
         }
     });
-    
+
     backToTopBtn.addEventListener('click', function() {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     });
@@ -993,3 +1209,4 @@ window.showProductModal = showProductModal;
 window.changeMainImage = changeMainImage;
 window.goToPage = goToPage;
 window.contactForProduct = contactForProduct;
+window.showNotification = showNotification;

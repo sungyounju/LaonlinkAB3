@@ -2,6 +2,32 @@
 // Firebase Authentication for LaonLinkAB
 // ============================================================================
 
+// Shared utility function - fallback if main.js not loaded yet
+function showNotification(message) {
+    // Try to use the main.js version first
+    if (window.showNotification && typeof window.showNotification === 'function') {
+        window.showNotification(message);
+        return;
+    }
+
+    // Fallback implementation
+    let notification = document.getElementById('notification');
+    if (!notification) {
+        // Create notification element if it doesn't exist
+        notification = document.createElement('div');
+        notification.id = 'notification';
+        notification.className = 'notification';
+        document.body.appendChild(notification);
+    }
+
+    notification.textContent = message;
+    notification.style.display = 'block';
+
+    setTimeout(() => {
+        notification.style.display = 'none';
+    }, 3000);
+}
+
 // Firebase Configuration
 const firebaseConfig = {
     apiKey: "AIzaSyCSLRJbEe_fv2snss1NrDsn6_z2luhkCcM",
@@ -68,11 +94,19 @@ function updateAuthUI(user) {
     }
 }
 
+// Store reference to the close menu handler to prevent memory leaks
+let accountMenuCloseHandler = null;
+
 function showAccountMenu() {
     // Create dropdown menu for logged-in user
     const existingMenu = document.getElementById('accountDropdown');
     if (existingMenu) {
         existingMenu.remove();
+        // Remove existing event listener if present
+        if (accountMenuCloseHandler) {
+            document.removeEventListener('click', accountMenuCloseHandler);
+            accountMenuCloseHandler = null;
+        }
         return;
     }
 
@@ -97,13 +131,23 @@ function showAccountMenu() {
     document.body.appendChild(menu);
 
     // Close menu when clicking outside
+    // Remove any existing handler first
+    if (accountMenuCloseHandler) {
+        document.removeEventListener('click', accountMenuCloseHandler);
+    }
+
+    // Create and store new handler
+    accountMenuCloseHandler = function(e) {
+        if (!menu.contains(e.target) && e.target.id !== 'accountBtn' && !e.target.closest('#accountBtn')) {
+            menu.remove();
+            document.removeEventListener('click', accountMenuCloseHandler);
+            accountMenuCloseHandler = null;
+        }
+    };
+
+    // Add listener after a brief delay to prevent immediate triggering
     setTimeout(() => {
-        document.addEventListener('click', function closeMenu(e) {
-            if (!menu.contains(e.target) && e.target.id !== 'accountBtn') {
-                menu.remove();
-                document.removeEventListener('click', closeMenu);
-            }
-        });
+        document.addEventListener('click', accountMenuCloseHandler);
     }, 100);
 }
 
