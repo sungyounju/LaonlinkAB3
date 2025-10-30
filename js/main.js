@@ -1,14 +1,67 @@
 // LaonLinkAB Main JavaScript - SHMarket Style
 // Category-based navigation without showing all products
 
+// ============================================================================
+// Google Analytics Tracking Functions
+// ============================================================================
+
+function trackEvent(eventName, params) {
+    if (typeof gtag !== 'undefined') {
+        gtag('event', eventName, params);
+    }
+}
+
+function trackProductView(product) {
+    trackEvent('view_item', {
+        currency: 'EUR',
+        value: product.price_eur_markup,
+        items: [{
+            item_id: product.id,
+            item_name: currentLanguage === 'en' ? product.name_en : product.name_kr,
+            item_category: product.category_main_en,
+            item_category2: product.category_sub_en,
+            price: product.price_eur_markup
+        }]
+    });
+}
+
+function trackAddToCart(product, quantity) {
+    trackEvent('add_to_cart', {
+        currency: 'EUR',
+        value: product.price_eur_markup * quantity,
+        items: [{
+            item_id: product.id,
+            item_name: currentLanguage === 'en' ? product.name_en : product.name_kr,
+            item_category: product.category_main_en,
+            price: product.price_eur_markup,
+            quantity: quantity
+        }]
+    });
+}
+
+function trackSearch(searchTerm, resultsCount) {
+    trackEvent('search', {
+        search_term: searchTerm,
+        results_count: resultsCount
+    });
+}
+
+function trackCategoryView(category, level) {
+    trackEvent('view_category', {
+        category_name: category,
+        category_level: level
+    });
+}
+
+// ============================================================================
 // Global variables
+// ============================================================================
 let currentProducts = [];
 let filteredProducts = [];
 let currentPage = 1;
 let productsPerPage = 12;
 let currentView = 'grid';
 let currentLanguage = 'en';
-let cart = [];
 let currentCategory = null;
 let currentSubCategory = null;
 let currentSubSubCategory = null;
@@ -27,9 +80,8 @@ function initializeWebsite() {
     setupCategoryNavigation();
     setupFilters();
     setupEventListeners();
-    
+
     // Load saved data
-    loadCart();
     loadRecentlyViewed();
     
     // Show welcome message initially (no products)
@@ -249,13 +301,19 @@ function setupEventListeners() {
     document.addEventListener('click', function(e) {
         if (e.target.dataset.category) {
             e.preventDefault();
+
+            // Skip if this is a category with children - handled by specific listener below
+            if (e.target.classList.contains('has-children')) {
+                return;
+            }
+
             const category = e.target.dataset.category;
             const level = e.target.dataset.level;
             const parent = e.target.dataset.parent;
             const grandparent = e.target.dataset.grandparent;
-            
+
             selectCategory(category, level, parent, grandparent);
-            
+
             // Close dropdown if open
             document.getElementById('categoriesDropdown').classList.remove('show');
         }
@@ -303,29 +361,56 @@ function setupEventListeners() {
     
     // Clear filters
     document.getElementById('clearFilters').addEventListener('click', clearFilters);
-    
-    // Language selector
-    document.getElementById('languageSelect').addEventListener('change', function() {
-        currentLanguage = this.value;
-        displayProducts();
-    });
-    
-    // Modal close
-    document.querySelector('.close-modal').addEventListener('click', closeModal);
-    window.addEventListener('click', function(e) {
-        const modal = document.getElementById('productModal');
-        if (e.target === modal) closeModal();
+
+    // Language selector - REMOVED: element doesn't exist in HTML
+    // TODO: Add language selector to HTML if needed
+    // document.getElementById('languageSelect').addEventListener('change', function() {
+    //     currentLanguage = this.value;
+    //     displayProducts();
+    // });
+
+    // Modal close - using event delegation for all modals
+    document.addEventListener('click', function(e) {
+        if (e.target.classList.contains('close-modal')) {
+            if (e.target.closest('#productModal')) {
+                closeModal();
+            } else if (e.target.closest('#authModal')) {
+                closeAuthModal();
+            }
+        }
+
+        // Close modal when clicking on backdrop
+        if (e.target.id === 'productModal') {
+            closeModal();
+        }
     });
     
     // Category tree expand/collapse
     document.querySelectorAll('.category-link.has-children').forEach(link => {
         link.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation(); // Prevent generic category listener from firing
+
             if (e.target === this) {
+                // Toggle subcategories dropdown
                 const subcategories = this.nextElementSibling;
                 if (subcategories && subcategories.classList.contains('subcategories')) {
                     subcategories.classList.toggle('show');
                     this.classList.toggle('expanded');
                 }
+
+                // ALSO select this category to show products
+                const category = this.dataset.category;
+                const level = this.dataset.level;
+                const parent = this.dataset.parent;
+                const grandparent = this.dataset.grandparent;
+
+                if (category) {
+                    selectCategory(category, level, parent, grandparent);
+                }
+
+                // Close dropdown if open
+                document.getElementById('categoriesDropdown').classList.remove('show');
             }
         });
     });
@@ -359,7 +444,10 @@ function selectCategory(category, level, parent = null, grandparent = null) {
         }
         return false;
     });
-    
+
+    // Track category view in Google Analytics
+    trackCategoryView(category, level);
+
     // Update UI
     updateBreadcrumb();
     highlightActiveCategory(category);
@@ -436,13 +524,16 @@ function performSearch() {
             product.category_main_en,
             product.category_sub_en
         ].join(' ').toLowerCase();
-        
+
         return searchableText.includes(searchTerm);
     });
-    
+
+    // Track search in Google Analytics
+    trackSearch(searchTerm, filteredProducts.length);
+
     // Update breadcrumb for search
     document.getElementById('breadcrumbTrail').innerHTML = `Search results for "${searchTerm}"`;
-    
+
     hideWelcomeMessage();
     currentPage = 1;
     displayProducts();
@@ -582,22 +673,23 @@ function createProductCard(product) {
     return `
         <div class="product-card" data-product-id="${product.id}">
             <div class="product-image-wrapper">
-                <img src="${imageUrl}" alt="${name}" class="product-image" onerror="this.src='images/no-image.png'">
+                <img src="${imageUrl}" alt="${name}" class="product-image" loading="lazy"
+                     onerror="this.src='images/no-image.png'; this.classList.add('loaded');"
+                     onload="this.classList.add('loaded');">
                 ${isNew ? '<span class="product-badge">NEW</span>' : ''}
             </div>
             <div class="product-info">
                 <div class="product-category">${product.category_sub_en || product.category_main_en || ''}</div>
                 <div class="product-name" title="${name}">${name}</div>
-                <div class="product-model">${product.model_number || 'No Model'}</div>
                 <div class="product-price">
                     ${product.price_eur_markup > 0 ? `€${product.price_eur_markup.toFixed(2)}` : 'Contact for Price'}
                 </div>
                 <div class="product-actions">
-                    <button class="btn-cart" onclick="addToCart('${product.id}')">
-                        <i class="fas fa-cart-plus"></i> Add
-                    </button>
                     <button class="btn-details" onclick="showProductModal('${product.id}')">
-                        <i class="fas fa-eye"></i> View
+                        <i class="fas fa-eye"></i> View Details
+                    </button>
+                    <button class="btn-cart" onclick="contactForProduct('${product.id}')">
+                        <i class="fas fa-envelope"></i> Inquire
                     </button>
                 </div>
             </div>
@@ -620,7 +712,10 @@ function setupProductCardEvents() {
 function showProductModal(productId) {
     const product = currentProducts.find(p => p.id === productId);
     if (!product) return;
-    
+
+    // Track product view in Google Analytics
+    trackProductView(product);
+
     // Add to recently viewed
     addToRecentlyViewed(product);
     
@@ -637,19 +732,30 @@ function showProductModal(productId) {
         const mainImage = product.images[0];
         imagesHTML = `
             <div class="product-images-section">
-                <img src="images/products/${mainImage}" alt="${name}" 
-                     class="main-product-image" id="mainProductImage" 
-                     onerror="this.src='images/no-image.png'">
+                <img src="images/products/${mainImage}" alt="${name}"
+                     class="main-product-image" id="mainProductImage"
+                     onerror="this.src='images/no-image.png'"
+                     onload="this.style.opacity=1;">
                 ${product.images.length > 1 ? `
                     <div class="image-thumbnails">
                         ${product.images.map((img, idx) => `
-                            <img src="images/products/${img}" alt="${name}" 
+                            <img src="images/products/${img}" alt="${name}" loading="lazy"
                                  class="thumbnail ${idx === 0 ? 'active' : ''}"
                                  onclick="changeMainImage('${img}', this)"
-                                 onerror="this.src='images/no-image.png'">
+                                 onerror="this.src='images/no-image.png'"
+                                 onload="this.style.opacity=1;">
                         `).join('')}
                     </div>
                 ` : ''}
+            </div>
+        `;
+    } else {
+        // Show placeholder if no images
+        imagesHTML = `
+            <div class="product-images-section">
+                <img src="images/no-image.png" alt="${name}"
+                     class="main-product-image"
+                     onload="this.style.opacity=1;">
             </div>
         `;
     }
@@ -659,12 +765,21 @@ function showProductModal(productId) {
     if (product.specifications) {
         try {
             const specs = JSON.parse(product.specifications);
-            if (Object.keys(specs).length > 0) {
+
+            // Filter out empty or meaningless specs (where both key and value are just "-")
+            const validSpecs = Object.entries(specs).filter(([key, value]) => {
+                const k = key.trim();
+                const v = String(value).trim();
+                // Skip if key is "-" or empty, or if value is "-", "N/A", or empty
+                return k !== '-' && k !== '' && v !== '-' && v !== '' && v !== 'N/A';
+            });
+
+            if (validSpecs.length > 0) {
                 specsHTML = `
                     <div class="specifications-section">
                         <h4>Specifications</h4>
                         <table class="specs-table">
-                            ${Object.entries(specs).map(([key, value]) => `
+                            ${validSpecs.map(([key, value]) => `
                                 <tr>
                                     <th>${key}</th>
                                     <td>${value}</td>
@@ -690,14 +805,6 @@ function showProductModal(productId) {
                         <span class="meta-value">${product.id}</span>
                     </div>
                     <div class="meta-row">
-                        <span class="meta-label">Model:</span>
-                        <span class="meta-value">${product.model_number || 'N/A'}</span>
-                    </div>
-                    <div class="meta-row">
-                        <span class="meta-label">Manufacturer:</span>
-                        <span class="meta-value">${product.manufacturer || 'N/A'}</span>
-                    </div>
-                    <div class="meta-row">
                         <span class="meta-label">Category:</span>
                         <span class="meta-value">${product.category_main_en || 'N/A'}</span>
                     </div>
@@ -706,11 +813,8 @@ function showProductModal(productId) {
                     ${product.price_eur_markup > 0 ? `€${product.price_eur_markup.toFixed(2)}` : 'Contact for Price'}
                 </div>
                 <div class="modal-actions">
-                    <button class="btn-primary" onclick="addToCart('${product.id}')">
-                        <i class="fas fa-cart-plus"></i> Add to Cart
-                    </button>
-                    <button class="btn-secondary" onclick="contactForProduct('${product.id}')">
-                        <i class="fas fa-envelope"></i> Inquire
+                    <button class="btn-primary" onclick="contactForProduct('${product.id}')">
+                        <i class="fas fa-envelope"></i> Request Quote
                     </button>
                 </div>
                 ${specsHTML}
@@ -738,45 +842,10 @@ function closeModal() {
     document.getElementById('productModal').style.display = 'none';
 }
 
-// Cart functions
-function addToCart(productId) {
-    const product = currentProducts.find(p => p.id === productId);
-    if (!product) return;
-    
-    // Check if already in cart
-    const existingItem = cart.find(item => item.id === productId);
-    
-    if (existingItem) {
-        existingItem.quantity++;
-    } else {
-        cart.push({
-            ...product,
-            quantity: 1
-        });
-    }
-    
-    saveCart();
-    updateCartUI();
-    showNotification(`${product.name_en} added to cart!`);
-}
-
-function saveCart() {
-    localStorage.setItem('laonlink_cart', JSON.stringify(cart));
-}
-
-function loadCart() {
-    const savedCart = localStorage.getItem('laonlink_cart');
-    if (savedCart) {
-        cart = JSON.parse(savedCart);
-        updateCartUI();
-    }
-}
-
-function updateCartUI() {
-    const cartCount = document.querySelector('.cart-count');
-    const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
-    cartCount.textContent = totalItems;
-}
+// ============================================================================
+// SHOPPING CART - NOT IMPLEMENTED
+// Site uses inquiry-based ordering via "Request Quote" button
+// ============================================================================
 
 // Recently viewed
 function addToRecentlyViewed(product) {
@@ -920,7 +989,6 @@ function setupBackToTop() {
 }
 
 // Make functions globally available
-window.addToCart = addToCart;
 window.showProductModal = showProductModal;
 window.changeMainImage = changeMainImage;
 window.goToPage = goToPage;
