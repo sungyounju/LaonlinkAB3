@@ -67,6 +67,30 @@ let currentSubCategory = null;
 let currentSubSubCategory = null;
 let recentlyViewed = [];
 
+// ============================================================================
+// Utility Functions
+// ============================================================================
+
+// Debounce function for performance optimization
+function debounce(func, wait) {
+    let timeout;
+    return function executedFunction(...args) {
+        const later = () => {
+            clearTimeout(timeout);
+            func(...args);
+        };
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+    };
+}
+
+// Helper function to escape HTML and prevent XSS
+function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+}
+
 // Initialize
 document.addEventListener('DOMContentLoaded', function() {
     initializeWebsite();
@@ -319,11 +343,18 @@ function setupEventListeners() {
         }
     });
     
-    // Search
+    // Search with debouncing
+    const debouncedSearch = debounce(performSearch, 300);
+
     document.getElementById('searchBtn').addEventListener('click', performSearch);
     document.getElementById('searchInput').addEventListener('keypress', function(e) {
-        if (e.key === 'Enter') performSearch();
+        if (e.key === 'Enter') {
+            performSearch();
+        }
     });
+
+    // Optional: Real-time search as user types (commented out by default)
+    // document.getElementById('searchInput').addEventListener('input', debouncedSearch);
     
     // Quick search tags
     document.querySelectorAll('.search-tag').forEach(tag => {
@@ -362,19 +393,13 @@ function setupEventListeners() {
     // Clear filters
     document.getElementById('clearFilters').addEventListener('click', clearFilters);
 
-    // Language selector - REMOVED: element doesn't exist in HTML
-    // TODO: Add language selector to HTML if needed
-    // document.getElementById('languageSelect').addEventListener('change', function() {
-    //     currentLanguage = this.value;
-    //     displayProducts();
-    // });
-
     // Modal close - using event delegation for all modals
     document.addEventListener('click', function(e) {
         if (e.target.classList.contains('close-modal')) {
-            if (e.target.closest('#productModal')) {
+            const modalId = e.target.dataset.modal;
+            if (modalId === 'productModal') {
                 closeModal();
-            } else if (e.target.closest('#authModal')) {
+            } else if (modalId === 'authModal') {
                 closeAuthModal();
             }
         }
@@ -382,6 +407,8 @@ function setupEventListeners() {
         // Close modal when clicking on backdrop
         if (e.target.id === 'productModal') {
             closeModal();
+        } else if (e.target.id === 'authModal') {
+            closeAuthModal();
         }
     });
     
@@ -395,8 +422,12 @@ function setupEventListeners() {
                 // Toggle subcategories dropdown
                 const subcategories = this.nextElementSibling;
                 if (subcategories && subcategories.classList.contains('subcategories')) {
+                    const wasExpanded = this.classList.contains('expanded');
                     subcategories.classList.toggle('show');
                     this.classList.toggle('expanded');
+
+                    // Save expansion state
+                    saveCategoryExpansionState(this.dataset.category, !wasExpanded);
                 }
 
                 // ALSO select this category to show products
@@ -414,6 +445,45 @@ function setupEventListeners() {
             }
         });
     });
+
+    // Restore category expansion states
+    restoreCategoryExpansionStates();
+}
+
+// ============================================================================
+// Category Expansion State Persistence
+// ============================================================================
+
+function saveCategoryExpansionState(category, isExpanded) {
+    try {
+        let expansionStates = JSON.parse(localStorage.getItem('laonlink_category_expansion') || '{}');
+        if (isExpanded) {
+            expansionStates[category] = true;
+        } else {
+            delete expansionStates[category];
+        }
+        localStorage.setItem('laonlink_category_expansion', JSON.stringify(expansionStates));
+    } catch (e) {
+        // Fail silently if localStorage is not available
+    }
+}
+
+function restoreCategoryExpansionStates() {
+    try {
+        const expansionStates = JSON.parse(localStorage.getItem('laonlink_category_expansion') || '{}');
+        Object.keys(expansionStates).forEach(category => {
+            const categoryLink = document.querySelector(`.category-link[data-category="${category}"]`);
+            if (categoryLink && categoryLink.classList.contains('has-children')) {
+                const subcategories = categoryLink.nextElementSibling;
+                if (subcategories && subcategories.classList.contains('subcategories')) {
+                    subcategories.classList.add('show');
+                    categoryLink.classList.add('expanded');
+                }
+            }
+        });
+    } catch (e) {
+        // Fail silently if localStorage is not available
+    }
 }
 
 // Category Selection
@@ -766,7 +836,7 @@ function showProductModal(productId) {
         try {
             const specs = JSON.parse(product.specifications);
 
-            // Filter out empty or meaningless specs (where both key and value are just "-")
+            // Filter out empty or meaningless specs
             const validSpecs = Object.entries(specs).filter(([key, value]) => {
                 const k = key.trim();
                 const v = String(value).trim();
@@ -781,8 +851,8 @@ function showProductModal(productId) {
                         <table class="specs-table">
                             ${validSpecs.map(([key, value]) => `
                                 <tr>
-                                    <th>${key}</th>
-                                    <td>${value}</td>
+                                    <th>${escapeHtml(key)}</th>
+                                    <td>${escapeHtml(value)}</td>
                                 </tr>
                             `).join('')}
                         </table>
@@ -790,10 +860,13 @@ function showProductModal(productId) {
                 `;
             }
         } catch (e) {
-            console.error('Error parsing specifications:', e);
+            // Only log in development
+            if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+                console.error('Error parsing specifications for product:', product.id, e);
+            }
         }
     }
-    
+
     modalContent.innerHTML = `
         <div class="product-modal-grid">
             ${imagesHTML}

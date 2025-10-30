@@ -727,7 +727,7 @@ body {
     padding-top: 75%; /* 4:3 aspect ratio */
     overflow: hidden;
     background: var(--bg-light);
-    background-image: url('../images/no-image.png');
+    background-image: url('images/no-image.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -775,10 +775,11 @@ body {
     color: var(--text-dark);
     margin-bottom: 8px;
     line-height: 1.4;
-    height: 36px;
+    min-height: 36px;
+    max-height: 54px;
     overflow: hidden;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
 }
 
@@ -984,7 +985,7 @@ body {
     height: 400px;
     object-fit: contain;
     background: var(--bg-light);
-    background-image: url('../images/no-image.png');
+    background-image: url('images/no-image.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -1325,9 +1326,25 @@ body {
 
 @media (max-width: 768px) {
     .top-bar {
-        display: none;
+        font-size: 11px;
+        padding: 5px 0;
     }
-    
+
+    .top-bar .container {
+        flex-direction: column;
+        gap: 5px;
+        text-align: center;
+    }
+
+    .welcome-text {
+        font-size: 10px;
+    }
+
+    .top-bar-right {
+        gap: 10px;
+        font-size: 11px;
+    }
+
     .header-actions {
         position: fixed;
         bottom: 0;

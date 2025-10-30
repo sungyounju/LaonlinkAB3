@@ -317,7 +317,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h2 id="modalProductTitle">Product Details</h2>
-                <span class="close-modal" onclick="closeModal()">&times;</span>
+                <span class="close-modal" data-modal="productModal">&times;</span>
             </div>
             <div class="modal-body" id="modalContent">
                 <!-- Product details will be loaded here -->
@@ -377,12 +377,12 @@
         <div class="modal-content auth-modal">
             <div class="modal-header">
                 <h2 id="authModalTitle">Sign In</h2>
-                <span class="close-modal" onclick="closeAuthModal()">&times;</span>
+                <span class="close-modal" data-modal="authModal">&times;</span>
             </div>
             <div class="modal-body">
                 <div class="auth-tabs">
-                    <button class="auth-tab active" onclick="showLoginTab()">Login</button>
-                    <button class="auth-tab" onclick="showSignupTab()">Sign Up</button>
+                    <button class="auth-tab active" data-auth-tab="login">Login</button>
+                    <button class="auth-tab" data-auth-tab="signup">Sign Up</button>
                 </div>
 
                 <!-- Login Form -->
@@ -395,11 +395,11 @@
                         <label>Password</label>
                         <input type="password" id="loginPassword" placeholder="Enter your password">
                     </div>
-                    <button class="btn-primary" onclick="handleLogin()">
+                    <button class="btn-primary" id="loginBtn">
                         <i class="fas fa-sign-in-alt"></i> Sign In
                     </button>
                     <p class="auth-link">
-                        <a href="#" onclick="showPasswordReset()">Forgot password?</a>
+                        <a href="#" id="forgotPasswordLink">Forgot password?</a>
                     </p>
                 </div>
 
@@ -421,7 +421,7 @@
                         <label>Confirm Password</label>
                         <input type="password" id="signupPasswordConfirm" placeholder="Confirm your password">
                     </div>
-                    <button class="btn-primary" onclick="handleSignup()">
+                    <button class="btn-primary" id="signupBtn">
                         <i class="fas fa-user-plus"></i> Create Account
                     </button>
                 </div>
@@ -432,11 +432,11 @@
                         <label>Email</label>
                         <input type="email" id="resetEmail" placeholder="Enter your email">
                     </div>
-                    <button class="btn-primary" onclick="handlePasswordReset()">
+                    <button class="btn-primary" id="resetPasswordBtn">
                         <i class="fas fa-envelope"></i> Send Reset Link
                     </button>
                     <p class="auth-link">
-                        <a href="#" onclick="showLoginTab()">Back to login</a>
+                        <a href="#" id="backToLoginLink">Back to login</a>
                     </p>
                 </div>
 
@@ -445,8 +445,7 @@
         </div>
     </div>
 
-    <!-- Firebase SDK -->
-    <!-- TODO: Replace with your Firebase project configuration -->
+    <!-- Firebase SDK (Configure in js/auth.js) -->
     <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore-compat.js"></script>

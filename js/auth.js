@@ -3,7 +3,7 @@
 // ============================================================================
 
 // Firebase Configuration
-// TODO: Replace with your actual Firebase project configuration
+// IMPORTANT: Replace with your actual Firebase project configuration
 // Get this from: Firebase Console > Project Settings > General > Your apps > Web app
 const firebaseConfig = {
     apiKey: "YOUR_API_KEY",
@@ -14,14 +14,25 @@ const firebaseConfig = {
     appId: "YOUR_APP_ID"
 };
 
+// Check if Firebase is configured
+const isFirebaseConfigured = () => {
+    return firebaseConfig.apiKey !== "YOUR_API_KEY" &&
+           firebaseConfig.projectId !== "YOUR_PROJECT_ID";
+};
+
 // Initialize Firebase
 let firebaseInitialized = false;
 try {
-    if (!firebase.apps.length) {
-        firebase.initializeApp(firebaseConfig);
+    if (isFirebaseConfigured() && typeof firebase !== 'undefined') {
+        if (!firebase.apps.length) {
+            firebase.initializeApp(firebaseConfig);
+        }
+        firebaseInitialized = true;
+        // Production: Remove console.log or use proper logging
+        // console.log('Firebase initialized successfully');
+    } else {
+        console.warn('⚠️ Firebase is not configured. Authentication features are disabled. Please add your Firebase credentials in js/auth.js');
     }
-    firebaseInitialized = true;
-    console.log('Firebase initialized successfully');
 } catch (error) {
     console.error('Firebase initialization error:', error);
     // If Firebase is not configured, authentication features won't work
@@ -40,13 +51,10 @@ if (firebaseInitialized) {
         updateAuthUI(user);
 
         if (user) {
-            console.log('User signed in:', user.email);
             // User is signed in
             showNotification(`Welcome back, ${user.email}!`);
-        } else {
-            console.log('User signed out');
-            // User is signed out
         }
+        // User signed out state is handled by updateAuthUI
     });
 }
 
@@ -219,14 +227,16 @@ async function handleLogin() {
 
     try {
         const userCredential = await firebase.auth().signInWithEmailAndPassword(email, password);
-        console.log('Login successful:', userCredential.user.email);
         showAuthMessage('Login successful!', 'success');
 
         setTimeout(() => {
             closeAuthModal();
         }, 1000);
     } catch (error) {
-        console.error('Login error:', error);
+        // Log error for debugging (remove in production or use proper logging)
+        if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+            console.error('Login error:', error);
+        }
         let errorMessage = 'Login failed. ';
 
         switch (error.code) {
@@ -279,7 +289,6 @@ async function handleSignup() {
 
     try {
         const userCredential = await firebase.auth().createUserWithEmailAndPassword(email, password);
-        console.log('Signup successful:', userCredential.user.email);
 
         // Update user profile with name
         await userCredential.user.updateProfile({
@@ -292,7 +301,10 @@ async function handleSignup() {
             closeAuthModal();
         }, 1000);
     } catch (error) {
-        console.error('Signup error:', error);
+        // Log error for debugging (remove in production or use proper logging)
+        if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+            console.error('Signup error:', error);
+        }
         let errorMessage = 'Signup failed. ';
 
         switch (error.code) {
@@ -334,7 +346,10 @@ async function handlePasswordReset() {
             showLoginTab();
         }, 2000);
     } catch (error) {
-        console.error('Password reset error:', error);
+        // Log error for debugging (remove in production or use proper logging)
+        if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+            console.error('Password reset error:', error);
+        }
         let errorMessage = 'Failed to send reset email. ';
 
         switch (error.code) {
@@ -361,10 +376,12 @@ async function handleLogout() {
 
     try {
         await firebase.auth().signOut();
-        console.log('Logout successful');
         showNotification('You have been signed out');
     } catch (error) {
-        console.error('Logout error:', error);
+        // Log error for debugging (remove in production or use proper logging)
+        if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+            console.error('Logout error:', error);
+        }
         showNotification('Logout failed: ' + error.message);
     }
 }
@@ -389,6 +406,42 @@ window.addEventListener('click', function(e) {
     }
 });
 
+// ============================================================================
+// Event Listeners
+// ============================================================================
+
+// Handle auth tab clicks
+document.addEventListener('click', function(e) {
+    if (e.target.dataset.authTab) {
+        if (e.target.dataset.authTab === 'login') {
+            showLoginTab();
+        } else if (e.target.dataset.authTab === 'signup') {
+            showSignupTab();
+        }
+    }
+});
+
+// Handle auth button clicks
+document.addEventListener('DOMContentLoaded', function() {
+    const loginBtn = document.getElementById('loginBtn');
+    const signupBtn = document.getElementById('signupBtn');
+    const resetBtn = document.getElementById('resetPasswordBtn');
+    const forgotPasswordLink = document.getElementById('forgotPasswordLink');
+    const backToLoginLink = document.getElementById('backToLoginLink');
+
+    if (loginBtn) loginBtn.addEventListener('click', handleLogin);
+    if (signupBtn) signupBtn.addEventListener('click', handleSignup);
+    if (resetBtn) resetBtn.addEventListener('click', handlePasswordReset);
+    if (forgotPasswordLink) forgotPasswordLink.addEventListener('click', function(e) {
+        e.preventDefault();
+        showPasswordReset();
+    });
+    if (backToLoginLink) backToLoginLink.addEventListener('click', function(e) {
+        e.preventDefault();
+        showLoginTab();
+    });
+});
+
 // Handle Enter key in forms
 document.addEventListener('keypress', function(e) {
     if (e.key === 'Enter') {
@@ -408,5 +461,3 @@ document.addEventListener('keypress', function(e) {
         }
     }
 });
-
-console.log('Auth.js loaded successfully');
