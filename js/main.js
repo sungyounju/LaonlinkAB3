@@ -269,7 +269,7 @@ function buildCategoryCards() {
         const icon = getCategoryIcon(catName);
         
         cardsHTML += `
-            <div class="category-card" data-category="${catName}">
+            <div class="category-card" data-category="${catName}" data-level="main">
                 <i class="fas ${icon}"></i>
                 <h4>${catData.name_en}</h4>
                 <span>${productCount} products</span>
@@ -281,7 +281,8 @@ function buildCategoryCards() {
     
     // Add click handlers
     document.querySelectorAll('.category-card').forEach(card => {
-        card.addEventListener('click', function() {
+        card.addEventListener('click', function(e) {
+            e.stopPropagation(); // Prevent generic handler from interfering
             selectCategory(this.dataset.category, 'main');
         });
     });
@@ -437,13 +438,6 @@ function setupEventListeners() {
         clearFiltersBtn.addEventListener('click', clearFilters);
     }
 
-    // Language selector - REMOVED: element doesn't exist in HTML
-    // TODO: Add language selector to HTML if needed
-    // document.getElementById('languageSelect').addEventListener('change', function() {
-    //     currentLanguage = this.value;
-    //     displayProducts();
-    // });
-
     // Modal close - using event delegation for all modals
     document.addEventListener('click', function(e) {
         if (e.target.classList.contains('close-modal')) {
@@ -493,6 +487,12 @@ function setupEventListeners() {
 
 // Category Selection
 function selectCategory(category, level, parent = null, grandparent = null) {
+    // Validate inputs
+    if (!category || !level) {
+        console.error('Invalid category selection:', { category, level });
+        return;
+    }
+
     // Update current category
     if (level === 'main') {
         currentCategory = category;
@@ -506,6 +506,9 @@ function selectCategory(category, level, parent = null, grandparent = null) {
         currentCategory = grandparent;
         currentSubCategory = parent;
         currentSubSubCategory = category;
+    } else {
+        console.error('Invalid category level:', level);
+        return;
     }
     
     // Filter products
@@ -776,14 +779,22 @@ function clearFilters() {
     if (minPrice) minPrice.value = '';
     if (maxPrice) maxPrice.value = '';
 
+    // Clear all checkboxes except "used" condition (which is default)
     document.querySelectorAll('input[type="checkbox"]').forEach(cb => {
-        if (cb.name !== 'condition' || cb.value !== 'used') {
+        const isUsedConditionCheckbox = cb.name === 'condition' && cb.value === 'used';
+        if (!isUsedConditionCheckbox) {
             cb.checked = false;
+        } else {
+            cb.checked = true; // Ensure "used" is checked
         }
     });
 
-    // Re-apply category filter only
-    if (currentCategory) {
+    // Re-apply category filter only (preserve current level)
+    if (currentSubSubCategory) {
+        selectCategory(currentSubSubCategory, 'subsub', currentSubCategory, currentCategory);
+    } else if (currentSubCategory) {
+        selectCategory(currentSubCategory, 'sub', currentCategory);
+    } else if (currentCategory) {
         selectCategory(currentCategory, 'main');
     } else {
         // If no category selected, show welcome message
