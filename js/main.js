@@ -262,23 +262,32 @@ function buildFooterCategories() {
 function buildCategoryCards() {
     const categoryCards = document.getElementById('categoryCards');
     let cardsHTML = '';
-    
+
     // Create cards for main categories
     for (const [catName, catData] of Object.entries(categoriesData)) {
-        const productCount = currentProducts.filter(p => p.category_main_en === catName).length;
-        const icon = getCategoryIcon(catName);
-        
+        const categoryProducts = currentProducts.filter(p => p.category_main_en === catName);
+        const productCount = categoryProducts.length;
+
+        // Get the first product's image for this category
+        let imageUrl = 'images/no-image.png';
+        if (categoryProducts.length > 0 && categoryProducts[0].images && categoryProducts[0].images.length > 0) {
+            imageUrl = `images/products/${categoryProducts[0].images[0]}`;
+        }
+
         cardsHTML += `
             <div class="category-card" data-category="${catName}" data-level="main">
-                <i class="fas ${icon}"></i>
+                <div class="category-card-image">
+                    <img src="${imageUrl}" alt="${catData.name_en}"
+                         onerror="this.src='images/no-image.png'">
+                </div>
                 <h4>${catData.name_en}</h4>
                 <span>${productCount} products</span>
             </div>
         `;
     }
-    
+
     categoryCards.innerHTML = cardsHTML;
-    
+
     // Add click handlers
     document.querySelectorAll('.category-card').forEach(card => {
         card.addEventListener('click', function(e) {
@@ -325,6 +334,15 @@ function setupEventListeners() {
     const homeLink = document.querySelector('.home-link');
     if (homeLink) {
         homeLink.addEventListener('click', function(e) {
+            e.preventDefault();
+            resetToHome();
+        });
+    }
+
+    // Company logo link
+    const companyLogoLink = document.querySelector('.company-logo-link');
+    if (companyLogoLink) {
+        companyLogoLink.addEventListener('click', function(e) {
             e.preventDefault();
             resetToHome();
         });
