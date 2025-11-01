@@ -119,16 +119,28 @@ function showAccountMenu() {
                 <i class="fas fa-user-circle"></i>
                 <span>${currentUser.email}</span>
             </div>
-            <div class="account-menu-item" onclick="showAccountDetails()">
+            <div class="account-menu-item" id="accountDetailsBtn">
                 <i class="fas fa-user"></i> Account Details
             </div>
-            <div class="account-menu-item" onclick="handleLogout()">
+            <div class="account-menu-item" id="logoutBtn">
                 <i class="fas fa-sign-out-alt"></i> Sign Out
             </div>
         </div>
     `;
 
     document.body.appendChild(menu);
+
+    // Add event listeners to menu items
+    const accountDetailsBtn = document.getElementById('accountDetailsBtn');
+    const logoutBtn = document.getElementById('logoutBtn');
+
+    if (accountDetailsBtn) {
+        accountDetailsBtn.addEventListener('click', showAccountDetails);
+    }
+
+    if (logoutBtn) {
+        logoutBtn.addEventListener('click', handleLogout);
+    }
 
     // Close menu when clicking outside
     // Remove any existing handler first
