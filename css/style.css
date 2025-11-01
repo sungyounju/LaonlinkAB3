@@ -110,6 +110,17 @@ body {
     letter-spacing: -1px;
 }
 
+.company-logo-link {
+    color: var(--primary-blue);
+    text-decoration: none;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.company-logo-link:hover {
+    opacity: 0.8;
+}
+
 .tagline {
     font-size: 12px;
     color: var(--text-gray);
@@ -120,7 +131,7 @@ body {
 /* Search Section */
 .search-section {
     flex: 1;
-    max-width: 600px;
+    max-width: 700px;
 }
 
 .search-wrapper {
@@ -180,6 +191,7 @@ body {
 .header-actions {
     display: flex;
     gap: 25px;
+    margin-left: 40px;
 }
 
 .action-item {
@@ -672,6 +684,23 @@ body {
     transform: translateY(-3px);
     box-shadow: 0 4px 12px var(--shadow-light);
     border-color: var(--primary-blue);
+}
+
+.category-card-image {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    background: var(--bg-light);
+    border-radius: 3px;
+}
+
+.category-card-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }
 
 .category-card i {
@@ -1488,8 +1517,8 @@ body {
 /* Account Dropdown */
 .account-dropdown {
     position: absolute;
-    top: 60px;
-    right: 20px;
+    top: calc(100% + 10px);
+    right: 0;
     background: white;
     border: 1px solid var(--border-color);
     border-radius: 8px;
