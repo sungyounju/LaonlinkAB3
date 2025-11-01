@@ -725,7 +725,7 @@ body {
 
 /* Products Grid */
 .products-container {
-    padding: 20px;
+    padding: 20px 40px;
 }
 
 .products-grid {
