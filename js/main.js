@@ -88,6 +88,35 @@ function removeURLParameter(name) {
     window.history.pushState({}, '', url);
 }
 
+function clearAllURLParameters() {
+    const url = new URL(window.location);
+    url.search = '';
+    window.history.pushState({}, '', url);
+}
+
+function setCategoryURL(category, level, parent = null, grandparent = null) {
+    const url = new URL(window.location);
+    url.searchParams.set('category', category);
+    url.searchParams.set('level', level);
+
+    if (parent) {
+        url.searchParams.set('parent', parent);
+    } else {
+        url.searchParams.delete('parent');
+    }
+
+    if (grandparent) {
+        url.searchParams.set('grandparent', grandparent);
+    } else {
+        url.searchParams.delete('grandparent');
+    }
+
+    // Remove product parameter when navigating to category
+    url.searchParams.delete('product');
+
+    window.history.pushState({}, '', url);
+}
+
 // Initialize
 document.addEventListener('DOMContentLoaded', function() {
     initializeWebsite();
@@ -118,13 +147,21 @@ function initializeWebsite() {
         // Load saved data
         loadRecentlyViewed();
 
-        // Check if there's a product ID in the URL and auto-open modal
+        // Check URL parameters for navigation state
         const productIdFromURL = getURLParameter('product');
+        const categoryFromURL = getURLParameter('category');
+        const levelFromURL = getURLParameter('level');
+        const parentFromURL = getURLParameter('parent');
+        const grandparentFromURL = getURLParameter('grandparent');
+
         if (productIdFromURL) {
-            // Open the product modal directly (don't update URL since it's already there)
+            // If product ID in URL, open that product modal
             showProductModal(productIdFromURL, false);
+        } else if (categoryFromURL && levelFromURL) {
+            // If category in URL, select that category
+            selectCategory(categoryFromURL, levelFromURL, parentFromURL, grandparentFromURL, false);
         } else {
-            // Show welcome message initially (no products)
+            // Show welcome message initially (no products, no category)
             showWelcomeMessage();
         }
 
@@ -533,22 +570,49 @@ function setupEventListeners() {
     // Handle browser back/forward navigation
     window.addEventListener('popstate', function() {
         const productIdFromURL = getURLParameter('product');
+        const categoryFromURL = getURLParameter('category');
+        const levelFromURL = getURLParameter('level');
+        const parentFromURL = getURLParameter('parent');
+        const grandparentFromURL = getURLParameter('grandparent');
         const productModal = document.getElementById('productModal');
 
         if (productIdFromURL) {
             // If URL has product ID, open that product modal (don't update URL)
             showProductModal(productIdFromURL, false);
-        } else {
-            // If no product ID in URL, close the modal
+        } else if (categoryFromURL && levelFromURL) {
+            // If URL has category, select that category (don't update URL)
             if (productModal && productModal.style.display === 'block') {
                 productModal.style.display = 'none';
             }
+            selectCategory(categoryFromURL, levelFromURL, parentFromURL, grandparentFromURL, false);
+        } else {
+            // No category or product - return to home
+            if (productModal && productModal.style.display === 'block') {
+                productModal.style.display = 'none';
+            }
+            // Reset to home state without updating URL (it's already at home)
+            currentCategory = null;
+            currentSubCategory = null;
+            currentSubSubCategory = null;
+            filteredProducts = [];
+            currentPage = 1;
+
+            // Clear active category highlights
+            document.querySelectorAll('.category-link').forEach(link => {
+                link.classList.remove('active');
+            });
+
+            // Reset breadcrumb
+            updateBreadcrumb();
+
+            // Show welcome message
+            showWelcomeMessage();
         }
     });
 }
 
 // Category Selection
-function selectCategory(category, level, parent = null, grandparent = null) {
+function selectCategory(category, level, parent = null, grandparent = null, updateURL = true) {
     // Validate inputs
     if (!category || !level) {
         console.error('Invalid category selection:', { category, level });
@@ -572,7 +636,12 @@ function selectCategory(category, level, parent = null, grandparent = null) {
         console.error('Invalid category level:', level);
         return;
     }
-    
+
+    // Update URL with category parameters for shareable links
+    if (updateURL) {
+        setCategoryURL(category, level, parent, grandparent);
+    }
+
     // Filter products
     filteredProducts = currentProducts.filter(product => {
         if (level === 'main') {
@@ -667,6 +736,9 @@ function resetToHome() {
     currentSubSubCategory = null;
     filteredProducts = [];
     currentPage = 1;
+
+    // Clear all URL parameters (category, product, etc.)
+    clearAllURLParameters();
 
     // Clear active category highlights
     document.querySelectorAll('.category-link').forEach(link => {
