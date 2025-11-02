@@ -67,6 +67,27 @@ let currentSubCategory = null;
 let currentSubSubCategory = null;
 let recentlyViewed = [];
 
+// ============================================================================
+// URL Parameter Utilities for Individual Product Links
+// ============================================================================
+
+function getURLParameter(name) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(name);
+}
+
+function setURLParameter(name, value) {
+    const url = new URL(window.location);
+    url.searchParams.set(name, value);
+    window.history.pushState({}, '', url);
+}
+
+function removeURLParameter(name) {
+    const url = new URL(window.location);
+    url.searchParams.delete(name);
+    window.history.pushState({}, '', url);
+}
+
 // Initialize
 document.addEventListener('DOMContentLoaded', function() {
     initializeWebsite();
@@ -97,8 +118,15 @@ function initializeWebsite() {
         // Load saved data
         loadRecentlyViewed();
 
-        // Show welcome message initially (no products)
-        showWelcomeMessage();
+        // Check if there's a product ID in the URL and auto-open modal
+        const productIdFromURL = getURLParameter('product');
+        if (productIdFromURL) {
+            // Open the product modal directly (don't update URL since it's already there)
+            showProductModal(productIdFromURL, false);
+        } else {
+            // Show welcome message initially (no products)
+            showWelcomeMessage();
+        }
 
         // Setup back to top button
         setupBackToTop();
@@ -500,6 +528,22 @@ function setupEventListeners() {
                 document.getElementById('categoriesDropdown').classList.remove('show');
             }
         });
+    });
+
+    // Handle browser back/forward navigation
+    window.addEventListener('popstate', function() {
+        const productIdFromURL = getURLParameter('product');
+        const productModal = document.getElementById('productModal');
+
+        if (productIdFromURL) {
+            // If URL has product ID, open that product modal (don't update URL)
+            showProductModal(productIdFromURL, false);
+        } else {
+            // If no product ID in URL, close the modal
+            if (productModal && productModal.style.display === 'block') {
+                productModal.style.display = 'none';
+            }
+        }
     });
 }
 
@@ -942,12 +986,17 @@ function setupProductCardEvents() {
 }
 
 // Show product modal
-function showProductModal(productId) {
+function showProductModal(productId, updateURL = true) {
     const product = currentProducts.find(p => p.id === productId);
     if (!product) {
         console.error('Product not found:', productId);
         showNotification('Product not found');
         return;
+    }
+
+    // Update URL with product ID for shareable link (unless called from popstate)
+    if (updateURL) {
+        setURLParameter('product', productId);
     }
 
     // Track product view in Google Analytics
@@ -1087,6 +1136,9 @@ function closeModal() {
     if (productModal) {
         productModal.style.display = 'none';
     }
+
+    // Remove product parameter from URL
+    removeURLParameter('product');
 }
 
 // ============================================================================
