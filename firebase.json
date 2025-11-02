@@ -6,11 +6,14 @@
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
-    "public": "public",
+    "public": ".",
     "ignore": [
       "firebase.json",
       "**/.*",
-      "**/node_modules/**"
+      "**/node_modules/**",
+      "Firebase/**",
+      "generate-pages.js",
+      "README-SEO.md"
     ]
   }
 }
