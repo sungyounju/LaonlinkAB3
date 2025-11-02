@@ -33,12 +33,22 @@ function createSlug(name) {
     .substring(0, 100); // Limit length
 }
 
-// Extract model number from product name
+// Extract model number from product name for SEO title
 function extractModelNumber(product) {
   const nameEn = product.name_en || '';
   // Try to find a model number pattern (letters followed by numbers/hyphens)
   const match = nameEn.match(/\b([A-Z]{2,}[-]?[A-Z0-9]{2,})\b/);
-  return match ? match[1] : product.id;
+  return match ? match[1] : 'Product';
+}
+
+// Create clean product name for title
+function cleanProductName(name) {
+  // Remove [Used], [중고], etc.
+  return name
+    .replace(/\[used\]|\[중고\]/gi, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .substring(0, 100);
 }
 
 // Read the base HTML template
@@ -52,15 +62,26 @@ function generateProductPages() {
 
   let count = 0;
   productsData.forEach(product => {
+    const productId = product.id;
     const modelNumber = extractModelNumber(product);
-    const slug = createSlug(modelNumber);
-    const productName = product.name_en || product.name_kr || 'Unknown Product';
+    const cleanName = cleanProductName(product.name_en || product.name_kr || 'Product');
     const price = product.price_eur_markup || 0;
     const category = product.category_main_en || 'Products';
-    const manufacturer = product.manufacturer || 'Various';
+
+    // Extract manufacturer from specifications if available
+    let manufacturer = 'Various';
+    try {
+      const specs = JSON.parse(product.specifications || '{}');
+      manufacturer = specs.MAKER || specs.Manufacturer || 'Various';
+    } catch (e) {
+      // Use default
+    }
+
+    // Create SEO-friendly title with model number
+    const pageTitle = `${modelNumber} - ${cleanName} | LaonLinkAB`;
 
     // Create a description
-    const description = `${productName}. ${category} component. Price: €${price.toFixed(2)}. ${manufacturer} industrial automation part available from LaonLinkAB, Sweden.`;
+    const description = `${cleanName}. ${category} component. Price: €${price.toFixed(2)}. ${manufacturer} industrial automation part available from LaonLinkAB, Sweden.`;
 
     // Get first image if available
     const imageUrl = product.images && product.images[0]
@@ -70,10 +91,10 @@ function generateProductPages() {
     // Create product-specific HTML
     let productHTML = template;
 
-    // Update title
+    // Update title with SEO-friendly format
     productHTML = productHTML.replace(
       /<title>.*?<\/title>/,
-      `<title>${productName} - LaonLinkAB</title>`
+      `<title>${pageTitle}</title>`
     );
 
     // Update meta description
@@ -82,16 +103,16 @@ function generateProductPages() {
       `<meta name="description" content="${description.substring(0, 160)}">`
     );
 
-    // Update canonical URL
+    // Update canonical URL using product ID
     productHTML = productHTML.replace(
       /<link rel="canonical" href=".*?">/,
-      `<link rel="canonical" href="https://laon2link.com/products/${slug}.html">`
+      `<link rel="canonical" href="https://laon2link.com/products/${productId}.html">`
     );
 
     // Update Open Graph tags
     productHTML = productHTML.replace(
       /<meta property="og:title" content=".*?">/,
-      `<meta property="og:title" content="${productName}">`
+      `<meta property="og:title" content="${pageTitle}">`
     );
 
     productHTML = productHTML.replace(
@@ -101,7 +122,7 @@ function generateProductPages() {
 
     productHTML = productHTML.replace(
       /<meta property="og:url" content=".*?">/,
-      `<meta property="og:url" content="https://laon2link.com/products/${slug}.html">`
+      `<meta property="og:url" content="https://laon2link.com/products/${productId}.html">`
     );
 
     // Add product-specific structured data right before </head>
@@ -111,10 +132,10 @@ function generateProductPages() {
     {
       "@context": "https://schema.org/",
       "@type": "Product",
-      "name": "${productName.replace(/"/g, '\\"')}",
+      "name": "${cleanName.replace(/"/g, '\\"')}",
       "image": "${imageUrl}",
       "description": "${description.substring(0, 200).replace(/"/g, '\\"')}",
-      "sku": "${product.id}",
+      "sku": "${productId}",
       "mpn": "${modelNumber}",
       "brand": {
         "@type": "Brand",
@@ -122,7 +143,7 @@ function generateProductPages() {
       },
       "offers": {
         "@type": "Offer",
-        "url": "https://laon2link.com/products/${slug}.html",
+        "url": "https://laon2link.com/products/${productId}.html",
         "priceCurrency": "EUR",
         "price": "${price.toFixed(2)}",
         "availability": "https://schema.org/InStock",
@@ -141,11 +162,11 @@ function generateProductPages() {
     // Add script to auto-load this product
     productHTML = productHTML.replace(
       '<body>',
-      `<body>\n<script>window.STATIC_PRODUCT_ID = "${product.id}";</script>`
+      `<body>\n<script>window.STATIC_PRODUCT_ID = "${productId}";</script>`
     );
 
-    // Write the file
-    const filename = `./products/${slug}.html`;
+    // Write the file using product ID
+    const filename = `./products/${productId}.html`;
     fs.writeFileSync(filename, productHTML);
 
     count++;
@@ -230,14 +251,13 @@ function generateSitemap() {
 
   console.log(`Adding ${productsData.length} products to sitemap...`);
 
-  // Add all products
+  // Add all products using product IDs
   let count = 0;
   productsData.forEach(product => {
-    const modelNumber = extractModelNumber(product);
-    const slug = createSlug(modelNumber);
+    const productId = product.id;
 
     sitemap += `  <url>
-    <loc>https://laon2link.com/products/${slug}.html</loc>
+    <loc>https://laon2link.com/products/${productId}.html</loc>
     <lastmod>${today}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
