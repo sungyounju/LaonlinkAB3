@@ -1,0 +1,19 @@
+# Netlify configuration
+[build]
+  publish = "."
+  command = ""
+
+# Redirect all non-existent files to index.html for SPA routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = false
+  conditions = {Role = ["public"]}
+
+# Don't redirect if the file exists
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
