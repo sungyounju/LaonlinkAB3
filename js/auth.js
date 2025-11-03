@@ -130,6 +130,14 @@ function showAccountMenu() {
 
     document.body.appendChild(menu);
 
+    // Position the dropdown relative to the account button
+    const accountBtn = document.getElementById('accountBtn');
+    const rect = accountBtn.getBoundingClientRect();
+    menu.style.position = 'fixed';
+    menu.style.top = (rect.bottom + 10) + 'px';
+    menu.style.right = (window.innerWidth - rect.right) + 'px';
+    menu.style.left = 'auto';
+
     // Add event listeners to menu items
     const accountDetailsBtn = document.getElementById('accountDetailsBtn');
     const logoutBtn = document.getElementById('logoutBtn');
