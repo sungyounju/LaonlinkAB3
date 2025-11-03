@@ -9,7 +9,6 @@
   to = "/index.html"
   status = 200
   force = false
-  conditions = {Role = ["public"]}
 
 # Don't redirect if the file exists
 [[headers]]
