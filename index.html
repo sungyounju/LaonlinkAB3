@@ -188,12 +188,14 @@
                         <!-- Price Range -->
                         <div class="filter-section">
                             <h4>Price Range (EUR)</h4>
-                            <div class="price-inputs">
-                                <input type="number" id="minPrice" name="minPrice" placeholder="Min" min="0" autocomplete="off">
-                                <span>-</span>
-                                <input type="number" id="maxPrice" name="maxPrice" placeholder="Max" min="0" autocomplete="off">
-                            </div>
-                            <button class="apply-price-btn" id="applyPriceFilter">Apply</button>
+                            <form autocomplete="off">
+                                <div class="price-inputs">
+                                    <input type="number" id="minPrice" name="price-minimum" placeholder="Min" min="0" autocomplete="off" data-form-type="other">
+                                    <span>-</span>
+                                    <input type="number" id="maxPrice" name="price-maximum" placeholder="Max" min="0" autocomplete="off" data-form-type="other">
+                                </div>
+                                <button type="button" class="apply-price-btn" id="applyPriceFilter">Apply</button>
+                            </form>
                         </div>
                         
                         <!-- Manufacturer Filter -->
