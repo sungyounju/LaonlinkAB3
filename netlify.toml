@@ -3,16 +3,30 @@
   publish = "."
   command = ""
 
-# Redirect all non-existent files to index.html for SPA routing
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-  force = false
+# Headers for sitemap and robots.txt
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=3600"
 
-# Don't redirect if the file exists
+[[headers]]
+  for = "/robots.txt"
+  [headers.values]
+    Content-Type = "text/plain"
+    Cache-Control = "public, max-age=86400"
+
+# Security headers
 [[headers]]
   for = "/*"
   [headers.values]
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
+
+# Redirect all non-existent files to index.html for SPA routing
+# But don't redirect actual files like sitemap.xml, robots.txt, images, etc.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = false
