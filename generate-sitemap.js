@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Generate sitemap.xml for LaonLinkAB SPA
+ * Generate sitemap.xml for laon2link SPA
  * Uses query parameters for SPA routing: ?category=slug&product=id
  */
 

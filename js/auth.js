@@ -1,5 +1,5 @@
 // ============================================================================
-// Firebase Authentication for LaonLinkAB
+// Firebase Authentication for laon2link
 // ============================================================================
 
 // Shared utility function - fallback if main.js not loaded yet
