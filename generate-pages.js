@@ -78,10 +78,10 @@ function generateProductPages() {
     }
 
     // Create SEO-friendly title with model number
-    const pageTitle = `${modelNumber} - ${cleanName} | LaonLinkAB`;
+    const pageTitle = `${modelNumber} - ${cleanName} | laon2link`;
 
     // Create a description
-    const description = `${cleanName}. ${category} component. Price: €${price.toFixed(2)}. ${manufacturer} industrial automation part available from LaonLinkAB, Sweden.`;
+    const description = `${cleanName}. ${category} component. Price: €${price.toFixed(2)}. ${manufacturer} industrial automation part available from laon2link, Sweden.`;
 
     // Get first image if available
     const imageUrl = product.images && product.images[0]
@@ -150,7 +150,7 @@ function generateProductPages() {
         "itemCondition": "https://schema.org/UsedCondition",
         "seller": {
           "@type": "Organization",
-          "name": "LaonLinkAB"
+          "name": "laon2link"
         }
       }
     }
@@ -194,12 +194,12 @@ function generateCategoryPages() {
 
     let categoryHTML = template;
 
-    const description = `${category.fullName} - Industrial automation components and ${category.name} parts from LaonLinkAB. Premium semiconductor components with competitive pricing from Sweden.`;
+    const description = `${category.fullName} - Industrial automation components and ${category.name} parts from laon2link. Premium semiconductor components with competitive pricing from Sweden.`;
 
     // Update title
     categoryHTML = categoryHTML.replace(
       /<title>.*?<\/title>/,
-      `<title>${category.fullName} - ${category.name} Components | LaonLinkAB</title>`
+      `<title>${category.fullName} - ${category.name} Components | laon2link</title>`
     );
 
     // Update meta description
@@ -273,7 +273,7 @@ function generateSitemap() {
 }
 
 // Main execution
-console.log('🚀 LaonLinkAB Static Page Generator\n');
+console.log('🚀 laon2link Static Page Generator\n');
 console.log('========================================\n');
 
 try {

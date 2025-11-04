@@ -1,4 +1,4 @@
-// LaonLinkAB Main JavaScript - SHMarket Style
+// laon2link Main JavaScript - SHMarket Style
 // Category-based navigation without showing all products
 
 // ============================================================================

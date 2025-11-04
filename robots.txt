@@ -1,4 +1,4 @@
-# robots.txt for LaonLinkAB
+# robots.txt for laon2link
 # Allow all search engines to crawl the site
 
 User-agent: *
