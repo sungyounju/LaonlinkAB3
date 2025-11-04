@@ -1,16 +1,28 @@
 const fs = require('fs');
 const path = require('path');
+const vm = require('vm');
 
-// Read the products data JavaScript file
-const productsDataContent = fs.readFileSync('./js/products-data.js', 'utf8');
-
-// Extract the productsData array from the file
-// The file contains: const productsData = [...]
+// Read the products data JavaScript file safely
 let productsData;
 try {
-  // Create a function context to execute the code
-  const productDataFunction = new Function(productsDataContent + '; return productsData;');
-  productsData = productDataFunction();
+  const productsDataContent = fs.readFileSync('./js/products-data.js', 'utf8');
+
+  // Use VM module for safer code execution (safer than Function() or eval())
+  // Create a sandbox context
+  const sandbox = { productsData: null, console };
+  vm.createContext(sandbox);
+
+  // Execute the code in the sandbox
+  vm.runInContext(productsDataContent, sandbox, {
+    filename: 'products-data.js',
+    timeout: 10000 // 10 second timeout
+  });
+
+  productsData = sandbox.productsData;
+
+  if (!Array.isArray(productsData)) {
+    throw new Error('Products data is not an array');
+  }
 } catch (error) {
   console.error('Error loading products data:', error.message);
   process.exit(1);

@@ -7,6 +7,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const vm = require('vm');
 
 // Read products data
 const productsDataPath = path.join(__dirname, 'js', 'products-data.js');
@@ -14,10 +15,21 @@ let productsData = [];
 
 try {
     const fileContent = fs.readFileSync(productsDataPath, 'utf8');
-    // Extract the productsData array using a simple regex
-    const match = fileContent.match(/const productsData = (\[[\s\S]*?\]);/);
-    if (match && match[1]) {
-        productsData = eval(match[1]);
+
+    // Use VM module for safer code execution (safer than eval() or Function())
+    const sandbox = { productsData: null, console };
+    vm.createContext(sandbox);
+
+    // Execute the code in the sandbox
+    vm.runInContext(fileContent, sandbox, {
+        filename: 'products-data.js',
+        timeout: 10000 // 10 second timeout
+    });
+
+    productsData = sandbox.productsData || [];
+
+    if (!Array.isArray(productsData)) {
+        throw new Error('Products data is not an array');
     }
 } catch (error) {
     console.error('Error reading products data:', error.message);

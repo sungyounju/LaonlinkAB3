@@ -897,13 +897,6 @@ body {
     margin-bottom: 10px;
 }
 
-.product-price .original {
-    font-size: 13px;
-    color: var(--text-light);
-    text-decoration: line-through;
-    margin-right: 8px;
-}
-
 .product-actions {
     display: flex;
     gap: 8px;

@@ -2,30 +2,20 @@
 // Firebase Authentication for laon2link
 // ============================================================================
 
-// Shared utility function - fallback if main.js not loaded yet
+// Use shared notification function from main.js (via window.laonlink namespace)
 function showNotification(message) {
-    // Try to use the main.js version first
-    if (window.showNotification && typeof window.showNotification === 'function') {
-        window.showNotification(message);
+    if (window.laonlink && typeof window.laonlink.showNotification === 'function') {
+        window.laonlink.showNotification(message);
         return;
     }
 
-    // Fallback implementation
-    let notification = document.getElementById('notification');
-    if (!notification) {
-        // Create notification element if it doesn't exist
-        notification = document.createElement('div');
-        notification.id = 'notification';
-        notification.className = 'notification';
-        document.body.appendChild(notification);
+    // Minimal fallback if main.js hasn't loaded yet
+    const notification = document.getElementById('notification');
+    if (notification) {
+        notification.textContent = message;
+        notification.style.display = 'block';
+        setTimeout(() => { notification.style.display = 'none'; }, 3000);
     }
-
-    notification.textContent = message;
-    notification.style.display = 'block';
-
-    setTimeout(() => {
-        notification.style.display = 'none';
-    }, 3000);
 }
 
 // Firebase Configuration
@@ -94,18 +84,18 @@ function updateAuthUI(user) {
     }
 }
 
-// Store reference to the close menu handler to prevent memory leaks
-let accountMenuCloseHandler = null;
+// Account menu with AbortController for better memory management
+let accountMenuAbortController = null;
 
 function showAccountMenu() {
     // Create dropdown menu for logged-in user
     const existingMenu = document.getElementById('accountDropdown');
     if (existingMenu) {
         existingMenu.remove();
-        // Remove existing event listener if present
-        if (accountMenuCloseHandler) {
-            document.removeEventListener('click', accountMenuCloseHandler);
-            accountMenuCloseHandler = null;
+        // Abort existing event listeners
+        if (accountMenuAbortController) {
+            accountMenuAbortController.abort();
+            accountMenuAbortController = null;
         }
         return;
     }
@@ -119,10 +109,10 @@ function showAccountMenu() {
                 <i class="fas fa-user-circle"></i>
                 <span>${currentUser.email}</span>
             </div>
-            <div class="account-menu-item" id="accountDetailsBtn">
+            <div class="account-menu-item" data-action="account-details">
                 <i class="fas fa-user"></i> Account Details
             </div>
-            <div class="account-menu-item" id="logoutBtn">
+            <div class="account-menu-item" data-action="logout">
                 <i class="fas fa-sign-out-alt"></i> Sign Out
             </div>
         </div>
@@ -138,36 +128,34 @@ function showAccountMenu() {
     menu.style.right = (window.innerWidth - rect.right) + 'px';
     menu.style.left = 'auto';
 
-    // Add event listeners to menu items
-    const accountDetailsBtn = document.getElementById('accountDetailsBtn');
-    const logoutBtn = document.getElementById('logoutBtn');
+    // Create AbortController for cleanup
+    accountMenuAbortController = new AbortController();
+    const signal = accountMenuAbortController.signal;
 
-    if (accountDetailsBtn) {
-        accountDetailsBtn.addEventListener('click', showAccountDetails);
-    }
+    // Add event delegation to menu
+    menu.addEventListener('click', function(e) {
+        const item = e.target.closest('[data-action]');
+        if (!item) return;
 
-    if (logoutBtn) {
-        logoutBtn.addEventListener('click', handleLogout);
-    }
-
-    // Close menu when clicking outside
-    // Remove any existing handler first
-    if (accountMenuCloseHandler) {
-        document.removeEventListener('click', accountMenuCloseHandler);
-    }
-
-    // Create and store new handler
-    accountMenuCloseHandler = function(e) {
-        if (!menu.contains(e.target) && e.target.id !== 'accountBtn' && !e.target.closest('#accountBtn')) {
-            menu.remove();
-            document.removeEventListener('click', accountMenuCloseHandler);
-            accountMenuCloseHandler = null;
+        const action = item.dataset.action;
+        if (action === 'account-details') {
+            showAccountDetails();
+        } else if (action === 'logout') {
+            handleLogout();
         }
-    };
+    }, { signal });
 
-    // Add listener after a brief delay to prevent immediate triggering
+    // Close menu when clicking outside (with AbortController cleanup)
     setTimeout(() => {
-        document.addEventListener('click', accountMenuCloseHandler);
+        document.addEventListener('click', function(e) {
+            if (!menu.contains(e.target) && e.target.id !== 'accountBtn' && !e.target.closest('#accountBtn')) {
+                menu.remove();
+                if (accountMenuAbortController) {
+                    accountMenuAbortController.abort();
+                    accountMenuAbortController = null;
+                }
+            }
+        }, { signal });
     }, 100);
 }
 
@@ -452,24 +440,84 @@ window.addEventListener('click', function(e) {
     }
 });
 
-// Handle Enter key in forms
-document.addEventListener('keypress', function(e) {
-    if (e.key === 'Enter') {
+// Setup auth modal event delegation
+function setupAuthModalDelegation() {
+    const authModal = document.getElementById('authModal');
+    if (!authModal) return;
+
+    // Remove old handlers if they exist
+    if (authModal._clickHandler) {
+        authModal.removeEventListener('click', authModal._clickHandler);
+    }
+    if (authModal._keyHandler) {
+        authModal.removeEventListener('keypress', authModal._keyHandler);
+    }
+
+    // Click handler for buttons and links
+    const clickHandler = function(e) {
+        const target = e.target.closest('[data-auth-action]');
+        if (!target) return;
+
+        e.preventDefault();
+        const action = target.dataset.authAction;
+
+        switch (action) {
+            case 'show-login':
+                showLoginTab();
+                break;
+            case 'show-signup':
+                showSignupTab();
+                break;
+            case 'show-reset':
+                showPasswordReset();
+                break;
+            case 'login':
+                handleLogin();
+                break;
+            case 'signup':
+                handleSignup();
+                break;
+            case 'reset-password':
+                handlePasswordReset();
+                break;
+        }
+    };
+
+    // Keypress handler for Enter key
+    const keyHandler = function(e) {
+        if (e.key !== 'Enter') return;
+
         const loginForm = document.getElementById('loginForm');
         const signupForm = document.getElementById('signupForm');
         const resetForm = document.getElementById('passwordResetForm');
 
         if (loginForm && loginForm.style.display !== 'none' &&
             (e.target.id === 'loginEmail' || e.target.id === 'loginPassword')) {
+            e.preventDefault();
             handleLogin();
         } else if (signupForm && signupForm.style.display !== 'none' &&
                    e.target.closest('#signupForm')) {
+            e.preventDefault();
             handleSignup();
         } else if (resetForm && resetForm.style.display !== 'none' &&
                    e.target.id === 'resetEmail') {
+            e.preventDefault();
             handlePasswordReset();
         }
-    }
-});
+    };
+
+    authModal.addEventListener('click', clickHandler);
+    authModal.addEventListener('keypress', keyHandler);
+
+    authModal._clickHandler = clickHandler;
+    authModal._keyHandler = keyHandler;
+}
+
+// Initialize auth modal delegation when DOM is ready
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setupAuthModalDelegation);
+} else {
+    setupAuthModalDelegation();
+}
 
 console.log('Auth.js loaded successfully');

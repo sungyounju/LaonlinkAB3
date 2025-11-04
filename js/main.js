@@ -58,6 +58,8 @@ function trackCategoryView(category, level) {
 // ============================================================================
 let currentProducts = [];
 let filteredProducts = [];
+let productMap = new Map(); // O(1) lookup by product ID
+let manufacturersCache = null; // Cache for manufacturers list
 let currentPage = 1;
 let productsPerPage = 12;
 let currentView = 'grid';
@@ -131,6 +133,9 @@ function initializeWebsite() {
     }
     currentProducts = productsData;
 
+    // Build product Map for O(1) lookups (performance optimization)
+    productMap = new Map(currentProducts.map(p => [p.id, p]));
+
     // Validate categories data
     if (typeof categoriesData === 'undefined' || !categoriesData) {
         console.error('Categories data is not loaded or invalid');
@@ -194,16 +199,34 @@ function initializeWebsite() {
 function showErrorMessage(message) {
     const mainContent = document.querySelector('.product-area');
     if (mainContent) {
-        mainContent.innerHTML = `
-            <div style="text-align: center; padding: 40px; background: #fee; border: 1px solid #fcc; border-radius: 8px; margin: 20px;">
-                <i class="fas fa-exclamation-triangle" style="font-size: 48px; color: #c33; margin-bottom: 16px;"></i>
-                <h3 style="color: #c33; margin-bottom: 12px;">Error Loading Page</h3>
-                <p style="color: #666;">${message}</p>
-                <button onclick="location.reload()" style="margin-top: 16px; padding: 10px 20px; background: #0066cc; color: white; border: none; border-radius: 4px; cursor: pointer;">
-                    <i class="fas fa-sync"></i> Refresh Page
-                </button>
-            </div>
-        `;
+        // Create elements safely to prevent XSS
+        const errorDiv = document.createElement('div');
+        errorDiv.style.cssText = 'text-align: center; padding: 40px; background: #fee; border: 1px solid #fcc; border-radius: 8px; margin: 20px;';
+
+        const icon = document.createElement('i');
+        icon.className = 'fas fa-exclamation-triangle';
+        icon.style.cssText = 'font-size: 48px; color: #c33; margin-bottom: 16px;';
+
+        const heading = document.createElement('h3');
+        heading.style.cssText = 'color: #c33; margin-bottom: 12px;';
+        heading.textContent = 'Error Loading Page';
+
+        const paragraph = document.createElement('p');
+        paragraph.style.cssText = 'color: #666;';
+        paragraph.textContent = message; // Safe: uses textContent instead of innerHTML
+
+        const button = document.createElement('button');
+        button.style.cssText = 'margin-top: 16px; padding: 10px 20px; background: #0066cc; color: white; border: none; border-radius: 4px; cursor: pointer;';
+        button.innerHTML = '<i class="fas fa-sync"></i> Refresh Page';
+        button.addEventListener('click', () => location.reload());
+
+        errorDiv.appendChild(icon);
+        errorDiv.appendChild(heading);
+        errorDiv.appendChild(paragraph);
+        errorDiv.appendChild(button);
+
+        mainContent.innerHTML = '';
+        mainContent.appendChild(errorDiv);
     }
 }
 
@@ -391,12 +414,22 @@ function getCategoryIcon(category) {
 
 // Setup Filters
 function setupFilters() {
-    // Manufacturer filter
+    // Manufacturer filter - use cached data for performance
     const manufacturerFilter = document.getElementById('manufacturerFilter');
-    const manufacturers = [...new Set(currentProducts.map(p => p.manufacturer).filter(m => m))];
-    
+
+    // Build cache only once
+    if (!manufacturersCache) {
+        const manufacturersSet = new Set();
+        currentProducts.forEach(p => {
+            if (p.manufacturer) {
+                manufacturersSet.add(p.manufacturer);
+            }
+        });
+        manufacturersCache = Array.from(manufacturersSet).sort();
+    }
+
     let filterHTML = '';
-    manufacturers.sort().forEach(manufacturer => {
+    manufacturersCache.forEach(manufacturer => {
         filterHTML += `
             <label class="filter-option">
                 <input type="checkbox" name="manufacturer" value="${manufacturer}">
@@ -404,7 +437,7 @@ function setupFilters() {
             </label>
         `;
     });
-    
+
     manufacturerFilter.innerHTML = filterHTML;
 }
 
@@ -1038,8 +1071,7 @@ function createProductCard(product) {
         <div class="product-card" data-product-id="${product.id}">
             <div class="product-image-wrapper">
                 <img src="${imageUrl}" alt="${name}" class="product-image" loading="lazy"
-                     onerror="this.src='images/no-image.png'; this.classList.add('loaded');"
-                     onload="this.classList.add('loaded');">
+                     data-fallback="images/no-image.png">
                 ${isNew ? '<span class="product-badge">NEW</span>' : ''}
             </div>
             <div class="product-info">
@@ -1049,10 +1081,10 @@ function createProductCard(product) {
                     ${product.price_eur_markup > 0 ? `€${product.price_eur_markup.toFixed(2)}` : 'Contact for Price'}
                 </div>
                 <div class="product-actions">
-                    <button class="btn-details" onclick="showProductModal('${product.id}')">
+                    <button class="btn-details" data-action="view-details" data-product-id="${product.id}">
                         <i class="fas fa-eye"></i> View Details
                     </button>
-                    <button class="btn-cart" onclick="contactForProduct('${product.id}')">
+                    <button class="btn-cart" data-action="contact" data-product-id="${product.id}">
                         <i class="fas fa-envelope"></i> Inquire
                     </button>
                 </div>
@@ -1061,20 +1093,63 @@ function createProductCard(product) {
     `;
 }
 
-// Setup product card events
+// Setup product card events using event delegation (performance optimization)
 function setupProductCardEvents() {
-    document.querySelectorAll('.product-card').forEach(card => {
-        card.addEventListener('click', function(e) {
-            if (!e.target.closest('button')) {
-                showProductModal(this.dataset.productId);
+    const productsGrid = document.getElementById('productsGrid');
+    if (!productsGrid) return;
+
+    // Remove old listener if it exists
+    if (productsGrid._clickHandler) {
+        productsGrid.removeEventListener('click', productsGrid._clickHandler);
+    }
+
+    // Single event listener for all product interactions (event delegation)
+    const clickHandler = function(e) {
+        // Handle button clicks
+        const button = e.target.closest('button[data-action]');
+        if (button) {
+            e.preventDefault();
+            e.stopPropagation();
+            const action = button.dataset.action;
+            const productId = button.dataset.productId;
+
+            if (action === 'view-details') {
+                showProductModal(productId);
+            } else if (action === 'contact') {
+                contactForProduct(productId);
             }
-        });
-    });
+            return;
+        }
+
+        // Handle card clicks (excluding buttons)
+        const card = e.target.closest('.product-card');
+        if (card && !e.target.closest('button')) {
+            showProductModal(card.dataset.productId);
+        }
+
+        // Handle image error and load events
+        if (e.target.tagName === 'IMG' && e.target.classList.contains('product-image')) {
+            if (e.type === 'error') {
+                e.target.src = e.target.dataset.fallback || 'images/no-image.png';
+                e.target.classList.add('loaded');
+            } else if (e.type === 'load') {
+                e.target.classList.add('loaded');
+            }
+        }
+    };
+
+    productsGrid.addEventListener('click', clickHandler);
+    productsGrid.addEventListener('error', clickHandler, true); // Capture phase for img errors
+    productsGrid.addEventListener('load', clickHandler, true);  // Capture phase for img loads
+
+    // Store reference for cleanup
+    productsGrid._clickHandler = clickHandler;
 }
 
 // Show product modal
 function showProductModal(productId, updateURL = true) {
-    const product = currentProducts.find(p => p.id === productId);
+    // Use Map for O(1) lookup instead of O(n) find()
+    const product = productMap.get(productId);
     if (!product) {
         console.error('Product not found:', productId);
         showNotification('Product not found');
@@ -1114,16 +1189,14 @@ function showProductModal(productId, updateURL = true) {
             <div class="product-images-section">
                 <img src="images/products/${mainImage}" alt="${name}"
                      class="main-product-image" id="mainProductImage"
-                     onerror="this.src='images/no-image.png'"
-                     onload="this.style.opacity=1;">
+                     data-fallback="images/no-image.png">
                 ${product.images.length > 1 ? `
-                    <div class="image-thumbnails">
+                    <div class="image-thumbnails" data-thumbnail-container>
                         ${product.images.map((img, idx) => `
                             <img src="images/products/${img}" alt="${name}" loading="lazy"
                                  class="thumbnail ${idx === 0 ? 'active' : ''}"
-                                 onclick="changeMainImage('${img}', this)"
-                                 onerror="this.src='images/no-image.png'"
-                                 onload="this.style.opacity=1;">
+                                 data-image="${img}"
+                                 data-fallback="images/no-image.png">
                         `).join('')}
                     </div>
                 ` : ''}
@@ -1193,7 +1266,7 @@ function showProductModal(productId, updateURL = true) {
                     ${product.price_eur_markup > 0 ? `€${product.price_eur_markup.toFixed(2)}` : 'Contact for Price'}
                 </div>
                 <div class="modal-actions">
-                    <button class="btn-primary" onclick="contactForProduct('${product.id}')">
+                    <button class="btn-primary" data-action="contact" data-product-id="${product.id}">
                         <i class="fas fa-envelope"></i> Request Quote
                     </button>
                 </div>
@@ -1201,20 +1274,69 @@ function showProductModal(productId, updateURL = true) {
             </div>
         </div>
     `;
-    
+
+    // Add event delegation for modal content
+    setupModalEventDelegation();
+
     // Show modal
     document.getElementById('productModal').style.display = 'block';
 }
 
-// Change main image in modal
-function changeMainImage(imageSrc, thumbElement) {
-    document.getElementById('mainProductImage').src = `images/products/${imageSrc}`;
-    
-    // Update active thumbnail
-    document.querySelectorAll('.thumbnail').forEach(thumb => {
-        thumb.classList.remove('active');
-    });
-    thumbElement.classList.add('active');
+// Setup modal event delegation
+function setupModalEventDelegation() {
+    const modalContent = document.getElementById('modalContent');
+    if (!modalContent) return;
+
+    // Remove old listener if exists
+    if (modalContent._delegationHandler) {
+        modalContent.removeEventListener('click', modalContent._delegationHandler);
+        modalContent.removeEventListener('error', modalContent._delegationHandler, true);
+        modalContent.removeEventListener('load', modalContent._delegationHandler, true);
+    }
+
+    const handler = function(e) {
+        // Handle thumbnail clicks
+        if (e.target.classList.contains('thumbnail')) {
+            const img = e.target.dataset.image;
+            if (img) {
+                const mainImage = document.getElementById('mainProductImage');
+                if (mainImage) {
+                    mainImage.src = `images/products/${img}`;
+                }
+                // Update active state
+                document.querySelectorAll('.thumbnail').forEach(thumb => {
+                    thumb.classList.remove('active');
+                });
+                e.target.classList.add('active');
+            }
+            return;
+        }
+
+        // Handle contact button
+        const button = e.target.closest('button[data-action="contact"]');
+        if (button) {
+            e.preventDefault();
+            const productId = button.dataset.productId;
+            if (productId) {
+                contactForProduct(productId);
+            }
+            return;
+        }
+
+        // Handle image errors and load events
+        if (e.target.tagName === 'IMG') {
+            if (e.type === 'error' && e.target.dataset.fallback) {
+                e.target.src = e.target.dataset.fallback;
+            } else if (e.type === 'load') {
+                e.target.style.opacity = 1;
+            }
+        }
+    };
+
+    modalContent.addEventListener('click', handler);
+    modalContent.addEventListener('error', handler, true); // Capture phase
+    modalContent.addEventListener('load', handler, true);  // Capture phase
+    modalContent._delegationHandler = handler;
 }
 
 // Close modal
@@ -1250,14 +1372,25 @@ function addToRecentlyViewed(product) {
 }
 
 function saveRecentlyViewed() {
-    localStorage.setItem('laonlink_recently_viewed', JSON.stringify(recentlyViewed));
+    try {
+        localStorage.setItem('laonlink_recently_viewed', JSON.stringify(recentlyViewed));
+    } catch (error) {
+        console.warn('Failed to save recently viewed items:', error);
+        // localStorage might be full or disabled - continue without saving
+    }
 }
 
 function loadRecentlyViewed() {
-    const saved = localStorage.getItem('laonlink_recently_viewed');
-    if (saved) {
-        recentlyViewed = JSON.parse(saved);
-        updateRecentlyViewedUI();
+    try {
+        const saved = localStorage.getItem('laonlink_recently_viewed');
+        if (saved) {
+            recentlyViewed = JSON.parse(saved);
+            updateRecentlyViewedUI();
+        }
+    } catch (error) {
+        console.warn('Failed to load recently viewed items:', error);
+        // Continue with empty recently viewed list
+        recentlyViewed = [];
     }
 }
 
@@ -1272,7 +1405,7 @@ function updateRecentlyViewedUI() {
     if (!recentlyViewed || recentlyViewed.length === 0) {
         container.innerHTML = '<p class="empty-message">No items viewed yet</p>';
     } else {
-        let html = '<div style="font-size: 12px;">';
+        let html = '<div style="font-size: 12px;" data-recently-viewed-list>';
         recentlyViewed.forEach(product => {
             if (!product) return;
 
@@ -1281,7 +1414,7 @@ function updateRecentlyViewedUI() {
             const productId = product.id || '';
 
             html += `
-                <div style="margin-bottom: 10px; cursor: pointer;" onclick="showProductModal('${productId}')">
+                <div style="margin-bottom: 10px; cursor: pointer;" data-action="view-recent" data-product-id="${productId}">
                     <div style="font-weight: bold;">${productName}...</div>
                     <div style="color: var(--primary-blue);">€${productPrice}</div>
                 </div>
@@ -1289,12 +1422,28 @@ function updateRecentlyViewedUI() {
         });
         html += '</div>';
         container.innerHTML = html;
+
+        // Add event delegation for recently viewed items
+        if (!container._recentlyViewedHandler) {
+            const handler = function(e) {
+                const item = e.target.closest('[data-action="view-recent"]');
+                if (item) {
+                    const productId = item.dataset.productId;
+                    if (productId) {
+                        showProductModal(productId);
+                    }
+                }
+            };
+            container.addEventListener('click', handler);
+            container._recentlyViewedHandler = handler;
+        }
     }
 }
 
 // Contact for product
 function contactForProduct(productId) {
-    const product = currentProducts.find(p => p.id === productId);
+    // Use Map for O(1) lookup
+    const product = productMap.get(productId);
     if (!product) {
         console.error('Product not found for inquiry:', productId);
         showNotification('Product not found');
@@ -1405,9 +1554,13 @@ function setupBackToTop() {
     });
 }
 
-// Make functions globally available
-window.showProductModal = showProductModal;
-window.changeMainImage = changeMainImage;
-window.goToPage = goToPage;
-window.contactForProduct = contactForProduct;
-window.showNotification = showNotification;
+// Export functions to window only if needed for backwards compatibility
+// These are now primarily handled through event delegation
+if (typeof window !== 'undefined') {
+    // Keep minimal global exposure for potential external use
+    window.laonlink = {
+        showProductModal,
+        goToPage,
+        showNotification
+    };
+}
