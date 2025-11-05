@@ -394,7 +394,9 @@ function buildCategoryCards() {
     // Add click handlers
     document.querySelectorAll('.category-card').forEach(card => {
         card.addEventListener('click', function(e) {
+            e.preventDefault(); // Prevent default link behavior
             e.stopPropagation(); // Prevent generic handler from interfering
+            e.stopImmediatePropagation(); // Prevent other handlers on same element
             selectCategory(this.dataset.category, 'main');
         });
     });
@@ -665,6 +667,12 @@ function selectCategory(category, level, parent = null, grandparent = null, upda
     if (!category || !level) {
         console.error('Invalid category selection:', { category, level });
         return;
+    }
+
+    // Close any open product modal to prevent automatic product display
+    const productModal = document.getElementById('productModal');
+    if (productModal && productModal.style.display === 'block') {
+        closeModal();
     }
 
     // Update current category
