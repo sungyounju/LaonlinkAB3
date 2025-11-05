@@ -9,11 +9,17 @@ try {
 
   // Use VM module for safer code execution (safer than Function() or eval())
   // Create a sandbox context
-  const sandbox = { productsData: null, console };
+  const sandbox = { console };
   vm.createContext(sandbox);
 
+  // Wrap the code to capture the const declaration
+  const wrappedCode = productsDataContent.replace(
+    /const productsData = /,
+    'this.productsData = '
+  );
+
   // Execute the code in the sandbox
-  vm.runInContext(productsDataContent, sandbox, {
+  vm.runInContext(wrappedCode, sandbox, {
     filename: 'products-data.js',
     timeout: 10000 // 10 second timeout
   });
