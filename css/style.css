@@ -313,6 +313,7 @@ body {
     right: 0;
     background: white;
     border: 1px solid var(--border-color);
+    border-top: none;
     box-shadow: 0 4px 12px var(--shadow-light);
     z-index: 1000;
 }
