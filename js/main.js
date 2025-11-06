@@ -736,6 +736,9 @@ function selectCategory(category, level, parent = null, grandparent = null, upda
     hideWelcomeMessage();
     currentPage = 1;
     displayProducts();
+
+    // Scroll to top when selecting a category
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 // Update breadcrumb
