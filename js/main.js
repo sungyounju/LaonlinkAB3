@@ -737,8 +737,11 @@ function selectCategory(category, level, parent = null, grandparent = null, upda
     currentPage = 1;
     displayProducts();
 
-    // Scroll to top when selecting a category
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    // Scroll to category navigation bar when selecting a category
+    const categoryNav = document.querySelector('.category-nav');
+    if (categoryNav) {
+        categoryNav.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
 }
 
 // Update breadcrumb
@@ -827,8 +830,11 @@ function resetToHome() {
     // Show welcome message
     showWelcomeMessage();
 
-    // Scroll to top
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    // Scroll to category navigation bar
+    const categoryNav = document.querySelector('.category-nav');
+    if (categoryNav) {
+        categoryNav.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
 }
 
 // Search
