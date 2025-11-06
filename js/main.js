@@ -515,6 +515,23 @@ function setupEventListeners() {
     }
 
     if (searchInput) {
+        // Prevent autofill - clear any autofilled values
+        searchInput.value = '';
+
+        // Additional clearing after a short delay to catch late autofill
+        setTimeout(function() {
+            if (searchInput && searchInput.value && !searchInput.value.trim()) {
+                searchInput.value = '';
+            }
+        }, 100);
+
+        // Also clear on page load if it contains an email pattern
+        setTimeout(function() {
+            if (searchInput && searchInput.value && searchInput.value.includes('@')) {
+                searchInput.value = '';
+            }
+        }, 500);
+
         searchInput.addEventListener('keypress', function(e) {
             if (e.key === 'Enter') performSearch();
         });
