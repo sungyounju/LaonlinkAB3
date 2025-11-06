@@ -110,14 +110,21 @@
                 
                 <!-- Search Bar -->
                 <div class="search-section">
-                    <div class="search-wrapper">
-                        <!-- Hidden decoy input to prevent autofill -->
-                        <input type="text" style="display:none" autocomplete="off" tabindex="-1" aria-hidden="true">
-                        <input type="text" id="searchInput" name="search" placeholder="Search by product name, model number, or manufacturer" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" role="search" readonly onfocus="this.removeAttribute('readonly');">
-                        <button id="searchBtn" class="search-button" type="button">
-                            <i class="fas fa-search"></i> Search
-                        </button>
-                    </div>
+                    <!-- Hidden fake login form to catch autofill -->
+                    <form autocomplete="off" style="display:none;" aria-hidden="true">
+                        <input type="email" name="fake-email" tabindex="-1">
+                        <input type="password" name="fake-password" tabindex="-1">
+                    </form>
+
+                    <!-- Real search form -->
+                    <form autocomplete="off" onsubmit="return false;">
+                        <div class="search-wrapper">
+                            <input type="text" id="searchInput" name="q" placeholder="Search by product name, model number, or manufacturer" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" role="search">
+                            <button id="searchBtn" class="search-button" type="button">
+                                <i class="fas fa-search"></i> Search
+                            </button>
+                        </div>
+                    </form>
                     <div class="quick-search-tags">
                         <span>Popular:</span>
                         <a href="#" class="search-tag" data-search="Mitsubishi">Mitsubishi</a>
