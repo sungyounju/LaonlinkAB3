@@ -1123,12 +1123,18 @@ function setupProductCardEvents() {
     const productsGrid = document.getElementById('productsGrid');
     if (!productsGrid) return;
 
-    // Remove old listener if it exists
+    // Remove old listeners if they exist
     if (productsGrid._clickHandler) {
         productsGrid.removeEventListener('click', productsGrid._clickHandler);
     }
+    if (productsGrid._errorHandler) {
+        productsGrid.removeEventListener('error', productsGrid._errorHandler, true);
+    }
+    if (productsGrid._loadHandler) {
+        productsGrid.removeEventListener('load', productsGrid._loadHandler, true);
+    }
 
-    // Single event listener for all product interactions (event delegation)
+    // Click event handler for product interactions
     const clickHandler = function(e) {
         // Handle button clicks
         const button = e.target.closest('button[data-action]');
@@ -1146,29 +1152,37 @@ function setupProductCardEvents() {
             return;
         }
 
-        // Handle card clicks (excluding buttons)
+        // Handle card clicks (excluding buttons) - ONLY for click events
         const card = e.target.closest('.product-card');
         if (card && !e.target.closest('button')) {
             showProductModal(card.dataset.productId);
         }
+    };
 
-        // Handle image error and load events
+    // Separate handler for image errors
+    const errorHandler = function(e) {
         if (e.target.tagName === 'IMG' && e.target.classList.contains('product-image')) {
-            if (e.type === 'error') {
-                e.target.src = e.target.dataset.fallback || 'images/no-image.png';
-                e.target.classList.add('loaded');
-            } else if (e.type === 'load') {
-                e.target.classList.add('loaded');
-            }
+            e.target.src = e.target.dataset.fallback || 'images/no-image.png';
+            e.target.classList.add('loaded');
         }
     };
 
-    productsGrid.addEventListener('click', clickHandler);
-    productsGrid.addEventListener('error', clickHandler, true); // Capture phase for img errors
-    productsGrid.addEventListener('load', clickHandler, true);  // Capture phase for img loads
+    // Separate handler for image loads
+    const loadHandler = function(e) {
+        if (e.target.tagName === 'IMG' && e.target.classList.contains('product-image')) {
+            e.target.classList.add('loaded');
+        }
+    };
 
-    // Store reference for cleanup
+    // Add event listeners
+    productsGrid.addEventListener('click', clickHandler);
+    productsGrid.addEventListener('error', errorHandler, true); // Capture phase for img errors
+    productsGrid.addEventListener('load', loadHandler, true);  // Capture phase for img loads
+
+    // Store references for cleanup
     productsGrid._clickHandler = clickHandler;
+    productsGrid._errorHandler = errorHandler;
+    productsGrid._loadHandler = loadHandler;
 }
 
 // Show product modal
@@ -1312,14 +1326,19 @@ function setupModalEventDelegation() {
     const modalContent = document.getElementById('modalContent');
     if (!modalContent) return;
 
-    // Remove old listener if exists
-    if (modalContent._delegationHandler) {
-        modalContent.removeEventListener('click', modalContent._delegationHandler);
-        modalContent.removeEventListener('error', modalContent._delegationHandler, true);
-        modalContent.removeEventListener('load', modalContent._delegationHandler, true);
+    // Remove old listeners if they exist
+    if (modalContent._clickHandler) {
+        modalContent.removeEventListener('click', modalContent._clickHandler);
+    }
+    if (modalContent._errorHandler) {
+        modalContent.removeEventListener('error', modalContent._errorHandler, true);
+    }
+    if (modalContent._loadHandler) {
+        modalContent.removeEventListener('load', modalContent._loadHandler, true);
     }
 
-    const handler = function(e) {
+    // Click event handler
+    const clickHandler = function(e) {
         // Handle thumbnail clicks
         if (e.target.classList.contains('thumbnail')) {
             const img = e.target.dataset.image;
@@ -1347,21 +1366,31 @@ function setupModalEventDelegation() {
             }
             return;
         }
+    };
 
-        // Handle image errors and load events
-        if (e.target.tagName === 'IMG') {
-            if (e.type === 'error' && e.target.dataset.fallback) {
-                e.target.src = e.target.dataset.fallback;
-            } else if (e.type === 'load') {
-                e.target.style.opacity = 1;
-            }
+    // Separate handler for image errors
+    const errorHandler = function(e) {
+        if (e.target.tagName === 'IMG' && e.target.dataset.fallback) {
+            e.target.src = e.target.dataset.fallback;
         }
     };
 
-    modalContent.addEventListener('click', handler);
-    modalContent.addEventListener('error', handler, true); // Capture phase
-    modalContent.addEventListener('load', handler, true);  // Capture phase
-    modalContent._delegationHandler = handler;
+    // Separate handler for image loads
+    const loadHandler = function(e) {
+        if (e.target.tagName === 'IMG') {
+            e.target.style.opacity = 1;
+        }
+    };
+
+    // Add event listeners
+    modalContent.addEventListener('click', clickHandler);
+    modalContent.addEventListener('error', errorHandler, true); // Capture phase
+    modalContent.addEventListener('load', loadHandler, true);  // Capture phase
+
+    // Store references for cleanup
+    modalContent._clickHandler = clickHandler;
+    modalContent._errorHandler = errorHandler;
+    modalContent._loadHandler = loadHandler;
 }
 
 // Close modal
