@@ -140,7 +140,9 @@
                 <!-- Search Bar -->
                 <div class="search-section">
                     <div class="search-wrapper">
-                        <input type="text" id="searchInput" name="product-search" placeholder="Search by product name, model number, or manufacturer" autocomplete="new-password" role="search" data-form-type="other">
+                        <!-- Hidden decoy input to prevent autofill -->
+                        <input type="text" style="display:none" autocomplete="off" tabindex="-1" aria-hidden="true">
+                        <input type="text" id="searchInput" name="search" placeholder="Search by product name, model number, or manufacturer" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" role="search" readonly onfocus="this.removeAttribute('readonly');">
                         <button id="searchBtn" class="search-button" type="button">
                             <i class="fas fa-search"></i> Search
                         </button>
