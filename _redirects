@@ -1,3 +1,8 @@
+# Force HTTPS and standardize domain (www to non-www)
+http://laon2link.com/*  https://laon2link.com/:splat  301!
+http://www.laon2link.com/*  https://laon2link.com/:splat  301!
+https://www.laon2link.com/*  https://laon2link.com/:splat  301!
+
 # Fallback to index.html for SPA routes (only if file doesn't exist)
 # Static files (including /products/*.html) are served directly without redirects
 /*  /index.html  200
