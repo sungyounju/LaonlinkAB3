@@ -1,5 +1,3 @@
-# Product pages - serve static HTML files
-/products/*  /products/:splat  200
-
 # Fallback to index.html for SPA routes (only if file doesn't exist)
+# Static files (including /products/*.html) are served directly without redirects
 /*  /index.html  200
