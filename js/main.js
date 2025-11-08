@@ -59,7 +59,6 @@ function trackCategoryView(category, level) {
 let currentProducts = [];
 let filteredProducts = [];
 let productMap = new Map(); // O(1) lookup by product ID
-let manufacturersCache = null; // Cache for manufacturers list
 let currentPage = 1;
 let productsPerPage = 12;
 let currentView = 'grid';
@@ -146,7 +145,6 @@ function initializeWebsite() {
     try {
         // Setup components
         setupCategoryNavigation();
-        setupFilters();
         setupEventListeners();
 
         // Load saved data
@@ -414,35 +412,6 @@ function getCategoryIcon(category) {
     return icons[category] || 'fa-cube';
 }
 
-// Setup Filters
-function setupFilters() {
-    // Manufacturer filter - use cached data for performance
-    const manufacturerFilter = document.getElementById('manufacturerFilter');
-
-    // Build cache only once
-    if (!manufacturersCache) {
-        const manufacturersSet = new Set();
-        currentProducts.forEach(p => {
-            if (p.manufacturer) {
-                manufacturersSet.add(p.manufacturer);
-            }
-        });
-        manufacturersCache = Array.from(manufacturersSet).sort();
-    }
-
-    let filterHTML = '';
-    manufacturersCache.forEach(manufacturer => {
-        filterHTML += `
-            <label class="filter-option">
-                <input type="checkbox" name="manufacturer" value="${manufacturer}">
-                <span>${manufacturer}</span>
-            </label>
-        `;
-    });
-
-    manufacturerFilter.innerHTML = filterHTML;
-}
-
 // Event Listeners
 function setupEventListeners() {
     // Home link
@@ -586,6 +555,26 @@ function setupEventListeners() {
     const clearFiltersBtn = document.getElementById('clearFilters');
     if (clearFiltersBtn) {
         clearFiltersBtn.addEventListener('click', clearFilters);
+    }
+
+    // Category panel collapse
+    const categoryPanelTitle = document.getElementById('categoryPanelTitle');
+    if (categoryPanelTitle) {
+        categoryPanelTitle.addEventListener('click', function() {
+            const categoryTree = document.getElementById('categoryTree');
+            const collapseIcon = this.querySelector('.collapse-icon');
+
+            if (categoryTree && collapseIcon) {
+                categoryTree.classList.toggle('collapsed');
+
+                // Toggle icon rotation
+                if (categoryTree.classList.contains('collapsed')) {
+                    collapseIcon.style.transform = 'rotate(-90deg)';
+                } else {
+                    collapseIcon.style.transform = 'rotate(0deg)';
+                }
+            }
+        });
     }
 
     // Modal close - using event delegation for all modals
@@ -904,9 +893,6 @@ function applyFilters() {
         return;
     }
 
-    const checkedManufacturers = Array.from(document.querySelectorAll('input[name="manufacturer"]:checked'))
-        .map(cb => cb.value);
-
     const checkedConditions = Array.from(document.querySelectorAll('input[name="condition"]:checked'))
         .map(cb => cb.value);
     
@@ -930,11 +916,6 @@ function applyFilters() {
     filteredProducts = baseProducts.filter(product => {
         // Price filter
         if (product.price_eur_markup < minPrice || product.price_eur_markup > maxPrice) {
-            return false;
-        }
-
-        // Manufacturer filter
-        if (checkedManufacturers.length > 0 && !checkedManufacturers.includes(product.manufacturer)) {
             return false;
         }
 

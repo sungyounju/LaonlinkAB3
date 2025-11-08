@@ -194,8 +194,9 @@
                 <aside class="sidebar-left">
                     <!-- Category Tree -->
                     <div class="category-panel">
-                        <h3 class="panel-title">
-                            <i class="fas fa-list"></i> Product Categories
+                        <h3 class="panel-title collapsible-title" id="categoryPanelTitle">
+                            <span><i class="fas fa-list"></i> Product Categories</span>
+                            <i class="fas fa-chevron-down collapse-icon"></i>
                         </h3>
                         <div class="category-tree" id="categoryTree">
                             <!-- Will be populated dynamically -->
@@ -220,15 +221,7 @@
                                 <button type="button" class="apply-price-btn" id="applyPriceFilter">Apply</button>
                             </form>
                         </div>
-                        
-                        <!-- Manufacturer Filter -->
-                        <div class="filter-section">
-                            <h4>Manufacturer</h4>
-                            <div class="filter-options" id="manufacturerFilter">
-                                <!-- Will be populated dynamically -->
-                            </div>
-                        </div>
-                        
+
                         <!-- Condition Filter -->
                         <div class="filter-section">
                             <h4>Condition</h4>
