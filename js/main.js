@@ -1104,8 +1104,8 @@ function createProductCard(product) {
     return `
         <div class="product-card" data-product-id="${product.id}">
             <div class="product-image-wrapper">
-                <img src="${imageUrl}" alt="${name}" class="product-image" loading="lazy"
-                     data-fallback="images/no-image.png">
+                <img src="${imageUrl}" alt="${name}" class="product-image loaded" loading="lazy"
+                     onerror="this.onerror=null; this.src='images/no-image.png';">
                 ${isNew ? '<span class="product-badge">NEW</span>' : ''}
             </div>
             <div class="product-info">
@@ -1241,14 +1241,16 @@ function showProductModal(productId, updateURL = true) {
             <div class="product-images-section">
                 <img src="images/products/${mainImage}" alt="${name}"
                      class="main-product-image" id="mainProductImage"
-                     data-fallback="images/no-image.png">
+                     onerror="this.onerror=null; this.src='images/no-image.png';"
+                     onload="this.style.opacity=1;">
                 ${product.images.length > 1 ? `
                     <div class="image-thumbnails" data-thumbnail-container>
                         ${product.images.map((img, idx) => `
                             <img src="images/products/${img}" alt="${name}" loading="lazy"
                                  class="thumbnail ${idx === 0 ? 'active' : ''}"
                                  data-image="${img}"
-                                 data-fallback="images/no-image.png">
+                                 onerror="this.onerror=null; this.src='images/no-image.png';"
+                                 onload="this.style.opacity=1;">
                         `).join('')}
                     </div>
                 ` : ''}
