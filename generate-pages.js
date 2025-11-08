@@ -143,6 +143,12 @@ function generateProductPages() {
       `<meta property="og:url" content="https://laon2link.com/products/${productId}.html">`
     );
 
+    // Add base tag to fix relative paths for subdirectory pages
+    productHTML = productHTML.replace(
+      '<head>',
+      '<head>\n    <base href="/">'
+    );
+
     // Add product-specific structured data right before </head>
     const structuredData = `
     <!-- Product-specific structured data -->
@@ -230,6 +236,12 @@ function generateCategoryPages() {
     categoryHTML = categoryHTML.replace(
       /<link rel="canonical" href=".*?">/,
       `<link rel="canonical" href="https://laon2link.com/${category.slug}/">`
+    );
+
+    // Add base tag to fix relative paths for subdirectory pages
+    categoryHTML = categoryHTML.replace(
+      '<head>',
+      '<head>\n    <base href="/">'
     );
 
     // Add script to auto-load this category
