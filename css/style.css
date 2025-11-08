@@ -419,6 +419,23 @@ body {
     color: var(--primary-blue);
 }
 
+.collapsible-title {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+}
+
+.collapse-icon {
+    transition: transform 0.3s ease;
+    font-size: 12px;
+}
+
+.category-tree.collapsed {
+    display: none;
+}
+
 /* Category Tree */
 .category-tree {
     padding: 10px 0;
