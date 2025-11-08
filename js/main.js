@@ -1105,8 +1105,7 @@ function createProductCard(product) {
         <div class="product-card" data-product-id="${product.id}">
             <div class="product-image-wrapper">
                 <img src="${imageUrl}" alt="${name}" class="product-image" loading="lazy"
-                     data-fallback="images/no-image.png"
-                     onerror="this.onerror=null; this.src='images/no-image.png'; this.classList.add('loaded');">
+                     data-fallback="images/no-image.png">
                 ${isNew ? '<span class="product-badge">NEW</span>' : ''}
             </div>
             <div class="product-info">
@@ -1172,7 +1171,11 @@ function setupProductCardEvents() {
     // Separate handler for image errors
     const errorHandler = function(e) {
         if (e.target.tagName === 'IMG' && e.target.classList.contains('product-image')) {
+            // Prevent further error events
+            e.target.onerror = null;
+            // Set fallback image
             e.target.src = e.target.dataset.fallback || 'images/no-image.png';
+            // Make visible immediately to prevent flickering
             e.target.classList.add('loaded');
         }
     };
@@ -1238,16 +1241,14 @@ function showProductModal(productId, updateURL = true) {
             <div class="product-images-section">
                 <img src="images/products/${mainImage}" alt="${name}"
                      class="main-product-image" id="mainProductImage"
-                     data-fallback="images/no-image.png"
-                     onerror="this.onerror=null; this.src='images/no-image.png';">
+                     data-fallback="images/no-image.png">
                 ${product.images.length > 1 ? `
                     <div class="image-thumbnails" data-thumbnail-container>
                         ${product.images.map((img, idx) => `
                             <img src="images/products/${img}" alt="${name}" loading="lazy"
                                  class="thumbnail ${idx === 0 ? 'active' : ''}"
                                  data-image="${img}"
-                                 data-fallback="images/no-image.png"
-                                 onerror="this.onerror=null; this.src='images/no-image.png';">
+                                 data-fallback="images/no-image.png">
                         `).join('')}
                     </div>
                 ` : ''}
@@ -1383,7 +1384,12 @@ function setupModalEventDelegation() {
     // Separate handler for image errors
     const errorHandler = function(e) {
         if (e.target.tagName === 'IMG' && e.target.dataset.fallback) {
+            // Prevent further error events
+            e.target.onerror = null;
+            // Set fallback image
             e.target.src = e.target.dataset.fallback;
+            // Make visible immediately
+            e.target.style.opacity = 1;
         }
     };
 
