@@ -1043,6 +1043,25 @@ function sortProducts(sortBy) {
     displayProducts();
 }
 
+// Image loading failsafe - set timeout for slow/hanging images
+function setupImageLoadTimeout(img, timeout = 5000) {
+    const timer = setTimeout(() => {
+        if (!img.complete || img.naturalWidth === 0) {
+            // Image hasn't loaded after timeout - force placeholder
+            if (!img.dataset.failed) {
+                img.dataset.failed = '1';
+                img.onerror = null;
+                img.src = 'images/no-image.png';
+                img.style.opacity = '1';
+            }
+        }
+    }, timeout);
+
+    // Clear timeout if image loads successfully
+    img.addEventListener('load', () => clearTimeout(timer), { once: true });
+    img.addEventListener('error', () => clearTimeout(timer), { once: true });
+}
+
 // Display products
 function displayProducts() {
     const productsGrid = document.getElementById('productsGrid');
@@ -1105,7 +1124,8 @@ function createProductCard(product) {
         <div class="product-card" data-product-id="${product.id}">
             <div class="product-image-wrapper">
                 <img src="${imageUrl}" alt="${name}" class="product-image loaded" loading="lazy"
-                     onerror="this.onerror=null; this.src='images/no-image.png';">
+                     onerror="if(!this.dataset.failed){this.dataset.failed='1';this.onerror=null;this.src='images/no-image.png';}"
+                     onload="this.style.opacity='1';">
                 ${isNew ? '<span class="product-badge">NEW</span>' : ''}
             </div>
             <div class="product-info">
@@ -1184,6 +1204,8 @@ function setupProductCardEvents() {
     const loadHandler = function(e) {
         if (e.target.tagName === 'IMG' && e.target.classList.contains('product-image')) {
             e.target.classList.add('loaded');
+            // Set up timeout failsafe for images that may hang
+            setupImageLoadTimeout(e.target);
         }
     };
 
@@ -1191,6 +1213,13 @@ function setupProductCardEvents() {
     productsGrid.addEventListener('click', clickHandler);
     productsGrid.addEventListener('error', errorHandler, true); // Capture phase for img errors
     productsGrid.addEventListener('load', loadHandler, true);  // Capture phase for img loads
+
+    // Also set up timeouts for any images already in the DOM
+    productsGrid.querySelectorAll('img.product-image').forEach(img => {
+        if (!img.complete || img.naturalWidth === 0) {
+            setupImageLoadTimeout(img);
+        }
+    });
 
     // Store references for cleanup
     productsGrid._clickHandler = clickHandler;
@@ -1241,16 +1270,16 @@ function showProductModal(productId, updateURL = true) {
             <div class="product-images-section">
                 <img src="images/products/${mainImage}" alt="${name}"
                      class="main-product-image" id="mainProductImage"
-                     onerror="this.onerror=null; this.src='images/no-image.png';"
-                     onload="this.style.opacity=1;">
+                     onerror="if(!this.dataset.failed){this.dataset.failed='1';this.onerror=null;this.src='images/no-image.png';this.style.opacity='1';}"
+                     onload="this.style.opacity='1';">
                 ${product.images.length > 1 ? `
                     <div class="image-thumbnails" data-thumbnail-container>
                         ${product.images.map((img, idx) => `
                             <img src="images/products/${img}" alt="${name}" loading="lazy"
                                  class="thumbnail ${idx === 0 ? 'active' : ''}"
                                  data-image="${img}"
-                                 onerror="this.onerror=null; this.src='images/no-image.png';"
-                                 onload="this.style.opacity=1;">
+                                 onerror="if(!this.dataset.failed){this.dataset.failed='1';this.onerror=null;this.src='images/no-image.png';this.style.opacity='1';}"
+                                 onload="this.style.opacity='1';">
                         `).join('')}
                     </div>
                 ` : ''}
@@ -1399,6 +1428,8 @@ function setupModalEventDelegation() {
     const loadHandler = function(e) {
         if (e.target.tagName === 'IMG') {
             e.target.style.opacity = 1;
+            // Set up timeout failsafe for modal images
+            setupImageLoadTimeout(e.target);
         }
     };
 
@@ -1406,6 +1437,13 @@ function setupModalEventDelegation() {
     modalContent.addEventListener('click', clickHandler);
     modalContent.addEventListener('error', errorHandler, true); // Capture phase
     modalContent.addEventListener('load', loadHandler, true);  // Capture phase
+
+    // Set up timeouts for any images already in the modal
+    modalContent.querySelectorAll('img').forEach(img => {
+        if (!img.complete || img.naturalWidth === 0) {
+            setupImageLoadTimeout(img);
+        }
+    });
 
     // Store references for cleanup
     modalContent._clickHandler = clickHandler;
