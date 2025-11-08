@@ -830,7 +830,7 @@ body {
     padding-top: 75%; /* 4:3 aspect ratio */
     overflow: hidden;
     background: var(--bg-light);
-    background-image: url('../images/no-image.png');
+    background-image: url('/images/no-image.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -1082,7 +1082,7 @@ body {
     height: 400px;
     object-fit: contain;
     background: var(--bg-light);
-    background-image: url('../images/no-image.png');
+    background-image: url('/images/no-image.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
