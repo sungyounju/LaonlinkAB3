@@ -179,16 +179,8 @@ function initializeWebsite() {
             // If category in URL parameter, select that category
             selectCategory(categoryFromURL, levelFromURL, parentFromURL, grandparentFromURL, false);
         } else {
-            // Show all products by default instead of welcome message
-            filteredProducts = currentProducts;
-            hideWelcomeMessage();
-            displayProducts();
-
-            // Update breadcrumb to show "All Products"
-            const breadcrumbTrail = document.getElementById('breadcrumbTrail');
-            if (breadcrumbTrail) {
-                breadcrumbTrail.innerHTML = 'All Products';
-            }
+            // Show welcome message initially (no products, no category)
+            showWelcomeMessage();
         }
 
         // Setup back to top button
@@ -810,7 +802,7 @@ function resetToHome() {
     currentCategory = null;
     currentSubCategory = null;
     currentSubSubCategory = null;
-    filteredProducts = currentProducts;
+    filteredProducts = [];
     currentPage = 1;
 
     // Clear all URL parameters (category, product, etc.)
@@ -821,15 +813,11 @@ function resetToHome() {
         link.classList.remove('active');
     });
 
-    // Show all products instead of welcome message
-    hideWelcomeMessage();
-    displayProducts();
+    // Reset breadcrumb
+    updateBreadcrumb();
 
-    // Update breadcrumb to show "All Products"
-    const breadcrumbTrail = document.getElementById('breadcrumbTrail');
-    if (breadcrumbTrail) {
-        breadcrumbTrail.innerHTML = 'All Products';
-    }
+    // Show welcome message
+    showWelcomeMessage();
 
     // Scroll to category navigation bar
     const categoryNav = document.querySelector('.category-nav');
