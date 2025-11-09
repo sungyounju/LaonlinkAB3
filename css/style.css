@@ -785,6 +785,10 @@ body {
     justify-content: center;
     margin-bottom: 15px;
     background: var(--bg-light);
+    background-image: url('/images/no-image.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     border-radius: 3px;
 }
 
@@ -1120,6 +1124,10 @@ body {
     height: 80px;
     object-fit: contain;
     background: var(--bg-light);
+    background-image: url('/images/no-image.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     border: 2px solid var(--border-color);
     padding: 5px;
     cursor: pointer;
