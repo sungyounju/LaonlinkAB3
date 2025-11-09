@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <base href="/">
+    <title>Image Fallback Test</title>
+    <style>
+        body { 
+            font-family: Arial; 
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .test-box {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+        }
+        .test-image {
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            border: 2px solid red;
+            max-width: 400px;
+        }
+        .test-image-no-transition {
+            opacity: 0;
+            border: 2px solid green;
+            max-width: 400px;
+        }
+        h2 { color: #333; }
+        .status { 
+            padding: 10px; 
+            margin: 10px 0;
+            background: #fffacd;
+            border-left: 4px solid #ffa500;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔍 Image Fallback Diagnostic Test</h1>
+    
+    <div class="test-box">
+        <h2>Test 1: Broken Image WITH Transition (This is what's causing flicker)</h2>
+        <div class="status" id="status1">Waiting...</div>
+        <img src="images/products/1045_4.jpg" 
+             class="test-image"
+             onerror="
+                 document.getElementById('status1').innerHTML = '❌ Error fired! Switching to placeholder...';
+                 this.src='/images/no-image.png';
+                 this.style.opacity='1';
+             "
+             onload="
+                 document.getElementById('status1').innerHTML = '✅ Image loaded successfully!';
+                 this.style.opacity='1';
+             ">
+    </div>
+
+    <div class="test-box">
+        <h2>Test 2: Broken Image WITHOUT Transition (The fix)</h2>
+        <div class="status" id="status2">Waiting...</div>
+        <img src="images/products/1045_4.jpg" 
+             class="test-image-no-transition"
+             onerror="
+                 document.getElementById('status2').innerHTML = '❌ Error fired! Switching to placeholder...';
+                 this.style.transition='none';
+                 this.src='/images/no-image.png';
+                 this.style.opacity='1';
+             "
+             onload="
+                 document.getElementById('status2').innerHTML = '✅ Image loaded successfully!';
+                 this.style.opacity='1';
+             ">
+    </div>
+
+    <div class="test-box">
+        <h2>Test 3: Direct Placeholder (Should show immediately)</h2>
+        <div class="status" id="status3">Loading placeholder directly...</div>
+        <img src="/images/no-image.png" 
+             style="opacity: 1; max-width: 400px; border: 2px solid blue;"
+             onload="document.getElementById('status3').innerHTML = '✅ Placeholder loaded!';"
+             onerror="document.getElementById('status3').innerHTML = '❌ PLACEHOLDER MISSING!';">
+    </div>
+
+    <div class="test-box">
+        <h2>📝 What should happen:</h2>
+        <ul>
+            <li><strong>Test 1:</strong> Should flicker/fade in slowly (300ms transition)</li>
+            <li><strong>Test 2:</strong> Should appear instantly (no transition)</li>
+            <li><strong>Test 3:</strong> Should show immediately</li>
+        </ul>
+        <p><strong>If Test 3 fails, the placeholder image is not accessible from the browser!</strong></p>
+    </div>
+
+</body>
+</html>
