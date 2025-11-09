@@ -90,7 +90,9 @@ function generateProductPages() {
     let manufacturer = 'Various';
     try {
       const specs = JSON.parse(product.specifications || '{}');
-      manufacturer = specs.MAKER || specs.Manufacturer || 'Various';
+      const makerValue = specs.MAKER || specs.Manufacturer || 'Various';
+      // Filter out Korean placeholder text "분류" (means "category/classification")
+      manufacturer = (makerValue === '분류' || makerValue === '') ? 'Various' : makerValue;
     } catch (e) {
       // Use default
     }
