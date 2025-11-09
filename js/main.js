@@ -1105,7 +1105,7 @@ function createProductCard(product) {
         <div class="product-card" data-product-id="${product.id}">
             <div class="product-image-wrapper">
                 <img src="${imageUrl}" alt="${name}" class="product-image loaded" loading="lazy"
-                     onerror="if(!this.dataset.failed){this.dataset.failed='1';this.onerror=null;this.src='/images/no-image.png';}"
+                     onerror="if(!this.dataset.failed){this.dataset.failed='1';this.style.transition='none';this.onerror=null;this.src='/images/no-image.png';this.style.opacity='1';}"
                      onload="this.style.opacity='1';">
                 ${isNew ? '<span class="product-badge">NEW</span>' : ''}
             </div>
@@ -1251,7 +1251,7 @@ function showProductModal(productId, updateURL = true) {
             <div class="product-images-section">
                 <img src="images/products/${mainImage}" alt="${name}"
                      class="main-product-image" id="mainProductImage"
-                     onerror="if(!this.dataset.failed){this.dataset.failed='1';this.onerror=null;this.src='/images/no-image.png';this.style.opacity='1';}"
+                     onerror="if(!this.dataset.failed){this.dataset.failed='1';this.style.transition='none';this.onerror=null;this.src='/images/no-image.png';this.style.opacity='1';}"
                      onload="this.style.opacity='1';">
                 ${product.images.length > 1 ? `
                     <div class="image-thumbnails" data-thumbnail-container>
@@ -1259,7 +1259,7 @@ function showProductModal(productId, updateURL = true) {
                             <img src="images/products/${img}" alt="${name}" loading="lazy"
                                  class="thumbnail ${idx === 0 ? 'active' : ''}"
                                  data-image="${img}"
-                                 onerror="if(!this.dataset.failed){this.dataset.failed='1';this.onerror=null;this.src='/images/no-image.png';this.style.opacity='1';}"
+                                 onerror="if(!this.dataset.failed){this.dataset.failed='1';this.style.transition='none';this.onerror=null;this.src='/images/no-image.png';this.style.opacity='1';}"
                                  onload="this.style.opacity='1';">
                         `).join('')}
                     </div>
@@ -1370,7 +1370,14 @@ function setupModalEventDelegation() {
             if (img) {
                 const mainImage = document.getElementById('mainProductImage');
                 if (mainImage) {
-                    mainImage.src = `images/products/${img}`;
+                    // Reset transition and opacity for smooth switching
+                    mainImage.style.transition = 'opacity 0.3s ease';
+                    mainImage.style.opacity = '0';
+
+                    // Switch image after brief delay
+                    setTimeout(() => {
+                        mainImage.src = `images/products/${img}`;
+                    }, 150);
                 }
                 // Update active state
                 document.querySelectorAll('.thumbnail').forEach(thumb => {
