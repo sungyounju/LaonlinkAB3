@@ -1370,14 +1370,7 @@ function setupModalEventDelegation() {
             if (img) {
                 const mainImage = document.getElementById('mainProductImage');
                 if (mainImage) {
-                    // Reset transition and opacity for smooth switching
-                    mainImage.style.transition = 'opacity 0.3s ease';
-                    mainImage.style.opacity = '0';
-
-                    // Switch image after brief delay
-                    setTimeout(() => {
-                        mainImage.src = `images/products/${img}`;
-                    }, 150);
+                    mainImage.src = `images/products/${img}`;
                 }
                 // Update active state
                 document.querySelectorAll('.thumbnail').forEach(thumb => {
