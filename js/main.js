@@ -370,7 +370,7 @@ function buildCategoryCards() {
         const productCount = categoryProducts.length;
 
         // Get the first product's image for this category
-        let imageUrl = 'images/no-image.png';
+        let imageUrl = '/images/no-image.png';
         if (categoryProducts.length > 0 && categoryProducts[0].images && categoryProducts[0].images.length > 0) {
             imageUrl = `images/products/${categoryProducts[0].images[0]}`;
         }
@@ -379,7 +379,7 @@ function buildCategoryCards() {
             <div class="category-card" data-category="${catName}" data-level="main">
                 <div class="category-card-image">
                     <img src="${imageUrl}" alt="${catData.name_en}"
-                         onerror="this.src='images/no-image.png'">
+                         onerror="this.src='/images/no-image.png'">
                 </div>
                 <h4>${catData.name_en}</h4>
                 <span>${productCount} products</span>
@@ -1032,7 +1032,7 @@ function setupImageLoadTimeout(img, timeout = 5000) {
             if (!img.dataset.failed) {
                 img.dataset.failed = '1';
                 img.onerror = null;
-                img.src = 'images/no-image.png';
+                img.src = '/images/no-image.png';
                 img.style.opacity = '1';
             }
         }
@@ -1097,15 +1097,15 @@ function createProductCard(product) {
     const name = currentLanguage === 'kr' && product.name_kr ? product.name_kr : (product.name_en || 'Unknown Product');
     const imageUrl = product.images && product.images[0]
         ? `images/products/${product.images[0]}`
-        : 'images/no-image.png';
+        : '/images/no-image.png';
 
     const isNew = false; // You can add logic to determine if product is new
-    
+
     return `
         <div class="product-card" data-product-id="${product.id}">
             <div class="product-image-wrapper">
                 <img src="${imageUrl}" alt="${name}" class="product-image loaded" loading="lazy"
-                     onerror="if(!this.dataset.failed){this.dataset.failed='1';this.onerror=null;this.src='images/no-image.png';}"
+                     onerror="if(!this.dataset.failed){this.dataset.failed='1';this.onerror=null;this.src='/images/no-image.png';}"
                      onload="this.style.opacity='1';">
                 ${isNew ? '<span class="product-badge">NEW</span>' : ''}
             </div>
@@ -1175,7 +1175,7 @@ function setupProductCardEvents() {
             // Prevent further error events
             e.target.onerror = null;
             // Set fallback image
-            e.target.src = e.target.dataset.fallback || 'images/no-image.png';
+            e.target.src = e.target.dataset.fallback || '/images/no-image.png';
             // Make visible immediately to prevent flickering
             e.target.classList.add('loaded');
         }
@@ -1251,7 +1251,7 @@ function showProductModal(productId, updateURL = true) {
             <div class="product-images-section">
                 <img src="images/products/${mainImage}" alt="${name}"
                      class="main-product-image" id="mainProductImage"
-                     onerror="if(!this.dataset.failed){this.dataset.failed='1';this.onerror=null;this.src='images/no-image.png';this.style.opacity='1';}"
+                     onerror="if(!this.dataset.failed){this.dataset.failed='1';this.onerror=null;this.src='/images/no-image.png';this.style.opacity='1';}"
                      onload="this.style.opacity='1';">
                 ${product.images.length > 1 ? `
                     <div class="image-thumbnails" data-thumbnail-container>
@@ -1259,7 +1259,7 @@ function showProductModal(productId, updateURL = true) {
                             <img src="images/products/${img}" alt="${name}" loading="lazy"
                                  class="thumbnail ${idx === 0 ? 'active' : ''}"
                                  data-image="${img}"
-                                 onerror="if(!this.dataset.failed){this.dataset.failed='1';this.onerror=null;this.src='images/no-image.png';this.style.opacity='1';}"
+                                 onerror="if(!this.dataset.failed){this.dataset.failed='1';this.onerror=null;this.src='/images/no-image.png';this.style.opacity='1';}"
                                  onload="this.style.opacity='1';">
                         `).join('')}
                     </div>
@@ -1270,7 +1270,7 @@ function showProductModal(productId, updateURL = true) {
         // Show placeholder if no images
         imagesHTML = `
             <div class="product-images-section">
-                <img src="images/no-image.png" alt="${name}"
+                <img src="/images/no-image.png" alt="${name}"
                      class="main-product-image"
                      onload="this.style.opacity=1;">
             </div>
