@@ -29,7 +29,7 @@ html {
 }
 
 body {
-    font-family: 'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', 'Helvetica Neue', Arial, sans-serif;
     font-size: 14px;
     line-height: 1.6;
     color: var(--text-dark);

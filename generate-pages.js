@@ -45,7 +45,7 @@ const createDir = (dir) => {
 function createSlug(name) {
   return name
     .toLowerCase()
-    .replace(/\[used\]|\[중고\]/gi, '')
+    .replace(/\[used\]/gi, '')
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-|-$/g, '')
     .substring(0, 100); // Limit length
@@ -61,9 +61,9 @@ function extractModelNumber(product) {
 
 // Create clean product name for title
 function cleanProductName(name) {
-  // Remove [Used], [중고], etc.
+  // Remove [Used], etc.
   return name
-    .replace(/\[used\]|\[중고\]/gi, '')
+    .replace(/\[used\]/gi, '')
     .replace(/\s+/g, ' ')
     .trim()
     .substring(0, 100);
@@ -82,7 +82,7 @@ function generateProductPages() {
   productsData.forEach(product => {
     const productId = product.id;
     const modelNumber = extractModelNumber(product);
-    const cleanName = cleanProductName(product.name_en || product.name_kr || 'Product');
+    const cleanName = cleanProductName(product.name_en || 'Product');
     const price = product.price_eur_markup || 0;
     const category = product.category_main_en || 'Products';
 
@@ -91,8 +91,8 @@ function generateProductPages() {
     try {
       const specs = JSON.parse(product.specifications || '{}');
       const makerValue = specs.MAKER || specs.Manufacturer || 'Various';
-      // Filter out Korean placeholder text "분류" (means "category/classification")
-      manufacturer = (makerValue === '분류' || makerValue === '') ? 'Various' : makerValue;
+      // Filter out placeholder text
+      manufacturer = (makerValue === '') ? 'Various' : makerValue;
     } catch (e) {
       // Use default
     }

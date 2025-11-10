@@ -17,7 +17,7 @@ function trackProductView(product) {
         value: product.price_eur_markup,
         items: [{
             item_id: product.id,
-            item_name: currentLanguage === 'en' ? product.name_en : product.name_kr,
+            item_name: product.name_en,
             item_category: product.category_main_en,
             item_category2: product.category_sub_en,
             price: product.price_eur_markup
@@ -31,7 +31,7 @@ function trackAddToCart(product, quantity) {
         value: product.price_eur_markup * quantity,
         items: [{
             item_id: product.id,
-            item_name: currentLanguage === 'en' ? product.name_en : product.name_kr,
+            item_name: product.name_en,
             item_category: product.category_main_en,
             price: product.price_eur_markup,
             quantity: quantity
@@ -876,7 +876,6 @@ function performSearch() {
     filteredProducts = currentProducts.filter(product => {
         const searchableText = [
             product.name_en || '',
-            product.name_kr || '',
             product.model_number || '',
             product.manufacturer || '',
             product.category_main_en || '',
@@ -970,17 +969,17 @@ function applyFilters() {
 // Helper function to get product condition
 function getProductCondition(product) {
     // Check product name for condition keywords
-    const name = (product.name_en || product.name_kr || '').toLowerCase();
+    const name = (product.name_en || '').toLowerCase();
 
-    if (name.includes('[used]') || name.includes('[중고]') || name.includes('used')) {
+    if (name.includes('[used]') || name.includes('used')) {
         return 'used';
     }
 
-    if (name.includes('[new]') || name.includes('[신품]') || name.includes('new')) {
+    if (name.includes('[new]') || name.includes('new')) {
         return 'new';
     }
 
-    if (name.includes('refurbished') || name.includes('재생')) {
+    if (name.includes('refurbished')) {
         return 'refurbished';
     }
 
@@ -1194,7 +1193,7 @@ function createProductCard(product) {
         return '';
     }
 
-    const name = currentLanguage === 'kr' && product.name_kr ? product.name_kr : (product.name_en || 'Unknown Product');
+    const name = product.name_en || 'Unknown Product';
     const imageUrl = product.images && product.images[0]
         ? `images/products/${product.images[0]}`
         : '/images/no-image.png';
@@ -1339,7 +1338,7 @@ function showProductModal(productId, updateURL = true) {
         return;
     }
 
-    const name = currentLanguage === 'kr' && product.name_kr ? product.name_kr : (product.name_en || 'Unknown Product');
+    const name = product.name_en || 'Unknown Product';
     
     modalTitle.textContent = name;
     
@@ -1602,7 +1601,7 @@ function updateRecentlyViewedUI() {
         recentlyViewed.forEach(product => {
             if (!product) return;
 
-            const productName = (product.name_en || product.name_kr || 'Unknown Product').substring(0, 30);
+            const productName = (product.name_en || 'Unknown Product').substring(0, 30);
             const productPrice = product.price_eur_markup > 0 ? product.price_eur_markup.toFixed(2) : 'N/A';
             const productId = product.id || '';
 
@@ -1643,7 +1642,7 @@ function contactForProduct(productId) {
         return;
     }
 
-    const productName = product.name_en || product.name_kr || 'Unknown Product';
+    const productName = product.name_en || 'Unknown Product';
     const modelNumber = product.model_number || 'N/A';
 
     const subject = encodeURIComponent(`Inquiry about ${productName} (ID: ${product.id})`);
